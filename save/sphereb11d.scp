@@ -1,0 +1,38 @@
+TITLE=Sphere World Script
+VERSION=0.56c-Nightly
+PREVBUILD=2648
+TIME=270000
+SAVECOUNT=8
+
+[TIMERF]
+CurTick=1
+
+[GLOBALS]
+ev_max_on_players=00
+tday=01
+thour=03
+tmin=024
+tmonth=01
+tseason=00
+tyear=0578
+
+[WORLDSCRIPT a_world]
+TAG.temperature="<eval 0f++0"
+
+[WORLDSCRIPT a_new_acc]
+TAG.temperature=00
+
+[WORLDSCRIPT a_belaryar]
+TAG.modtemp=0a
+TAG.temperature=0f
+TAG.weather=00
+TAG.weather_active=024783
+
+[WORLDSCRIPT a_darman]
+TAG.modtemp=0ffffffffffffffe2
+TAG.temperature="<eval 0f++0ffffffffffffffe2"
+TAG.weather=00
+TAG.weather_active=0394fa
+TAG.weather_next=00
+
+[EOF]

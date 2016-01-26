@@ -1,0 +1,63 @@
+TITLE=Sphere World Script
+VERSION=0.56c-Nightly
+PREVBUILD=2648
+TIME=1500399
+SAVECOUNT=65
+
+[TIMERF]
+CurTick=4
+
+[GLOBALS]
+ev_max_on_players=02
+rpoff=01
+shard_online=01
+tday=02
+thour=00
+tmin=0c
+tmonth=01
+tseason="inverno"
+tyear=0578
+
+[WORLDSCRIPT a_world]
+TAG.temperature="<eval 0f++0"
+
+[WORLDSCRIPT a_start]
+TAG.temperature=00
+
+[WORLDSCRIPT a_new_acc]
+TAG.temperature=00
+
+[WORLDSCRIPT a_myrthos]
+TAG.temperature=019
+TAG.weather=00
+TAG.weather_active=0103447
+TAG.weather_next=00
+
+[WORLDSCRIPT a_darla_olath]
+TAG.temperature=00
+
+[WORLDSCRIPT a_belaryar]
+TAG.modtemp=0a
+TAG.temperature=022
+TAG.weather=01
+TAG.weather_active=011613c
+TAG.weather_next=011c13d
+
+[WORLDSCRIPT a_eresiere]
+TAG.temperature=00
+
+[WORLDSCRIPT a_sharr]
+TAG.modtemp=01e
+TAG.temperature=026
+TAG.type=01
+TAG.weather=00
+TAG.weather_active=016fcc5
+
+[WORLDSCRIPT a_darman]
+TAG.modtemp=0ffffffffffffffe2
+TAG.temperature=0fffffffffffffff9
+TAG.weather=00
+TAG.weather_active=044934
+TAG.weather_next=00
+
+[EOF]

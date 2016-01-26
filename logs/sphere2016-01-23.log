@@ -1,0 +1,1370 @@
+2016/01/23 00:00:0100:00:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:00:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:00:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 532 / 650 / t_weapon_fence
+00:00:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:00:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 559 / 650 / t_weapon_fence
+00:00:7:'admin' commands 'serv.resync'=1
+00:00:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/sphere_skills.scp' changed, resync.
+00:00:ERROR:(sphere_skills.scp,1222)Undefined keyword 'Blacksmith'
+00:00:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:00:ERROR:(skills.scp,162)Can't resolve <REF1.0c2000004>
+00:00:ERROR:(skills.scp,269)Can't resolve <skilllock.3254779908>
+00:00:ERROR:(skills.scp,274)Undefined keyword '0c2000004'
+00:00:ERROR:(skills.scp,274)Can't try 0c2000004 1 object Humano (01f38)
+00:00:(skills.scp,278)[SKILL] okami SKILL_ARMSLORE(0c2000004) 0 0
+00:00:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 527 / 650 / t_weapon_fence
+00:00:ERROR:(sistema_de_craftmenu.scp,461)Can't resolve <src.0c2000007>
+00:00:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:14:7:'admin' commands 'serv.resync'=1
+00:14:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/sphere_skills.scp' changed, resync.
+00:14:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/skills.scp' changed, resync.
+00:14:7:'admin' commands 'xallskills 0'=1
+00:14:'admin' commands uid=01f38 (Humano) to 'allskills 0'=1
+00:14:5:'okami' commands 'fazitem 10'=1
+00:14:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:14:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:15:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:15:(skills.scp,278)[SKILL] okami SKILL_ARMSLORE(04) 0.0 00
+00:15:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 10 / 0 / t_weapon_fence
+00:15:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:15:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 10 / 1 / t_weapon_fence
+00:15:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:15:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 10 / 1 / t_weapon_fence
+00:15:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:15:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:16:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:16:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:16:(skills.scp,278)[SKILL] okami SKILL_ARMSLORE(04) 0.1 00
+00:16:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 10 / 1 / t_weapon_fence
+00:16:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:16:7:'admin' commands 'xarmslore 700'=1
+00:16:'admin' commands uid=01f38 (Humano) to 'armslore 700'=1
+00:16:5:'okami' commands 'fazitem 10'=1
+00:17:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:17:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:17:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:17:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 613 / 700 / t_weapon_fence
+00:17:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:17:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:17:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:17:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 629 / 700 / t_weapon_fence
+00:17:GC: 248 Objects accounted for
+00:17:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:17:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:17:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 580 / 700 / t_weapon_fence
+00:17:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:18:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:18:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:18:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:18:(skills.scp,191)okami/01f38: skill_Blacksmithing passou dos limites: 01f38
+00:26:7:'admin' commands 'serv.resync'=1
+00:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/sphere_skills.scp' changed, resync.
+00:26:5:'okami' commands 'fazitem 10'=1
+00:26:ERROR:(skills.scp,162)Can't resolve <REF1.0c2000007>
+00:26:ERROR:(skills.scp,269)Can't resolve <skilllock.3254779911>
+00:26:ERROR:(skills.scp,274)Undefined keyword '0c2000007'
+00:26:ERROR:(skills.scp,274)Can't try 0c2000007 1 object Humano (01f38)
+00:26:(skills.scp,278)[SKILL] okami skill_Blacksmithing(0c2000007) 0 0
+00:26:ERROR:(skills.scp,162)Can't resolve <REF1.0c2000007>
+00:26:ERROR:(skills.scp,269)Can't resolve <skilllock.3254779911>
+00:26:ERROR:(skills.scp,274)Undefined keyword '0c2000007'
+00:26:ERROR:(skills.scp,274)Can't try 0c2000007 1 object Humano (01f38)
+00:26:(skills.scp,278)[SKILL] okami skill_Blacksmithing(0c2000007) 0 0
+00:26:ERROR:(skills.scp,162)Can't resolve <REF1.0c2000004>
+00:26:ERROR:(skills.scp,269)Can't resolve <skilllock.3254779908>
+00:26:ERROR:(skills.scp,274)Undefined keyword '0c2000004'
+00:26:ERROR:(skills.scp,274)Can't try 0c2000004 1 object Humano (01f38)
+00:26:(skills.scp,278)[SKILL] okami SKILL_ARMSLORE(0c2000004) 0 0
+00:26:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 633 / 700 / t_weapon_fence
+00:27:(sistema_de_tempo.scp,202)[CLIMA] Colonia de Belaryar - SECO
+00:27:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 00 - 42m/0m
+00:30:7:'admin' commands 'serv.resync'=1
+00:30:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/skills.scp' changed, resync.
+00:30:5:'okami' commands 'fazitem 10'=1
+00:31:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:31:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 592 / 700 / t_weapon_fence
+00:31:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:31:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 565 / 700 / t_weapon_fence
+00:31:ERROR:Undefined keyword 'teste'
+00:31:7:'admin' commands 'teste'=1
+00:31:5:'okami' commands 'admin'=0
+00:32:FATAL:Server terminated: Console window closed (code 5)
+
+00:32:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+00:32:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+00:32:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+00:32:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+00:32:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+00:32:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+00:32:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+00:32:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+00:32:GC: 248 Objects accounted for
+00:32:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+00:32:0:Client connected [Total:1] ('127.0.0.1' 1/1)
+00:32:0:Login 'okami'
+00:32:1:Client connected [Total:2] ('127.0.0.1' 1/2)
+00:32:0:Client disconnected [Total:1] ('127.0.0.1')
+00:32:1:Login 'okami'
+00:32:1:Setup_Start acct='okami', char='Blue', IP='127.0.0.1'
+00:32:(sistema_de_eventos.scp,79)[EVENT]Login: okami (0995)
+00:32:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=7992,charAcct=2453,x=650,y=2139,z=5" failed due to "Field 'char2Uid' doesn't have a default value"
+00:32:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+00:32:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+00:32:(skills.scp,423)okami/Blue SC:651 SSC:700/6500 MI:89
+00:32:2:Client connected [Total:2] ('127.0.0.1' 1/2)
+00:32:2:Login 'admin'
+00:33:2:Client disconnected [Total:1] ('127.0.0.1')
+00:33:3:Client connected [Total:2] ('127.0.0.1' 1/3)
+00:33:3:Login 'admin'
+00:33:3:Setup_Start acct='admin', char='White', IP='127.0.0.1'
+00:33:(sistema_de_eventos.scp,79)[EVENT]Login: admin (0994)
+00:33:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=1,charAcct=2452,x=652,y=2139,z=5" failed due to "Field 'char2Uid' doesn't have a default value"
+00:33:ERROR:(events.scp,229)Undefined symbol '' ['&& (7 <= 1)']
+00:33:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+00:33:(skills.scp,423)admin/White SC:650 SSC:0/6500 MI:100
+00:33:ERROR:(itemforge_data.scp,52356)Setting new id for base type i_kryss not allowed
+00:33:ERROR:(itemforge_data.scp,52356)Setting new id for base type i_kryss not allowed
+00:33:ERROR:(sistema_de_crafting.scp,538)Undefined symbol 'SKILL_Blacksmith' ['SKILL_Blacksmith)']
+00:33:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:33:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 571 / 700 / t_weapon_fence
+00:33:1:'okami' commands 'fazitem 10'=1
+00:33:ERROR:(sistema_de_crafting.scp,538)Undefined symbol 'SKILL_Blacksmith' ['SKILL_Blacksmith)']
+00:33:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:33:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 587 / 700 / t_weapon_fence
+00:35:3:'admin' commands 'serv.resync'=1
+00:35:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_crafting.scp' changed, resync.
+00:35:1:'okami' commands 'fazitem 10'=1
+00:36:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:36:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 591 / 700 / t_weapon_fence
+00:36:(skills.scp,278)[SKILL] okami skill_Blacksmithing(07) 0.0 00
+00:36:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:36:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 607 / 700 / t_weapon_fence
+00:36:(skills.scp,191)okami/01f38: SKILL_ARMSLORE passou dos limites: 70.0
+00:36:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 585 / 700 / t_weapon_fence
+00:41:(sistema_de_tempo.scp,202)[CLIMA] Colonia de Belaryar - SECO
+00:42:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 00 - 20m/0m
+00:44:3:'admin' commands 'remove'=1
+00:45:(sistema_de_furniture.scp,584)[FURNITURE] barril com 18 doses de agua (040001f24) foi apagado. ATTR=010 :: TIMER=-1
+00:45:'admin' commands uid=040001f24 (barril com 18 doses de agua) to 'remove'=1
+00:45:3:'admin' commands 'remove'=1
+00:45:'admin' commands uid=040001f2b (forja (ativa)) to 'remove'=1
+00:45:3:'admin' commands 'remove'=1
+00:45:'admin' commands uid=040001f2c (anvil) to 'remove'=1
+00:45:3:'admin' commands 'remove'=1
+00:45:3:'admin' commands 'remove'=1
+00:45:'admin' commands uid=040001f26 (avental do ferreiro) to 'remove'=1
+00:45:3:'admin' commands 'remove'=1
+00:45:'admin' commands uid=040001f22 (Mochila) to 'remove'=1
+00:45:3:'admin' commands 'remove'=1
+00:45:'admin' commands uid=040001f9a (martelo de ferreiro) to 'remove'=1
+00:45:3:'admin' commands 'add i_backpack'=1
+00:45:3:'admin' commands 'add i_robe'=1
+00:45:ERROR:Undefined keyword 'te'
+00:45:3:'admin' commands 'te'=1
+00:45:ERROR:Undefined keyword 'te'
+00:45:3:'admin' commands 'te'=1
+00:45:3:'admin' commands 'tele'=1
+00:45:3:'admin' commands 'tele'=1
+00:45:WARNING:Invalid ADD argument 'c_headles'
+00:45:3:'admin' commands 'add c_headles'=1
+00:45:3:'admin' commands 'add c_headless'=1
+00:46:3:'admin' commands 'xmaxhits 5000'=1
+00:46:'admin' commands uid=01ee6 (Acefalo) to 'maxhits 5000'=1
+00:46:3:'admin' commands 'xaid'=1
+00:46:'admin' commands uid=01ee6 (Acefalo) to 'aid'=1
+00:46:3:'admin' commands 'xface'=1
+00:46:'admin' commands uid=01ee6 (Acefalo) to 'face'=1
+00:46:3:'admin' commands 'set flags 000000004'=1
+00:46:'admin' commands uid=01ee6 (Acefalo) to 'flags 000000004'=1
+00:46:3:'admin' commands 'admin'=1
+00:46:WARNING:Invalid ADD argument 'i_wand1'
+00:46:3:'admin' commands 'add i_wand1'=1
+00:46:3:'admin' commands 'add i_wand_1'=1
+00:46:3:'admin' commands 'xface'=1
+00:46:'admin' commands uid=01f38 (Humano) to 'face'=1
+00:47:3:'admin' commands 'xallskills 0'=1
+00:47:'admin' commands uid=01f38 (Humano) to 'allskills 0'=1
+00:47:3:'admin' commands 'tele'=1
+00:47:3:'admin' commands 'tele'=1
+00:47:WARNING:Invalid ADD argument 'c_anvil'
+00:47:3:'admin' commands 'add c_anvil'=1
+00:48:3:'admin' commands 'add i_anvil'=1
+00:48:WARNING:Invalid ADD argument 'c_forge'
+00:48:3:'admin' commands 'add c_forge'=1
+00:48:WARNING:Invalid ADD argument 'c_forge'
+00:48:3:'admin' commands 'add c_forge'=1
+00:48:3:'admin' commands 'add i_forge'=1
+00:48:WARNING:Invalid ADD argument 'i_carvao'
+00:48:3:'admin' commands 'add i_carvao'=1
+00:49:3:'admin' commands 'add i_carvao_mineral'=1
+00:49:3:'admin' commands 'xtimer -1'=1
+00:49:'admin' commands uid=040001ee1 (forja (ativa)) to 'timer -1'=1
+00:49:3:'admin' commands 'admin'=1
+00:49:WARNING:Invalid ADD argument 'i_lingote_ferro'
+00:49:3:'admin' commands 'add i_lingote_ferro'=1
+00:49:3:'admin' commands 'add i_ingot_iron'=1
+00:49:3:'admin' commands 'xamount 5000'=1
+00:49:'admin' commands uid=040001edf (lingote de ferro) to 'amount 5000'=1
+00:50:1:Client disconnected [Total:1] ('127.0.0.1')
+00:50:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=7992,charAcct=2453,x=650,y=2139,z=5" failed due to "Field 'char2Uid' doesn't have a default value"
+00:50:4:Client connected [Total:2] ('127.0.0.1' 1/2)
+00:50:4:Login 'okami'
+00:50:5:Client connected [Total:3] ('127.0.0.1' 1/3)
+00:50:4:Client disconnected [Total:2] ('127.0.0.1')
+00:50:5:Login 'okami'
+00:50:5:Setup_Start acct='okami', char='Blue', IP='127.0.0.1'
+00:50:(sistema_de_eventos.scp,79)[EVENT]Login: okami (0995)
+00:50:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=7992,charAcct=2453,x=650,y=2139,z=5" failed due to "Field 'char2Uid' doesn't have a default value"
+00:50:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+00:50:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+00:50:(skills.scp,423)okami/Blue SC:651 SSC:0/6500 MI:100
+00:51:ERROR:(administrative.scp,769)Undefined symbol 'alicate' ['alicate']
+00:51:ERROR:(administrative.scp,779)Undefined symbol 'lingote' ['lingote de ferro ( 2 )']
+00:51:3:'admin' commands 'add i_alicate'=1
+00:51:(sistema_de_craftmenu.scp,46)[CRAFTMENU] Item criado sem maxhits! alicate::i_alicate
+00:51:5:'okami' commands 'xstr 8000'=0
+00:51:3:'admin' commands 'xstr 8000'=1
+00:51:'admin' commands uid=01f38 (Humano) to 'str 8000'=1
+00:51:5:'okami' commands 'fazitem 10'=1
+00:51:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 10 / 0 / t_weapon_fence
+00:52:(skills.scp,278)[SKILL] okami SKILL_ARMSLORE(04) 0.0 00
+00:52:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 10 / 0 / t_weapon_fence
+00:52:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 10 / 1 / t_weapon_fence
+00:52:(skills.scp,278)[SKILL] okami SKILL_ARMSLORE(04) 0.1 00
+00:52:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 10 / 1 / t_weapon_fence
+00:52:(skills.scp,278)[SKILL] okami skill_Blacksmithing(07) 0.0 00
+00:52:(sistema_de_crafting.scp,567)[generateWpnMaxHits] 1000 / 11 / 2 / t_weapon_fence
+00:53:3:'admin' commands 'remove'=1
+00:53:'admin' commands uid=040001edf (lingotes de ferro) [amount=4988] to 'remove'=1
+00:53:3:'admin' commands 'remove'=1
+00:53:'admin' commands uid=040001ed8 (metal forjado (incandescente)) to 'remove'=1
+00:53:3:'admin' commands 'remove'=1
+00:53:'admin' commands uid=040001edb (metal forjado (incandescente)) to 'remove'=1
+00:53:3:'admin' commands 'remove'=1
+00:53:'admin' commands uid=040001ed9 (metal forjado (incandescente)) to 'remove'=1
+00:53:3:'admin' commands 'remove'=1
+00:53:'admin' commands uid=040001edc (alicate) to 'remove'=1
+00:53:3:'admin' commands 'remove'=1
+00:53:'admin' commands uid=040001eda (metal forjado (incandescente)) to 'remove'=1
+00:53:3:'admin' commands 'remove'=1
+00:53:'admin' commands uid=040001ed7 (metal forjado (incandescente)) to 'remove'=1
+00:53:3:'admin' commands 'remove'=1
+00:53:'admin' commands uid=040001f29 (martelo de ferreiro) to 'remove'=1
+00:53:3:'admin' commands 'remove.tele'=1
+00:53:3:'admin' commands 'tele'=1
+00:53:3:'admin' commands 'tele'=1
+00:53:3:'admin' commands 'admin'=1
+00:54:3:'admin' commands 'fazitem 1'=1
+00:54:3:'admin' commands 'fazitem 1'=1
+00:54:3:'admin' commands 'fazitem 1'=1
+00:55:3:'admin' commands 'fazitem 1'=1
+00:55:3:'admin' commands 'fazitem 1'=1
+00:55:3:'admin' commands 'fazitem 1'=1
+00:55:3:'admin' commands 'fazitem 1'=1
+00:55:3:'admin' commands 'xmaxmana 5000'=1
+00:55:'admin' commands uid=01f38 (Humano) to 'maxmana 5000'=1
+00:55:3:'admin' commands 'xaid'=1
+00:55:'admin' commands uid=01f38 (Humano) to 'aid'=1
+00:55:3:'admin' commands 'fazitem 1'=1
+00:59:3:'admin' commands 'xspellweaving 100'=1
+01:00:'admin' commands uid=01f38 (Humano) to 'spellweaving 100'=1
+01:00:3:'admin' commands 'xspellweaving 1000'=1
+01:00:'admin' commands uid=01f38 (Humano) to 'spellweaving 1000'=1
+01:01:3:'admin' commands 'xspellweaving 0'=1
+01:01:'admin' commands uid=01f38 (Humano) to 'spellweaving 0'=1
+01:03:(sistema_de_tempo.scp,202)[CLIMA] Colonia de Belaryar - SECO
+01:03:ERROR:UID=040001ee1, id=0fb1 'forja (ativa)', Invalid code=2236 (Item flagged as decay but without timer set)
+01:03:GC: 165 Objects accounted for
+01:03:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 01 - 39m/51m
+01:11:3:'admin' commands 'add i_bau_teste_destruicao'=1
+01:11:(sistema_de_magias.scp,1502)[CAIXA DE TESTE DE MAGIA] - 112 nao eh magia.
+01:12:3:'admin' commands 'xinscription 1000'=1
+01:12:'admin' commands uid=01f38 (Humano) to 'inscription 1000'=1
+01:12:3:'admin' commands 'add i_spellbook'=1
+01:13:WARNING:Invalid ADD argument 'i_grimorio'
+01:13:3:'admin' commands 'add i_grimorio'=1
+01:13:3:'admin' commands 'add i_grimorio_destruicao'=1
+01:13:3:'admin' commands 'remove'=1
+01:13:'admin' commands uid=040001ebd (spellbook) to 'remove'=1
+01:14:(skills.scp,191)okami/01f38: skill_inscription passou dos limites: 100.0
+01:15:(skills.scp,191)okami/01f38: skill_inscription passou dos limites: 100.0
+01:15:3:'admin' commands 'xallskills 0'=1
+01:15:'admin' commands uid=01f38 (Humano) to 'allskills 0'=1
+01:16:(skills.scp,278)[SKILL] okami skill_magery(019) 0.0 00
+01:16:(skills.scp,272)[SKILL]  SKILLCLASS LIMIT
+01:16:(skills.scp,278)[SKILL]  skill_evalint(010) 0.0 00
+01:16:(skills.scp,278)[SKILL] okami skill_magery(019) 0.1 00
+01:18:3:'admin' commands 'remove'=1
+01:18:'admin' commands uid=01ee6 (Acefalo) to 'remove'=1
+01:22:3:'admin' commands 'remove'=1
+01:22:'admin' commands uid=040001ed1 (Pergaminhos de destruicao) to 'remove'=1
+01:22:3:'admin' commands 'admin'=1
+01:22:3:'admin' commands 'go 1264, 1824, 0,0'=1
+01:22:3:'admin' commands 'admin'=1
+01:22:3:'admin' commands 'add c_harpy'=1
+01:22:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 0 - 18m/0m
+01:22:5:'okami' commands 'remove'=0
+01:22:3:'admin' commands 'remove'=1
+01:22:'admin' commands uid=01ebb (Harpia) to 'remove'=1
+01:24:3:'admin' commands 'add c_harpy'=1
+01:24:3:'admin' commands 'xshow moverate'=1
+01:24:'admin' commands uid=01eba (Harpia) to 'show moverate'=1
+01:24:3:'admin' commands 'xshow dex'=1
+01:25:'admin' commands uid=01eba (Harpia) to 'show dex'=1
+01:25:3:'admin' commands 'xmoverate'=1
+01:25:ERROR:Undefined keyword 'moverate'
+01:25:'admin' commands uid=01eba (Harpia) to 'moverate'=0
+01:25:3:'admin' commands 'xshow moverate'=1
+01:25:'admin' commands uid=01eba (Harpia) to 'show moverate'=1
+01:25:3:'admin' commands 'xtag.override.moverate 100'=1
+01:25:'admin' commands uid=01eba (Harpia) to 'tag.override.moverate 100'=1
+01:25:(sistema_de_morte.scp,66)[MORTE] okami (01f38) morreu: 020008120
+01:25:3:'admin' commands 'xtag.override.moverate 99'=1
+01:25:'admin' commands uid=01eba (Harpia) to 'tag.override.moverate 99'=1
+01:25:3:'admin' commands 'xaid'=1
+01:25:(sistema_de_morte.scp,334)[MORTE] INVUL CRIADO 01f38
+01:25:'admin' commands uid=01f38 (Humano) to 'aid'=1
+01:25:3:'admin' commands 'xmaxhits 5000'=1
+01:26:'admin' commands uid=01f38 (Humano) to 'maxhits 5000'=1
+01:26:3:'admin' commands 'xaid'=1
+01:26:'admin' commands uid=01f38 (Humano) to 'aid'=1
+01:26:(skills.scp,278)[SKILL] okami SKILL_TACTICS(01b) 0.0 00
+01:26:3:'admin' commands 'xint 100'=1
+01:26:'admin' commands uid=01eba (Harpia) to 'int 100'=1
+01:26:3:'admin' commands 'xtag.override.moverate 10'=1
+01:27:'admin' commands uid=01eba (Harpia) to 'tag.override.moverate 10'=1
+01:27:3:'admin' commands 'xtag.override.moverate 200'=1
+01:27:'admin' commands uid=01eba (Harpia) to 'tag.override.moverate 200'=1
+01:27:(skills.scp,278)[SKILL] okami skill_parrying(05) 0.0 00
+01:27:3:'admin' commands 'remove'=1
+01:27:'admin' commands uid=01eba (Harpia) to 'remove'=1
+01:29:3:'admin' commands 'serv.resync'=1
+01:29:WARNING:Resource 'sphere.ini' changed, resync.
+01:29:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/skills.scp' changed, resync.
+01:29:3:'admin' commands 'add c_harpy'=1
+01:29:3:'admin' commands 'xshow moverate'=1
+01:29:'admin' commands uid=01eb1 (Harpia) to 'show moverate'=1
+01:29:3:'admin' commands 'xint 100'=1
+01:29:'admin' commands uid=01eb1 (Harpia) to 'int 100'=1
+01:30:3:'admin' commands 'remove'=1
+01:30:'admin' commands uid=01eb1 (Harpia) to 'remove'=1
+01:30:FATAL:Server terminated: Console window closed (code 5)
+
+01:30:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+01:30:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+01:30:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+01:30:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+01:30:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+01:30:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+01:30:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+01:30:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+01:30:GC: 165 Objects accounted for
+01:30:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+01:30:0:Client connected [Total:1] ('127.0.0.1' 1/1)
+01:30:0:Login 'okami'
+01:30:0:Client disconnected [Total:0] ('127.0.0.1')
+01:30:1:Client connected [Total:1] ('127.0.0.1' 1/1)
+01:30:1:Login 'okami'
+01:30:1:Setup_Start acct='okami', char='Blue', IP='127.0.0.1'
+01:30:(sistema_de_eventos.scp,79)[EVENT]Login: okami (0995)
+01:30:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=7992,charAcct=2453,x=635,y=2136,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+01:31:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+01:31:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+01:31:(skills.scp,423)okami/Blue SC:652 SSC:3/6500 MI:99
+01:31:2:Client connected [Total:2] ('127.0.0.1' 1/2)
+01:31:2:Login 'admin'
+01:31:3:Client connected [Total:3] ('127.0.0.1' 1/3)
+01:31:2:Client disconnected [Total:2] ('127.0.0.1')
+01:31:3:Login 'admin'
+01:31:3:Setup_Start acct='admin', char='White', IP='127.0.0.1'
+01:31:(sistema_de_eventos.scp,79)[EVENT]Login: admin (0994)
+01:31:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=1,charAcct=2452,x=632,y=2139,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+01:31:ERROR:(events.scp,229)Undefined symbol '' ['&& (7 <= 1)']
+01:31:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+01:31:(skills.scp,423)admin/White SC:651 SSC:0/6500 MI:100
+01:31:3:'admin' commands 'add c_harpy'=1
+01:31:3:'admin' commands 'remove'=1
+01:31:'admin' commands uid=01ee6 (Acefalo) to 'remove'=1
+01:31:3:'admin' commands 'remove'=1
+01:31:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 01 - 57m/40m
+01:31:'admin' commands uid=01faf (Harpia) to 'remove'=1
+01:59:3:'admin' commands 'go 1264, 1824, 0,0'=1
+01:59:3:'admin' commands 'admin'=1
+01:59:3:'admin' commands 'add c_harpy'=1
+01:59:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 0 - 11m/0m
+01:59:3:'admin' commands 'xshow moverate'=1
+01:59:'admin' commands uid=01f22 (Harpia) to 'show moverate'=1
+01:59:3:'admin' commands 'xaid'=1
+01:59:'admin' commands uid=01f38 (Humano) to 'aid'=1
+01:59:3:'admin' commands 'xmaxhits 5000'=1
+01:59:'admin' commands uid=01f38 (Humano) to 'maxhits 5000'=1
+01:59:3:'admin' commands 'xaid'=1
+01:59:'admin' commands uid=01f38 (Humano) to 'aid'=1
+02:00:3:'admin' commands 'xtag.override.moverate 100'=1
+02:00:'admin' commands uid=01f22 (Harpia) to 'tag.override.moverate 100'=1
+02:00:(skills.scp,278)[SKILL] okami SKILL_TACTICS(01b) 0.0 00
+02:00:3:'admin' commands 'add c_ratman'=1
+02:00:3:'admin' commands 'xshow moverate'=1
+02:00:'admin' commands uid=01f1f (Homem Rato) to 'show moverate'=1
+02:00:3:'admin' commands 'xtag.override.moverate 100'=1
+02:00:'admin' commands uid=01f1f (Homem Rato) to 'tag.override.moverate 100'=1
+02:00:3:'admin' commands 'xint 100'=1
+02:00:(skills.scp,278)[SKILL] okami skill_parrying(05) 0.0 00
+02:00:'admin' commands uid=01f22 (Harpia) to 'int 100'=1
+02:00:3:'admin' commands 'xint 100'=1
+02:00:'admin' commands uid=01f1f (Homem Rato) to 'int 100'=1
+02:01:3:'admin' commands 'xshow tag.override.moverate'=1
+02:01:'admin' commands uid=01f1f (Homem Rato) to 'show tag.override.moverate'=1
+02:01:3:'admin' commands 'xshow tag.override.moverate'=1
+02:01:GC: 172 Objects accounted for
+02:01:'admin' commands uid=01f22 (Harpia) to 'show tag.override.moverate'=1
+02:02:3:'admin' commands 'xtag.override.moverate 200'=1
+02:02:'admin' commands uid=01f1f (Homem Rato) to 'tag.override.moverate 200'=1
+02:02:3:'admin' commands 'remove'=1
+02:02:(skills.scp,278)[SKILL] okami SKILL_TACTICS(01b) 0.1 00
+02:02:'admin' commands uid=01f1f (Homem Rato) to 'remove'=1
+02:02:3:'admin' commands 'remove'=1
+02:02:'admin' commands uid=01f22 (Harpia) to 'remove'=1
+02:06:3:Client disconnected [Total:1] ('127.0.0.1')
+02:06:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=1,charAcct=2452,x=1263,y=1820,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+02:06:1:Client disconnected [Total:0] ('127.0.0.1')
+02:06:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=7992,charAcct=2453,x=1263,y=1818,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+02:06:FATAL:Server terminated: Console window closed (code 5)
+
+11:58:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+11:58:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+11:58:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+11:58:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+11:58:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+11:58:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+11:58:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+11:58:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+11:58:GC: 172 Objects accounted for
+11:58:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+11:58:0:Client connected [Total:1] ('127.0.0.1' 1/1)
+11:58:0:Login 'admin'
+11:58:1:Client connected [Total:2] ('127.0.0.1' 1/2)
+11:58:0:Client disconnected [Total:1] ('127.0.0.1')
+11:58:1:Login 'admin'
+11:58:1:Setup_Start acct='admin', char='White', IP='127.0.0.1'
+11:58:(sistema_de_eventos.scp,79)[EVENT]Login: admin (0994)
+11:58:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=1,charAcct=2452,x=1263,y=1820,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+11:58:ERROR:(events.scp,229)Undefined symbol '' ['&& (7 <= 1)']
+11:58:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+11:58:(skills.scp,423)admin/White SC:651 SSC:0/6500 MI:100
+11:58:1:'admin' commands 'remove'=1
+11:58:'admin' commands uid=01f1f (Homem Rato) to 'remove'=1
+11:58:1:'admin' commands 'remove'=1
+11:59:'admin' commands uid=01f22 (Harpia) to 'remove'=1
+11:59:2:Client connected [Total:2] ('127.0.0.1' 1/2)
+11:59:WARNING:2:Bad Login 9 (The account details entered are invalid (username or password is too short, too long or contains invalid characters). This can sometimes be caused by incorrect/missing encryption keys)
+11:59:2:Client disconnected [Total:1] ('127.0.0.1')
+11:59:3:Client connected [Total:2] ('127.0.0.1' 1/2)
+11:59:3:Login 'ookami'
+11:59:4:Client connected [Total:3] ('127.0.0.1' 1/3)
+11:59:3:Client disconnected [Total:2] ('127.0.0.1')
+11:59:4:Login 'ookami'
+11:59:4:Client disconnected [Total:1] ('127.0.0.1')
+11:59:5:Client connected [Total:2] ('127.0.0.1' 1/3)
+11:59:5:Login 'ookami'
+11:59:5:Client disconnected [Total:1] ('127.0.0.1')
+11:59:6:Client connected [Total:2] ('127.0.0.1' 1/2)
+11:59:6:Login 'okami'
+11:59:7:Client connected [Total:3] ('127.0.0.1' 1/3)
+11:59:6:Client disconnected [Total:2] ('127.0.0.1')
+11:59:7:Login 'okami'
+11:59:7:Setup_Start acct='okami', char='Blue', IP='127.0.0.1'
+11:59:(sistema_de_eventos.scp,79)[EVENT]Login: okami (0995)
+11:59:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=7992,charAcct=2453,x=1264,y=1824,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+11:59:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+11:59:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+11:59:(skills.scp,423)okami/Blue SC:652 SSC:5/6500 MI:99
+12:00:1:'admin' commands 'add i_gold'=1
+12:00:WARNING:Invalid ADD argument 'i_olho_morto_vivo'
+12:00:1:'admin' commands 'add i_olho_morto_vivo'=1
+12:00:ERROR:Undefined keyword 'i_ingot_iron'
+12:00:1:'admin' commands 'i_ingot_iron'=1
+12:00:ERROR:Undefined keyword 'i_ingot_ferro'
+12:00:1:'admin' commands 'i_ingot_ferro'=1
+12:00:ERROR:Undefined keyword 'i_iron_ingot'
+12:00:1:'admin' commands 'i_iron_ingot'=1
+12:00:ERROR:Undefined keyword 'i_ferro_ingor'
+12:00:1:'admin' commands 'i_ferro_ingor'=1
+12:00:ERROR:Undefined keyword 'i_ferro_ingot'
+12:00:1:'admin' commands 'i_ferro_ingot'=1
+12:00:1:'admin' commands 'add i_ingot_iron'=1
+12:01:WARNING:Invalid ADD argument 'i_sacola_couro'
+12:01:1:'admin' commands 'add i_sacola_couro'=1
+12:01:1:'admin' commands 'add i_bag'=1
+12:01:1:'admin' commands 'xamount 10'=1
+12:01:'admin' commands uid=040001f2b (lingote de ferro) to 'amount 10'=1
+12:01:1:'admin' commands 'xamount 10'=1
+12:01:'admin' commands uid=040001f2c (moeda de ouro) to 'amount 10'=1
+12:08:1:'admin' commands 'xdumpchar'=1
+12:08:(administrative.scp,1030)*********************** DUMP CHAR *************************
+12:08:(administrative.scp,1031)UID:01f38 F:08100 ACCT:okami NAME:Blue
+12:08:(administrative.scp,1032)************************* EQUIP ***************************
+12:08:(administrative.scp,1036)U:040001ee4 A:00 T:-1 B:i_wand_1 L:01 N:Varinha
+12:08:(administrative.scp,1036)U:040001f32 A:014 T:-1 B:i_hair_buns L:0b N:Cabelo cheio
+12:08:(administrative.scp,1036)U:040001ee8 A:010 T:-1 B:i_backpack L:015 N:Mochila
+12:08:(administrative.scp,1036)U:040001ee7 A:00 T:-1 B:i_robe L:016 N:Manto
+12:08:(administrative.scp,1039)*********************** MEMORIES **************************
+12:08:(administrative.scp,1041)U:040001f1b A:00 T:-1 B:i_mry_fazitem N:Fazendo item
+12:08:(administrative.scp,1041)U:040001f2e A:00 T:2 B:i_mry_clima N:clima
+12:08:(administrative.scp,1041)U:040001f31 A:014 T:-1 B:i_speech_detect N:un-roleplaying
+12:08:(administrative.scp,1043)************************ EVENTS ***************************
+12:08:(administrative.scp,1046)e_sistema_de_morte
+12:08:(administrative.scp,1046)e_recon
+12:08:(administrative.scp,1046)e_mytgeral
+12:08:(administrative.scp,1046)e_combat
+12:08:(administrative.scp,1046)e_clima
+12:08:(administrative.scp,1046)e_humano
+12:08:(administrative.scp,1046)e_no_attack
+12:08:(administrative.scp,1046)e_no_dclick
+12:08:(administrative.scp,1046)class_undeclared
+12:08:(administrative.scp,1049)************************* TAGS ****************************
+12:08:(administrative.scp,1052)actkey=00
+12:08:(administrative.scp,1052)agr=05
+12:08:(administrative.scp,1052)cc_sign=02
+12:08:(administrative.scp,1052)char_criado=01
+12:08:(administrative.scp,1052)classe=Guerreiro
+12:08:(administrative.scp,1052)comcapuz=00
+12:08:(administrative.scp,1052)equipssalvos=040001f13,040001f10,040001f1c,040001f17,040001f1d,040001f18,040001f0e,0,0,040001f0f,040001f35,0,040001f16,0,0,0,0,0,040001f0d,0,040001f22,0,0,0
+12:08:(administrative.scp,1052)idacct=0995
+12:08:(administrative.scp,1052)lasthit=0111ed5
+12:08:(administrative.scp,1052)light_lvl=00
+12:08:(administrative.scp,1052)mc=028
+12:08:(administrative.scp,1052)morte_desmaios=00
+12:08:(administrative.scp,1052)morte_horario=0195c9
+12:08:(administrative.scp,1052)morte_local=763,2141
+12:08:(administrative.scp,1052)morte_recupera_ponto_desmaio=06c22dd
+12:08:(administrative.scp,1052)mp=030
+12:08:(administrative.scp,1052)name=Blue
+12:08:(administrative.scp,1052)news_lastseen=0ffffffffffffffff
+12:08:(administrative.scp,1052)obeard=00
+12:08:(administrative.scp,1052)ohair=044e
+12:08:(administrative.scp,1052)override.regen_0=0ffffffffffffffd9
+12:08:(administrative.scp,1052)override.regen_1=0ffffffffffffffec
+12:08:(administrative.scp,1052)override.regen_2=0ffffffffffffffff
+12:08:(administrative.scp,1052)pontosdealma=05
+12:08:(administrative.scp,1052)raca=Humano
+12:08:(administrative.scp,1052)rescold=00
+12:08:(administrative.scp,1052)resenergy=00
+12:08:(administrative.scp,1052)resfire=00
+12:08:(administrative.scp,1052)resistance=00
+12:08:(administrative.scp,1052)respoison=00
+12:08:(administrative.scp,1052)skill_armslore=0a0
+12:08:(administrative.scp,1052)skill_blacksmithing=02b
+12:08:(administrative.scp,1052)skill_blocked=01
+12:08:(administrative.scp,1052)skill_evalint=0157
+12:08:(administrative.scp,1052)skill_magery=04bc
+12:08:(administrative.scp,1052)skill_magicresist=0e3
+12:08:(administrative.scp,1052)skill_maxincrease=063
+12:08:(administrative.scp,1052)skill_maxskillsumvalue=01964
+12:08:(administrative.scp,1052)skill_maxskillvalue=028c
+12:08:(administrative.scp,1052)skill_parrying=016e
+12:08:(administrative.scp,1052)skill_spam=023
+12:08:(administrative.scp,1052)skill_spellweaving=02b
+12:08:(administrative.scp,1052)skill_spiritspeak=0a3
+12:08:(administrative.scp,1052)skill_tactics=026d
+12:08:(administrative.scp,1052)skill_ts=0112065
+12:08:(administrative.scp,1052)skill_wrestling=01a
+12:08:(administrative.scp,1052)specialmove=00
+12:08:(administrative.scp,1052)uid_01_name=white
+12:08:(administrative.scp,1052)uid_01fab_name=Filmore
+12:08:(administrative.scp,1052)uid_01fb1_name=Red
+12:08:(administrative.scp,1052)uid_01fb4_name=orelhudopeladao
+12:08:(administrative.scp,1054)***************** CTAGS [CONSOLE ONLY] ********************
+12:08:(administrative.scp,1056)*********************** END DUMP **************************
+12:08:'admin' commands uid=01f38 (Humano) to 'dumpchar'=1
+12:08:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+12:08:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 16m/0m
+12:12:1:'admin' commands 'unstack'=1
+12:12:1:'admin' commands 'unstack 4'=1
+12:13:1:'admin' commands 'unstack 2'=1
+12:13:1:'admin' commands 'unstack 2'=1
+12:13:ERROR:(administrative.scp,1910)Invalid container 00
+12:13:ERROR:(administrative.scp,1910)Invalid container 00
+12:13:1:'admin' commands 'unstack 1'=1
+12:22:1:'admin' commands 'xamount 10'=1
+12:22:'admin' commands uid=040001f1d (lingotes de ferro) [amount=5] to 'amount 10'=1
+12:22:1:'admin' commands 'xupdate'=1
+12:22:'admin' commands uid=040001f1d (lingotes de ferro) [amount=10] to 'update'=1
+12:22:1:'admin' commands 'splitstack'=1
+12:22:1:'admin' commands 'xsplitstack'=1
+12:22:'admin' commands uid=040001f1d (lingotes de ferro) [amount=10] to 'splitstack'=1
+12:24:1:'admin' commands 'xshow amount'=1
+12:24:'admin' commands uid=040001f1a (lingotes de ferro) [amount=10] to 'show amount'=1
+12:24:1:'admin' commands 'info'=1
+12:25:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+12:25:1:'admin' commands 'info'=1
+12:25:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 31m/0m
+12:29:GC: 169 Objects accounted for
+12:29:7:'okami' commands 'denunciar'=1
+12:29:7:'okami' commands 'rp'=0
+12:29:1:'admin' commands 'rp'=1
+12:40:7:'okami' commands 'serv.resync'=0
+12:40:1:'admin' commands 'serv.resync'=1
+12:40:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_anti_rp.scp' changed, resync.
+12:40:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/administrative.scp' changed, resync.
+12:40:1:'admin' commands 'add i_bag'=1
+12:41:1:'admin' commands 'unstack'=1
+12:41:1:'admin' commands 'serv.resync'=1
+12:42:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/administrative.scp' changed, resync.
+12:42:1:'admin' commands 'unstack'=1
+12:45:1:'admin' commands 'temp_now'=1
+12:55:1:'admin' commands 'xevents -e_mytgeral'=1
+12:55:'admin' commands uid=01f38 (Humano) to 'events -e_mytgeral'=1
+12:55:1:'admin' commands 'xshow events'=1
+12:55:'admin' commands uid=01f38 (Humano) to 'show events'=1
+12:56:1:'admin' commands 'xevents +e_mytgeral'=1
+12:56:'admin' commands uid=01f38 (Humano) to 'events +e_mytgeral'=1
+12:57:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+12:57:1:'admin' commands 'xevents -e_mytgeral'=1
+12:57:'admin' commands uid=01f38 (Humano) to 'events -e_mytgeral'=1
+12:57:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 48m/0m
+12:59:GC: 170 Objects accounted for
+13:00:1:'admin' commands 'serv.resync'=1
+13:00:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:00:1:'admin' commands 'xamount 10'=1
+13:00:'admin' commands uid=040001ee0 (carvao) [amount=499] to 'amount 10'=1
+13:01:1:'admin' commands 'info'=1
+13:02:1:'admin' tweak uid=040001ee0 (carvao) to 'P 0,62'=1
+13:02:1:'admin' commands 'go 0,62'=1
+13:02:1:'admin' commands 'info'=1
+13:02:1:'admin' commands 'info'=1
+13:03:1:'admin' tweak uid=040001f0f (milho) to 'P 5,238'=1
+13:03:1:'admin' commands 'info'=1
+13:05:ERROR:Undefined keyword 'add.info'
+13:05:1:'admin' commands 'add.info'=1
+13:06:1:'admin' commands 'info'=1
+13:06:1:'admin' commands 'info'=1
+13:06:1:'admin' commands 'info'=1
+13:06:1:'admin' commands 'info'=1
+13:06:1:'admin' commands 'info'=1
+13:06:1:'admin' commands 'info'=1
+13:07:1:'admin' commands 'info'=1
+13:07:1:'admin' commands 'info'=1
+13:07:1:'admin' commands 'info'=1
+13:07:1:'admin' commands 'info'=1
+13:07:1:'admin' commands 'info'=1
+13:08:1:'admin' commands 'info'=1
+13:08:1:'admin' commands 'info'=1
+13:08:1:'admin' commands 'info'=1
+13:08:1:'admin' commands 'info'=1
+13:09:1:'admin' commands 'info'=1
+13:09:1:'admin' commands 'info'=1
+13:09:1:'admin' commands 'info'=1
+13:11:1:'admin' commands 'xshow p.x'=1
+13:11:'admin' commands uid=040001f0d (moedas de ouro) [amount=22] to 'show p.x'=1
+13:11:1:'admin' commands 'xshow p.y'=1
+13:11:'admin' commands uid=040001f0d (moedas de ouro) [amount=22] to 'show p.y'=1
+13:12:1:'admin' commands 'serv.resync'=1
+13:12:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:12:1:'admin' commands 'update'=1
+13:13:1:'admin' commands 'info'=1
+13:13:1:'admin' commands 'info'=1
+13:13:1:'admin' commands 'info'=1
+13:13:1:'admin' commands 'info'=1
+13:13:1:'admin' commands 'info'=1
+13:13:1:'admin' commands 'info'=1
+13:14:1:'admin' commands 'info'=1
+13:14:1:'admin' commands 'info'=1
+13:14:1:'admin' commands 'info'=1
+13:14:1:'admin' commands 'info'=1
+13:14:1:'admin' commands 'info'=1
+13:15:1:'admin' commands 'info'=1
+13:15:1:'admin' commands 'info'=1
+13:16:1:'admin' commands 'xshow local.x'=1
+13:16:'admin' commands uid=040001f0d (moedas de ouro) [amount=29] to 'show local.x'=0
+13:16:1:'admin' commands 'xshow p.x'=1
+13:16:'admin' commands uid=040001f0d (moedas de ouro) [amount=29] to 'show p.x'=1
+13:18:1:'admin' commands 'serv.resync'=1
+13:18:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:18:1:'admin' commands 'info'=1
+13:18:1:'admin' commands 'info'=1
+13:18:1:'admin' commands 'info'=1
+13:19:1:'admin' commands 'info'=1
+13:19:1:'admin' commands 'serv.resync'=1
+13:19:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:19:1:'admin' commands 'info'=1
+13:20:1:'admin' commands 'xshow p.x'=1
+13:20:'admin' commands uid=040001f0d (moedas de ouro) [amount=29] to 'show p.x'=1
+13:20:1:'admin' commands 'serv.resync'=1
+13:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:20:1:'admin' commands 'serv.resync'=1
+13:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:20:1:'admin' commands 'info'=1
+13:20:1:'admin' commands 'info'=1
+13:21:1:'admin' commands 'info'=1
+13:21:1:'admin' commands 'info'=1
+13:21:1:'admin' commands 'info'=1
+13:22:1:'admin' commands 'serv.resync'=1
+13:22:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:22:1:'admin' commands 'info'=1
+13:22:1:'admin' commands 'info'=1
+13:22:1:'admin' commands 'info'=1
+13:23:1:'admin' commands 'info'=1
+13:23:1:'admin' commands 'info'=1
+13:23:1:'admin' commands 'info'=1
+13:24:1:'admin' commands 'serv.resync'=1
+13:24:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:24:1:'admin' commands 'info'=1
+13:24:1:'admin' commands 'info'=1
+13:24:1:'admin' commands 'info'=1
+13:25:1:'admin' commands 'info'=1
+13:25:1:'admin' commands 'info'=1
+13:25:1:'admin' commands 'info'=1
+13:25:1:'admin' commands 'info'=1
+13:26:1:'admin' commands 'serv.resync'=1
+13:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:26:1:'admin' commands 'info'=1
+13:26:1:'admin' commands 'info'=1
+13:26:1:'admin' commands 'info'=1
+13:30:GC: 172 Objects accounted for
+13:34:1:'admin' commands 'serv.resync'=1
+13:34:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:34:1:'admin' commands 'info'=1
+13:35:1:'admin' commands 'info'=1
+13:35:1:'admin' commands 'info'=1
+13:35:1:'admin' commands 'serv.resync'=1
+13:35:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:35:1:'admin' commands 'info'=1
+13:36:1:'admin' commands 'info'=1
+13:39:1:'admin' commands 'serv.resync'=1
+13:39:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:39:1:'admin' commands 'info'=1
+13:40:1:'admin' commands 'info'=1
+13:40:1:'admin' commands 'info'=1
+13:40:1:'admin' commands 'info'=1
+13:40:1:'admin' commands 'serv.resync'=1
+13:40:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:47:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+13:47:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 9m/0m
+13:55:1:'admin' commands 'serv.resync'=1
+13:55:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+13:55:ERROR:(events.scp,376)Bad CONTP usage (item is not in a container)
+13:55:ERROR:(events.scp,376)Bad CONTP usage (item is not in a container)
+13:56:ERROR:(events.scp,376)Bad CONTP usage (item is not in a container)
+13:56:ERROR:(events.scp,376)Bad CONTP usage (item is not in a container)
+13:56:1:'admin' commands 'info'=1
+13:56:ERROR:(events.scp,376)Bad CONTP usage (item is not in a container)
+13:56:1:'admin' commands 'info'=1
+13:57:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+13:57:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 4m/0m
+14:00:GC: 172 Objects accounted for
+14:01:1:'admin' commands 'serv.resync'=1
+14:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:01:1:'admin' commands 'info'=1
+14:02:1:'admin' commands 'info'=1
+14:02:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+14:02:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 25m/0m
+14:08:1:'admin' commands 'serv.resync'=1
+14:08:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:08:1:'admin' commands 'info'=1
+14:08:1:'admin' commands 'info'=1
+14:09:1:'admin' commands 'serv.resync'=1
+14:09:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:10:1:'admin' commands 'serv.resync'=1
+14:10:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:10:1:'admin' commands 'info'=1
+14:10:1:'admin' commands 'info'=1
+14:12:1:'admin' commands 'serv.resync'=1
+14:12:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:12:ERROR:(events.scp,378)Bad CONTP usage (item is not in a container)
+14:12:1:'admin' commands 'info'=1
+14:13:1:'admin' commands 'info'=1
+14:13:1:'admin' commands 'info'=1
+14:13:1:'admin' commands 'info'=1
+14:14:1:'admin' commands 'info'=1
+14:14:1:'admin' commands 'info'=1
+14:14:ERROR:(events.scp,378)Bad CONTP usage (item is not in a container)
+14:16:1:'admin' commands 'serv.resync'=1
+14:16:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:16:ERROR:(events.scp,377)Bad CONTP usage (item is not in a container)
+14:16:ERROR:(events.scp,377)Bad CONTP usage (item is not in a container)
+14:16:ERROR:(events.scp,377)Bad CONTP usage (item is not in a container)
+14:16:1:'admin' commands 'info'=1
+14:16:1:'admin' commands 'xshow type'=1
+14:16:'admin' commands uid=040001fe4 (Sacola de Couro) to 'show type'=1
+14:17:1:'admin' commands 'serv.resync'=1
+14:17:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:17:ERROR:(events.scp,377)Undefined keyword 'contp'
+14:17:1:'admin' commands 'info'=1
+14:19:1:'admin' commands 'serv.resync'=1
+14:19:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:ERROR:(events.scp,379)Bad CONTP usage (item is not in a container)
+14:19:1:'admin' commands 'info'=1
+14:22:1:'admin' commands 'serv.resync'=1
+14:22:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:23:1:'admin' commands 'serv.resync'=1
+14:23:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:23:1:'admin' commands 'info'=1
+14:23:1:'admin' commands 'info'=1
+14:23:1:'admin' commands 'info'=1
+14:28:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+14:29:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 14m/0m
+14:31:GC: 171 Objects accounted for
+14:40:1:'admin' commands 'SERV.RESYNC'=1
+14:40:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:41:1:'admin' commands 'info'=1
+14:41:1:'admin' commands 'info'=1
+14:41:1:'admin' commands 'info'=1
+14:41:1:'admin' commands 'info'=1
+14:41:1:'admin' commands 'xshow type'=1
+14:41:'admin' commands uid=040001fe3 (Mochila) to 'show type'=1
+14:42:1:'admin' commands 'serv.resync'=1
+14:42:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:44:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+14:44:1:'admin' commands 'serv.resync'=1
+14:44:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:44:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 18m/0m
+14:44:que coisa
+14:44:1:'admin' commands 'serv.log que coisa'=1
+14:44:que coisa nao?
+14:44:1:'admin' commands 'serv.log que coisa nao?'=1
+14:49:1:'admin' commands 'xshow attr'=1
+14:49:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'show attr'=1
+14:51:1:'admin' commands 'serv.resync'=1
+14:51:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:52:1:'admin' commands 'info'=1
+14:52:1:'admin' commands 'xshow attr'=1
+14:52:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'show attr'=1
+14:52:1:'admin' commands 'xshow attr'=1
+14:52:'admin' commands uid=040001fe4 (Sacola de Couro) to 'show attr'=1
+14:52:1:'admin' commands 'xshow attr'=1
+14:52:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'show attr'=1
+14:52:1:'admin' commands 'xshow attr'=1
+14:52:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'show attr'=1
+14:53:1:'admin' commands 'serv.resync'=1
+14:53:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+14:53:1:'admin' commands 'info'=1
+14:53:1:'admin' commands 'xshow attr'=1
+14:53:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'show attr'=1
+14:53:1:'admin' commands 'xattr 010'=1
+14:53:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'attr 010'=1
+14:53:1:'admin' commands 'xshow attr'=1
+14:53:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+14:53:1:'admin' commands 'info'=1
+14:54:1:'admin' commands 'xshow attr'=1
+14:54:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+14:54:1:'admin' commands 'xattr 00'=1
+14:54:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 00'=1
+14:54:1:'admin' commands 'update'=1
+14:54:1:'admin' commands 'xattr 00'=1
+14:54:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 00'=1
+14:54:1:'admin' commands 'info'=1
+14:54:1:'admin' commands 'xshow attr'=1
+14:54:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+14:55:1:'admin' commands 'xattr 00'=1
+14:55:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 00'=1
+14:56:1:'admin' commands 'xshow attr'=1
+14:56:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+14:58:1:'admin' commands 'info'=1
+14:58:1:'admin' commands 'xshow attr'=1
+14:58:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+14:58:1:'admin' commands 'xattr 0'=1
+14:58:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+14:58:1:'admin' commands 'info'=1
+14:58:1:'admin' commands 'xshow attr'=1
+14:58:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+14:58:1:'admin' commands 'xshow attr'=1
+14:58:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+14:59:1:'admin' commands 'xshow attr'=1
+14:59:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+14:59:1:'admin' commands 'xshow attr'=1
+14:59:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:00:ERROR:Undefined keyword 'resyc'
+15:00:ERROR:Undefined keyword 'resyc'
+15:00:1:'admin' commands 'serv.resyc'=1
+15:00:1:'admin' commands 'serv.resync'=1
+15:00:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:00:1:'admin' commands 'xshow attr'=1
+15:00:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:00:1:'admin' commands 'xattr 0'=1
+15:00:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:00:1:'admin' commands 'xshow attr'=1
+15:00:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:00:1:'admin' commands 'xshow attr'=1
+15:01:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:01:1:'admin' commands 'xshow attr'=1
+15:01:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:01:1:'admin' commands 'serv.resync'=1
+15:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:01:1:'admin' commands 'xshow attr'=1
+15:01:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:01:GC: 167 Objects accounted for
+15:02:1:'admin' commands 'update'=1
+15:02:1:'admin' commands 'xattr 0'=1
+15:02:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'attr 0'=1
+15:03:1:'admin' commands 'xshow events'=1
+15:03:'admin' commands uid=01f38 (Humano) to 'show events'=1
+15:03:1:'admin' commands 'xevents +e_mytgeral'=1
+15:03:'admin' commands uid=01f38 (Humano) to 'events +e_mytgeral'=1
+15:03:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+15:04:1:'admin' commands 'serv.resync'=1
+15:04:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:04:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 7m/0m
+15:04:1:'admin' commands 'xattr 0'=1
+15:04:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:05:1:'admin' commands 'serv.resync'=1
+15:05:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:05:1:'admin' commands 'xattr 0'=1
+15:05:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:05:1:'admin' commands 'xshow attr'=1
+15:05:'admin' commands uid=040001f2a (Sacola de Couro) to 'show attr'=1
+15:05:1:'admin' commands 'xattr 0'=1
+15:05:'admin' commands uid=040001f2a (Sacola de Couro) to 'attr 0'=1
+15:05:1:'admin' commands 'xattr 0'=1
+15:05:'admin' commands uid=040001f18 (Sacola de Couro) to 'attr 0'=1
+15:07:1:'admin' commands 'serv.resync'=1
+15:07:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:07:1:'admin' commands 'xshow attr'=1
+15:08:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:08:1:'admin' commands 'xshow attr'=1
+15:08:'admin' commands uid=040001f2a (Sacola de Couro) to 'show attr'=1
+15:08:1:'admin' commands 'xshow attr'=1
+15:08:'admin' commands uid=040001f18 (Sacola de Couro) to 'show attr'=1
+15:08:1:'admin' commands 'xshow attr'=1
+15:08:1:'admin' commands 'xshow attr'=1
+15:08:'admin' commands uid=040001ee8 (Mochila) to 'show attr'=1
+15:08:1:'admin' commands 'xshow attr'=1
+15:08:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:09:1:'admin' commands 'serv.resync'=1
+15:09:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:09:1:'admin' commands 'xattr 0'=1
+15:09:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:09:1:'admin' commands 'xshow attr'=1
+15:09:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:09:1:'admin' commands 'xshow attr'=1
+15:09:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:10:1:'admin' commands 'xshow attr'=1
+15:10:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:12:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+15:12:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 15m/0m
+15:15:1:'admin' commands 'serv.resync'=1
+15:15:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:15:ERROR:(events.scp,1015)Undefined symbol 'attr' ['attr=090']
+15:15:1:'admin' commands 'xshow attr'=1
+15:15:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'show attr'=1
+15:15:1:'admin' commands 'xattr 0'=1
+15:15:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:15:ERROR:(events.scp,1015)Undefined symbol 'attr' ['attr=090']
+15:15:1:'admin' commands 'xattr 0'=1
+15:15:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:15:1:'admin' commands 'xupdate'=1
+15:15:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'update'=1
+15:16:ERROR:(events.scp,1015)Undefined symbol 'attr' ['attr=090']
+15:17:1:'admin' commands 'serv.resync'=1
+15:17:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:17:1:'admin' commands 'xattr 0'=1
+15:17:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:17:ERROR:(events.scp,1015)Undefined symbol 'uid' ['uid.attr=090']
+15:17:1:'admin' commands 'xattr 0'=1
+15:17:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:17:ERROR:(events.scp,1015)Undefined symbol 'uid' ['uid.attr=090']
+15:17:1:'admin' commands 'serv.resync'=1
+15:17:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:17:ERROR:(events.scp,1015)Undefined symbol 'src' ['src.attr=090']
+15:17:1:'admin' commands 'xattr 0'=1
+15:18:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:18:ERROR:(events.scp,1015)Undefined symbol 'src' ['src.attr=090']
+15:21:ERROR:Undefined keyword 'resynnc'
+15:21:ERROR:Undefined keyword 'resynnc'
+15:21:1:'admin' commands 'serv.resynnc'=1
+15:21:1:'admin' commands 'xattr 0'=1
+15:21:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'attr 0'=1
+15:21:1:'admin' commands 'xattr 0'=1
+15:21:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:22:ERROR:(events.scp,1015)Undefined symbol 'src' ['src.attr=090']
+15:22:1:'admin' commands 'xshow attr'=1
+15:22:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'show attr'=1
+15:22:1:'admin' commands 'xattr 0'=1
+15:22:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'attr 0'=1
+15:22:1:'admin' commands 'xattr 0'=1
+15:22:'admin' commands uid=040001f1a (lingotes de ferro) [amount=16] to 'attr 0'=1
+15:22:ERROR:(events.scp,1015)Undefined symbol 'src' ['src.attr=090']
+15:22:1:'admin' commands 'serv.resync'=1
+15:22:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:22:1:'admin' commands 'xattr 0'=1
+15:22:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'attr 0'=1
+15:22:1:'admin' commands 'xattr 0'=1
+15:22:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'attr 0'=1
+15:23:1:'admin' commands 'serv.resync'=1
+15:23:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:23:ERROR:(events.scp,365)Undefined keyword 'return'
+15:23:ERROR:(events.scp,365)Undefined keyword 'return'
+15:24:1:'admin' commands 'xshow p'=1
+15:24:'admin' commands uid=040001f0d (moedas de ouro) [amount=37] to 'show p'=1
+15:25:1:'admin' commands 'serv.resync'=1
+15:25:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:25:1:'admin' commands 'go 50,50'=1
+15:25:1:Client disconnected [Total:1] ('127.0.0.1')
+15:25:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=1,charAcct=2452,x=50,y=50,z=-5" failed due to "Field 'char2Uid' doesn't have a default value"
+15:26:8:Client connected [Total:2] ('127.0.0.1' 1/2)
+15:26:WARNING:8:Bad Login 9 (The account details entered are invalid (username or password is too short, too long or contains invalid characters). This can sometimes be caused by incorrect/missing encryption keys)
+15:26:8:Client disconnected [Total:1] ('127.0.0.1')
+15:26:9:Client connected [Total:2] ('127.0.0.1' 1/2)
+15:26:9:Login 'admin'
+15:26:a:Client connected [Total:3] ('127.0.0.1' 1/3)
+15:26:9:Client disconnected [Total:2] ('127.0.0.1')
+15:26:a:Login 'admin'
+15:26:a:Setup_Start acct='admin', char='White', IP='127.0.0.1'
+15:26:(sistema_de_eventos.scp,79)[EVENT]Login: admin (0994)
+15:26:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=1,charAcct=2452,x=50,y=50,z=-5" failed due to "Field 'char2Uid' doesn't have a default value"
+15:26:ERROR:(events.scp,229)Undefined symbol '' ['&& (7 <= 1)']
+15:26:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+15:26:(skills.scp,423)admin/White SC:657 SSC:144/6500 MI:97
+15:26:a:Client disconnected [Total:1] ('127.0.0.1')
+15:26:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=1,charAcct=2452,x=50,y=50,z=-5" failed due to "Field 'char2Uid' doesn't have a default value"
+15:26:(sistema_de_formulario.scp,161)[FORM] - Erro ao verificar status. Char nao esta online 'admin'
+15:26:b:Client connected [Total:2] ('127.0.0.1' 1/2)
+15:26:b:Login 'admin'
+15:26:c:Client connected [Total:3] ('127.0.0.1' 1/3)
+15:26:b:Client disconnected [Total:2] ('127.0.0.1')
+15:26:c:Login 'admin'
+15:26:c:Setup_Start acct='admin', char='Joao', IP='127.0.0.1'
+15:26:(sistema_de_eventos.scp,79)[EVENT]Login: admin (0994)
+15:26:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=8167,charAcct=2452,x=715,y=2116,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+15:26:ERROR:(events.scp,229)Undefined symbol '' ['&& (7 <= 1)']
+15:26:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+15:26:(skills.scp,423)admin/Joao SC:658 SSC:58000/6500 MI:0
+15:26:c:'admin' commands 'admin'=1
+15:27:c:'admin' commands 'admin'=1
+15:28:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+15:28:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 42m/0m
+15:32:GC: 167 Objects accounted for
+15:52:c:'admin' commands 'serv.resync'=1
+15:52:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+15:52:c:'admin' commands 'add i_gold'=1
+15:52:c:'admin' commands 'xamount 20'=1
+15:52:'admin' commands uid=040001f08 (moeda de ouro) to 'amount 20'=1
+15:52:ERROR:(events.scp,364)Bad CONTP usage (item is not in a container)
+15:52:ERROR:(events.scp,364)Bad CONTP usage (item is not in a container)
+16:02:c:'admin' commands 'serv.resync'=1
+16:02:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+16:02:GC: 168 Objects accounted for
+16:02:c:'admin' commands 'info'=1
+16:03:c:'admin' commands 'serv.resync'=1
+16:03:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+16:05:ERROR:Undefined keyword 'resnc'
+16:05:ERROR:Undefined keyword 'resnc'
+16:05:c:'admin' commands 'serv.resnc'=1
+16:05:ERROR:Undefined keyword 'resyn'
+16:05:ERROR:Undefined keyword 'resyn'
+16:05:c:'admin' commands 'serv.resyn'=1
+16:05:c:'admin' commands 'serv.resync'=1
+16:05:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+16:07:c:'admin' commands 'serv.resync'=1
+16:07:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+16:12:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+16:12:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 50m/0m
+16:13:c:'admin' commands 'serv.resync'=1
+16:13:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+16:13:c:'admin' commands 'info'=1
+16:18:c:'admin' commands 'serv.resync'=1
+16:18:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+16:18:c:'admin' commands 'info'=1
+16:19:c:'admin' commands 'serv.resync'=1
+16:19:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+16:19:c:'admin' commands 'add i_ingot_iron'=1
+16:20:c:'admin' commands 'serv.resync'=1
+16:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+16:33:GC: 169 Objects accounted for
+17:03:GC: 169 Objects accounted for
+17:04:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+17:05:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 49m/0m
+17:18:7:Client disconnected [Total:1] ('127.0.0.1')
+17:18:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=7992,charAcct=2453,x=1265,y=1822,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+17:18:c:Client disconnected [Total:0] ('127.0.0.1')
+17:18:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=8167,charAcct=2452,x=1265,y=1819,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+17:20:ERROR:(administrative.scp,1378)Undefined keyword 'cTAG.disturb'
+17:20:ERROR:(sistema_de_combate.scp,570)Undefined keyword 'SENDPACKET'
+17:34:GC: 169 Objects accounted for
+18:01:FATAL:Server terminated: Console window closed (code 5)
+
+21:35:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+21:35:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+21:35:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+21:35:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+21:35:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+21:35:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+21:35:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+21:35:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+21:35:ERROR:GC: 1 unplaced object deleted
+21:35:ERROR:UID=040001ee0, id=0402c 'carvao', Invalid code=3202 (Object not placed in the world)
+21:35:GC: 168 Objects accounted for
+21:35:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+21:36:FATAL:Server terminated: Console window closed (code 5)
+
+21:36:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+21:36:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+21:36:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+21:36:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+21:36:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+21:36:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+21:36:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+21:36:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+21:36:ERROR:GC: 1 unplaced object deleted
+21:36:ERROR:UID=040001ee0, id=04679 'carvao', Invalid code=3202 (Object not placed in the world)
+21:36:GC: 168 Objects accounted for
+21:36:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+22:07:GC: 168 Objects accounted for
+22:37:GC: 168 Objects accounted for
+22:49:0:Client connected [Total:1] ('127.0.0.1' 1/1)
+22:49:0:Login 'admin'
+22:49:1:Client connected [Total:2] ('127.0.0.1' 1/2)
+22:49:1:Login 'admin'
+22:49:0:Client disconnected [Total:1] ('127.0.0.1')
+22:49:1:Setup_Start acct='admin', char='Joao', IP='127.0.0.1'
+22:49:(sistema_de_eventos.scp,79)[EVENT]Login: admin (0994)
+22:49:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=8167,charAcct=2452,x=1265,y=1819,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+22:49:ERROR:(events.scp,229)Undefined symbol '' ['&& (7 <= 1)']
+22:49:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+22:49:(skills.scp,423)admin/Joao SC:663 SSC:58000/6500 MI:0
+22:49:1:Client disconnected [Total:0] ('127.0.0.1')
+22:49:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=8167,charAcct=2452,x=1265,y=1819,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+22:49:(sistema_de_formulario.scp,161)[FORM] - Erro ao verificar status. Char nao esta online 'admin'
+22:49:2:Client connected [Total:1] ('127.0.0.1' 1/1)
+22:49:2:Login 'admin'
+22:49:3:Client connected [Total:2] ('127.0.0.1' 1/2)
+22:49:2:Client disconnected [Total:1] ('127.0.0.1')
+22:49:3:Login 'admin'
+22:49:3:Setup_Start acct='admin', char='White', IP='127.0.0.1'
+22:49:(sistema_de_eventos.scp,79)[EVENT]Login: admin (0994)
+22:49:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=1,charAcct=2452,x=1264,y=1819,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+22:49:ERROR:(events.scp,229)Undefined symbol '' ['&& (7 <= 1)']
+22:49:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+22:49:(skills.scp,423)admin/White SC:663 SSC:144/6500 MI:97
+22:49:3:'admin' commands 'admin'=1
+22:49:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+22:49:4:Client connected [Total:2] ('179.222.254.160' 1/1)
+22:49:4:Login 'Bhalin'
+22:49:4:Client disconnected [Total:1] ('179.222.254.160')
+22:49:5:Client connected [Total:2] ('179.222.254.160' 1/1)
+22:49:5:Login 'Bhalin'
+22:49:ERROR:Undefined keyword 'adin'
+22:49:3:'admin' commands 'adin'=1
+22:49:5:Setup_Start acct='Bhalin', char='blhu', IP='179.222.254.160'
+22:49:(sistema_de_eventos.scp,79)[EVENT]Login: Bhalin (0998)
+22:49:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=8108,charAcct=2456,x=1201,y=876,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+22:49:ERROR:(events.scp,229)Undefined symbol '' ['&& (6 <= 1)']
+22:49:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+22:49:(skills.scp,423)Bhalin/blhu SC:664 SSC:58000/6500 MI:0
+22:49:3:'admin' commands 'admin'=1
+22:49:5:'Bhalin' commands 'admin'=1
+22:50:3:'admin' commands 'add i_gold'=1
+22:50:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 33m/0m
+22:50:3:'admin' commands 'xamount 30'=1
+22:50:'admin' commands uid=040001f68 (moeda de ouro) to 'amount 30'=1
+22:50:3:'admin' commands 'add i_bag'=1
+22:50:WARNING:Invalid ADD argument 'i_calcas_longas'
+22:50:3:'admin' commands 'add i_calcas_longas'=1
+22:50:WARNING:Invalid ADD argument 'i_calcas_longas'
+22:50:3:'admin' commands 'add i_calcas_longas'=1
+22:50:3:'admin' commands 'add i_robe'=1
+22:50:5:'Bhalin' commands 'remove'=1
+22:51:'Bhalin' commands uid=040001f64 (Manto) to 'remove'=1
+22:51:3:'admin' commands 'dupe'=1
+22:51:'admin' commands uid=040001f68 (moedas de ouro) [amount=30] to 'dupe'=1
+22:51:3:'admin' commands 'xshow p'=1
+22:51:'admin' commands uid=040001f68 (moedas de ouro) [amount=30] to 'show p'=1
+22:57:3:'admin' commands 'serv.resync'=1
+22:57:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:00:3:'admin' commands 'serv.resync'=1
+23:00:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:00:3:'admin' commands 'info'=1
+23:01:ERROR:Undefined keyword '-.'
+23:01:5:'Bhalin' commands '-.'=1
+23:02:WARNING:Invalid ADD argument 'i_crate'
+23:02:3:'admin' commands 'add i_crate'=1
+23:03:3:'admin' commands 'add I_crate_lg'=1
+23:04:5:'Bhalin' commands 'add i_adaga'=1
+23:04:WARNING:Invalid ADD argument 'i_alaude'
+23:04:5:'Bhalin' commands 'add i_alaude'=1
+23:04:WARNING:Invalid ADD argument 'i_iron_shield'
+23:04:5:'Bhalin' commands 'add i_iron_shield'=1
+23:07:3:'admin' commands 'serv.resync'=1
+23:07:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:07:GC: 174 Objects accounted for
+23:08:3:'admin' commands 'serv.resync'=1
+23:08:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:08:3:'admin' commands 'update'=1
+23:09:3:'admin' commands 'info'=1
+23:20:3:'admin' commands 'serv.resync'=1
+23:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:21:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont=040001f2c']
+23:21:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont=040001f2c']
+23:21:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont=040001fe4']
+23:21:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont=040001f2c']
+23:21:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont=040001f2c']
+23:21:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont=040001f2c']
+23:23:3:'admin' commands 'serv.resync'=1
+23:23:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:23:3:'admin' commands 'xevent -e_mytgeral'=1
+23:23:ERROR:Undefined keyword 'event'
+23:23:'admin' commands uid=01fac (Humano) to 'event -e_mytgeral'=0
+23:24:3:'admin' commands 'xevent -E_mytgeral'=1
+23:24:ERROR:Undefined keyword 'event'
+23:24:'admin' commands uid=01fac (Humano) to 'event -E_mytgeral'=0
+23:24:3:'admin' commands 'xevents -E_mytgeral'=1
+23:24:'admin' commands uid=01fac (Humano) to 'events -E_mytgeral'=1
+23:24:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+23:24:3:'admin' commands 'info'=1
+23:25:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 28m/0m
+23:25:3:'admin' commands 'info'=1
+23:25:3:'admin' commands 'info'=1
+23:26:3:'admin' commands 'serv.resync'=1
+23:26:5:'Bhalin' commands 'itemforge edit'=1
+23:26:ERROR:(itemforge.scp,214)Can't resolve <serv.itemdef.i_wand_2.resources2>
+23:26:ERROR:(itemforge.scp,217)Can't resolve <serv.itemdef.i_wand_2.pile>
+23:26:3:'admin' commands 'serv.resync'=1
+23:27:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:28:3:'admin' commands 'serv.resync'=1
+23:28:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:28:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont=040001f2c']
+23:29:3:'admin' commands 'serv.resync'=1
+23:29:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:29:ERROR:(events.scp,365)Undefined symbol 'REF3' ['REF3=040001f2c']
+23:30:3:'admin' commands 'serv.resync'=1
+23:30:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:30:3:'admin' commands 'serv.resync'=1
+23:30:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:30:ERROR:(events.scp,364)Undefined symbol 'argo' ['argo.cont=040001f2c']
+23:31:3:'admin' commands 'serv.resync'=1
+23:31:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:31:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont']
+23:31:ERROR:(events.scp,364)Undefined symbol 'act' ['act.cont']
+23:31:3:'admin' commands 'serv.resync'=1
+23:31:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:31:5:'Bhalin' commands 'add i_bag'=1
+23:31:5:'Bhalin' commands 'itemforge'=1
+23:32:3:'admin' commands 'serv.resync'=1
+23:32:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:32:3:'admin' commands 'info'=1
+23:32:3:'admin' commands 'info'=1
+23:32:3:'admin' commands 'info'=1
+23:33:3:'admin' commands 'events -e_mytgeral'=1
+23:33:3:'admin' commands 'info'=1
+23:33:3:'admin' commands 'info'=1
+23:33:5:'Bhalin' commands 'add i_pouch'=1
+23:33:3:'admin' commands 'add i_crate_lg'=1
+23:34:3:'admin' commands 'info'=1
+23:34:3:'admin' commands 'info'=1
+23:34:WARNING:Invalid ADD argument 'i_cackpack'
+23:34:5:'Bhalin' commands 'add i_cackpack'=1
+23:34:5:'Bhalin' commands 'add i_backpack'=1
+23:34:3:'admin' commands 'info'=1
+23:34:3:'admin' commands 'events +e_mytgeral'=1
+23:35:3:'admin' commands 'info'=1
+23:35:3:'admin' commands 'info'=1
+23:36:3:'admin' commands 'info'=1
+23:36:3:'admin' commands 'info'=1
+23:37:3:'admin' commands 'info'=1
+23:38:GC: 173 Objects accounted for
+23:39:5:'Bhalin' commands 'add i_box_wood'=1
+23:39:5:'Bhalin' commands 'add i_chest_wooden_brass'=1
+23:39:5:'Bhalin' commands 'add i_basket_2'=1
+23:39:5:'Bhalin' commands 'add i_barrel'=1
+23:44:3:'admin' commands 'food'=1
+23:44:3:'admin' commands 'comida'=1
+23:44:3:'admin' commands 'food 20'=1
+23:44:3:'admin' commands 'comida'=1
+23:50:ERROR:Undefined keyword 'resyn'
+23:50:ERROR:Undefined keyword 'resyn'
+23:50:3:'admin' commands 'serv.resyn'=1
+23:50:3:'admin' commands 'serv.resync'=1
+23:50:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:50:3:'admin' commands 'info'=1
+23:50:3:'admin' commands 'info'=1
+23:50:3:'admin' commands 'xshow events'=1
+23:50:'admin' commands uid=01 (Humano) to 'show events'=1
+23:51:3:'admin' commands 'info'=1
+23:53:3:'admin' commands 'serv.resync'=1
+23:53:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:53:3:'admin' commands 'info'=1
+23:53:3:'admin' commands 'serv.resync'=1
+23:54:3:'admin' commands 'serv.resync'=1
+23:54:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:54:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+23:54:3:'admin' commands 'serv.resync'=1
+23:54:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:55:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 52m/0m
+23:56:3:'admin' commands 'serv.resync'=1
+23:56:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:57:ERROR:Undefined keyword 'showuid'
+23:57:3:'admin' commands 'showuid'=1
+23:57:3:'admin' commands 'serv.resync'=1
+23:57:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:57:3:'admin' commands 'serv.resync'=1
+23:57:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:58:3:'admin' commands 'serv.resync'=1
+23:58:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:58:ERROR:(events.scp,365)Can't resolve <cont.uid>
+23:58:3:'admin' commands 'serv.resync'=1
+23:58:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+23:58:3:'admin' commands 'xshow uid'=1
+23:58:'admin' commands uid=040001fe4 (Sacola de Couro) to 'show uid'=1
+23:59:3:'admin' commands 'serv.resync'=1
+23:59:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.

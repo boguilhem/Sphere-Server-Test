@@ -1,0 +1,704 @@
+2016/01/24 00:08:3700:08:GC: 171 Objects accounted for
+00:09:(sistema_de_furniture.scp,584)[FURNITURE] Cesto Pequeno (040001f1f) foi apagado. ATTR=02 :: TIMER=-1
+00:21:3:'admin' commands 'serv.resync'=1
+00:21:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:22:3:'admin' commands 'info'=1
+00:22:3:'admin' commands 'serv.resync'=1
+00:22:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:22:3:'admin' commands 'info'=1
+00:24:5:'Bhalin' commands 'xcolor 00'=1
+00:24:'Bhalin' commands uid=040001fc9 (Calcas Longas) to 'color 00'=1
+00:25:5:'Bhalin' commands 'xcolor 00'=1
+00:25:'Bhalin' commands uid=040001fc7 (Sandalias) to 'color 00'=1
+00:25:5:'Bhalin' commands 'xcolor'=1
+00:26:3:'admin' commands 'serv.resync'=1
+00:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:26:ERROR:Undefined keyword 'inf'
+00:26:3:'admin' commands 'inf'=1
+00:26:3:'admin' commands 'info'=1
+00:27:3:'admin' commands 'serv.resync'=1
+00:27:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:27:3:'admin' commands 'info'=1
+00:27:3:'admin' commands 'serv.resync'=1
+00:27:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:28:3:'admin' commands 'info'=1
+00:28:3:'admin' commands 'info'=1
+00:28:3:'admin' commands 'info'=1
+00:28:3:'admin' commands 'info'=1
+00:28:3:'admin' commands 'info'=1
+00:29:3:'admin' commands 'serv.resync'=1
+00:29:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:31:3:'admin' commands 'serv.resync'=1
+00:31:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:31:ERROR:(events.scp,387)Undefined keyword 'act.contp'
+00:31:ERROR:(events.scp,387)Undefined keyword 'act.contp'
+00:31:3:'admin' commands 'info'=1
+00:31:3:'admin' commands 'serv.resync'=1
+00:31:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:32:3:'admin' commands 'info'=1
+00:32:3:'admin' commands 'info'=1
+00:33:3:'admin' commands 'serv.resync'=1
+00:33:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:35:3:'admin' commands 'serv.resync'=1
+00:35:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:36:3:'admin' commands 'serv.resync'=1
+00:36:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:36:ERROR:(events.scp,372)Undefined symbol 'argo' ['argo.01']
+00:36:ERROR:(events.scp,372)FORCONT called with invalid arguments (UID: 00, LEVEL: 255).
+00:36:3:'admin' commands 'serv.resync'=1
+00:36:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:36:ERROR:(events.scp,372)Undefined symbol 'argo' ['argo.uid']
+00:36:ERROR:(events.scp,372)FORCONT called with invalid arguments (UID: 00, LEVEL: 255).
+00:37:3:'admin' commands 'serv.resync'=1
+00:37:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:37:ERROR:(events.scp,374)Undefined symbol 'REF3' ['REF3']
+00:37:ERROR:(events.scp,374)FORCONT called with invalid arguments (UID: 00, LEVEL: 255).
+00:37:ERROR:(events.scp,374)Undefined symbol 'REF3' ['REF3']
+00:37:ERROR:(events.scp,374)FORCONT called with invalid arguments (UID: 00, LEVEL: 255).
+00:38:3:'admin' commands 'serv.resync'=1
+00:38:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:38:ERROR:(events.scp,374)Undefined symbol 'REF3' ['REF3']
+00:38:ERROR:(events.scp,374)FORCONT called with invalid arguments (UID: 00, LEVEL: 255).
+00:38:3:'admin' commands 'serv.resync'=1
+00:38:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:39:GC: 167 Objects accounted for
+00:44:3:'admin' commands 'serv.resync'=1
+00:44:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:44:3:'admin' commands 'xshow attr'=1
+00:44:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:44:3:'admin' commands 'xshow attr'=1
+00:45:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:45:3:'admin' commands 'xattr 0'=1
+00:45:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'attr 0'=1
+00:45:3:'admin' commands 'xshow attr'=1
+00:45:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:47:3:'admin' commands 'serv.resync'=1
+00:47:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:47:3:'admin' commands 'info'=1
+00:47:3:'admin' commands 'xshow attr'=1
+00:47:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:47:3:'admin' commands 'xshow attr'=1
+00:47:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:47:3:'admin' commands 'xshow attr'=1
+00:47:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:47:3:'admin' commands 'info'=1
+00:47:3:'admin' commands 'info'=1
+00:48:3:'admin' commands 'info'=1
+00:48:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+00:48:3:'admin' commands 'xshow attr'=1
+00:48:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:48:3:'admin' commands 'xshow attr'=1
+00:48:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:48:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 46m/0m
+00:48:3:'admin' commands 'xshow attr'=1
+00:48:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'show attr'=1
+00:49:3:'admin' commands 'dupe'=1
+00:49:'admin' commands uid=040001f28 (moedas de ouro) [amount=594] to 'dupe'=1
+00:49:3:'admin' commands 'xamount 30'=1
+00:49:'admin' commands uid=040001f1e (moedas de ouro) [amount=594] to 'amount 30'=1
+00:50:5:'Bhalin' commands 'gm'=1
+00:50:3:'admin' commands 'xshow attr'=1
+00:50:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+00:51:3:'admin' commands 'info'=1
+00:51:3:'admin' commands 'serv.resync'=1
+00:51:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:51:3:'admin' commands 'remove'=1
+00:51:'admin' commands uid=040001f17 (moedas de ouro) [amount=580] to 'remove'=1
+00:51:3:'admin' commands 'remove'=1
+00:51:'admin' commands uid=040001f16 (moedas de ouro) [amount=590] to 'remove'=1
+00:51:3:'admin' commands 'remove'=1
+00:51:'admin' commands uid=040001f19 (moedas de ouro) [amount=590] to 'remove'=1
+00:51:3:'admin' commands 'remove'=1
+00:51:'admin' commands uid=040001f1c (moedas de ouro) [amount=590] to 'remove'=1
+00:51:3:'admin' commands 'remove'=1
+00:52:'admin' commands uid=040001f28 (moedas de ouro) [amount=95] to 'remove'=1
+00:52:3:'admin' commands 'remove'=1
+00:52:'admin' commands uid=040001f1d (moedas de ouro) [amount=590] to 'remove'=1
+00:52:3:'admin' commands 'xshow attr'=1
+00:52:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+00:52:3:'admin' commands 'info'=1
+00:52:3:'admin' commands 'serv.resync'=1
+00:52:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:52:3:'admin' commands 'xshow attr'=1
+00:52:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+00:53:3:'admin' commands 'serv.resync'=1
+00:53:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:53:3:'admin' commands 'info'=1
+00:53:3:'admin' commands 'gm'=1
+00:54:3:'admin' commands 'serv.resync'=1
+00:54:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:55:3:'admin' commands 'serv.resync'=1
+00:55:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:55:3:'admin' commands 'gm'=1
+00:55:3:'admin' commands 'update'=1
+00:55:3:'admin' commands 'xshow attr'=1
+00:55:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+00:55:3:'admin' commands 'xattr 00'=1
+00:55:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'attr 00'=1
+00:55:3:'admin' commands 'gm'=1
+00:55:3:'admin' commands 'gm'=1
+00:55:3:'admin' commands 'update'=1
+00:55:3:'admin' commands 'update'=1
+00:56:3:'admin' commands 'info'=1
+00:56:3:'admin' commands 'serv.resync'=1
+00:56:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:57:3:'admin' commands 'xshow attr'=1
+00:57:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+00:57:3:'admin' commands 'xattr 00'=1
+00:57:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'attr 00'=1
+00:57:3:'admin' commands 'xattr 00'=1
+00:57:'admin' commands uid=040001fe4 (Sacola de Couro) to 'attr 00'=1
+00:57:3:'admin' commands 'xshow attr'=1
+00:57:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+00:57:3:'admin' commands 'gm'=1
+00:57:3:'admin' commands 'info'=1
+00:58:3:'admin' commands 'update'=1
+00:58:3:'admin' commands 'serv.resync'=1
+00:58:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+00:58:3:'admin' commands 'gm'=1
+00:58:3:'admin' commands 'info'=1
+00:59:3:'admin' commands 'gm'=1
+00:59:3:'admin' commands 'info'=1
+00:59:3:'admin' commands 'xshow attr'=1
+00:59:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+00:59:3:'admin' commands 'gm'=1
+00:59:3:'admin' commands 'gm'=1
+00:59:3:'admin' commands 'info'=1
+00:59:3:'admin' commands 'xshow attr'=1
+00:59:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+01:01:3:'admin' commands 'serv.resync'=1
+01:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:01:ERROR:(events.scp,376)Undefined symbol 'act' ['act.attr=090']
+01:01:3:'admin' commands 'info'=1
+01:01:3:'admin' commands 'gm'=1
+01:01:3:'admin' commands 'gm'=1
+01:01:ERROR:(events.scp,376)Undefined symbol 'act' ['act.attr=090']
+01:01:3:'admin' commands 'serv.resync'=1
+01:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:01:3:'admin' commands 'gm'=1
+01:02:3:'admin' commands 'update'=1
+01:02:3:'admin' commands 'gm'=1
+01:02:3:'admin' commands 'gm'=1
+01:02:3:'admin' commands 'update'=1
+01:02:3:'admin' commands 'xattr 00'=1
+01:03:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'attr 00'=1
+01:03:3:'admin' commands 'gm'=1
+01:03:ERROR:(events.scp,376)Undefined symbol 'act' ['act.attr=090']
+01:03:3:'admin' commands 'gm'=1
+01:03:3:'admin' commands 'update'=1
+01:03:3:'admin' commands 'xattr 00'=1
+01:03:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'attr 00'=1
+01:03:3:'admin' commands 'serv.resync'=1
+01:03:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:03:3:'admin' commands 'gm'=1
+01:09:GC: 168 Objects accounted for
+01:10:3:'admin' commands 'serv.resync'=1
+01:10:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:10:3:'admin' commands 'gm'=1
+01:10:3:'admin' commands 'xattr 00'=1
+01:10:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'attr 00'=1
+01:10:3:'admin' commands 'xshow attr'=1
+01:10:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+01:10:3:'admin' commands 'gm'=1
+01:12:3:'admin' commands 'serv.resync'=1
+01:12:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:12:3:'admin' commands 'gm'=1
+01:12:3:'admin' commands 'update'=1
+01:12:3:'admin' commands 'xattr 00'=1
+01:12:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'attr 00'=1
+01:12:3:'admin' commands 'gm'=1
+01:12:3:'admin' commands 'gm'=1
+01:12:3:'admin' commands 'xshow attr'=1
+01:12:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+01:12:3:'admin' commands 'xshow attr'=1
+01:12:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show attr'=1
+01:13:3:'admin' commands 'serv.resync'=1
+01:13:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:13:3:'admin' commands 'gm'=1
+01:13:3:'admin' commands 'update'=1
+01:13:3:'admin' commands 'gm'=1
+01:13:3:'admin' commands 'xshow attr'=1
+01:13:'admin' commands uid=040001f15 (moedas de ouro) [amount=594] to 'show attr'=1
+01:13:3:'admin' commands 'xamount 30'=1
+01:13:'admin' commands uid=040001f15 (moedas de ouro) [amount=594] to 'amount 30'=1
+01:14:3:'admin' commands 'gm'=1
+01:14:5:'Bhalin' commands 'gm'=1
+01:14:5:'Bhalin' commands 'gm'=1
+01:14:3:'admin' commands 'xshow attr'=1
+01:14:'admin' commands uid=040001f15 (moedas de ouro) [amount=30] to 'show attr'=1
+01:14:3:'admin' commands 'xshow attr'=1
+01:14:'admin' commands uid=040001f67 (Sacola de Couro) to 'show attr'=1
+01:14:3:'admin' commands 'gm'=1
+01:15:3:'admin' commands 'xshow events'=1
+01:15:'admin' commands uid=01fac (Humano) to 'show events'=1
+01:15:3:'admin' commands 'xevents +e_mytgeral'=1
+01:15:'admin' commands uid=01fac (Humano) to 'events +e_mytgeral'=1
+01:15:3:'admin' commands 'xshow events'=1
+01:15:'admin' commands uid=01fac (Humano) to 'show events'=1
+01:15:3:'admin' commands 'xshow attr'=1
+01:15:'admin' commands uid=040001f12 (moedas de ouro) [amount=30] to 'show attr'=1
+01:16:3:'admin' commands 'xshow gm'=1
+01:16:'admin' commands uid=01fac (Humano) to 'show gm'=1
+01:16:3:'admin' commands 'info'=1
+01:16:3:'admin' commands 'info'=1
+01:18:3:'admin' commands 'serv.resync'=1
+01:18:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:18:3:'admin' commands 'gm'=1
+01:18:3:'admin' commands 'info'=1
+01:20:3:'admin' commands 'serv.resync'=1
+01:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:20:3:'admin' commands 'remove'=1
+01:20:'admin' commands uid=040001f14 (moedas de ouro) [amount=20] to 'remove'=1
+01:20:3:'admin' commands 'remove'=1
+01:20:'admin' commands uid=040001f15 (moedas de ouro) [amount=29] to 'remove'=1
+01:20:3:'admin' commands 'remove'=1
+01:20:'admin' commands uid=040001f13 (moedas de ouro) [amount=29] to 'remove'=1
+01:20:3:'admin' commands 'remove'=1
+01:21:'admin' commands uid=040001f11 (moedas de ouro) [amount=20] to 'remove'=1
+01:21:3:'admin' commands 'remove'=1
+01:21:'admin' commands uid=040001f12 (moedas de ouro) [amount=29] to 'remove'=1
+01:21:ERROR:Undefined keyword 'g'
+01:21:3:'admin' commands 'g'=1
+01:21:3:'admin' commands 'gm'=1
+01:21:3:'admin' commands 'gm'=1
+01:21:3:'admin' commands 'info'=1
+01:21:3:'admin' commands 'info'=1
+01:21:3:'admin' commands 'info'=1
+01:21:3:'admin' commands 'info'=1
+01:21:3:'admin' commands 'info'=1
+01:22:3:'admin' commands 'xshow p.x'=1
+01:22:'admin' commands uid=040001f1e (moedas de ouro) [amount=30] to 'show p.x'=1
+01:23:3:'admin' commands 'info'=1
+01:23:3:'admin' commands 'info'=1
+01:23:3:'admin' commands 'info'=1
+01:23:3:'admin' commands 'info'=1
+01:23:3:'admin' commands 'info'=1
+01:25:3:'admin' commands 'serv.resync'=1
+01:25:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:26:3:'admin' commands 'serv.resync'=1
+01:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:26:(events.scp,1018)teste1
+01:26:(events.scp,1018)teste1
+01:26:(events.scp,1018)teste1
+01:26:(events.scp,1018)teste1
+01:26:3:'admin' commands 'info'=1
+01:26:(events.scp,1018)teste1
+01:27:(events.scp,1018)teste1
+01:27:(events.scp,1018)teste1
+01:27:(events.scp,1018)teste1
+01:27:(events.scp,1018)teste1
+01:27:3:'admin' commands 'info'=1
+01:33:3:'admin' commands 'serv.resync'=1
+01:33:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:33:3:'admin' commands 'comida'=1
+01:33:ERROR:(events.scp,1006)Can't resolve <1) || (!371) || (371>
+01:33:(events.scp,1014)teste1
+01:33:3:'admin' commands 'serv.resync'=1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!95) || (95>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!186) || (186>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!374) || (374>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!218) || (218>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!428) || (428>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!408) || (408>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!110) || (110>
+01:34:(events.scp,1014)teste1
+01:34:3:'admin' commands 'info'=1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!22) || (22>
+01:34:(events.scp,1014)teste1
+01:34:3:'admin' commands 'info'=1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!226) || (226>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!97) || (97>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!120) || (120>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!143) || (143>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!146) || (146>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!131) || (131>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!134) || (134>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!85) || (85>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!102) || (102>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!93) || (93>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!68) || (68>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!73) || (73>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!111) || (111>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!84) || (84>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!74) || (74>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!107) || (107>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!65) || (65>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!68) || (68>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!67) || (67>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:3:'admin' commands 'info'=1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!126) || (126>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!2) || (2>
+01:34:(events.scp,1014)teste1
+01:34:ERROR:(events.scp,1006)Can't resolve <1) || (!83) || (83>
+01:34:(events.scp,1014)teste1
+01:35:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+01:36:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 44m/0m
+01:38:3:'admin' commands 'serv.resync'=1
+01:38:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:38:3:'admin' commands 'serv.resync'=1
+01:38:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:39:3:'admin' commands 'serv.resync'=1
+01:39:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:39:GC: 168 Objects accounted for
+01:40:3:'admin' commands 'info'=1
+01:41:3:'admin' commands 'serv.resync'=1
+01:41:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:42:3:'admin' commands 'info'=1
+01:42:3:'admin' commands 'info'=1
+01:42:3:'admin' commands 'info'=1
+01:43:3:'admin' commands 'gm'=1
+01:43:3:'admin' commands 'gm'=1
+01:43:3:'admin' commands 'serv.resync'=1
+01:43:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:3:'admin' commands 'gm'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fbb (Manto) to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fc2 (cajado rustico) to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001f10 (milho) [amount=3] to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fc1 (espiriteira) to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fb7 (garrafa alquimica) [amount=5] to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fc0 (almofariz) to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fbe (raiz de mandragora) [amount=10] to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fbd (alho) [amount=10] to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fb6 (cantil vazio(a)) to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fb9 (pessego) [amount=3] to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fb5 (tubo de ensaio) [amount=10] to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fd0 (adaga) to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fe4 (Sacola de Couro) to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fcb (candle) to 'attr 00'=1
+01:44:3:'admin' commands 'xattr 00'=1
+01:44:'admin' commands uid=040001fe2 (moedas de cobre) [amount=300] to 'attr 00'=1
+01:44:3:'admin' commands 'gm'=1
+01:44:3:'admin' commands 'update'=1
+01:46:3:'admin' commands 'xshow gm'=1
+01:46:'admin' commands uid=01fac (Humano) to 'show gm'=1
+01:46:3:'admin' commands 'm'=1
+01:46:3:'admin' commands 'gm'=1
+01:46:3:'admin' commands 'gm'=1
+01:46:3:'admin' commands 'xshow gm'=1
+01:46:'admin' commands uid=01fac (Humano) to 'show gm'=1
+01:46:3:'admin' commands 'xshow attr'=1
+01:46:'admin' commands uid=040001f0e (moedas de ouro) [amount=30] to 'show attr'=1
+01:46:3:'admin' commands 'xshow attr'=1
+01:46:'admin' commands uid=040001f67 (Sacola de Couro) to 'show attr'=1
+01:46:3:'admin' commands 'gm'=1
+01:46:3:'admin' commands 'info'=1
+01:46:3:'admin' commands 'info'=1
+01:47:3:'admin' commands 'xshow z'=1
+01:47:3:'admin' commands 'xshow p'=1
+01:47:'admin' commands uid=040001f0e (moedas de ouro) [amount=30] to 'show p'=1
+01:47:3:'admin' commands 'xshow p'=1
+01:47:'admin' commands uid=040001f0e (moedas de ouro) [amount=30] to 'show p'=1
+01:47:3:'admin' commands 'xshow p'=1
+01:47:'admin' commands uid=040001f0e (moedas de ouro) [amount=30] to 'show p'=1
+01:47:3:'admin' commands 'xshow p'=1
+01:47:'admin' commands uid=040001f0e (moedas de ouro) [amount=30] to 'show p'=1
+01:47:3:'admin' commands 'xshow p'=1
+01:47:'admin' commands uid=040001f0e (moedas de ouro) [amount=30] to 'show p'=1
+01:47:3:'admin' commands 'xshow p'=1
+01:47:'admin' commands uid=040001f0e (moedas de ouro) [amount=30] to 'show p'=1
+01:47:3:'admin' commands 'xshow p'=1
+01:47:'admin' commands uid=040001f0e (moedas de ouro) [amount=29] to 'show p'=1
+01:48:3:'admin' commands 'gm'=1
+01:52:3:'admin' commands 'remove'=1
+01:52:'admin' commands uid=040001f0b (moedas de ouro) [amount=20] to 'remove'=1
+01:53:3:'admin' commands 'info'=1
+01:53:3:'admin' commands 'serv.resync'=1
+01:53:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:53:3:'admin' commands 'gm'=1
+01:53:3:'admin' commands 'gm'=1
+01:58:3:'admin' commands 'serv.resync'=1
+01:58:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+01:59:3:'admin' commands 'serv.resync'=1
+01:59:ERROR:(events.scp,364)Undefined symbol 'act' ['act.inContainer 040001fe4']
+01:59:ERROR:(events.scp,364)Undefined symbol 'act' ['act.inContainer 040001fe4']
+01:59:ERROR:(events.scp,364)Undefined symbol 'act' ['act.inContainer 040001fe4']
+01:59:ERROR:(events.scp,364)Undefined symbol 'act' ['act.inContainer 040001fe4']
+01:59:ERROR:(events.scp,364)Undefined symbol 'act' ['act.inContainer 040001fe4']
+01:59:3:'admin' commands 'info'=1
+01:59:ERROR:(events.scp,364)Undefined symbol 'act' ['act.inContainer 040001fe4']
+01:59:ERROR:(events.scp,364)Undefined symbol 'act' ['act.inContainer 040001fe4']
+01:59:ERROR:(events.scp,364)Undefined symbol 'act' ['act.inContainer 040001fe4']
+02:03:3:'admin' commands 'serv.resync'=1
+02:03:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:03:3:'admin' commands 'info'=1
+02:04:3:'admin' commands 'info'=1
+02:05:3:'admin' commands 'info'=1
+02:05:3:'admin' commands 'info'=1
+02:05:3:'admin' commands 'info'=1
+02:06:3:'admin' commands 'serv.resync'=1
+02:06:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:09:3:'admin' commands 'erguer'=1
+02:09:3:'admin' commands 'gritar'=1
+02:09:5:'Bhalin' commands 'nudgeup 10'=1
+02:09:'Bhalin' commands uid=040001f04 (moedas de ouro) [amount=40] to 'nudgeup 10'=1
+02:09:5:'Bhalin' commands 'nudgeup 5'=1
+02:09:'Bhalin' commands uid=040001f0a (moedas de ouro) [amount=20] to 'nudgeup 5'=1
+02:09:5:'Bhalin' commands 'nudgeup 5'=1
+02:09:'Bhalin' commands uid=040001f07 (moedas de ouro) [amount=40] to 'nudgeup 5'=1
+02:09:5:'Bhalin' commands 'nudgeup 3'=1
+02:09:'Bhalin' commands uid=040001f09 (moedas de ouro) [amount=40] to 'nudgeup 3'=1
+02:09:3:'admin' commands 'gritar'=1
+02:09:3:'admin' commands 'erguer'=1
+02:10:5:'Bhalin' commands 'xcolor'=1
+02:10:5:'Bhalin' commands 'info'=1
+02:10:GC: 173 Objects accounted for
+02:10:5:'Bhalin' commands 'gm'=1
+02:10:5:'Bhalin' commands 'xcolor'=1
+02:10:5:'Bhalin' commands 'info'=1
+02:10:5:'Bhalin' commands 'xcolor 0161'=1
+02:10:'Bhalin' commands uid=01 (Humano) to 'color 0161'=0
+02:10:5:'Bhalin' commands 'xanim 22'=1
+02:10:'Bhalin' commands uid=01 (Humano) to 'anim 22'=0
+02:11:5:'Bhalin' commands 'control'=1
+02:11:'Bhalin' commands uid=01 (Humano) to 'control'=0
+02:11:5:'Bhalin' commands 'xcontrol'=1
+02:11:'Bhalin' commands uid=01 (Humano) to 'control'=0
+02:11:5:Client disconnected [Total:1] ('179.222.254.160')
+02:11:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=8108,charAcct=2456,x=1264,y=1817,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+02:13:3:'admin' commands 'serv.resync'=1
+02:13:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:13:3:'admin' commands 'xshow uid'=1
+02:13:'admin' commands uid=040001fe4 (Sacola de Couro) to 'show uid'=1
+02:16:3:'admin' commands 'serv.resync'=1
+02:16:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:17:3:'admin' commands 'serv.resync'=1
+02:17:3:'admin' commands 'info'=1
+02:20:3:'admin' commands 'serv.resync'=1
+02:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:20:ERROR:(events.scp,369)Bad CONTP usage (item is not in a container)
+02:21:ERROR:(events.scp,369)Bad CONTP usage (item is not in a container)
+02:22:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+02:22:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 27m/0m
+02:25:3:'admin' commands 'xshow color'=1
+02:25:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'show color'=1
+02:25:3:'admin' commands 'xcolor 046'=1
+02:25:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'color 046'=1
+02:25:3:'admin' commands 'xcolor 045e'=1
+02:25:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'color 045e'=1
+02:26:3:'admin' commands 'serv.resync'=1
+02:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:26:3:'admin' commands 'serv.resync'=1
+02:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:26:ERROR:(events.scp,364)Can't resolve <046>
+02:27:3:'admin' commands 'serv.resync'=1
+02:27:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:28:3:'admin' commands 'serv.resync'=1
+02:28:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:28:3:'admin' commands 'xcolor 046'=1
+02:28:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'color 046'=1
+02:28:3:'admin' commands 'xcolor 045e'=1
+02:28:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'color 045e'=1
+02:28:3:'admin' commands 'serv.resync'=1
+02:28:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:28:ERROR:(events.scp,364)Undefined symbol 'act' ['act.color=046']
+02:28:ERROR:(events.scp,364)Undefined symbol 'act' ['act.color=046']
+02:28:ERROR:(events.scp,364)Undefined symbol 'act' ['act.color=046']
+02:29:ERROR:(events.scp,364)Undefined symbol 'act' ['act.color=046']
+02:29:ERROR:(events.scp,364)Undefined symbol 'act' ['act.color=046']
+02:29:3:'admin' commands 'serv.resync'=1
+02:29:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:29:ERROR:(events.scp,364)Undefined symbol 'act' ['act.color=046']
+02:30:3:'admin' commands 'serv.resync'=1
+02:30:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:30:3:'admin' commands 'xcolor 046'=1
+02:30:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'color 046'=1
+02:30:3:'admin' commands 'xcolor 045e'=1
+02:30:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'color 045e'=1
+02:31:3:'admin' commands 'serv.resync'=1
+02:31:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:31:3:'admin' commands 'serv.resync'=1
+02:31:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:31:3:'admin' commands 'xshow act.cont'=1
+02:31:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'show act.cont'=0
+02:31:3:'admin' commands 'xshow <act.cont>'=1
+02:31:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'show <act.cont>'=0
+02:32:3:'admin' commands 'serv.resync'=1
+02:32:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:40:GC: 167 Objects accounted for
+02:40:3:'admin' commands 'serv.resync'=1
+02:40:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:40:ERROR:(events.scp,364)Undefined symbol 'act' ['act.incontainer 040001fe4']
+02:41:3:'admin' commands 'serv.resync'=1
+02:41:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:41:3:'admin' commands 'serv.resync'=1
+02:41:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:43:3:'admin' commands 'serv.resync'=1
+02:43:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:43:(events.scp,366)pudim!
+02:43:(events.scp,366)pudim!
+02:43:3:'admin' commands 'info'=1
+02:44:(events.scp,366)pudim!
+02:45:(events.scp,366)pudim!
+02:48:3:'admin' commands 'serv.resync'=1
+02:48:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:50:3:'admin' commands 'serv.resync'=1
+02:50:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:51:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+02:51:3:'admin' commands 'serv.resync'=1
+02:51:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:51:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 53m/0m
+02:51:3:'admin' commands 'info'=1
+02:52:3:'admin' commands 'info'=1
+02:52:3:'admin' commands 'serv.resync'=1
+02:52:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:52:3:'admin' commands 'info'=1
+02:52:3:'admin' commands 'info'=1
+02:52:3:'admin' commands 'info'=1
+02:54:3:'admin' commands 'serv.resync'=1
+02:54:3:'admin' commands 'serv.resync'=1
+02:56:3:'admin' commands 'serv.resync'=1
+02:56:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:56:3:'admin' commands 'info'=1
+02:56:3:'admin' commands 'info'=1
+02:58:3:'admin' commands 'serv.resync'=1
+02:58:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+02:58:3:'admin' commands 'dupe'=1
+02:58:'admin' commands uid=040001f1e (moedas de ouro) [amount=10] to 'dupe'=1
+02:58:ERROR:(events.scp,1002)FORCONT called on invalid uid/invalid container (UID: 040001f03).
+02:58:ERROR:(events.scp,1002)FORCONT called on invalid uid/invalid container (UID: 040001f03).
+03:03:3:'admin' commands 'serv.resync'=1
+03:03:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+03:04:3:'admin' commands 'serv.resync'=1
+03:04:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+03:10:GC: 168 Objects accounted for
+03:12:3:'admin' commands 'serv.resync'=1
+03:12:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+03:14:3:'admin' commands 'serv.resync'=1
+03:14:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+03:14:3:'admin' commands 'serv.resync'=1
+03:14:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+03:16:3:'admin' commands 'serv.resync'=1
+03:16:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/events.scp' changed, resync.
+03:41:GC: 167 Objects accounted for
+03:41:3:'admin' commands 'info'=1
+03:46:(sistema_de_tempo.scp,202)[CLIMA] Sharr - SECO
+03:47:(sistema_de_tempo.scp,242)[CLIMA] Sharr - 00 - 9m/0m
+03:52:3:Client disconnected [Total:0] ('127.0.0.1')
+03:52:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=1,charAcct=2452,x=1264,y=1819,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+03:52:FATAL:Server terminated: Console window closed (code 5)
+
+22:07:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+22:08:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+22:08:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+22:08:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+22:08:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+22:08:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+22:08:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+22:08:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+22:08:GC: 167 Objects accounted for
+22:08:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+22:38:GC: 167 Objects accounted for
+22:57:FATAL:Server terminated: Console window closed (code 5)

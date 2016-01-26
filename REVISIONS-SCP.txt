@@ -1,0 +1,1861 @@
+------------------------------------------------------------------------
+r367 | cem.onal92 | 2011-01-20 08:59:04 -0300 (Jue 20 de Ene de 2011) | 1 line
+
+- Updated: applied the latest changes made by the devs in the default script pack.
+------------------------------------------------------------------------
+r366 | kevin.lusty@gmail.com | 2011-01-14 02:11:29 -0300 (Vie 14 de Ene de 2011) | 1 line
+
+A couple of last minute fixes before I go on holidays...
+------------------------------------------------------------------------
+r365 | kevin.lusty@gmail.com | 2011-01-14 00:25:22 -0300 (Vie 14 de Ene de 2011) | 1 line
+
+Renamed duplicate file names... Apparently sphere doesn't like that.
+------------------------------------------------------------------------
+r364 | kevin.lusty@gmail.com | 2011-01-14 00:16:03 -0300 (Vie 14 de Ene de 2011) | 1 line
+
+Missed a file in the last commit and added some simple definitions to sphere_defs.scp
+------------------------------------------------------------------------
+r363 | kevin.lusty@gmail.com | 2011-01-13 23:03:08 -0300 (Jue 13 de Ene de 2011) | 1 line
+
+Split the big monster file into pieces again and fixed a few errors in the CHARDEF and templates...
+------------------------------------------------------------------------
+r362 | kevin.lusty@gmail.com | 2011-01-13 18:40:11 -0300 (Jue 13 de Ene de 2011) | 1 line
+
+Minor fixes from the last checkin...more testing still required.
+------------------------------------------------------------------------
+r361 | kevin.lusty@gmail.com | 2011-01-13 13:45:11 -0300 (Jue 13 de Ene de 2011) | 1 line
+
+Adding missing files from last commit
+------------------------------------------------------------------------
+r360 | kevin.lusty@gmail.com | 2011-01-12 22:13:58 -0300 (Mié 12 de Ene de 2011) | 25 lines
+
+1. Moved all the base CHARDEF definitions from everywhere they were scattered in the repository and put them all into one file. By "base CHARDEF" I mean the "CHARDEF ###" where ### are hex or decimal numbers. I did this to make it easier to mass update all the stuff listed below and to allow mass updates of the remaining stuff in the near future. If there is some consensus about how to do it, we can split them back into multiple files later when all the changes are finished. The new file is called monsters.scp.
+
+2. Similarly, I moved all the loot templates from their multiple locations into on file (named loot.scp).
+
+3. Changed numerous DEFNAMEs for consistency. For example, all spiders begin with c_spider all dragons with c_dragon all orcs with c_orc and then the type of creature follows. I also changed a bunch of AXIS keys (CATEGORY, SUBSECTION and DESCRIPTION) so that it sorts a bit more consistently.
+
+4. Added elemental damage TAGs to all creatures that were missing them based on info in stratics and uoguide.
+
+5. Added control slot TAGs to all creatures that were missing them.
+
+6. Fixed all the monsters that had ARMOR={x y} or RESOURCES=sometemplate because those are not a valid constructs in sphere. Fundamentally you cannot put anything that needs to be evaluated/calculated into the CHARDEF keys directly... those sorts of ranges or dynamic templates can only be used in triggers like ON=@create etc. Note: To achieve the same concept of range in armor value (I.E. Physical resistance) I added MODAR={0 #} in the @Create section.
+
+7. Added a todo list in a comment block at the top of the file for things that I didn't have time (or forgot) to do.
+
+8. Moved all NAME=#NAMES_OGRE into the @Create section so that other scripts and systems using the SERV.CHARDEF lookups will not looks so crummy. I also set TITLE=whatever instead of overloading the NAME key.
+
+9. Fixed a bunch of bad ICON and SOUND keys.
+
+10. Put back DESIRES and AVERSIONS... I am not certain the server actually uses that stuff, or how its used tho! :-p
+
+11. Regarding the use of CAN= flags... I changed a bunch of those too, mostly adding MT_NONHUMAN to stuff, but I also added MT_USEHANDS to creatures that actually have hands and MT_EQUIP to creatures that have human-like bodies. I eliminated the use of MT_*IMMUNE since I think that concept should be scripted in the combat system.
+
+12. I put FIXME keywords in places that used to have only comments so they are easier to find and fix later.
+
+13. Added all the missing creatures (there were LOTS missing)
+------------------------------------------------------------------------
+r359 | hackemalll | 2010-12-31 06:54:34 -0300 (Vie 31 de Dic de 2010) | 1 line
+
+- Fixed: objects id converted dectohex and inserted EOF.
+------------------------------------------------------------------------
+r357 | hackemalll | 2010-12-20 14:19:18 -0300 (Lun 20 de Dic de 2010) | 2 lines
+
+- Fixed: corrected wrong defnames and bunch of other bugs.
+(20-DEC-2010, WildGenie)
+------------------------------------------------------------------------
+r356 | cem.onal92 | 2010-12-20 14:06:47 -0300 (Lun 20 de Dic de 2010) | 1 line
+
+- Modified: poisoned weapons behavior. if special moves are enabled then the weapon will only hit poison when the infecting move is activated. if it's not enabled it will behave as the default sphere.
+------------------------------------------------------------------------
+r355 | cem.onal92 | 2010-12-18 11:30:21 -0300 (Sáb 18 de Dic de 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r354 | cem.onal92 | 2010-12-18 10:32:40 -0300 (Sáb 18 de Dic de 2010) | 5 lines
+
+- Added: aos special moves are complete now. the rest is coming.
+- Added: skill checks for special moves.
+- Added: tag.override.hitspeed to chars. it only works for one swing, then deleted.
+- Reverted: last revision's healing calculations because it isn't correct.
+- Modified: weapons will only hit poison using Infecting special move.
+------------------------------------------------------------------------
+r353 | hackemalll | 2010-12-16 20:58:21 -0300 (Jue 16 de Dic de 2010) | 3 lines
+
+- fix: Veterinary BaseTime, DexDivide
+- fix: Weapon Stone Sword
+- update: Same defname and syntax
+------------------------------------------------------------------------
+r352 | hackemalll | 2010-12-16 20:55:55 -0300 (Jue 16 de Dic de 2010) | 1 line
+
+- update: Meditation Skill
+------------------------------------------------------------------------
+r351 | hackemalll | 2010-12-16 20:43:31 -0300 (Jue 16 de Dic de 2010) | 2 lines
+
+17.12.2010 WildGenie
+- update: nomovetill chage to nomoves function 
+------------------------------------------------------------------------
+r350 | hackemalll | 2010-12-16 18:23:48 -0300 (Jue 16 de Dic de 2010) | 1 line
+
+- fix: Cast time (0.75 -> 0.7)
+------------------------------------------------------------------------
+r349 | hackemalll | 2010-12-16 17:54:19 -0300 (Jue 16 de Dic de 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r348 | hackemalll | 2010-12-16 17:46:28 -0300 (Jue 16 de Dic de 2010) | 1 line
+
+- add: NoMoves function (for tag.nomovetill) (usage: "nomoves 10" for 1 sec no move)
+------------------------------------------------------------------------
+r347 | hackemalll | 2010-12-15 09:20:25 -0300 (Mié 15 de Dic de 2010) | 1 line
+
+-Update: Spell Says Move to Spells Script ( like Runes=.@,,2 1060718 )
+------------------------------------------------------------------------
+r346 | cem.onal92 | 2010-12-14 09:08:41 -0300 (Mar 14 de Dic de 2010) | 1 line
+
+- Added: missing morez values to spellbooks.
+------------------------------------------------------------------------
+r345 | cem.onal92 | 2010-12-13 15:34:42 -0300 (Lun 13 de Dic de 2010) | 1 line
+
+- Removed: empty armsbook directory.
+------------------------------------------------------------------------
+r344 | cem.onal92 | 2010-12-13 15:25:14 -0300 (Lun 13 de Dic de 2010) | 3 lines
+
+- Added: started working on special moves. only 6/31 done, the rest is coming.
+- Added: emoteloc function. guess what it does: emote which uses clilocs.
+- Updated: added special moves to en/tr installation instructions.
+------------------------------------------------------------------------
+r343 | cem.onal92 | 2010-12-12 16:22:30 -0300 (Dom 12 de Dic de 2010) | 3 lines
+
+- Fixed: combat system always used physical resist for armor calculations.
+- Fixed: damageincrease property was capped at 1 because of a typo.
+- Modified: improved canshipfit function of ship auto-pilot.
+------------------------------------------------------------------------
+r342 | cem.onal92 | 2010-12-11 10:13:47 -0300 (Sáb 11 de Dic de 2010) | 2 lines
+
+- Fixed: wrong cliloc id in boat placement gump.
+- Modified: default map size was changed to 500x500 in last revision. forgot to mention it.
+------------------------------------------------------------------------
+r341 | cem.onal92 | 2010-12-11 09:56:48 -0300 (Sáb 11 de Dic de 2010) | 10 lines
+
+- Added: EA-like auto pilot function for ships. you may take control of the ship as the autopilot will fail sometimes.
+- Added: EA-like dry docking to ships.
+- Added: EA-like ship placement. players are able to select which direction the ship should face.
+- Added: ship commands which used to be missing for some reason.
+- Added: abs function to take absolute value of a number.
+- Added: getpinpos function to get the actual P of a map pin.
+- Modified: f_resenddialog's dialogclose now executed on SRC.
+- Modified: moved some typedef overrides to their own file in add-on/typedefs.
+- Modified: new maps are enabled in spheretables.scp by default.
+- Fixed: console error because of a small mistake in spheretables.scp
+------------------------------------------------------------------------
+r340 | hackemalll | 2010-12-10 11:24:46 -0300 (Vie 10 de Dic de 2010) | 3 lines
+
+- Fixed: same defname problem
+- Added: granit mining, mining bonus harvest (gem)
+- Fixed: stactable granit
+------------------------------------------------------------------------
+r339 | cem.onal92 | 2010-12-09 18:16:18 -0300 (Jue 09 de Dic de 2010) | 1 line
+
+- Fixed: applied WildGenie's patches.
+------------------------------------------------------------------------
+r338 | cem.onal92 | 2010-11-10 11:26:15 -0300 (Mié 10 de Nov de 2010) | 2 lines
+
+- Updated: all the damage bonuses under @hit have been moved to @hitdamagebonus.
+- Updated: just a small change of return 0 to return 1 in hiding skill.
+------------------------------------------------------------------------
+r337 | cem.onal92 | 2010-11-10 05:01:35 -0300 (Mié 10 de Nov de 2010) | 2 lines
+
+- Updated: sphere_item_properties_typedef.scp to enable some of the already-done properties.
+- Updated: damage increase property and slayer weapons now use @HitDamageBonus trigger.
+------------------------------------------------------------------------
+r336 | cem.onal92 | 2010-11-09 18:06:48 -0300 (Mar 09 de Nov de 2010) | 1 line
+
+- Updated: sphere_settings.scp to enable the item properties which were done in the last commit.
+------------------------------------------------------------------------
+r335 | cem.onal92 | 2010-11-08 04:20:58 -0300 (Lun 08 de Nov de 2010) | 1 line
+
+- Updated: 4 new weapon properties have been added (hit fireball/harm/lightning/magicarrow)
+------------------------------------------------------------------------
+r334 | xantier277 | 2010-11-06 11:04:50 -0300 (Sáb 06 de Nov de 2010) | 1 line
+
+- Added : Bogling and Bog Thing now carry plant seed in their lootpacks.
+------------------------------------------------------------------------
+r333 | bradshawpatrick.us@gmail.com | 2010-10-30 18:17:51 -0300 (Sáb 30 de Oct de 2010) | 8 lines
+
+- Updated: Most of the NPC's that are human or elf have been updated. I reorganized townfolk;
+  which is now the Civilized section for the final time. Remember most female counterparts are
+  in same file as the original males.
+- Fixed: All elf type NPCs now use elven bodies with resdisp settings for older clients.
+- Updated: Removed numeric defs and replaced with the defname strings incase of overwrite from
+  EA animations.
+- Fixed: Cleaned up some bad axis cats on NPC's.
+- Updated: spheretables.scp to access the folders. Sorry, I forgot to update it last time.
+------------------------------------------------------------------------
+r332 | bradshawpatrick.us@gmail.com | 2010-10-30 17:47:51 -0300 (Sáb 30 de Oct de 2010) | 2 lines
+
+- Removed: Removed the humanoids folder and moved Outlaws and Rogues over to Townsfolk.
+- Updated: Spheretables.scp so scripts are read.
+------------------------------------------------------------------------
+r331 | bradshawpatrick.us@gmail.com | 2010-10-28 17:30:13 -0300 (Jue 28 de Oct de 2010) | 3 lines
+
+28-10-2010, Khaos
+- Added: Support in @ItemSell trigger to stop sales of containers with items in it. This is an addition and bugfix.
+- Modified: I took the time to remove all chardef numeric values from spherechar_human.scp. This was needed in case any new EA expansions add animations as they are using those values now. Also separated the files into their own new folders and individual files for easier tracking.
+------------------------------------------------------------------------
+r330 | cem.onal92 | 2010-10-28 07:19:44 -0300 (Jue 28 de Oct de 2010) | 1 line
+
+- Updated: newbie items again, i guess that's all for elves and humans. if anyone has info on gargoyle items, it'd be appreciated to share.
+------------------------------------------------------------------------
+r329 | cem.onal92 | 2010-10-28 07:03:56 -0300 (Jue 28 de Oct de 2010) | 1 line
+
+- Updated: newbie items.
+------------------------------------------------------------------------
+r328 | cem.onal92 | 2010-10-27 18:23:52 -0300 (Mié 27 de Oct de 2010) | 1 line
+
+- Added: two more spellweaving spell.
+------------------------------------------------------------------------
+r327 | xXxNeliXxXx | 2010-10-27 16:13:07 -0300 (Mié 27 de Oct de 2010) | 1 line
+
+Hunger system main functions
+------------------------------------------------------------------------
+r326 | xXxNeliXxXx | 2010-10-27 16:12:14 -0300 (Mié 27 de Oct de 2010) | 1 line
+
+Hunger system triggers (under player main event)
+------------------------------------------------------------------------
+r325 | xXxNeliXxXx | 2010-10-27 16:11:38 -0300 (Mié 27 de Oct de 2010) | 1 line
+
+Hunger System settings
+------------------------------------------------------------------------
+r324 | xXxNeliXxXx | 2010-10-27 16:10:43 -0300 (Mié 27 de Oct de 2010) | 1 line
+
+Hunger System messages.
+------------------------------------------------------------------------
+r323 | xXxNeliXxXx | 2010-10-27 16:07:40 -0300 (Mié 27 de Oct de 2010) | 1 line
+
+Added Hunger System (sphere_hunger_system.scp)
+------------------------------------------------------------------------
+r322 | cem.onal92 | 2010-10-27 12:32:54 -0300 (Mié 27 de Oct de 2010) | 1 line
+
+- Updated: sphere_newb.scp. elven characters now get their unique items when the char is created.
+------------------------------------------------------------------------
+r321 | MiniShiryuX | 2010-10-19 21:31:36 -0300 (Mar 19 de Oct de 2010) | 2 lines
+
+- Fixed: wrong defname headers for bowcraft colored and options.
+Thanks soulsoul 666 again for finding it.
+------------------------------------------------------------------------
+r320 | cem.onal92 | 2010-10-19 07:35:37 -0300 (Mar 19 de Oct de 2010) | 1 line
+
+- Added: Turkish instructions.
+------------------------------------------------------------------------
+r319 | cem.onal92 | 2010-10-19 07:12:07 -0300 (Mar 19 de Oct de 2010) | 1 line
+
+- Fixed: sphere_crafting_dialog.scp. A small mistake was making crafting colored items impossible. Thanks to soulsoul666 for finding and fixing it.
+------------------------------------------------------------------------
+r318 | xXxNeliXxXx@gmail.com | 2010-10-18 18:14:37 -0300 (Lun 18 de Oct de 2010) | 2 lines
+
+18-10-2010, NeliX
+- Added: how to install - it.txt
+------------------------------------------------------------------------
+r317 | bradshawpatrick.us@gmail.com | 2010-10-17 22:58:11 -0300 (Dom 17 de Oct de 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r316 | bradshawpatrick.us@gmail.com | 2010-10-17 22:57:20 -0300 (Dom 17 de Oct de 2010) | 5 lines
+
+- Fixed: Typo in the hides resources in an ITEMDEF with i_leather_barbed, was 
+i_leather_barded !
+- Modified: Added Axis Cats to ash log.
+- Added: sphere_item_resources_boards. Containers all the boards for their respective
+log entries.
+------------------------------------------------------------------------
+r315 | cem.onal92 | 2010-10-12 14:26:16 -0300 (Mar 12 de Oct de 2010) | 1 line
+
+- Updated: sphere_defs.scp (added noto_types defintion)
+------------------------------------------------------------------------
+r314 | bradshawpatrick.us@gmail.com | 2010-10-08 18:27:19 -0300 (Vie 08 de Oct de 2010) | 1 line
+
+FIXED: spherechar_human.scp; default barber scripts for the female had the male name list assigned. Now uses the female name lists.
+------------------------------------------------------------------------
+r313 | MiniShiryuX | 2010-09-30 16:51:34 -0300 (Jue 30 de Sep de 2010) | 1 line
+
+- Added: installation instructions in spanish, renamed the english file to "how to install - en.txt". (thanks v8)
+------------------------------------------------------------------------
+r312 | bradshawpatrick.us@gmail.com | 2010-09-21 04:43:19 -0300 (Mar 21 de Sep de 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r311 | bradshawpatrick.us@gmail.com | 2010-09-21 04:42:42 -0300 (Mar 21 de Sep de 2010) | 1 line
+
+Replaced/Updated: sphere_item_doors_sa.scp; is now sphere_item_building_doors_sa.scp. Added in Ruined doors set which I over looked.
+------------------------------------------------------------------------
+r310 | MiniShiryuX | 2010-09-18 14:22:44 -0300 (Sáb 18 de Sep de 2010) | 5 lines
+
+- Updated quest system:
+  * Separate files for functions and dialogs.
+  * Added 2 new quest types (check sphere_quest_quests.scp)
+  * Updated quests definitions, now you can use the keys without the 'localized' word.
+I'll add more documentation to the wiki when I get some time.
+------------------------------------------------------------------------
+r309 | bradshawpatrick.us@gmail.com | 2010-09-13 22:46:10 -0300 (Lun 13 de Sep de 2010) | 3 lines
+
+Added: sphere_item_building_floors_sa.scp; containing all of the SA floor tiles.
+Added: sphere_item_doors_sa.scp; containing all of the SA doors.
+Added: sphere_item_ground_tiles_sa.scp; this was added from base script packs plus I added in the rest of the sparkle items for the sparkle hover item.
+------------------------------------------------------------------------
+r308 | bradshawpatrick.us@gmail.com | 2010-09-06 16:07:53 -0300 (Lun 06 de Sep de 2010) | 1 line
+
+Updated the sphere speed conversion documentation for inclusion of speeds 4.25 and 4.50.  Also, included real default base speed check values.
+------------------------------------------------------------------------
+r307 | cem.onal92 | 2010-09-05 08:35:45 -0300 (Dom 05 de Sep de 2010) | 2 lines
+
+- Added: hooded shroud (i_hooded_shroud)
+- Fixed: wrong definitions of champ system.
+------------------------------------------------------------------------
+r306 | MiniShiryuX | 2010-08-29 16:45:10 -0300 (Dom 29 de Ago de 2010) | 6 lines
+
+- Added: Serpents NPCs new definitions.
+- Updated: moved t_figurine override to a new file.
+- Updated: joined the PLEVEL sections into one at spheretables.scp.
+- Fixed: removed lots of duplicated definitions.
+- Fixed: commented out wrong teleporters at sphere_map_points0_ml.scp.
+
+------------------------------------------------------------------------
+r305 | bradshawpatrick.us@gmail.com | 2010-08-21 17:22:57 -0300 (Sáb 21 de Ago de 2010) | 2 lines
+
+Added sphere_spells_bard.scp.
+These are the standard definitions.  They are NOT complete yet.  Waiting to get more information on how the spells work and how upkeep works for these spells.
+------------------------------------------------------------------------
+r304 | bradshawpatrick.us@gmail.com | 2010-08-21 17:19:10 -0300 (Sáb 21 de Ago de 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r299 | cem.onal92 | 2010-08-19 14:35:10 -0300 (Jue 19 de Ago de 2010) | 4 lines
+
+- Added: honor virtue is coded.
+- Added: @hitdamagebonus and @attacked triggers. usage will be in wiki.
+- Updated: gainvirtue function. honor virtue can be looked to for usage.
+- Updated: attunement skill to use new @hitdamagebonus trigger.
+------------------------------------------------------------------------
+r298 | MiniShiryuX | 2010-07-25 16:16:17 -0300 (Dom 25 de Jul de 2010) | 1 line
+
+- Fixed: small error in quest event (mixed endif with endfor).
+------------------------------------------------------------------------
+r297 | MiniShiryuX | 2010-07-08 17:06:12 -0300 (Jue 08 de Jul de 2010) | 5 lines
+
+- Added: Web tables generator, no documentation so far, and still in beta.
+- Added: Elven Spinning Wheel, also added it to the Carpentry menu.
+- Updated: spheretables.scp
+- Fixed: Wrong coordinates in Doom Dungeon.
+- Fixed: Missed SRC in the followers GM check.
+------------------------------------------------------------------------
+r296 | xantier277 | 2010-07-05 05:38:44 -0300 (Lun 05 de Jul de 2010) | 1 line
+
+-Added : New skillgain model according to RunUO. Currently, it wasn't implemented on any skill yet. But this model will be implemented for certain skills to be more OSI accurate.
+------------------------------------------------------------------------
+r295 | cem.onal92 | 2010-06-21 09:25:30 -0300 (Lun 21 de Jun de 2010) | 2 lines
+
+- Updated: simplified the slay quest code a bit. no change in the way the code works though.
+- Updated: moved a message to sphere_pack_msgs.scp
+------------------------------------------------------------------------
+r294 | MiniShiryuX | 2010-06-20 14:26:38 -0300 (Dom 20 de Jun de 2010) | 6 lines
+
+- Added: "Marksman Set" properties.
+- Added: Archery, Fencing, Macefighting and Swordsmanship web tables.
+- Updated: how to install.txt with the right events in the right order.
+- Updated: Maxfollowers to be 255 in GMs, and the max you set in players.
+- Fixed: typos, missing lines and unnecessary comments.
+
+------------------------------------------------------------------------
+r293 | MiniShiryuX | 2010-06-19 16:23:57 -0300 (Sáb 19 de Jun de 2010) | 3 lines
+
+- Updated: Spirit speak messages moved to sphere_pack_msgs.scp and reorganized/renamed some of them.
+- Fixed #6: Shrink potion now removes the follower slot from the player when using it.
+
+------------------------------------------------------------------------
+r292 | MiniShiryuX | 2010-06-13 19:58:13 -0300 (Dom 13 de Jun de 2010) | 1 line
+
+- Fixed: Shovel to forbid dclick if another action is in progress.
+------------------------------------------------------------------------
+r291 | MiniShiryuX | 2010-06-12 22:06:48 -0300 (Sáb 12 de Jun de 2010) | 1 line
+
+- Fixed: Wrong height entry for Rai-ju, it was using cat's ID.
+------------------------------------------------------------------------
+r286 | MiniShiryuX | 2010-06-12 19:58:32 -0300 (Sáb 12 de Jun de 2010) | 2 lines
+
+- Fixed: Mixed dragon grey and red ids.
+- Fixed: Some typos in the default sphere_msgs.scp
+------------------------------------------------------------------------
+r285 | MiniShiryuX | 2010-06-09 18:23:45 -0300 (Mié 09 de Jun de 2010) | 2 lines
+
+- Added: some alliance messages to the sphere_pack_msgs.scp
+- Added: Alliance Stone for future guild alliance system.
+------------------------------------------------------------------------
+r284 | MiniShiryuX | 2010-06-05 18:19:09 -0300 (Sáb 05 de Jun de 2010) | 2 lines
+
+Missed entry in r283:
+- Updated: Juggernaut Set now working.
+------------------------------------------------------------------------
+r283 | MiniShiryuX | 2010-06-05 18:06:39 -0300 (Sáb 05 de Jun de 2010) | 4 lines
+
+- Fixed: Small typo (tag instead of tag0) in the combat events.
+- Fixed: Necro delay of Corpse Skin and remove resist flag of Evil Omen and Poison Strike.
+- Fixed: Animate Dead was not creating the right monster and added Summon Creature rune as delay.
+- Updated: Now pages sent from players are logged in the console and notified to the GMs.
+------------------------------------------------------------------------
+r282 | MiniShiryuX | 2010-05-30 16:48:23 -0300 (Dom 30 de May de 2010) | 1 line
+
+- Fixed: Sand mining didn't have any delay after starting.
+------------------------------------------------------------------------
+r281 | MiniShiryuX | 2010-05-29 10:49:37 -0300 (Sáb 29 de May de 2010) | 4 lines
+
+- Added: Animal Taming web table.
+- Updated: Pet icons, some of them, still have to finish some files. 
+- Fixed: definition of e_npcai_immune_poison to avoid console errors (wait until I script it)
+- Fixed: Typos in loots, npcs, icons, etc. a bunch of them.
+------------------------------------------------------------------------
+r280 | MiniShiryuX | 2010-05-28 22:25:49 -0300 (Vie 28 de May de 2010) | 4 lines
+
+- Added: PageClear function to clear all the page lists.
+- Updated: Merged OSI stats into Item Properties, maybe that fixes the Maxhits bonus.
+- Updated: Moved some more messages to clilocs, file is in extras folder.
+- Fixed: SERV.MAP functions which was wrong used in some scripts (using P instead of specifying X,Y,MAP).
+------------------------------------------------------------------------
+r279 | cem.onal92 | 2010-05-27 15:13:01 -0300 (Jue 27 de May de 2010) | 2 lines
+
+- Updated: improved page function. type .page help to see the subcommands.
+- Fixed: Verbal and Physical Harassment pages. it used to register Verbal/Physical as page type, and Harassment as text. now they are changed to Verbal/Physical_Harassment.
+------------------------------------------------------------------------
+r278 | MiniShiryuX | 2010-05-27 09:45:49 -0300 (Jue 27 de May de 2010) | 1 line
+
+- Added: Page system made by jeem (credits to him, he did the internal system and the main dialog, i just glued into svn and added the player's dialog). It looks more improved than default, anything looks more improved than a simple menu though.
+------------------------------------------------------------------------
+r277 | MiniShiryuX | 2010-05-25 22:45:31 -0300 (Mar 25 de May de 2010) | 6 lines
+
+- Added: NPC AI script, not revised (beta), but should work.
+- Updated: Star Chamber position to appear in another place, since it's disturbing to show up in the top of the fountain.
+- Updated: Guild wars will display the enemy name in red in the guilds list. And in green the alliance (which is not done, yet)
+- Fixed: Small bug with Resist forgetting to clean the tag if the skill is not used.
+- Fixed: Renamed the old animate dead spell defname to don't mix with the new one.
+- Fixed: Typos in Blood Oath spell.
+------------------------------------------------------------------------
+r276 | MiniShiryuX | 2010-05-23 06:09:52 -0300 (Dom 23 de May de 2010) | 1 line
+
+- Fixed: Missed the ID in the different kind of logs, sorry for that =P
+------------------------------------------------------------------------
+r275 | MiniShiryuX | 2010-05-22 21:29:05 -0300 (Sáb 22 de May de 2010) | 6 lines
+
+- Added: Bola item and functionality, more info at stratics.
+- Added: Basic idea of Alliances in Guilds.
+- Updated: f_combatsys_hitspeed to accept weapon speed as argument. It must be called on a player/npc though.
+- Updated: Blood Oath, Corpse Skin and Curse Weapon spells, they should work 100% right now.
+- Fixed: Typos in Lich From and Pain Spike spells.
+- Fixed: Now hiding removes the player from view before setting it hide, to avoid problems with "ghost players".
+------------------------------------------------------------------------
+r274 | MiniShiryuX | 2010-05-19 19:07:01 -0300 (Mié 19 de May de 2010) | 1 line
+
+- Added: Alchemy, Blacksmithing, Bowcraft, Carpentry, Cooking and Tinkering web tables.
+------------------------------------------------------------------------
+r273 | MiniShiryuX | 2010-05-19 02:58:04 -0300 (Mié 19 de May de 2010) | 8 lines
+
+- Added: Crystal wall set.
+- Updated: Monsters won't use the hit speed formula anymore, still, they use the success formula for hit chance.
+- Updated: sphere_settings.scp with a few settings for the future.
+- Updated: Ophidians script. Some trails of the old scripts may be left in the files, please report it. Thanks Abuelox.
+- Fixed: House system exploit, triggered by @EnvironChange. Changed order of things, before was: Add event, move player, customize. Now is: Move player, add event and customize.
+- Fixed: Names of the Shadow walls/posts/windows.
+- Fixed: Pain Spike delay after effect.
+
+------------------------------------------------------------------------
+r272 | MiniShiryuX | 2010-05-15 21:13:05 -0300 (Sáb 15 de May de 2010) | 6 lines
+
+- Added: ishuman Function.
+- Updated: now passive meditation will gain at the regen time of the ini while the active meditation will gain at X points per second. Where X is the formula of the item properties.
+- Fixed: Begging not displaying message when targeting an item.
+- Fixed: Anatomy going too high in cliloc numbers.
+- Fixed: Animal Taming now also erases the HOME value of the monster to avoid problems with having them wandering in the world.
+- Fixed: Typo in Poisoning.
+------------------------------------------------------------------------
+r271 | MiniShiryuX | 2010-05-08 21:24:41 -0300 (Sáb 08 de May de 2010) | 3 lines
+
+- Updated: Treasure maps seems to be finished now, only remains the lock picking part and the traps. Loots and NPCs added, and skill levels also.
+- Updated: Fishing now can also give some footwear.
+- Fixed: Potion kegs will now use a TAG for the BASEID of the potion instead of a MORE (It can be bugged).
+------------------------------------------------------------------------
+r270 | MiniShiryuX | 2010-05-06 13:21:58 -0300 (Jue 06 de May de 2010) | 1 line
+
+- Fixed: Changed every SYSMESSAGELOC and MESSAGELOC line to (SYS)MESSAGE @,,2.
+------------------------------------------------------------------------
+r269 | MiniShiryuX | 2010-05-06 13:16:33 -0300 (Jue 06 de May de 2010) | 3 lines
+
+- Added: Elven walls to the script pack. For the House System.
+- Updated: Now the House Foundation can be changed to Crystal, Shadow, etc.
+- Removed: Duplicated NPCs.
+------------------------------------------------------------------------
+r268 | MiniShiryuX | 2010-05-02 03:33:58 -0300 (Dom 02 de May de 2010) | 3 lines
+
+- Added: TAG.Ignore.Combat, which will ignore the settings in sphere_setting.scp and will pass the damage as dam_god. This should work for Special Moves and similar issues.
+- Added: Backpack to Giant Beetles. This can be done with any other mountable monster by just adding the event e_PackMount to it.
+- Fixed: Necromancy Spells that change the player body to don't screw it up with Magery s_polymorph. Anyway, the timer is unset in them and it will last until the player dies or he cast the spell again.
+------------------------------------------------------------------------
+r267 | MiniShiryuX | 2010-05-01 04:26:01 -0300 (Sáb 01 de May de 2010) | 7 lines
+
+- Added: Cut leathers for different types of hides.
+- Added: Dragons script, rescripted them. Thanks to Abuelox.
+- Updated: One Champion group. Anyway, the system will be redone, but just to keep the files updated.
+- Updated: Tailoring skillmenu from the first to the last line, one section is missing because of many special items which should be done soon. 
+- Updated: Rescripted a lot of clothing for tailoring.
+- Updated: Attached the new treasure map IDs to the new monsters loot. 
+- Fixed: Guild message is now displayed correctly and uses the player's option.
+------------------------------------------------------------------------
+r266 | MiniShiryuX | 2010-04-29 14:36:18 -0300 (Jue 29 de Abr de 2010) | 7 lines
+
+- Added: Support functions for future web generator.
+- Added: New Treasure Map typedef and items as base, still, the system is not working but the base is set.
+- Added: Now Sphere will auto-connect to MySQL database if the setting "MySQL" is set to 1 in sphere.ini
+- Rescripted: A few clothings and added some more.
+- Updated: Magic Reflection spell to work as intended.
+- Fixed: Few things in the Pet Transfer.
+- Fixed: Typo in weapons.
+------------------------------------------------------------------------
+r265 | MiniShiryuX | 2010-04-24 17:31:45 -0300 (Sáb 24 de Abr de 2010) | 6 lines
+
+- Added: Now tamers can transfers the pet normally using a trade window instead of needing a shrink potion.
+- Added: Small line that informs player of the time that WS took.
+- Added: Inscription web tables.
+- Updated: Inscription skill menu with mysticism scrolls and book. Also updated the skill/item required for books.
+- Fixed: House flags screwed the region flags.
+- Fixed: Typos in Cooking resources and in House Addons.
+------------------------------------------------------------------------
+r264 | MiniShiryuX | 2010-04-21 16:37:01 -0300 (Mié 21 de Abr de 2010) | 1 line
+
+- Renamed: sphere_item_deco_*.scp files to sphere_deco_*.scp to avoid problems at loading moment with Sphere and files with similar names.
+------------------------------------------------------------------------
+r263 | MiniShiryuX | 2010-04-21 05:38:43 -0300 (Mié 21 de Abr de 2010) | 1 line
+
+- Added: Fishing, Mining and Magery html skill tables. More will come soon, hope you all enjoy this.
+------------------------------------------------------------------------
+r262 | MiniShiryuX | 2010-04-19 01:16:01 -0300 (Lun 19 de Abr de 2010) | 6 lines
+
+- Added: Functionality to Cooking, now includes a menu, a few tools (have to add them to the vendor templates) and rescripted lot of its resources/food. Anyway, players can still cook the food using a campfire.
+- Added: web folder at main folder, it will be used for automated generation of html tables.
+- Fixed: Cooking function wasn't called correctly, but instead it was called for other skills.
+- Updated: Started to script some clothing for the new Tailoring menu, which is still not finished.
+- Moved: override folder to typedefs folder, since it makes much more sense and it doesn't include only typedefs overrides.
+- Removed: t_map override since it is no longer necessary.
+------------------------------------------------------------------------
+r261 | MiniShiryuX | 2010-04-16 15:09:16 -0300 (Vie 16 de Abr de 2010) | 3 lines
+
+- Added: Ants (Solen) and Daemons NPCs. Thanks to Abuelox.
+- Fixed: Wrong description in gargoles loot templates.
+- Fixed: Duplicate longsword had wrong speed/damage.
+------------------------------------------------------------------------
+r260 | MiniShiryuX | 2010-04-15 16:32:35 -0300 (Jue 15 de Abr de 2010) | 1 line
+
+- Fixed: Typo in the crafting system.
+------------------------------------------------------------------------
+r259 | MiniShiryuX | 2010-04-13 23:33:36 -0300 (Mar 13 de Abr de 2010) | 1 line
+
+- Fixed: Hit speed for wrestling.
+------------------------------------------------------------------------
+r258 | MiniShiryuX | 2010-04-13 17:48:11 -0300 (Mar 13 de Abr de 2010) | 8 lines
+
+- Added: Gargoyle Leather and Cloth armor.
+- Updated: Rescripted Gargoyles NPCs. Thanks to Abuelox.
+- Updated: Ores colors and leather colors.
+- Updated: Scissors now only cut cloth or leather.
+- Updated: Leather item scripts to match the new scissors typedef data.
+- Fixed: Now Spiritspeak uses default triggers and only the skillgain is scripted. The success formula is up to Sphere.
+- Fixed: Mages were able to transform with polymorph, raise their hits and dispel themselves, having an amount greater than their real maxhits.
+- Fixed: Sea Serpent not appearing when created.
+------------------------------------------------------------------------
+r257 | MiniShiryuX | 2010-04-11 20:31:20 -0300 (Dom 11 de Abr de 2010) | 2 lines
+
+- Fixed: Additional <> in Stat lock code generated errors.
+- Fixed: Anatomy, Animal Lore, Arms Lore, Begging, Eval Int, Item ID and Spirit Speak success check. Thanks MrSugarCube for giving me the info.
+------------------------------------------------------------------------
+r256 | MiniShiryuX | 2010-04-11 18:40:52 -0300 (Dom 11 de Abr de 2010) | 2 lines
+
+- Fixed: Typo in lumberjacking bonus not adding the GM bonus.
+- Fixed: Fishing in ocean giving an undesired amount of resources.
+------------------------------------------------------------------------
+r255 | MiniShiryuX | 2010-04-11 17:05:04 -0300 (Dom 11 de Abr de 2010) | 1 line
+
+- Fixed: Using sysmessageloc in a smsg for Forensics.
+------------------------------------------------------------------------
+r254 | MiniShiryuX | 2010-04-11 16:46:44 -0300 (Dom 11 de Abr de 2010) | 1 line
+
+- Fixed: Missing stat names for stat locks.
+------------------------------------------------------------------------
+r253 | MiniShiryuX | 2010-04-10 14:42:23 -0300 (Sáb 10 de Abr de 2010) | 3 lines
+
+- Added: Ogres, Ettins & Trolls. Thanks to Abuelox.
+- Fixed: All the luck loots with the right subsection for axis.
+- Fixed: Now the Terathans are there, missed the file before, sorry.
+------------------------------------------------------------------------
+r252 | MiniShiryuX | 2010-04-10 13:38:21 -0300 (Sáb 10 de Abr de 2010) | 3 lines
+
+- Updated: Some mining messages moved to cliloc, crafting now will give all the same message when fail.
+- Fixed: Coast lines now working correctly, these are defined by the difference of static/map tiles.
+- Fixed: Not clearing the skill_delay when meditation aborts.
+------------------------------------------------------------------------
+r251 | MiniShiryuX | 2010-04-10 01:54:29 -0300 (Sáb 10 de Abr de 2010) | 2 lines
+
+- Added: Scripted fix up for Coast lines and Ocean in Fishing. It's in beta, so please report any bug found.
+- Updated: Rescripted Terathans NPC group. Thanks to Abuelox for doing it.
+------------------------------------------------------------------------
+r250 | MiniShiryuX | 2010-04-09 17:22:19 -0300 (Vie 09 de Abr de 2010) | 5 lines
+
+- Added: Elementals and Orcs NPCS. Thanks to Abuelox for scripting them.
+- Added: Board creation to the Carpentry menu. It doesn't require skill and never fails.
+- Fixed: References to the old ID of the rescripted npcs.
+- Removed: Duplicated smelt functions.
+- Removed: Some duplicated items.
+------------------------------------------------------------------------
+r249 | MiniShiryuX | 2010-04-06 12:36:52 -0300 (Mar 06 de Abr de 2010) | 5 lines
+
+- Moved: Monsters to their own folder inside NPCs.
+- Fixed: Scripted skills missed out the skillgain @fail.
+- Fixed: Virtue Valor message not displaying correctly.
+- Fixed: Wrong mounts ID on linked parts.
+
+------------------------------------------------------------------------
+r248 | MiniShiryuX | 2010-04-04 22:08:02 -0300 (Dom 04 de Abr de 2010) | 1 line
+
+- Fixed: Disturbing timer error in console because a problem with decay flags and amount fix.
+------------------------------------------------------------------------
+r247 | MiniShiryuX | 2010-04-04 03:56:55 -0300 (Dom 04 de Abr de 2010) | 2 lines
+
+- Fixed: Players being able to use scripted skills when dead.
+- Fixed: Some wands un-equipping when trying to cast with them.
+------------------------------------------------------------------------
+r246 | MiniShiryuX | 2010-04-01 00:45:18 -0300 (Jue 01 de Abr de 2010) | 1 line
+
+- Fixed: Wrong definition for Sand default region.
+------------------------------------------------------------------------
+r245 | MiniShiryuX | 2010-04-01 00:18:21 -0300 (Jue 01 de Abr de 2010) | 2 lines
+
+- Fixed: Sand worldgem bits had no decay flag.
+- Fixed: Missed TEVENTS of the shovel.
+------------------------------------------------------------------------
+r244 | MiniShiryuX | 2010-03-30 00:36:27 -0300 (Mar 30 de Mar de 2010) | 3 lines
+
+- Fixed: Sphere's scripted speed formula was removing the first decimal, to avoid that, we added a zero behind =)
+- Fixed: Resistances were removing damage from the total damage and not from their own damage type.
+
+------------------------------------------------------------------------
+r243 | MiniShiryuX | 2010-03-28 23:53:20 -0300 (Dom 28 de Mar de 2010) | 2 lines
+
+- Fixed: Ore smelting and its effect.
+- Fixed: Mixed messages for ore smelting success/failed
+------------------------------------------------------------------------
+r242 | MiniShiryuX | 2010-03-28 15:15:56 -0300 (Dom 28 de Mar de 2010) | 6 lines
+
+- Fixed: Unused event error in the Quest System.
+- Fixed: Unicorn ID in Champions.
+- Fixed: Wrong ethereal figurine typedef.
+- Fixed: Starting points.
+- Fixed: Delays in Peacemaking and Animal Taming, since they didn't allow you to cancel the action.
+- Fixed: Colored platemail chests ID in the armor vendors
+------------------------------------------------------------------------
+r241 | MiniShiryuX | 2010-03-27 16:23:41 -0300 (Sáb 27 de Mar de 2010) | 3 lines
+
+- Updated: Now house secured chests displays the secure level (Friends, Co-Owner or Owner Only).
+- Updated: 2 mounts more.
+- Fixed: Unicorn ID misspelled in various scripts.
+------------------------------------------------------------------------
+r240 | MiniShiryuX | 2010-03-27 02:33:14 -0300 (Sáb 27 de Mar de 2010) | 1 line
+
+- Updated: Starting zones according to default.
+------------------------------------------------------------------------
+r239 | MiniShiryuX | 2010-03-26 16:14:04 -0300 (Vie 26 de Mar de 2010) | 1 line
+
+- Fixed: Typo from last revision.
+------------------------------------------------------------------------
+r238 | MiniShiryuX | 2010-03-26 14:29:56 -0300 (Vie 26 de Mar de 2010) | 4 lines
+
+- Added: Functionality to the Smelt button in the Blacksmithing menu. Also a new setting included in the ini for the % of ingots to return.
+- Updated: Smelting ore now displays a graphic fx.
+- Updated: Improved a fix for decay in houses.
+- Fixed: Dclicking the forge for smelting ore bypassed the Ore Formula setting.
+------------------------------------------------------------------------
+r237 | MiniShiryuX | 2010-03-24 23:08:15 -0300 (Mié 24 de Mar de 2010) | 7 lines
+
+- Added: Functionality for Subdued animals in Taming.
+- Added: Different kind of logs to the t_tree regions.
+- Updated: Improved the Luck Loot Generator with some settings. Read the sphere_settings.scp.
+- Updated: NPC's tags to work with the new Luck System.
+- Updated: A few mounts more, with the right info.
+- Updated: sphere_settings.scp
+- Fixed: Wrong calculation on House Decay, it is now fixed and also added a display of the amount to pay in the menu.
+------------------------------------------------------------------------
+r236 | MiniShiryuX | 2010-03-23 23:44:18 -0300 (Mar 23 de Mar de 2010) | 1 line
+
+- Fixed: Some typos and small bugs with Crafting System.
+------------------------------------------------------------------------
+r235 | MiniShiryuX | 2010-03-23 23:04:06 -0300 (Mar 23 de Mar de 2010) | 7 lines
+
+- Updated: how to install.txt
+- Updated: Crafting dialog cleaned a bit, and added a new feature for items with recipes.
+- Updated: Moved some House/Vendor system messages to sphere_pack_msgs.scp
+- Updated: Implemented the script vendor system, check "how to install.txt"
+- Fixed: Crafting not cleaning messages after action.
+- Fixed: Crafting generator to use ID instead of BASEID. It leaded to having as ID a defname of an item it ID, which displayed error on console.
+- Fixed: Removed duplicate items from Blacksmithing.
+------------------------------------------------------------------------
+r234 | MiniShiryuX | 2010-03-23 16:03:12 -0300 (Mar 23 de Mar de 2010) | 3 lines
+
+- Fixed: using negative numbers on custom vendor items price.
+- Fixed: able to put gold to sell in the custom vendors.
+
+------------------------------------------------------------------------
+r233 | MiniShiryuX | 2010-03-23 15:37:23 -0300 (Mar 23 de Mar de 2010) | 4 lines
+
+- Added: isdialogopen function, arguments is the dialog name to check.
+- Updated: house system decay settings, now can refresh your house with money, paying a constant value, a percentage of the house value or just refresh it when you open the house menu.
+- Updated: spheretables.scp to the lastest sphere build.
+- Fixed: another huge exploit on the house system.
+------------------------------------------------------------------------
+r232 | MiniShiryuX | 2010-03-22 17:29:05 -0300 (Lun 22 de Mar de 2010) | 1 line
+
+- Updated: quests npcs.
+------------------------------------------------------------------------
+r231 | MiniShiryuX | 2010-03-22 12:06:49 -0300 (Lun 22 de Mar de 2010) | 6 lines
+
+- Added: Ethereal Mounts script and pets.
+- Added: Spawn groups for graveyards.
+- Added: Support events for Pack Instincts. Not Scripted.
+- Added: Settings for Treasure Maps (still not scripted)
+- Updated: Rescripted a few mounts, scripted a few missing.
+- Fixed: Were able to put House Addons outside a house.
+------------------------------------------------------------------------
+r230 | MiniShiryuX | 2010-03-22 01:27:57 -0300 (Lun 22 de Mar de 2010) | 1 line
+
+- Fixed: typo on the champion abyss npcs.
+------------------------------------------------------------------------
+r229 | MiniShiryuX | 2010-03-21 20:23:00 -0300 (Dom 21 de Mar de 2010) | 5 lines
+
+- Added: Elven npcs, this was made a long time ago by mordaunt, may generate errors when used, please report them.
+- Updated: Rescripted undead npcs, moved them to a separate folder with their loots, which means: some npcs files have been edited.
+- Updated: sphere_defs.scp now hold a random for necro reagents.
+- Moved: building scripts to the building folder.
+- Fixed: Animal lore message to sysmessage in the player when fail.
+------------------------------------------------------------------------
+r228 | MiniShiryuX | 2010-03-21 14:26:19 -0300 (Dom 21 de Mar de 2010) | 1 line
+
+- Fixed: Damage and Resistances in the abyss champion npcs
+------------------------------------------------------------------------
+r227 | MiniShiryuX | 2010-03-20 16:34:12 -0300 (Sáb 20 de Mar de 2010) | 3 lines
+
+- Updated: Now house addons are removed using t_weapon_axe, and the typedef is now in the override folder.
+- Fixed: Animal Lore displaying player's stats instead of npc.
+- Fixed: Were able to tame other players with Taming.
+------------------------------------------------------------------------
+r226 | MiniShiryuX | 2010-03-20 01:16:39 -0300 (Sáb 20 de Mar de 2010) | 3 lines
+
+- Added: NPCs AI, a small work still, only for summoned creatures, 2 settings added also.
+- Fixed: Typos in combat system.
+- Fixed: Spells delay according to the stratics.
+------------------------------------------------------------------------
+r225 | MiniShiryuX | 2010-03-18 14:52:00 -0300 (Jue 18 de Mar de 2010) | 4 lines
+
+- Added: colored skillmenu and items for bowcraft.
+- Updated: crafting generator will now leave random functions for heartwood items, since they get random properties every time they are crafted.
+- Fixed: typo in skill delay cleaning the ctag instead of using it.
+- Fixed: a big amount of wrong use of getargv function, this include many skills and a huge skill exploit which is now fixed.
+------------------------------------------------------------------------
+r224 | MiniShiryuX | 2010-03-16 17:28:22 -0300 (Mar 16 de Mar de 2010) | 1 line
+
+- Added: new setting for houses scp.House_DecayUnlockedItems which if it's 1 will make the items unlocked inside houses decay, inverse for 0. NOTE: Changing this setting will only affect NEW HOUSES.
+------------------------------------------------------------------------
+r223 | MiniShiryuX | 2010-03-16 16:52:41 -0300 (Mar 16 de Mar de 2010) | 1 line
+
+- Fixed: another typo in house system.
+------------------------------------------------------------------------
+r222 | MiniShiryuX | 2010-03-16 16:34:03 -0300 (Mar 16 de Mar de 2010) | 1 line
+
+- Fixed: typo in house system.
+------------------------------------------------------------------------
+r221 | MiniShiryuX | 2010-03-16 13:45:34 -0300 (Mar 16 de Mar de 2010) | 1 line
+
+- Fixed: spawns using bad ids of new champions npcs.
+------------------------------------------------------------------------
+r220 | MiniShiryuX | 2010-03-16 13:43:08 -0300 (Mar 16 de Mar de 2010) | 1 line
+
+- Updated: spheretables.scp
+------------------------------------------------------------------------
+r219 | MiniShiryuX | 2010-03-15 02:52:08 -0300 (Lun 15 de Mar de 2010) | 1 line
+
+- Fixed: Magery unequipping only one layer at casting and not both hands.
+------------------------------------------------------------------------
+r218 | MiniShiryuX | 2010-03-14 21:59:03 -0300 (Dom 14 de Mar de 2010) | 6 lines
+
+- Added: Default colored lists for blacksmithing.
+- Updated: Rescripted champion unique artifacts, the system and all artifacts will be rescripted soon.
+- Fixed: Iron not displaying in crafting dialog.
+- Fixed: Wrong id of i_elven_composite_longbow used in some places.
+- Fixed: Missing type in throwing weapons.
+- Fixed: Wrong references used in hit leech properties.
+------------------------------------------------------------------------
+r217 | MiniShiryuX | 2010-03-13 02:05:35 -0300 (Sáb 13 de Mar de 2010) | 3 lines
+
+- Updated: Abyss champion spawns, npcs for that champion are in the npcs/champions/spherechar_champion_abyss.scp file. Later will be sorted by char type. Loot templates are included in that file.
+- Fixed: Small bug when something weird enter in the house region.
+- Fixed: Spiritspeak should fail less now.
+------------------------------------------------------------------------
+r216 | MiniShiryuX | 2010-03-12 12:34:00 -0300 (Vie 12 de Mar de 2010) | 1 line
+
+- Added: Functionality for house addons, you can find a lot of examples in items/sphere_item_provisions_deed_houses_addons.scp. To remove them you will need a t_weapon_sword item type.
+------------------------------------------------------------------------
+r215 | MiniShiryuX | 2010-03-11 02:23:41 -0300 (Jue 11 de Mar de 2010) | 9 lines
+
+- Added: New setting scp.Combat_PolymorphDamage. If set to 1, combat system will use the body's damage when polymorph.
+- Added: Functionality to Sets. Explanation will be added soon to the wiki.
+- Added: I want to access my bank command to the house speech block.
+- Updated: how to install.txt
+- Updated: TAG.Luck.Loot now holds a third argument, is an item template which should be added to the npc corpse instead of generation of random magical items if the luck roll success.
+- Updated: Gargoyle's new weapons to the blacksmithing menu. Also updated options file.
+- Updated: House commands now can also be called in Spanish.
+- Fixed: Stat bonus properties adding stats to a tag instead to mod* property.
+- Fixed: Animal taming not allowing to tame when the followers system is deactivated.
+------------------------------------------------------------------------
+r214 | MiniShiryuX | 2010-03-08 21:21:55 -0300 (Lun 08 de Mar de 2010) | 1 line
+
+- Fixed: npcs using the new poison type even with the setting off.
+------------------------------------------------------------------------
+r213 | MiniShiryuX | 2010-03-08 18:40:24 -0300 (Lun 08 de Mar de 2010) | 4 lines
+
+- Updated: new skill menu for carpentry.
+- Updated: now combat system also checks if the weapon is magical and adds 1 damage per 7 points in morey.
+- Updated: some more items for carpentry.
+- Fixed: casting spells was unequipping weapons anyway.
+------------------------------------------------------------------------
+r212 | MiniShiryuX | 2010-03-07 23:20:18 -0300 (Dom 07 de Mar de 2010) | 2 lines
+
+- Fixed: missing messages for ore smelting. 
+- Fixed: forgot to add sos bottle in water regions.
+------------------------------------------------------------------------
+r211 | MiniShiryuX | 2010-03-07 15:21:02 -0300 (Dom 07 de Mar de 2010) | 1 line
+
+- Updated: npcs physical armor calculation to use <armor> + <modar> since monsters have armor property and there can be human npcs using items which gives modar.
+------------------------------------------------------------------------
+r210 | MiniShiryuX | 2010-03-06 16:37:41 -0300 (Sáb 06 de Mar de 2010) | 5 lines
+
+- Updated: added exception for Consecrate Weapon for unequip weapon when casting.
+- Updated: more items for carpentry new menu.
+- Fixed: being able to get kindling from all distances.
+- Fixed: unable to use barding when loss the instrument.
+- Fixed: wrong names in peacemaking memory ids.
+------------------------------------------------------------------------
+r209 | MiniShiryuX | 2010-03-01 16:57:45 -0300 (Lun 01 de Mar de 2010) | 2 lines
+
+- Updated: magic resistance moved to combat code and works correctly.
+- Updated: useless debug lines in the house system.
+------------------------------------------------------------------------
+r208 | MiniShiryuX | 2010-03-01 01:39:43 -0300 (Lun 01 de Mar de 2010) | 1 line
+
+- Fixed: now really fixed important bug with the house system, read the "how to install.txt" file to know how to apply the fix into the server.
+------------------------------------------------------------------------
+r207 | MiniShiryuX | 2010-02-28 15:55:17 -0300 (Dom 28 de Feb de 2010) | 2 lines
+
+- Fixed: triggering of crafting menus.
+- Fixed: discounting follower when you can't cast a npc because of too many followers (do'h).
+------------------------------------------------------------------------
+r206 | MiniShiryuX | 2010-02-27 15:55:41 -0300 (Sáb 27 de Feb de 2010) | 5 lines
+
+- Updated: now followers are checked for every summon-type spell.
+- Fixed: lastest fix applied for magic resistance on characters now applied on npcs.
+- Fixed: sidebar and main bar buttons working incorrectly in material and crafting dialog. 
+- Fixed: exploit with house system.
+
+------------------------------------------------------------------------
+r205 | MiniShiryuX | 2010-02-27 11:33:24 -0300 (Sáb 27 de Feb de 2010) | 1 line
+
+- Fixed: now resisting spells only disables effect from spells with spellflag_resist, this also fixes potions not working correctly.
+------------------------------------------------------------------------
+r204 | MiniShiryuX | 2010-02-26 21:24:50 -0300 (Vie 26 de Feb de 2010) | 6 lines
+
+- Fixed: combat system checking for missing resistances tags, now it uses the characters properties.
+- Fixed: exception generated when using inscription.
+- Fixed: now individual crafting settings works correctly.
+- Fixed: @kill not being fired always.
+- Fixed: wrong guild function used in player context menu.
+- Fixed: wrong event name for peacemaking event.
+------------------------------------------------------------------------
+r203 | cem.onal92 | 2010-02-10 16:50:13 -0300 (Mié 10 de Feb de 2010) | 3 lines
+
+- Reverted: changes made on combat
+- Fixed: "shield" function returning a space after uid ("UID ")
+- Fixed: begging and spiritspeak errors
+------------------------------------------------------------------------
+r202 | cem.onal92 | 2010-02-09 15:06:45 -0300 (Mar 09 de Feb de 2010) | 3 lines
+
+- Fixed: console error when parrying
+- Fixed: success chance skillusequick was used wrong on every skill
+- Fixed: removed unnecessary event line from meditation
+------------------------------------------------------------------------
+r201 | xantier277 | 2010-02-09 04:01:50 -0300 (Mar 09 de Feb de 2010) | 1 line
+
+- Added statlock defnames lock_up/locked/down
+------------------------------------------------------------------------
+r200 | cem.onal92 | 2010-02-08 18:43:48 -0300 (Lun 08 de Feb de 2010) | 2 lines
+
+- Fixed: wrong reference on skillgain function for taming
+- Fixed: missing ">" in "f_combatsys_blockchance_aos" function.
+------------------------------------------------------------------------
+r199 | cem.onal92 | 2010-02-08 02:36:30 -0300 (Lun 08 de Feb de 2010) | 1 line
+
+- Fixed: typo in animal taming.
+------------------------------------------------------------------------
+r198 | cem.onal92 | 2010-02-08 02:31:06 -0300 (Lun 08 de Feb de 2010) | 1 line
+
+- Fixed: animal taming updated again
+------------------------------------------------------------------------
+r197 | cem.onal92 | 2010-02-07 19:27:02 -0300 (Dom 07 de Feb de 2010) | 1 line
+
+- Fixed: console errors when using animal taming
+------------------------------------------------------------------------
+r196 | cem.onal92 | 2010-02-06 05:58:41 -0300 (Sáb 06 de Feb de 2010) | 1 line
+
+- Fixed: typos in vengeful spirit spell
+------------------------------------------------------------------------
+r195 | cem.onal92 | 2010-02-05 15:06:39 -0300 (Vie 05 de Feb de 2010) | 1 line
+
+- Updated: revision file
+------------------------------------------------------------------------
+r194 | cem.onal92 | 2010-02-05 06:49:38 -0300 (Vie 05 de Feb de 2010) | 1 line
+
+- Fixed: necromancy spells had small typos.
+------------------------------------------------------------------------
+r193 | cem.onal92 | 2010-01-31 16:28:41 -0300 (Dom 31 de Ene de 2010) | 3 lines
+
+- Fixed: spell damage calculations
+- Fixed: console errors when skill waiting time function is used on npcs
+- Fixed: wrong resource id for i_potion_invisibility. changed i_reag_worm_heart to i_reag_wyrm_heart
+------------------------------------------------------------------------
+r192 | cem.onal92 | 2010-01-29 05:30:24 -0300 (Vie 29 de Ene de 2010) | 1 line
+
+- Updated: revision
+------------------------------------------------------------------------
+r191 | cem.onal92 | 2010-01-29 05:17:47 -0300 (Vie 29 de Ene de 2010) | 3 lines
+
+- Fixed: ctags were being used on NPC combat event
+- Fixed: tags in combat event not being deleted after calculations
+- Fixed: misspell in sphere_events_npc.scp
+------------------------------------------------------------------------
+r190 | cem.onal92 | 2010-01-26 16:41:36 -0300 (Mar 26 de Ene de 2010) | 1 line
+
+- Added: detecting hidden skill. ea-like.
+------------------------------------------------------------------------
+r189 | MiniShiryuX | 2010-01-20 00:58:10 -0300 (Mié 20 de Ene de 2010) | 1 line
+
+- Updated: A lot more of items for carpentry. And still some more to go.
+------------------------------------------------------------------------
+r188 | MiniShiryuX | 2010-01-19 15:54:38 -0300 (Mar 19 de Ene de 2010) | 1 line
+
+- Fixed: Unknown function in 2 NPCs.
+------------------------------------------------------------------------
+r187 | cem.onal92 | 2010-01-19 02:38:33 -0300 (Mar 19 de Ene de 2010) | 1 line
+
+- Fixed: two little bugs.
+------------------------------------------------------------------------
+r186 | MiniShiryuX | 2010-01-18 19:42:10 -0300 (Lun 18 de Ene de 2010) | 4 lines
+
+- Added: Definitions for Ninjitsu and Bushido spells.
+- Fixed: Wrong Armor IDs used on vendor template.
+- Fixed: Small console error when creating a brass sign without a house.
+- Fixed: Iron color should be 0 by default.
+------------------------------------------------------------------------
+r185 | MiniShiryuX | 2010-01-17 17:09:41 -0300 (Dom 17 de Ene de 2010) | 1 line
+
+- Fixed: Wrong reagent id at alchemy start block.
+------------------------------------------------------------------------
+r184 | xantier277 | 2010-01-16 15:53:14 -0300 (Sáb 16 de Ene de 2010) | 1 line
+
+-Added correct compassion gain point.
+------------------------------------------------------------------------
+r182 | cem.onal92 | 2010-01-16 15:26:46 -0300 (Sáb 16 de Ene de 2010) | 1 line
+
+- Updated: some optimizations in virtues
+------------------------------------------------------------------------
+r181 | MiniShiryuX | 2010-01-16 00:15:40 -0300 (Sáb 16 de Ene de 2010) | 2 lines
+
+- Added: Stamina Regeneration property.
+- Updated: a few more items for Carpentry.
+------------------------------------------------------------------------
+r173 | MiniShiryuX | 2010-01-14 22:30:06 -0300 (Jue 14 de Ene de 2010) | 7 lines
+
+- Added: @UserQuestFinish, fired on player and argn1 is the player's quest id. You should use <tag.quest.<dargn1>.id> to get the real id.
+- Added: f_compassion_escort added when player finish a escort quest. It should add compassion points.
+- Updated: mixed spells bonus with combat system, it belongs there.
+- Updated: scp.OSISpellDamage to scp.Combat_SpellBonus.
+- Updated: virtue system dialogs, added a switch and splited dialogs and functions into separate files.
+- Fixed: missing local line at traps.
+- Fixed: skillgain lines where arguments can be 0.
+------------------------------------------------------------------------
+r163 | MiniShiryuX | 2010-01-13 18:22:24 -0300 (Mié 13 de Ene de 2010) | 1 line
+
+Updated revisions-scp.txt and wiki.
+------------------------------------------------------------------------
+r161 | cem.onal92 | 2010-01-13 16:17:46 -0300 (Mié 13 de Ene de 2010) | 1 line
+
+- Fixed: small mistakes in taming
+------------------------------------------------------------------------
+r160 | MiniShiryuX | 2010-01-13 15:08:01 -0300 (Mié 13 de Ene de 2010) | 1 line
+
+- Updated: removed add-on/skills/ from spheretables.scp
+------------------------------------------------------------------------
+r159 | MiniShiryuX | 2010-01-13 14:51:35 -0300 (Mié 13 de Ene de 2010) | 4 lines
+
+- Updated: combat system fix to avoid problems with calls of damage function.
+- Updated: traps with pyro's scripts.
+- Fixed: crafting menu canceling spells menu.
+- Fixed: splash sound every 15/30 seconds no longer plays.
+------------------------------------------------------------------------
+r158 | cem.onal92 | 2010-01-13 02:28:09 -0300 (Mié 13 de Ene de 2010) | 1 line
+
+- Updated: remove trap skill to match changes in trapping code
+------------------------------------------------------------------------
+r157 | xantier277 | 2010-01-13 02:08:58 -0300 (Mié 13 de Ene de 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r156 | xantier277 | 2010-01-13 02:07:01 -0300 (Mié 13 de Ene de 2010) | 1 line
+
+
+------------------------------------------------------------------------
+r155 | MiniShiryuX | 2010-01-12 22:38:29 -0300 (Mar 12 de Ene de 2010) | 5 lines
+
+- Updated: t_trap -> t_trapped to avoid confusion.
+- Updated: a few containers for carpentry.
+- Fixed: combat system calculating spells damage, it doesn't affect it anymore!
+- Fixed: bamboo flute id and removed duplicates.
+- Fixed: buffs now are only sent to players and not npcs.
+------------------------------------------------------------------------
+r153 | cem.onal92 | 2010-01-11 16:43:27 -0300 (Lun 11 de Ene de 2010) | 1 line
+
+- Updated: some little tweaks on stealth.
+------------------------------------------------------------------------
+r152 | MiniShiryuX | 2010-01-11 04:07:33 -0300 (Lun 11 de Ene de 2010) | 3 lines
+
+- Updated: moved some skills messages to sphere_pack_msgs.scp, a lot more to go.
+- Fixed: missing skillsuccess function replaced with internal skillusequick.
+
+------------------------------------------------------------------------
+r151 | MiniShiryuX | 2010-01-11 01:14:34 -0300 (Lun 11 de Ene de 2010) | 15 lines
+
+- Added: scripted Uses Remaining and Night Sight properties, should work fine.
+- Updated: reorganized item properties, added data of hit spells and hit area.
+- Updated: Several properties to be Item Tag Only. This would reduce memory/space needed.
+  Also, the tag won't be added to player if the property is disabled.
+- Updated: now buff icons will be auto-removed if delay > 0.
+- Updated: Tooltips data:
+  * Not display props if they are disabled.
+  * Display RES* and DAM* tags independient of if it's a weapon or armor.
+  * Show Durability tooltip if use Hitpoints (and not a more value)
+- Updated: region resources % to be more reasonable.
+- Fixed: physical damage not reduced if weapon's tag is 0 (or 100 in theory)
+- Fixed: now some item properties 1/0 switches works fine.
+- Fixed: wrong property, was using Mage Weapon as Spell Channeling and Mage Armor wrong.
+- Fixed: meditation was not removing tag when it finish and not using Mage Armor.
+- Fixed: missing loading of items/resources/ folder in spheretables.scp
+------------------------------------------------------------------------
+r150 | cem.onal92 | 2010-01-10 13:32:54 -0300 (Dom 10 de Ene de 2010) | 1 line
+
+- Updated: player can logout instantly with camping now.
+------------------------------------------------------------------------
+r149 | cem.onal92 | 2010-01-10 10:22:45 -0300 (Dom 10 de Ene de 2010) | 1 line
+
+- Fixed: typo in sphere_skill_meditation.scp
+------------------------------------------------------------------------
+r148 | cem.onal92 | 2010-01-10 10:21:48 -0300 (Dom 10 de Ene de 2010) | 4 lines
+
+- Added: new remove trap skill which works with ShiryuX's traps
+- Updated: meditation skill to match EA better
+- Updated: skill delays for meditation and remove trap
+- Fixed: revealing in hiding and stealth when using skills
+------------------------------------------------------------------------
+r147 | cem.onal92 | 2010-01-10 08:53:51 -0300 (Dom 10 de Ene de 2010) | 1 line
+
+- Removed: add-on/skills folder and moved its content to skills folder.
+------------------------------------------------------------------------
+r145 | cem.onal92 | 2010-01-10 08:13:39 -0300 (Dom 10 de Ene de 2010) | 1 line
+
+- Fixed: small mistake in camping.
+------------------------------------------------------------------------
+r144 | cem.onal92 | 2010-01-10 08:07:16 -0300 (Dom 10 de Ene de 2010) | 1 line
+
+- Added: ea-like camping skill. thanks pyromapes2k.
+------------------------------------------------------------------------
+r143 | cem.onal92 | 2010-01-10 07:21:26 -0300 (Dom 10 de Ene de 2010) | 1 line
+
+- Fixed: failing animal taming when the animal was never attacked by anyone.
+------------------------------------------------------------------------
+r142 | MiniShiryuX | 2010-01-09 12:07:43 -0300 (Sáb 09 de Ene de 2010) | 1 line
+
+- Fixed: kama using t_weapon_sword and axes using t_weapon_sword instead of t_weapon_axe.
+------------------------------------------------------------------------
+r141 | MiniShiryuX | 2010-01-08 00:08:27 -0300 (Vie 08 de Ene de 2010) | 3 lines
+
+- Updated: Several blacksmithing options.
+- Updated: Scripted a group more of items, reorganized the items folder in subfolders such as decoration, building, multis, etc.
+- Fixed: A lot more of Axis Tags in the items. Also, now resources (from resource gathering) have their own sections "Resources - Skill" 
+------------------------------------------------------------------------
+r140 | MiniShiryuX | 2010-01-07 17:05:06 -0300 (Jue 07 de Ene de 2010) | 3 lines
+
+- Fixed: a typo in sphere_settings.scp (scp.SkillWaitingTimes was named scp.SkillWaitingTime)
+- Removed: some duplicated items.
+- Removed: log line from crafting dialog.
+------------------------------------------------------------------------
+r139 | cem.onal92 | 2010-01-07 16:00:31 -0300 (Jue 07 de Ene de 2010) | 1 line
+
+- Fixed: updated the code to fix robes not showing on corpses
+------------------------------------------------------------------------
+r138 | MiniShiryuX | 2010-01-06 20:53:25 -0300 (Mié 06 de Ene de 2010) | 2 lines
+
+- Updated: some typos in the crafting dialogs which caused errors.
+- Updated: now tooltips also displays the item amount.
+------------------------------------------------------------------------
+r137 | MiniShiryuX | 2010-01-06 14:57:28 -0300 (Mié 06 de Ene de 2010) | 2 lines
+
+- Updated: Even more armors, this time some helmets.
+- Updated: Removed color setting from Dragon Armor.
+------------------------------------------------------------------------
+r136 | MiniShiryuX | 2010-01-06 12:37:35 -0300 (Mié 06 de Ene de 2010) | 2 lines
+
+Was supposed to upload this file yet.
+
+------------------------------------------------------------------------
+r135 | MiniShiryuX | 2010-01-06 12:33:28 -0300 (Mié 06 de Ene de 2010) | 18 lines
+
+- Added: isgargoyle, iselven, isfemale functions.
+- Added: Crafting items/lists generator according to materials in your skill menu. 
+  It's still beta but usable. Documentation included in the file.
+- Added: New setting to crafting items, "_opt". Also added _options_default to skills.
+  Format is: "exceptional,markable,colored,recipe,expansion"
+  1. If can be exceptionally crafted.
+  2. If can be marked	
+  3. If can be colored by the resource used.
+  4. If need a recipe to craft this.
+  5. Expansion (ResDisp) needed to see/craft item.
+- Added: Option files for Blacksmithing, Bowcraft and Carpentry.
+- Updated: Crafting dialogs to work with new _opt setting.
+- Updated: Blacksmithing with new magical and gargish items.
+- Updated: Crafting tables to work with the new generator.
+- Updated: Item limitations by genre/race with settings switch.
+- Fixed: Tailoring settings named as Alchemy
+- Fixed: Few wrong defnames and names in armors/weapons.
+- Removed: Duplicate entry for i_wrath_dryad.
+------------------------------------------------------------------------
+r134 | MiniShiryuX | 2010-01-05 21:21:01 -0300 (Mar 05 de Ene de 2010) | 1 line
+
+- Updated: reorganized, rescripted most of the armors, still a few like shields and helmets needs to be finished. 
+------------------------------------------------------------------------
+r133 | cem.onal92 | 2010-01-05 17:26:22 -0300 (Mar 05 de Ene de 2010) | 1 line
+
+- Fixed: small typo in sphere_combat_events.scp.
+------------------------------------------------------------------------
+r132 | cem.onal92 | 2010-01-05 15:00:13 -0300 (Mar 05 de Ene de 2010) | 1 line
+
+- Removed: unnecessary skill files
+------------------------------------------------------------------------
+r131 | cem.onal92 | 2010-01-05 14:56:57 -0300 (Mar 05 de Ene de 2010) | 3 lines
+
+- Added: skill waiting times almost completed. only few skills left
+- Updated: almost every selected skill has been made so that it won't be effected by combat
+- Moved: some skill files
+------------------------------------------------------------------------
+r130 | MiniShiryuX | 2010-01-04 18:35:15 -0300 (Lun 04 de Ene de 2010) | 17 lines
+
+- Added: Basic traps system, which works based on Spells. Needs a lot of work.
+- Added: Hit Lower Attack & Hit Lower Defense to Item Properties.
+- Added: ColorElementalType which returns a number according to the % of best damage type.
+- Added: Darkwood armor. Set properties have not been added yet.
+- Added: Peerless Ingredients and Gems. Imbuing ingredients file for placeholder.
+- Updated: Moved Woodland armor to separate file inside armors folder.
+- Updated: Now tooltips displays correctly on Bows and added a few clilocs also.
+- Updated: SPEED property modified, now it takes tenths of seconds as argument. 
+	   The new formulas used:
+           * SPHERE: SpeedScaleFactor / ((Dex + 100) * (150 / WeaponSpeed))
+	   * UOR: 150000 / ((Stamina + 100) * (150 / WeaponSpeed))
+	   * AOS: (((WeaponSpeed * 4) - (Stamina / 30)) * (100.0 / (100 + SwingSpeedIncrease))) / 4
+ 	   COMBAT SYSTEM EVENT IS NOW MANDATORY!
+- Updated: Rescripted, fixed and added lots and lots of weapons with the right Speed/Damage properties
+	   New weapons can be found on items/weapons/ folder, separated by skill and layer.
+	   Total: 299 weapons scripted.
+
+------------------------------------------------------------------------
+r129 | cem.onal92 | 2010-01-04 16:43:26 -0300 (Lun 04 de Ene de 2010) | 1 line
+
+- Updated: waiting times table.
+------------------------------------------------------------------------
+r128 | cem.onal92 | 2010-01-04 16:03:36 -0300 (Lun 04 de Ene de 2010) | 1 line
+
+- Updated: sphere_events_players.scp. waiting time modifications.
+------------------------------------------------------------------------
+r127 | cem.onal92 | 2010-01-04 15:51:15 -0300 (Lun 04 de Ene de 2010) | 1 line
+
+- Added: skill wait times for the following skills: anatomy, animallore, armslore, begging, itemid.
+------------------------------------------------------------------------
+r126 | cem.onal92 | 2010-01-04 15:29:55 -0300 (Lun 04 de Ene de 2010) | 1 line
+
+- Added: future support for skill waiting times.
+------------------------------------------------------------------------
+r125 | MiniShiryuX | 2010-01-03 03:29:00 -0300 (Dom 03 de Ene de 2010) | 9 lines
+
+- Added: blacksmithing materials menu
+- Added: basic code for race items, just a tag in the item, tag.item.gargoyle for gargs and tag.item.elven for elfs.
+- Updated: installation notes.
+- Updated: crafting system a lot, fixed some bugs and added materials support now.
+- Updated: armors to have more reasonable names/defnames according to their base item and with crafting system.
+- Fixed: blacksmithing wrong ids in the list.
+- Fixed: mana returning 1sec value, not the 10 second value.
+- Fixed: wrong dull copper color defname (color_o_dullcopper)
+
+------------------------------------------------------------------------
+r124 | MiniShiryuX | 2010-01-02 20:52:13 -0300 (Sáb 02 de Ene de 2010) | 6 lines
+
+- Updated: exceptional function now holds the player uid as argument.
+- Updated: blacksmithing excep. bonus for weapons is osi like now.
+- Updated: dragon armors with res* and meditation tags.
+- Updated: gargoyles to use garg. icon pet.
+- Removed: duplicated code of spell recovery.
+
+------------------------------------------------------------------------
+r123 | MiniShiryuX | 2009-12-27 17:27:25 -0300 (Dom 27 de Dic de 2009) | 7 lines
+
+- Added: Lower Reagent Cost, Hit Defense Increase & Hit Chance Increase item properties
+- Updated: moved hit leech properties to @gethit.
+- Updated: best weapon skill, now just use a simple tag.
+- Updated: maps to use tdata instead of tags.
+- Updated: combat system merged into the pack now. settings are in sphere_settings.scp and code was reduced as some things were removed (and some will be added in time).
+
+
+------------------------------------------------------------------------
+r122 | MiniShiryuX | 2009-12-23 15:06:20 -0300 (Mié 23 de Dic de 2009) | 5 lines
+
+- Added: gargoyle horn definitions (thx MrSugarCube)
+- Updated: moved @skillpreselect -> @skillwait.
+- Updated: mixed hiding and stealth files into the main ones using @wait.
+- Fixed: hiding and stealth using statf_mounted instead of statf_onhorse.
+
+------------------------------------------------------------------------
+r121 | MiniShiryuX | 2009-12-22 23:49:40 -0300 (Mar 22 de Dic de 2009) | 4 lines
+
+- Added: small test code for skill bonus property.
+- Fixed: items not removing properties/bonus from players
+- Removed: old item properties code (enchants)
+
+------------------------------------------------------------------------
+r120 | MiniShiryuX | 2009-12-21 01:25:25 -0300 (Lun 21 de Dic de 2009) | 2 lines
+
+- Fixed: issue with reqstr at tooltips, now working fine.
+- Fixed: missing > at leech property, may cause instant-kill.
+------------------------------------------------------------------------
+r119 | cem.onal92 | 2009-12-20 15:26:32 -0300 (Dom 20 de Dic de 2009) | 1 line
+
+- Added: death robe fix by pyromapes2k.
+------------------------------------------------------------------------
+r118 | cem.onal92 | 2009-12-20 07:59:48 -0300 (Dom 20 de Dic de 2009) | 1 line
+
+- Updated: sphere_item_properties.scp
+------------------------------------------------------------------------
+r117 | cem.onal92 | 2009-12-20 07:47:44 -0300 (Dom 20 de Dic de 2009) | 2 lines
+
+- Fixed: experimental item properties not showing in clilocs.
+- Fixed: damage increase property didn't have cliloc.
+------------------------------------------------------------------------
+r116 | cem.onal92 | 2009-12-19 16:13:52 -0300 (Sáb 19 de Dic de 2009) | 1 line
+
+- Updated: how to install.txt
+------------------------------------------------------------------------
+r115 | MiniShiryuX | 2009-12-19 15:54:42 -0300 (Sáb 19 de Dic de 2009) | 5 lines
+
+- Added: NPC's loot generator, if you want to try, added the e_NpcPropertiesEvent to the NPCs and set them the tag.luck.loot tag
+- Updated: moved getargv to general functions file.
+- Fixed: missing type in the swing speed increase entry.
+- Fixed: some typos and wrong names with the item properties.
+- Fixed: missing "end" at the fame/karma thing, crashed the server.
+------------------------------------------------------------------------
+r114 | cem.onal92 | 2009-12-19 11:20:38 -0300 (Sáb 19 de Dic de 2009) | 1 line
+
+- Updated: sphere_serv_triggers.scp. added savestatics command to world save.
+------------------------------------------------------------------------
+r113 | MiniShiryuX | 2009-12-19 00:25:46 -0300 (Sáb 19 de Dic de 2009) | 1 line
+
+- Fixed: using same defname for meditation settings and defname.
+------------------------------------------------------------------------
+r112 | cem.onal92 | 2009-12-18 17:32:16 -0300 (Vie 18 de Dic de 2009) | 1 line
+
+- Fixed: copper ingot defname.
+------------------------------------------------------------------------
+r111 | MiniShiryuX | 2009-12-17 23:40:25 -0300 (Jue 17 de Dic de 2009) | 5 lines
+
+- Added: new meditation checks, this include a new tag for items "tag.penalty.meditation" which if is 1 or 666 it will stop meditation (if this setting is enabled)
+- Added: sphere_msgs.scp at extra folder, which is almost the same as default, but it uses some clilocs instead of raw messages.
+- Updated: item properties, fixed some, added slayers, etc.
+- Updated: sphere_settings.scp with new item properties settings and removed old since the new are better =P
+- Removed: some old code from the main event and tweaked some to use the new item properties.
+------------------------------------------------------------------------
+r110 | MiniShiryuX | 2009-12-17 16:55:06 -0300 (Jue 17 de Dic de 2009) | 1 line
+
+- Added: missing "ftime" function, which reads any numerical value and returns it in "# days, # hours, etc" or just "20 sec", depends on the argument used.
+------------------------------------------------------------------------
+r109 | cem.onal92 | 2009-12-17 15:21:17 -0300 (Jue 17 de Dic de 2009) | 1 line
+
+- Updated: sphere_spells_spellweaving.scp. some little tweaks.
+------------------------------------------------------------------------
+r108 | cem.onal92 | 2009-12-17 15:16:38 -0300 (Jue 17 de Dic de 2009) | 1 line
+
+- Updated: renamed PsnSys_Max and PsnSys_Min functions to MAX and MIN.
+------------------------------------------------------------------------
+r107 | cem.onal92 | 2009-12-17 14:55:57 -0300 (Jue 17 de Dic de 2009) | 1 line
+
+- Updated: ShiryuX jail system. Modified the way it adds reason to avoid conflicts. And also fixed a misspell: e_jail --> e_jailed.
+------------------------------------------------------------------------
+r102 | MiniShiryuX | 2009-12-16 23:43:11 -0300 (Mié 16 de Dic de 2009) | 2 lines
+
+- Added: basic jail system. suggestions needed.
+- Updated: install instructions and scripts loaded by spheretables.scp.
+------------------------------------------------------------------------
+r101 | MiniShiryuX | 2009-12-16 22:23:28 -0300 (Mié 16 de Dic de 2009) | 1 line
+
+- Updated: SCP with default new scripts from Sphere for compatibility with SA. Thanks MrSugarCube.
+------------------------------------------------------------------------
+r100 | cem.onal92 | 2009-12-16 05:01:53 -0300 (Mié 16 de Dic de 2009) | 1 line
+
+- Updated: combat system delays.
+------------------------------------------------------------------------
+r99 | cem.onal92 | 2009-12-11 17:24:31 -0300 (Vie 11 de Dic de 2009) | 1 line
+
+- Updated: support for tag.override.skill on weapons.
+------------------------------------------------------------------------
+r98 | MiniShiryuX | 2009-12-11 02:09:42 -0300 (Vie 11 de Dic de 2009) | 1 line
+
+- Added: slayers, mana regen and self repair pseudo-code. maybe it works, maybe not, needs testing.
+------------------------------------------------------------------------
+r92 | cem.onal92 | 2009-12-10 15:53:22 -0300 (Jue 10 de Dic de 2009) | 1 line
+
+- Updated: added weapon uid (argn2) to @AfterHit trigger.
+------------------------------------------------------------------------
+r90 | cem.onal92 | 2009-12-10 15:42:26 -0300 (Jue 10 de Dic de 2009) | 2 lines
+
+- Updated: combat/combat_events.scp. added a new @AfterHit trigger.
+- Updated: sphere_spells_spellweaving_extra.scp. attune weapon now uses @AfterHit trigger.
+------------------------------------------------------------------------
+r89 | cem.onal92 | 2009-12-10 15:10:52 -0300 (Jue 10 de Dic de 2009) | 3 lines
+
+- Added: plantgrowing system. thanks to Xantier.
+- Updated: sphere_spells_spellweaving.scp. scripted attune weapon spell.
+- Updated: sphere_spells_spellweaving_extra.scp. attune weapon functions added.
+------------------------------------------------------------------------
+r88 | MiniShiryuX | 2009-12-09 18:03:57 -0300 (Mié 09 de Dic de 2009) | 5 lines
+
+- Added: experimental code for new item properties. please, try to not touch this since i'm still scripting it.
+- Updated: renamed crafting event to e_PlayerCraftingEvent
+- Updated: now tithing points are always required (even they are not consumed by LRC)
+- Fixed: experimental tooltips, some statements added.
+- Fixed: missing resources and skillmake for smith's hammer.
+------------------------------------------------------------------------
+r87 | cem.onal92 | 2009-12-09 17:43:24 -0300 (Mié 09 de Dic de 2009) | 1 line
+
+- Fixed: menu option LAST TEN showing in black.
+------------------------------------------------------------------------
+r86 | cem.onal92 | 2009-12-09 16:18:13 -0300 (Mié 09 de Dic de 2009) | 1 line
+
+- Added: new combat system. it's in beta version so we need feedbacks. thanks to Anarch Cassius.
+------------------------------------------------------------------------
+r85 | cem.onal92 | 2009-12-09 02:43:21 -0300 (Mié 09 de Dic de 2009) | 1 line
+
+- Updated: sphere_tooltips.scp. added missing ACT references.
+------------------------------------------------------------------------
+r84 | MiniShiryuX | 2009-12-09 00:30:51 -0300 (Mié 09 de Dic de 2009) | 1 line
+
+- Updated: several scripts using the default pack for SA compatibility.
+------------------------------------------------------------------------
+r83 | MiniShiryuX | 2009-12-08 21:56:13 -0300 (Mar 08 de Dic de 2009) | 3 lines
+
+- Added: experimental tooltip event, which overrides default one. to test it add e_PlayerTooltipEvent to your players.
+- Updated: spell messages to sphere_pack_msgs.scp
+- Updated: tag0.exceptional now holds the name of the player if he decides to mark it.
+------------------------------------------------------------------------
+r82 | MiniShiryuX | 2009-12-08 20:02:25 -0300 (Mar 08 de Dic de 2009) | 3 lines
+
+- Added: some of the SA items (thanks Valios)
+- Updated: EA karma/fame system according to the scripting rules.
+
+------------------------------------------------------------------------
+r81 | bradshawpatrick.us | 2009-12-08 17:29:06 -0300 (Mar 08 de Dic de 2009) | 2 lines
+
+Added: sphere_fame_karma_system.scp
+ Matches EA as closely as possible, since there is no current formula's listed. Only thing not added was Title Locking. I will adjust later for that. (Needs testing)
+------------------------------------------------------------------------
+r80 | MiniShiryuX | 2009-12-08 16:36:59 -0300 (Mar 08 de Dic de 2009) | 4 lines
+
+- Updated: rescripted crafting system to use ML crafting menu. needs several testing.
+- Updated: messages and clilocs from crafting menu.
+- Fixed: inscription using runes id instead of scrolls
+- Fixed: wrong listing in bowcraft skillmenu.
+------------------------------------------------------------------------
+r79 | cem.onal92 | 2009-12-08 12:47:09 -0300 (Mar 08 de Dic de 2009) | 1 line
+
+- Updated: sphere_spells_spellweaving.scp.
+------------------------------------------------------------------------
+r78 | cem.onal92 | 2009-12-08 11:03:05 -0300 (Mar 08 de Dic de 2009) | 2 lines
+
+- Updated: arcane circle and gift of renewal rescripted to match EA better. i will be scripting other spells.
+- Moved: spellweaving functions moved to sphere_spells_spellweaving_extra.scp
+------------------------------------------------------------------------
+r77 | cem.onal92 | 2009-12-08 09:28:19 -0300 (Mar 08 de Dic de 2009) | 4 lines
+
+- Updated: armors, added stealth penalty tags.
+- Updated: sphere_skillx_stealth.scp, f_armor_rating function works now.
+- Updated: changed the names of the files in add-on/skills/ to avoid conflicts.
+- Fixed: override/sphere_override_armor.scp, fixed clilocs showing hexadecimals.
+------------------------------------------------------------------------
+r76 | cem.onal92 | 2009-12-08 08:39:37 -0300 (Mar 08 de Dic de 2009) | 4 lines
+
+- Updated: every skill has its own file in scripts/skills folder now.
+- Updated: sphere_events_players.scp, skill delays change.
+- Updated: sphere_general_functions.scp, skill delay function.
+- Updated: sphere_skill_anatomy.scp, added skill delay for test purposes. it's not complete for all skills at the moment.
+------------------------------------------------------------------------
+r75 | MiniShiryuX | 2009-12-07 01:48:49 -0300 (Lun 07 de Dic de 2009) | 1 line
+
+- Added: support code (by coruja) for the AoS elemental combat, but only the display behavior.
+------------------------------------------------------------------------
+r74 | MiniShiryuX | 2009-12-07 01:44:11 -0300 (Lun 07 de Dic de 2009) | 2 lines
+
+- Updated: every armor to use TAG.Res* 
+- Updated: colored armor into new folder inside items folder. also removed the old file since it is no longer needed.
+------------------------------------------------------------------------
+r73 | MiniShiryuX | 2009-12-07 00:12:03 -0300 (Lun 07 de Dic de 2009) | 3 lines
+
+- Added: @craft called on item when it is crafted, argo is the player. 
+- Added: @itemcraft called on player when he crafts an item, argo is the item.
+- Added: new setting "_aftercraft" for crafting skillmenu. which is the name of the function to call on the item after the player crafts it. note: if you set this setting to material, both the default and the material functions will be called.
+------------------------------------------------------------------------
+r72 | cem.onal92 | 2009-12-06 02:08:28 -0300 (Dom 06 de Dic de 2009) | 1 line
+
+- Updated: some minor details with taming. cu cidhes can only be tamed by elves now.
+------------------------------------------------------------------------
+r71 | cem.onal92 | 2009-12-06 01:53:12 -0300 (Dom 06 de Dic de 2009) | 1 line
+
+- Fixed: sphere_skill_animal_taming.scp. a typo.
+------------------------------------------------------------------------
+r70 | cem.onal92 | 2009-12-06 01:51:07 -0300 (Dom 06 de Dic de 2009) | 3 lines
+
+- Updated: sphere_skill_animal_taming.scp, added stat&skill loss on taming. also added TAG.taming_stat_loss for creatures which loses stats on taming.
+- Updated: animallore can be gained while taming now.
+- Fixed: a check for skill delays.
+------------------------------------------------------------------------
+r69 | MiniShiryuX | 2009-12-05 20:35:34 -0300 (Sáb 05 de Dic de 2009) | 1 line
+
+- Fixed: missing skillmake/resources section in the black staff and in the copper key override.
+------------------------------------------------------------------------
+r68 | MiniShiryuX | 2009-12-05 20:17:09 -0300 (Sáb 05 de Dic de 2009) | 3 lines
+
+- Updated: removed deeds for guildstones from vendors as they are no longer used.
+- Fixed: missing code for the guild button.
+
+------------------------------------------------------------------------
+r67 | cem.onal92 | 2009-12-05 18:24:33 -0300 (Sáb 05 de Dic de 2009) | 2 lines
+
+- Added: hiding and stealth skills.
+- Fixed: @SkillPreSelect trigger has been fixed for the last time, it's working perfectly now.
+------------------------------------------------------------------------
+r66 | MiniShiryuX | 2009-12-05 14:39:12 -0300 (Sáb 05 de Dic de 2009) | 7 lines
+
+- Added: provocation script (not tested yet)
+- Updated: some enchants tag names to be more descriptive.
+- Updated: peacemaking script with delays between strokes.
+- Fixed: moved a @start spell trigger from necro to @select.
+- Fixed: additem custom function renamed to f_additem to avoid several problems.
+- Moved: carpentry, tailoring and tinkering skillmenu moved to the according folder.
+
+------------------------------------------------------------------------
+r59 | MiniShiryuX | 2009-12-04 23:44:06 -0300 (Vie 04 de Dic de 2009) | 4 lines
+
+- Updated: fixed and finished the SOS treasure system.
+- Updated: separated inscription file into skill and skillmenu.
+- Moved: evalint from add-on/skills to skills and merged with definition.
+
+------------------------------------------------------------------------
+r58 | MiniShiryuX | 2009-12-04 20:12:55 -0300 (Vie 04 de Dic de 2009) | 5 lines
+
+- Added: fishing according to EA. needs treasure sys to be done.
+- Added: some basic support for SOS treasure system. stills needs to be finished, not usable yet.
+- Updated: alchemy skillmenu according to SA files.
+- Moved: anatomy and fishing to the main skills folder (the rest of skills will be moved as I update them)
+
+------------------------------------------------------------------------
+r57 | MiniShiryuX | 2009-12-04 04:07:07 -0300 (Vie 04 de Dic de 2009) | 1 line
+
+- Removed: old file for bowcraft.
+------------------------------------------------------------------------
+r56 | MiniShiryuX | 2009-12-04 00:53:19 -0300 (Vie 04 de Dic de 2009) | 3 lines
+
+- Added: missing mr_sand region resource.
+- Fixed: misspell in sphere_pack_defs.scp
+
+------------------------------------------------------------------------
+r55 | MiniShiryuX | 2009-12-04 00:48:38 -0300 (Vie 04 de Dic de 2009) | 6 lines
+
+- Updated: merged some spells file into the main one (sphere_spells_tithing -> sphere_pack_defs.scp and sphere_spells_damage_bonus.scp -> sphere_general_functions.scp)
+- Updated: moved scripts/add-on/spells/ files to scripts/spells/.
+- Updated: moved crafting skillmenues to their own skillmenu folder. (need to finish other skills)
+- Fixed: now chivalry spells consume tithing points in all cases.
+- Fixed: misspell in sphere_events_players.scp.
+
+------------------------------------------------------------------------
+r54 | MiniShiryuX | 2009-12-03 23:18:25 -0300 (Jue 03 de Dic de 2009) | 1 line
+
+- Updated: foundations prices according to SA files.
+------------------------------------------------------------------------
+r53 | MiniShiryuX | 2009-12-03 22:42:16 -0300 (Jue 03 de Dic de 2009) | 1 line
+
+- Updated: blacksmithing table according to the SA files.
+------------------------------------------------------------------------
+r52 | MiniShiryuX | 2009-12-03 20:15:10 -0300 (Jue 03 de Dic de 2009) | 3 lines
+
+- Updated: moved ingots to own file. 
+- Updated: moved color settings to def file.
+- Updated: moved all the ore [regionresource] to sphere_region_resources.scp
+------------------------------------------------------------------------
+r51 | MiniShiryuX | 2009-12-03 18:35:52 -0300 (Jue 03 de Dic de 2009) | 1 line
+
+- Updated: moved spells files to the spell folder.
+------------------------------------------------------------------------
+r50 | MiniShiryuX | 2009-12-03 18:33:46 -0300 (Jue 03 de Dic de 2009) | 1 line
+
+- Updated: sphere_spells.scp -> sphere_spells_magery.scp
+------------------------------------------------------------------------
+r49 | MiniShiryuX | 2009-12-03 18:32:45 -0300 (Jue 03 de Dic de 2009) | 4 lines
+
+- Added: logs according to osi and moved them to separate file.
+- Updated: ores according to osi. old ores are still there.
+- Updated: organized a lot the region file, regionresource
+- Updated: moved misc spells to separate file
+------------------------------------------------------------------------
+r48 | MiniShiryuX | 2009-12-03 04:19:37 -0300 (Jue 03 de Dic de 2009) | 1 line
+
+- Updated: many headers with credits to the skill files.
+------------------------------------------------------------------------
+r47 | MiniShiryuX | 2009-12-02 23:31:55 -0300 (Mié 02 de Dic de 2009) | 3 lines
+
+- Added: new script for Taste ID skill (thanks jeem)
+- Added: sand mining, only using a shovel in sand.
+- Updated: barding system to be able to activate/deactivate each skill separate from the main setting. note that deactivating barding setting deactivates every skill.
+------------------------------------------------------------------------
+r46 | MiniShiryuX | 2009-12-02 21:25:46 -0300 (Mié 02 de Dic de 2009) | 1 line
+
+- Fixed: @SkillPreSelect now working, forgot to add a little 1 in here. =P
+------------------------------------------------------------------------
+r45 | MiniShiryuX | 2009-12-02 16:56:38 -0300 (Mié 02 de Dic de 2009) | 5 lines
+
+- Added: osi-like runebook by pyromapes2k with small changes
+- Added: map5 files, though they were already there.
+- Added: small cooking file, no tool yet, just a base.
+- Updated: runes with some new settings (thanks pyro)
+
+------------------------------------------------------------------------
+r44 | MiniShiryuX | 2009-12-02 15:31:16 -0300 (Mié 02 de Dic de 2009) | 2 lines
+
+- Fixed #2: wrong button in crafting categories
+- Fixed: also some crafting bugs, (in *theory*) in the sidebar buttons.
+------------------------------------------------------------------------
+r43 | MiniShiryuX | 2009-12-02 15:19:35 -0300 (Mié 02 de Dic de 2009) | 1 line
+
+- Updated: proper way to override words of power. now only the custom wops in sphere_pack_msgs.scp will be used if the runes setting in spell section is empty.
+------------------------------------------------------------------------
+r42 | MiniShiryuX | 2009-12-02 15:06:15 -0300 (Mié 02 de Dic de 2009) | 1 line
+
+- Fixed: two small typos in the script (sorry, can't remember every word)
+------------------------------------------------------------------------
+r41 | MiniShiryuX | 2009-12-02 02:29:45 -0300 (Mié 02 de Dic de 2009) | 1 line
+
+
+------------------------------------------------------------------------
+r40 | MiniShiryuX | 2009-12-02 02:27:42 -0300 (Mié 02 de Dic de 2009) | 1 line
+
+- Updated: defs with some sounds of SA and others.
+------------------------------------------------------------------------
+r39 | MiniShiryuX | 2009-12-02 02:17:53 -0300 (Mié 02 de Dic de 2009) | 8 lines
+
+- Added: full necromancy and mysticism scrolls + book template.
+- Updated: templates names, descriptions, etc.
+- Updated: just a peacemaking message.
+- Fixed #4: Misspell on sphere_crafting_functions.scp (skillgan -> skillgain)
+- Fixed #3: Some function errors with animal taming script (cem.onal92, real nick?)
+- Fixed: forgot to add a check for OSIFollowers setting in the shrinked pets.
+- Fixed: inexistant runes in spell sections.
+- Fixed: several bugs on peacemaking skill.
+------------------------------------------------------------------------
+r38 | MiniShiryuX | 2009-12-01 20:25:02 -0300 (Mar 01 de Dic de 2009) | 1 line
+
+- Fixed: misspell with skill settings.
+------------------------------------------------------------------------
+r37 | MiniShiryuX | 2009-11-22 10:56:54 -0300 (Dom 22 de Nov de 2009) | 3 lines
+
+- Moved: some functions of necromancy to its extra file.
+- Moved: random necro spell template to template file.
+- Updated: curse weapon to curse the weapon in the hand.
+------------------------------------------------------------------------
+r36 | MiniShiryuX | 2009-11-19 01:30:22 -0300 (Jue 19 de Nov de 2009) | 1 line
+
+
+------------------------------------------------------------------------
+r35 | MiniShiryuX | 2009-11-19 01:03:17 -0300 (Jue 19 de Nov de 2009) | 1 line
+
+- Added: installation instructions.
+------------------------------------------------------------------------
+r34 | MiniShiryuX | 2009-11-18 13:27:27 -0300 (Mié 18 de Nov de 2009) | 6 lines
+
+- Added: a few taming messages.
+- Added: new animal taming, osi-like (thanks jeem)
+- Fixed: some code of followers was missing.
+- Fixed: enticement -> discordance in newbie block.
+- Removed: @SkillPreSelect until find a fix for it.
+
+------------------------------------------------------------------------
+r33 | bradshawpatrick.us | 2009-11-18 03:42:32 -0300 (Mié 18 de Nov de 2009) | 11 lines
+
+11-12-09
+*Added several new informative documents to the Documentation Folder. Adding a file for the following three guides: sphere-speed-conversion-table, sphere-npc-behaviours, sphere-armor-calculations, and sphere-override-guide
+
+11-13-09
+* sphere_item_provisions_clothing_ml and sphere_item_provisions_clothing_se; changed axis cats. Category=Provisions - Clothing is now: Provisions - Clothes.
+
+11-16-09
+* Added names_humanmale_tokuno, names_humanfemale_tokuno to sphere_name.scp. 50 of each. Will add more later.
+
+11-17-09
+* updated sphere_name.scp Added two more names to names_daemon.
+------------------------------------------------------------------------
+r32 | MiniShiryuX | 2009-11-17 01:41:58 -0300 (Mar 17 de Nov de 2009) | 3 lines
+
+- Added: healing and veterinary scripts
+- Updated: sphere_settings.scp with some healing settings.
+- Updated: maps to use tag.override.map.width and tag.override.map.height.
+------------------------------------------------------------------------
+r31 | bradshawpatrick.us | 2009-11-11 08:50:11 -0300 (Mié 11 de Nov de 2009) | 6 lines
+
+11-10-09 - 11-11-09
+
+* sphere_item_provisions_weapons_*.scp; all expansion files had def changes done. A backwards compatibility def list is included in the sphere_backward_compatibility.scp Transitioning the new def's should not be an issue. I suggest minor updating to crafting systems if their is issues. Otherwise please don't change these new def's. Whole deflists for magic items are done with them and magic items use these new def's. (Note: If they are reverted, I will drop all work on those said items and anything to do with them, their def's made little sensibility e.g. i_mace_wildstaff.. wtf? i_wild_staff is new def. Seems more sensible.)
+* sphere_item_magic_weapon.scp; added in all weapons from AoS, SE, ML weapons. Each weapon type has ruin - mystic attributes. SA will get done later today.
+* sphere_backwards_compatibility.scp; updated in old weapon defs which I changed to make more sense, this should allow any use with old def items spawned to have the def information converted to the new formatting. Hope the crafting systems will transition well with this.
+*sphere_item_provisions_weapons_sa.scp; completed every single SA weapon minus stone war sword and serpentstone staff, they are not defined on stratics. All the throwing weapons are type t_weapon_bow. Since we don't have a type for throwing yet. I will make one later most likely. Everything is EA accurate so far.
+------------------------------------------------------------------------
+r30 | bradshawpatrick.us | 2009-11-11 00:49:52 -0300 (Mié 11 de Nov de 2009) | 7 lines
+
+11-10-09
+Edited/Added:
+* sphere_item_magic_weapon.scp Added in Mystic weapons to all weapons listed. Mystic runs a morey of 120.0. Added in Hatchets, daggers, smith hammer,  cleavers, all staves, skinning knives, butcher knives, and long sword b.  Removed all ITEMDEF 0#### as these will interfere with SA items. Fixed Axis cats for i_bow_vanq. Added in halberd of Force and Vanquishing. Added Crossbow of Force and vanq, same with scimitars.. They were missing or out of place.
+
+More to be added later. Will be adding in all and I repeat all ML, SE, AOS, SA items as well as time goes on.
+
+Note: Mystic weapons were introduced during Ophidian Wars.
+------------------------------------------------------------------------
+r29 | MiniShiryuX | 2009-11-08 17:16:41 -0300 (Dom 08 de Nov de 2009) | 2 lines
+
+- Added: Tinkering skill lists! crafting almost done.
+- Added: Poisoning skill. Working on Heal/Vet.
+------------------------------------------------------------------------
+r28 | bradshawpatrick.us | 2009-11-08 04:05:51 -0300 (Dom 08 de Nov de 2009) | 1 line
+
+* changed sphere_defs.scp again more liche dependencies found and switched to lich.
+------------------------------------------------------------------------
+r27 | bradshawpatrick.us | 2009-11-08 03:25:19 -0300 (Dom 08 de Nov de 2009) | 13 lines
+
+Added:
+* sphere_item_resources_scales.scp Added in i_reag_dragon_scale for older scripts still using that def. It is more backwards compatability, but not really, since the new scales use a specific ID, and there is over 5 scales of other ID's this was redefined, to meet a new standard.
+
+* spheredefs.scp Added new lines to match stratics scroll selections for my npc loot templates. Added: random_scroll_low, random_scroll_medium, random_scroll_high, random_scroll_necro_low, random_scroll_necro_medium, and random_scroll_necro_high.
+
+Edited:
+* sphere_item_provisions_jewelry.scp Changed Axis Cats on the silver jewelry to be sorted into Provisions - Jewels and Jewelry. Removed all DEFNAME2= and original DEFNAME= comments.
+
+* sphere_spells_necromancy.scp Changed Curse weapon requirements of 0.1 to 0.0 as it should be. Changed i_scroll_liche_transformation, into i_scroll_lich_form (added this into backwards compatability defs as well. Converted anything liche to lich.
+
+* sphere_backward_compatibility.scp Several changes and additions. Look in file for additions.
+
+*spherechar.scp, sphere_spawns.scp, spherechar_evil.scp, spere_item_char_icons.scp, sphere_spells_necromancy_extra.scp; changed all liche to lich.
+------------------------------------------------------------------------
+r26 | MiniShiryuX | 2009-11-06 00:57:01 -0300 (Vie 06 de Nov de 2009) | 3 lines
+
+- Added: carpentry and tailoring tables for crafting.
+- Updated: defs with new buff icons of gargoyle things.
+
+------------------------------------------------------------------------
+r25 | bradshawpatrick.us | 2009-11-05 04:25:38 -0300 (Jue 05 de Nov de 2009) | 3 lines
+
+Edited:
+
+* sphere_pack_msgs.scp; Added in ALL Stygian Abyss spells WOP's.
+------------------------------------------------------------------------
+r24 | MiniShiryuX | 2009-11-05 00:46:01 -0300 (Jue 05 de Nov de 2009) | 1 line
+
+- Fixed: wops wrong defname, now corrected according pack standard.
+------------------------------------------------------------------------
+r23 | bradshawpatrick.us | 2009-11-05 00:41:37 -0300 (Jue 05 de Nov de 2009) | 3 lines
+
+Added/Edited:
+
+* sphere_spells_necromancy.scp; Added in spell 117. Exorcism. Has all the checks minus "issameguild", "issamealliance", "issameparty", and "issamefaction". These needed to be added, but as I see it, we need a stable faction/party/alliance/guild system that won't get changed to add these functions.
+------------------------------------------------------------------------
+r22 | bradshawpatrick.us | 2009-11-05 00:34:46 -0300 (Jue 05 de Nov de 2009) | 3 lines
+
+Edited:
+
+* sphere_pack_msgs.scp; Added in spell_117_wop "Ort Corp Grav" This is the "Exorcism" spell's words of power.
+------------------------------------------------------------------------
+r21 | MiniShiryuX | 2009-11-05 00:30:32 -0300 (Jue 05 de Nov de 2009) | 1 line
+
+- Updated: sphere_pack_msgs.scp with missing WoP section. Sorry about that.
+------------------------------------------------------------------------
+r20 | MiniShiryuX | 2009-11-04 03:46:48 -0300 (Mié 04 de Nov de 2009) | 3 lines
+
+- Added: OSI Spell Actdiff calculation.
+- Fixed: Now LMC is working even with LRC disabled.
+- Fixed: Necromancy WOP displayed twice.
+------------------------------------------------------------------------
+r19 | bradshawpatrick.us | 2009-11-03 23:02:37 -0300 (Mar 03 de Nov de 2009) | 6 lines
+
+Update!
+
+Edited File:
+* sphere_spells_necromancy.scp
+   Added in words of power, though they are commented out right now (These were added in @Start). Fixed reagents to match new ones added.
+   Note: We are missing a spell it seems. Exorcism is non-existant.
+------------------------------------------------------------------------
+r18 | bradshawpatrick.us | 2009-11-03 18:01:42 -0300 (Mar 03 de Nov de 2009) | 16 lines
+
+11/03/09
+Edited Files:
+* sphere_item_provisions_ore.scp
+	color_o_iron is now switched to the option, so it can be used in colors for other items and npcs now. Seemed redundant not to.
+* sphere_item_resources.scp
+	Removed all reagents. Correctly relabeled Necromancy reagents. Changed defnames. Made a secondary item for any itemdef that was changed. 
+
+Added Files:
+* sphere_item_provisions_armor_sa.scp
+* sphere_item_provisions_clothing_sa.scp
+* sphere_item_provisions_weapons_sa.scp
+	Above three are empty for now.
+* sphere_item_resources_reagents.scp
+	Notes are above in "Edited Files".
+*sphere_item_provisions_clothing_se.scp
+	Contains all my Samurai Empire Clothing files.
+------------------------------------------------------------------------
+r17 | bradshawpatrick.us | 2009-11-03 17:03:54 -0300 (Mar 03 de Nov de 2009) | 6 lines
+
+* Updates:
+sphere_name.scp
+
+* Edited and added to Controller, Daemon, evil mage names. Missing # amount in controllers. Daemon and Evil Mage added 1 or 2 more names.
+
+* Added: names_balron, names_evil_mage_lord, names_gargoyle_fire, names_dark_father, names_darknight_creeper, names_impaler. They match EA: UO name lists.
+------------------------------------------------------------------------
+r16 | MiniShiryuX | 2009-11-03 03:53:10 -0300 (Mar 03 de Nov de 2009) | 5 lines
+
+- Added: a base for barding skills.
+- Added: extras and documentation folders.
+- Updated: tag.slots_needed -> tag.control.slots
+- Updated: more messages to the msgs file.
+
+------------------------------------------------------------------------
+r15 | bradshawpatrick.us | 2009-11-03 03:34:04 -0300 (Mar 03 de Nov de 2009) | 4 lines
+
+* Removed i_reag_dragon_scale from sphere_item_provisions_armor_aos.scp
+* Removed Scales 026B1 - 026B6 from sphere_item_misc_se.scp It was redundant to even be in SE packs when they were implemented way before. All Scale resources moved to sphere_item_resources_scales.scp
+* New Axis Cat was added for above resources to find them easier. Provisions - Blacksmithing / Scales, will be moving ingots and ores to their own provisions too.
+* Added AoS Dragon Scale Resources intp sphere_item_resources_scales.scp colors are as close as I can get them. Type = t_reagent instead of t_normal; in case anyone uses them for their casting systems.
+------------------------------------------------------------------------
+r14 | bradshawpatrick.us | 2009-11-03 03:32:31 -0300 (Mar 03 de Nov de 2009) | 4 lines
+
+* Removed i_reag_dragon_scale from sphere_item_provisions_armor_aos.scp
+* Removed Scales 026B1 - 026B6 from sphere_item_misc_se.scp It was redundant to even be in SE packs when they were implemented way before. All Scale resources moved to sphere_item_resources_scales.scp
+* New Axis Cat was added for above resources to find them easier. Provisions - Blacksmithing / Scales, will be moving ingots and ores to their own provisions too.
+* Added AoS Dragon Scale Resources intp sphere_item_resources_scales.scp colors are as close as I can get them. Type = t_reagent instead of t_normal; in case anyone uses them for their casting systems.
+------------------------------------------------------------------------
+r13 | bradshawpatrick.us | 2009-11-02 05:09:33 -0300 (Lun 02 de Nov de 2009) | 3 lines
+
+* Fixed AxisCats in sphere_item_christmas earlier. (Forgot to note)
+* sphere_newb.scp - Major Edits within. Read comments at the top! (Need feedback on tactics edits!!) Note: Removetrap and spellweaving should NOT have comments removed in def's. They are placeholders. They cannot be chosen as beginning skills according to EA.
+* sphere_item_resources.scp - Added Necro reagents true to AoS. Only one duplication within for categorizing til I sort through all the necromancy spells, scrolls.
+------------------------------------------------------------------------
+r12 | bradshawpatrick.us | 2009-11-02 02:37:44 -0300 (Lun 02 de Nov de 2009) | 1 line
+
+
+------------------------------------------------------------------------
+r11 | MiniShiryuX | 2009-11-01 17:53:00 -0300 (Dom 01 de Nov de 2009) | 6 lines
+
+- Added: working blacksmithing, inscription, alchemy and bowcraft.
+- Added: new buffs function to support necro/chival spell buffs. List can be found in sphere_pack_defs.scp
+- Updated: moved new messages to the messages file.
+- Fixed: more crafting issues like wrong messages and such.
+
+
+------------------------------------------------------------------------
+r10 | MiniShiryuX | 2009-11-01 14:34:02 -0300 (Dom 01 de Nov de 2009) | 5 lines
+
+- Added: @SkillPreSelect, fired when the player runs a skill from the menu or from a macro and before any hardcoded check takes place. ARGN1 is the skill number.
+- Updated: crafting system a little, made some fixes.
+- Updated: sphere_item_christimas.scp -> sphere_item_christmas.scp
+- Updated: Enticement -> Discordance
+- Moved: some messages to a new file, so it's easier to change them.
+------------------------------------------------------------------------
+r9 | MiniShiryuX | 2009-10-30 23:59:24 -0300 (Vie 30 de Oct de 2009) | 2 lines
+
+- Added: some general functions for all scripts.
+- Fixed: crafting system, just small details here and there.
+------------------------------------------------------------------------
+r8 | MiniShiryuX | 2009-10-28 22:35:20 -0300 (Mié 28 de Oct de 2009) | 1 line
+
+- Added: crafting system! finally! not 100% working but near that.
+------------------------------------------------------------------------
+r7 | MiniShiryuX | 2009-10-28 14:33:55 -0300 (Mié 28 de Oct de 2009) | 2 lines
+
+- Added: missing scrolls from necromancy.
+- Fixed: defnames for spells and etc.
+------------------------------------------------------------------------
+r6 | MiniShiryuX | 2009-10-27 14:11:02 -0300 (Mar 27 de Oct de 2009) | 5 lines
+
+- Added: House system.
+- Added: OSI Ore smelt formula.
+- Added: Tithing points and resurrect delay for ankhs.
+- Updated: resisting spells to be able to switch.
+
+------------------------------------------------------------------------
+r5 | MiniShiryuX | 2009-10-27 12:34:23 -0300 (Mar 27 de Oct de 2009) | 11 lines
+
+- Added: Cloud_BR's quest system.
+- Added: some skills settings and others.
+- Added: necromancy and chivalry (complete)
+- Added: 2 spells of spellweaving.
+- Added: OSI Doom dungeon.
+- Added: Mysticism spells definition.
+- Updated: skills with the new SA skills definitions.
+- Updated: champion system settings to sphere_settings.scp
+- Updated: moved spells to separate files (by skill)
+- Updated: spheretables.scp to load all scripts.
+
+------------------------------------------------------------------------
+r4 | MiniShiryuX | 2009-09-14 19:38:54 -0300 (Lun 14 de Sep de 2009) | 1 line
+
+- Added: OSI Guildstone system.
+------------------------------------------------------------------------
+r3 | MiniShiryuX | 2009-09-08 00:09:37 -0300 (Mar 08 de Sep de 2009) | 2 lines
+
+- Added: a few skills scripts.
+- Updated: magic properties (enchants) to be able to activate/deactivate them using the settings file.
+------------------------------------------------------------------------
+r2 | MiniShiryuX | 2009-09-04 23:10:47 -0300 (Vie 04 de Sep de 2009) | 1 line
+
+- Added: base files.
+------------------------------------------------------------------------
+r1 | (sin autor) | 2009-09-04 22:58:34 -0300 (Vie 04 de Sep de 2009) | 1 line
+
+Initial directory structure.
+------------------------------------------------------------------------

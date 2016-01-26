@@ -1,0 +1,1481 @@
+2016/01/21 00:00:0100:00:b:Client connected [Total:3] ('187.67.34.213' 1/1)
+00:00:b:Login 'marcoribera'
+00:00:b:Client disconnected [Total:2] ('187.67.34.213')
+00:00:c:Client connected [Total:3] ('187.67.34.213' 1/1)
+00:00:c:Login 'marcoribera'
+00:00:c:Setup_Start acct='marcoribera', char='MarcoPlayer', IP='187.67.34.213'
+00:00:(sistema_de_eventos.scp,79)[EVENT]Login: marcoribera (099a)
+00:00:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=8107,charAcct=2458,x=729,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+00:00:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+00:00:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+00:00:(skills.scp,423)marcoribera/MarcoPlayer SC:628 SSC:3000/6500 MI:53
+00:00:1:'okami' commands 'r'=1
+00:00:1:'okami' commands 'r ainda nao rola'=1
+00:00:1:'okami' commands 'r'=1
+00:00:1:'okami' commands 'r'=1
+00:00:1:'okami' commands 'r'=1
+00:00:c:'marcoribera' commands 'capuz'=1
+00:01:1:'okami' commands 'r'=1
+00:02:8:'admin' commands 'serv.resync'=1
+00:02:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:02:c:'marcoribera' commands 'capuz'=1
+00:02:c:'marcoribera' commands 'capuz'=1
+00:02:1:'okami' commands 'r'=1
+00:02:c:'marcoribera' commands 'capuz'=1
+00:02:1:'okami' commands 'r'=1
+00:02:1:'okami' commands 'r nao funciona em vc ainda'=1
+00:02:8:'admin' commands 'r'=1
+00:02:8:'admin' commands 'xprivset 2'=1
+00:02:'admin' commands uid=01f38 (Humano) to 'privset 2'=1
+00:02:1:'okami' commands 'r'=1
+00:03:8:'admin' commands 'xprivset 1'=1
+00:03:'admin' commands uid=01f38 (Humano) to 'privset 1'=1
+00:03:c:'marcoribera' commands 'r'=1
+00:04:1:'okami' commands 'r'=1
+00:06:8:'admin' commands 'serv.resync'=1
+00:06:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:06:1:'okami' commands 'r'=1
+00:07:8:'admin' commands 'serv.resync'=1
+00:07:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:07:1:'okami' commands 'r'=1
+00:08:8:'admin' commands 'serv.resync'=1
+00:08:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:08:8:'admin' commands 'update'=1
+00:11:8:'admin' commands 'serv.resync'=1
+00:11:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:11:1:'okami' commands 'r'=1
+00:11:c:'marcoribera' commands 'r'=1
+00:15:8:'admin' commands 'xmove n 2'=1
+00:15:'admin' commands uid=01f38 (Humano) to 'move n 2'=1
+00:15:1:'okami' commands 'r'=1
+00:16:8:'admin' commands 'gm'=1
+00:16:8:'admin' commands 'gm'=1
+00:17:8:'admin' commands 'xmove s 2'=1
+00:17:'admin' commands uid=01f38 (Humano) to 'move s 2'=1
+00:17:1:'okami' commands 'r'=1
+00:17:1:'okami' commands 'r'=1
+00:18:8:'admin' commands 'xmove n 2'=1
+00:18:'admin' commands uid=01f38 (Humano) to 'move n 2'=1
+00:18:1:'okami' commands 'r'=1
+00:20:8:'admin' commands 'serv.resync'=1
+00:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:20:c:'marcoribera' commands 'r'=1
+00:20:1:'okami' commands 'r'=1
+00:20:1:'okami' commands 'r'=1
+00:20:8:'admin' commands 'xmove s 2'=1
+00:20:8:'admin' commands 'xmove s 5'=1
+00:20:'admin' commands uid=01f38 (Humano) to 'move s 5'=1
+00:20:1:'okami' commands 'r'=1
+00:20:8:'admin' commands 'xmove n 5'=1
+00:21:'admin' commands uid=01f38 (Humano) to 'move n 5'=1
+00:21:c:'marcoribera' commands 'r'=1
+00:22:c:'marcoribera' commands 'r'=1
+00:22:1:'okami' commands 'r'=1
+00:22:8:'admin' commands 'xprivset 2'=1
+00:22:'admin' commands uid=01f38 (Humano) to 'privset 2'=1
+00:22:1:'okami' commands 'r'=1
+00:22:1:'okami' commands 'gm'=0
+00:22:8:'admin' commands 'xprivset 6'=1
+00:22:'admin' commands uid=01f38 (Humano) to 'privset 6'=1
+00:22:1:'okami' commands 'gm'=1
+00:22:1:'okami' commands 'r'=1
+00:22:1:'okami' commands 'r'=1
+00:22:8:'admin' commands 'xprivset 1'=1
+00:22:'admin' commands uid=01f38 (Humano) to 'privset 1'=1
+00:22:1:'okami' commands 'r'=1
+00:23:c:'marcoribera' commands 'r'=1
+00:23:8:'admin' commands 'serv.resync'=1
+00:23:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:23:1:'okami' commands 'r'=1
+00:24:c:'marcoribera' commands 'r'=1
+00:24:1:'okami' commands 'r'=1
+00:25:8:'admin' commands 'r'=1
+00:25:8:'admin' commands 'r'=1
+00:25:8:'admin' commands 'gm'=1
+00:25:8:'admin' commands 'r'=1
+00:26:8:'admin' commands 'gm'=1
+00:26:(sistema_de_tempo.scp,202)[CLIMA] Colonia de Belaryar - SECO
+00:26:8:'admin' commands 'serv.resync'=1
+00:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:26:c:'marcoribera' commands 'r'=1
+00:26:c:'marcoribera' commands 'r'=1
+00:26:8:'admin' commands 'serv.resync'=1
+00:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:27:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 00 - 53m/0m
+00:27:8:'admin' commands 'gm'=1
+00:27:8:'admin' commands 'gm'=1
+00:27:8:'admin' commands 'r'=1
+00:27:8:'admin' commands 'r'=1
+00:27:c:'marcoribera' commands 'r'=1
+00:27:1:'okami' commands 'r'=1
+00:27:c:'marcoribera' commands 'capuz'=1
+00:27:c:'marcoribera' commands 'capuz'=1
+00:27:GC: 151 Objects accounted for
+00:29:8:'admin' commands 'xmove s 5'=1
+00:29:'admin' commands uid=01f38 (Humano) to 'move s 5'=1
+00:29:1:'okami' commands 'r'=1
+00:29:8:'admin' commands 'capuz'=1
+00:29:8:'admin' commands 'capuz'=1
+00:29:1:'okami' commands 'capuz'=1
+00:30:8:'admin' commands 'gm'=1
+00:30:8:'admin' commands 'update'=1
+00:30:8:'admin' commands 'gm'=1
+00:30:1:'okami' commands 'capuz'=1
+00:30:8:'admin' commands 'serv.resync'=1
+00:30:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:30:c:'marcoribera' commands 'capuz'=1
+00:30:c:'marcoribera' commands 'capuz'=1
+00:30:c:'marcoribera' commands 'r'=1
+00:31:8:'admin' commands 'serv.resync'=1
+00:31:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:31:c:'marcoribera' commands 'r'=1
+00:32:8:'admin' commands 'serv.resync'=1
+00:32:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:33:1:'okami' commands 'capuz'=1
+00:33:1:'okami' commands 'capuz'=1
+00:33:8:'admin' commands 'serv.resync'=1
+00:33:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:33:8:'admin' commands 'serv.resync'=1
+00:33:c:'marcoribera' commands 'r'=1
+00:33:1:'okami' commands 'r'=1
+00:33:1:'okami' commands 'capuz'=1
+00:33:1:'okami' commands 'r nao rola'=1
+00:33:c:'marcoribera' commands 'capuz'=1
+00:33:1:'okami' commands 'capuz'=1
+00:34:1:'okami' commands 'r'=1
+00:34:c:'marcoribera' commands 'capuz'=1
+00:35:8:'admin' commands 'xname Filmore'=1
+00:35:'admin' commands uid=01fab (Humano) to 'name Filmore'=1
+00:35:8:'admin' commands 'update'=1
+00:36:8:'admin' commands 'info'=1
+00:36:8:'admin' commands 'info'=1
+00:36:8:'admin' commands 'xname Name'=1
+00:36:'admin' commands uid=01fab (Filmore) to 'name Name'=1
+00:36:8:'admin' commands 'info'=1
+00:36:8:'admin' commands 'xupdatex'=1
+00:36:'admin' commands uid=01fab (Name) to 'updatex'=1
+00:36:8:'admin' commands 'xupdatex'=1
+00:36:'admin' commands uid=01f38 (Humano) to 'updatex'=1
+00:37:8:'admin' commands 'xshow name'=1
+00:37:'admin' commands uid=01fab (Name) to 'show name'=1
+00:37:8:'admin' commands 'xname Filmore'=1
+00:37:'admin' commands uid=01fab (Name) to 'name Filmore'=1
+00:37:8:'admin' commands 'gm'=1
+00:37:8:'admin' commands 'xname Filmore'=1
+00:37:'admin' commands uid=01fab (Filmore) to 'name Filmore'=1
+00:37:8:'admin' commands 'xupdatex'=1
+00:37:'admin' commands uid=01fab (Filmore) to 'updatex'=1
+00:37:8:'admin' commands 'xshow name'=1
+00:37:'admin' commands uid=01fab (Filmore) to 'show name'=1
+00:37:c:'marcoribera' commands 'capuz'=1
+00:37:c:'marcoribera' commands 'capuz'=1
+00:38:c:Client disconnected [Total:2] ('187.67.34.213')
+00:38:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=8107,charAcct=2458,x=729,y=2120,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+00:38:d:Client connected [Total:3] ('187.67.34.213' 1/1)
+00:38:d:Login 'marcoribera'
+00:38:d:Client disconnected [Total:2] ('187.67.34.213')
+00:38:e:Client connected [Total:3] ('187.67.34.213' 1/2)
+00:38:e:Login 'marcoribera'
+00:38:e:Setup_Start acct='marcoribera', char='MarcoPlayer', IP='187.67.34.213'
+00:38:(sistema_de_eventos.scp,79)[EVENT]Login: marcoribera (099a)
+00:38:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=8107,charAcct=2458,x=729,y=2120,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+00:38:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+00:38:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+00:38:(skills.scp,423)marcoribera/MarcoPlayer SC:629 SSC:3000/6500 MI:53
+00:38:8:'admin' commands 'info'=1
+00:38:8:'admin' commands 'xshow tag.name'=1
+00:38:'admin' commands uid=01fab (Humano) to 'show tag.name'=1
+00:39:8:'admin' commands 'serv.resync'=1
+00:39:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:39:8:'admin' commands 'update'=1
+00:40:8:'admin' commands 'gm'=1
+00:40:8:'admin' commands 'update'=1
+00:41:8:'admin' commands 'serv.resync'=1
+00:41:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:41:8:'admin' commands 'serv.resync'=1
+00:41:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:42:8:'admin' commands 'updatex'=1
+00:42:8:'admin' commands 'xupdatex'=1
+00:42:'admin' commands uid=01f38 (Humano) to 'updatex'=1
+00:42:8:'admin' commands 'xupdatex'=1
+00:42:'admin' commands uid=01fab (Humano) to 'updatex'=1
+00:43:8:'admin' commands 'serv.resync'=1
+00:43:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:44:8:'admin' commands 'serv.resync'=1
+00:44:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:46:8:'admin' commands 'serv.resync'=1
+00:46:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:46:8:'admin' commands 'serv.resync'=1
+00:46:e:'marcoribera' commands 'r'=1
+00:46:1:'okami' commands 'r'=1
+00:46:1:'okami' commands 'r'=1
+00:46:1:'okami' commands 'r'=1
+00:46:1:'okami' commands 'r'=1
+00:46:8:'admin' commands 'r'=1
+00:46:8:'admin' commands 'r'=1
+00:47:8:'admin' commands 'xtaglist'=1
+00:47:'admin' commands uid=01fab (Humano) to 'taglist'=1
+00:48:8:'admin' commands 'xtag.uid_01_name'=1
+00:48:'admin' commands uid=01fab (Humano) to 'tag.uid_01_name'=1
+00:48:8:'admin' commands 'xtag.uid_01f38_name'=1
+00:48:'admin' commands uid=01fab (Humano) to 'tag.uid_01f38_name'=1
+00:48:8:'admin' commands 'xtaglist'=1
+00:48:'admin' commands uid=01fab (Humano) to 'taglist'=1
+00:48:8:'admin' commands 'xtaglist'=1
+00:48:'admin' commands uid=01f38 (Humano) to 'taglist'=1
+00:49:8:'admin' commands 'serv.resync'=1
+00:49:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:49:e:'marcoribera' commands 'r'=1
+00:49:1:'okami' commands 'r'=1
+00:49:1:'okami' commands 'capuz'=1
+00:49:1:'okami' commands 'r'=1
+00:50:1:'okami' commands 'capuz'=1
+00:50:1:'okami' commands 'r'=1
+00:50:e:Client disconnected [Total:2] ('187.67.34.213')
+00:50:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=8107,charAcct=2458,x=731,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+00:50:f:Client connected [Total:3] ('187.67.34.213' 1/1)
+00:50:f:Login 'marcknight'
+00:50:f:Client disconnected [Total:2] ('187.67.34.213')
+00:50:10:Client connected [Total:3] ('187.67.34.213' 1/2)
+00:50:10:Login 'marcknight'
+00:50:10:Setup_Start acct='marcknight', char='Marcknight', IP='187.67.34.213'
+00:50:(sistema_de_eventos.scp,79)[EVENT]Login: marcknight (0996)
+00:50:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=8116,charAcct=2454,x=1198,y=877,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+00:50:ERROR:(events.scp,229)Undefined symbol '' ['&& (6 <= 1)']
+00:50:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+00:50:(skills.scp,423)marcknight/Marcknight SC:628 SSC:72500/6500 MI:0
+00:50:10:'marcknight' commands 'admin'=1
+00:51:10:'marcknight' commands 'gm'=1
+00:51:10:'marcknight' commands 'gm'=1
+00:51:1:'okami' commands 'capuz'=1
+00:51:1:'okami' commands 'capuz'=1
+00:51:10:'marcknight' commands 'r'=1
+00:52:8:'admin' commands 'go eresiere'=1
+00:52:1:'okami' commands 'capuz'=1
+00:52:1:'okami' commands 'capuz'=1
+00:52:1:'okami' commands 'r'=1
+00:52:1:'okami' commands 'r'=1
+00:52:8:'admin' commands 'admin'=1
+00:52:8:'admin' commands 'xtaglist'=1
+00:53:'admin' commands uid=01fb4 (Elfo) to 'taglist'=1
+00:53:8:'admin' commands 'xtaglist'=1
+00:53:'admin' commands uid=01f38 (Humano) to 'taglist'=1
+00:53:8:'admin' commands 'xprivset 1'=1
+00:53:'admin' commands uid=01fb4 (Elfo) to 'privset 1'=1
+00:53:8:'admin' commands 'admin'=1
+00:53:1:'okami' commands 'r'=1
+00:55:8:'admin' commands 'xtaglist'=1
+00:55:8:'admin' commands 'xtaglist'=1
+00:55:'admin' commands uid=01f38 (Humano) to 'taglist'=1
+00:56:8:'admin' commands 'serv.resync'=1
+00:56:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+00:56:8:'admin' commands 'xupdatex'=1
+00:56:'admin' commands uid=01f38 (Humano) to 'updatex'=1
+00:56:8:'admin' commands 'xupdatex'=1
+00:56:'admin' commands uid=01fb4 (Elfo) to 'updatex'=1
+00:56:8:'admin' commands 'update'=1
+00:56:1:'okami' commands 'r'=1
+00:58:GC: 150 Objects accounted for
+01:01:8:'admin' commands 'serv.resync'=1
+01:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:01:1:'okami' commands 'r'=1
+01:01:10:Client disconnected [Total:2] ('187.67.34.213')
+01:01:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=8116,charAcct=2454,x=730,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+01:01:11:Client connected [Total:3] ('187.67.34.213' 1/1)
+01:01:11:Login 'marcknight'
+01:01:8:'admin' commands 'admin'=1
+01:01:11:Client disconnected [Total:2] ('187.67.34.213')
+01:01:12:Client connected [Total:3] ('187.67.34.213' 1/2)
+01:01:12:Login 'marcknight'
+01:01:12:Setup_Start acct='marcknight', char='Marcknight', IP='187.67.34.213'
+01:01:(sistema_de_eventos.scp,79)[EVENT]Login: marcknight (0996)
+01:01:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=8116,charAcct=2454,x=730,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+01:01:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+01:01:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+01:01:(skills.scp,423)marcknight/Marcknight SC:628 SSC:72500/6500 MI:0
+01:02:8:'admin' commands 'serv.resync'=1
+01:02:12:'marcknight' commands 'serv.resync'=0
+01:02:1:'okami' commands 'r'=1
+01:02:8:'admin' commands 'update'=1
+01:03:8:'admin' commands 'serv.resync'=1
+01:03:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:03:1:'okami' commands 'r'=1
+01:03:8:'admin' commands 'serv.resync'=1
+01:03:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:03:8:'admin' commands 'update'=1
+01:04:8:'admin' commands 'serv.resync'=1
+01:04:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:04:1:'okami' commands 'r'=1
+01:05:8:'admin' commands 'serv.resync'=1
+01:05:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:05:1:'okami' commands 'r'=1
+01:05:1:Client disconnected [Total:2] ('127.0.0.1')
+01:05:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=7992,charAcct=2453,x=728,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+01:06:13:Client connected [Total:3] ('127.0.0.1' 1/2)
+01:06:13:Login 'okami'
+01:06:14:Client connected [Total:4] ('127.0.0.1' 1/3)
+01:06:14:Login 'okami'
+01:06:13:Client disconnected [Total:3] ('127.0.0.1')
+01:06:14:Setup_Start acct='okami', char='rt', IP='127.0.0.1'
+01:06:(sistema_de_eventos.scp,79)[EVENT]Login: okami (0995)
+01:06:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=7992,charAcct=2453,x=728,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+01:06:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+01:06:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+01:06:(skills.scp,423)okami/rt SC:628 SSC:3012/6500 MI:53
+01:06:14:'okami' commands 'r'=1
+01:07:8:'admin' commands 'go eresiere'=1
+01:07:14:'okami' commands 'capuz'=1
+01:07:14:'okami' commands 'r'=1
+01:07:14:'okami' commands 'capuz'=1
+01:08:14:'okami' commands 'capuz'=1
+01:08:14:'okami' commands 'capuz'=1
+01:08:8:'admin' commands 'serv.resync'=1
+01:08:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:14:8:'admin' commands 'serv.resync'=1
+01:14:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:14:ERROR:(sistema_de_reconhecimento.scp,111)Undefined symbol ''
+01:14:ERROR:(sistema_de_reconhecimento.scp,111)Undefined symbol ''
+01:18:8:'admin' commands 'serv.resync'=1
+01:18:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:18:ERROR:(sistema_de_reconhecimento.scp,111)Undefined symbol ''
+01:18:ERROR:(sistema_de_reconhecimento.scp,111)Undefined symbol ''
+01:19:ERROR:(sistema_de_reconhecimento.scp,111)Undefined symbol ''
+01:19:ERROR:Undefined keyword 'resyc'
+01:19:ERROR:Undefined keyword 'resyc'
+01:19:8:'admin' commands 'serv.resyc'=1
+01:19:ERROR:(sistema_de_reconhecimento.scp,111)Undefined symbol ''
+01:19:8:'admin' commands 'serv.resync'=1
+01:19:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:19:8:'admin' commands 'serv.resync'=1
+01:19:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:19:12:'marcknight' commands 'r'=1
+01:20:14:'okami' commands 'capuz'=1
+01:20:14:'okami' commands 'capuz'=1
+01:20:14:'okami' commands 'capuz'=1
+01:20:14:'okami' commands 'capuz'=1
+01:20:12:'marcknight' commands 'r'=1
+01:21:12:'marcknight' commands 'r'=1
+01:21:12:'marcknight' commands 'r'=1
+01:21:8:'admin' commands 'admin'=1
+01:21:8:'admin' commands 'tele'=1
+01:22:(sistema_de_tempo.scp,202)[CLIMA] Colonia de Belaryar - SECO
+01:22:8:'admin' commands 'xmove s 2'=1
+01:22:'admin' commands uid=01 (Humano) to 'move s 2'=1
+01:22:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 01 - 39m/48m
+01:22:8:'admin' commands 'gm'=1
+01:22:8:'admin' commands 'serv.resync'=1
+01:22:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:23:8:'admin' commands 'serv.resync'=1
+01:23:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:23:12:'marcknight' commands 'r'=1
+01:23:14:'okami' commands 'r'=1
+01:24:8:'admin' commands 'serv.resync'=1
+01:24:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:25:8:'admin' commands 'serv.resync'=1
+01:25:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:25:8:'admin' commands 'serv.resync'=1
+01:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:26:8:'admin' commands 'serv.resync'=1
+01:26:12:'marcknight' commands 'r'=1
+01:27:8:'admin' commands 'gm'=1
+01:27:8:'admin' commands 'update'=1
+01:27:8:'admin' commands 'gm'=1
+01:27:8:'admin' commands 'gm'=1
+01:27:8:'admin' commands 'gm'=1
+01:28:GC: 150 Objects accounted for
+01:29:8:'admin' commands 'serv.resync'=1
+01:29:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:29:12:'marcknight' commands 'r'=1
+01:30:12:'marcknight' commands 'r'=1
+01:30:8:'admin' commands 'itemforge'=1
+01:31:8:'admin' commands 'serv.resync'=1
+01:32:8:'admin' commands 'serv.resync'=1
+01:32:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:32:12:'marcknight' commands 'r'=1
+01:32:8:'admin' commands 'add i_wizards_hat_plus_int'=1
+01:32:12:'marcknight' commands 'r'=1
+01:32:8:'admin' commands 'itemforge edit'=1
+01:32:ERROR:(itemforge.scp,214)Can't resolve <serv.itemdef.i_wizards_hat_plus_int.resources2>
+01:32:ERROR:(itemforge.scp,217)Can't resolve <serv.itemdef.i_wizards_hat_plus_int.pile>
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:32:ERROR:(administrative.scp,265)Can't resolve <LOCAL type>
+01:32:ERROR:(administrative.scp,265)Undefined symbol '' ['==t_crops )']
+01:32:ERROR:(administrative.scp,267)Can't resolve <LOCAL types>
+01:32:ERROR:(administrative.scp,267)Undefined symbol '' ['==t_foliage )']
+01:33:8:'admin' commands 'serv.resync'=1
+01:33:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:33:8:'admin' commands 'serv.resync'=1
+01:33:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:33:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:33:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:33:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:33:8:'admin' commands 'serv.resync'=1
+01:33:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:33:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:ERROR:(sistema_de_reconhecimento.scp,110)Undefined symbol 'ctag' ['ctag.recon']
+01:34:8:'admin' commands 'serv.resync'=1
+01:34:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:34:12:'marcknight' commands 'r'=1
+01:35:12:'marcknight' commands 'capuz'=1
+01:37:8:'admin' commands 'serv.resync'=1
+01:37:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:38:8:'admin' commands 'serv.resync'=1
+01:38:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:39:8:'admin' commands 'serv.resync'=1
+01:39:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:39:8:'admin' commands 'serv.resync'=1
+01:39:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:39:12:'marcknight' commands 'r'=1
+01:40:8:'admin' commands 'serv.resync'=1
+01:40:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:41:12:'marcknight' commands 'r'=1
+01:41:12:'marcknight' commands 'r'=1
+01:41:14:'okami' commands 'r'=1
+01:42:12:'marcknight' commands 'r'=1
+01:43:12:'marcknight' commands 'r'=1
+01:43:8:'admin' commands 'xshow uid'=1
+01:43:'admin' commands uid=01fb4 (Elfo) to 'show uid'=1
+01:44:14:'okami' commands 'r'=1
+01:45:14:'okami' commands 'r'=1
+01:45:14:'okami' commands 'r'=1
+01:45:14:'okami' commands 'capuz'=1
+01:45:14:'okami' commands 'capuz'=1
+01:45:12:'marcknight' commands 'r'=1
+01:45:8:'admin' commands 'update'=1
+01:45:8:'admin' commands 'xupdatex'=1
+01:45:'admin' commands uid=01fb4 (Elfo) to 'updatex'=1
+01:45:8:'admin' commands 'xupdatex'=1
+01:45:'admin' commands uid=01f38 (Humano) to 'updatex'=1
+01:45:8:'admin' commands 'serv.resync'=1
+01:45:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:46:8:'admin' commands 'xupdatex'=1
+01:46:'admin' commands uid=01f38 (Humano) to 'updatex'=1
+01:46:8:'admin' commands 'xupdatex'=1
+01:46:ERROR:(sistema_de_reconhecimento.scp,113)Undefined symbol 'tag' ['tag.uid_01fb4_name']
+01:46:'admin' commands uid=01fb4 (Elfo) to 'updatex'=1
+01:46:ERROR:(sistema_de_reconhecimento.scp,113)Undefined symbol 'tag' ['tag.uid_01fb4_name']
+01:46:ERROR:(sistema_de_reconhecimento.scp,113)Undefined symbol 'tag' ['tag.uid_01fb4_name']
+01:46:ERROR:(sistema_de_reconhecimento.scp,113)Undefined symbol 'tag' ['tag.uid_01fb4_name']
+01:46:12:'marcknight' commands 'r'=1
+01:47:8:'admin' commands 'serv.resync'=1
+01:47:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:47:14:'okami' commands 'r'=1
+01:47:12:'marcknight' commands 'r'=1
+01:48:8:'admin' commands 'gm'=1
+01:48:8:'admin' commands 'move n 2'=1
+01:48:8:'admin' commands 'gm'=1
+01:48:8:'admin' commands 'gm'=1
+01:48:8:'admin' commands 'move s 2'=1
+01:49:8:'admin' commands 'serv.resync'=1
+01:49:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:49:8:'admin' commands 'serv.resync'=1
+01:49:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:52:8:'admin' commands 'move n 2'=1
+01:53:8:'admin' commands 'move s 2'=1
+01:53:8:'admin' commands 'serv.resync'=1
+01:53:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:57:8:'admin' commands 'serv.resync'=1
+01:57:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:57:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:57:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:57:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:57:12:'marcknight' commands 're'=0
+01:57:12:'marcknight' commands 'r'=1
+01:57:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:57:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:57:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:57:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:57:14:'okami' commands 'r'=1
+01:58:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:58:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <rec_FGgetName>
+01:59:8:'admin' commands 'serv.resync'=1
+01:59:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:GC: 151 Objects accounted for
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+01:59:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGgetName>
+02:00:8:'admin' commands 'serv.resync'=1
+02:00:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:00:12:'marcknight' commands 'r'=1
+02:00:8:'admin' commands 'serv.resync'=1
+02:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:01:8:'admin' commands 'serv.resync'=1
+02:01:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGetName>
+02:01:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGetName>
+02:01:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGetName>
+02:01:ERROR:(sistema_de_reconhecimento.scp,40)Can't resolve <TARGETF rec_FGetName>
+02:01:8:'admin' commands 'serv.resync'=1
+02:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:01:8:'admin' commands 'serv.resync'=1
+02:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:03:(sistema_de_tempo.scp,202)[CLIMA] Colonia de Belaryar - SECO
+02:04:8:'admin' commands 'serv.resync'=1
+02:04:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:04:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:04:8:'admin' commands 'serv.resync'=1
+02:04:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:04:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:04:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:04:12:'marcknight' commands 'r'=1
+02:05:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:05:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:05:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:05:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:05:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:05:12:'marcknight' commands 'r'=1
+02:05:8:'admin' commands 'xshow uid'=1
+02:05:'admin' commands uid=01fb4 (Elfo) to 'show uid'=1
+02:05:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:06:8:'admin' commands 'serv.resync'=1
+02:06:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:06:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:06:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:06:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:06:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:06:8:'admin' commands 'serv.resync'=1
+02:06:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:06:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:06:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:06:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:07:8:'admin' commands 'serv.resync'=1
+02:07:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:07:8:'admin' commands 'serv.resync'=1
+02:07:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:08:8:'admin' commands 'serv.resync'=1
+02:08:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:08:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:09:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:09:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:09:ERROR:(sistema_de_reconhecimento.scp,105)Undefined symbol '' [') || 0']
+02:09:8:'admin' commands 'serv.resync'=1
+02:09:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:10:8:'admin' commands 'xgo eresiere'=1
+02:10:'admin' commands uid=01fb4 (Elfo) to 'go eresiere'=1
+02:10:8:'admin' commands 'admin'=1
+02:11:8:'admin' commands 'xmove n 2'=1
+02:11:'admin' commands uid=01fb4 (Elfo) to 'move n 2'=1
+02:11:8:'admin' commands 'serv.resync'=1
+02:11:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:12:8:'admin' commands 'xgo eresiere'=1
+02:12:'admin' commands uid=01fb4 (Elfo) to 'go eresiere'=1
+02:12:8:'admin' commands 'gm'=1
+02:12:8:'admin' commands 'gm'=1
+02:12:8:'admin' commands 'gm'=1
+02:12:8:'admin' commands 'hearall'=1
+02:12:8:'admin' commands 'hearall'=1
+02:12:8:'admin' commands 'admin'=1
+02:12:8:'admin' commands 'b pode puxar?'=1
+02:12:8:'admin' commands 'admin'=1
+02:12:8:'admin' commands 'xmove n 2'=1
+02:12:'admin' commands uid=01fb4 (Elfo) to 'move n 2'=1
+02:12:8:'admin' commands 'xmove n 2'=1
+02:12:'admin' commands uid=01fb4 (Elfo) to 'move n 2'=1
+02:14:8:'admin' commands 'move n 2'=1
+02:14:8:'admin' commands 'gm'=1
+02:20:8:'admin' commands 'serv.resync'=1
+02:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:22:8:'admin' commands 'serv.resync'=1
+02:22:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:22:8:'admin' commands 'serv.resync'=1
+02:22:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:23:8:'admin' commands 'serv.resync'=1
+02:23:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:23:12:'marcknight' commands 'r'=1
+02:24:14:'okami' commands 'capuz'=1
+02:24:8:'admin' commands 'gm'=1
+02:24:8:'admin' commands 'gm'=1
+02:24:8:'admin' commands 'update'=1
+02:25:14:'okami' commands 'capuz'=1
+02:26:14:'okami' commands 'r'=1
+02:26:8:'admin' commands 'serv.resync'=1
+02:26:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:26:14:'okami' commands 'r'=1
+02:27:8:'admin' commands 'xupdatex'=1
+02:27:'admin' commands uid=01fb4 (Elfo) to 'updatex'=1
+02:27:8:'admin' commands 'xupdatex'=1
+02:27:'admin' commands uid=01f38 (Humano) to 'updatex'=1
+02:27:8:'admin' commands 'xupdatex'=1
+02:27:'admin' commands uid=01 (Humano) to 'updatex'=1
+02:27:8:'admin' commands 'gm'=1
+02:27:8:'admin' commands 'gm'=1
+02:28:8:'admin' commands 'serv.resync'=1
+02:28:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:28:14:'okami' commands 'r'=1
+02:28:14:'okami' commands 'r'=1
+02:29:8:'admin' commands 'serv.resync'=1
+02:29:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:29:GC: 150 Objects accounted for
+02:30:8:'admin' commands 'serv.resync'=1
+02:30:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:34:8:'admin' commands 'serv.resync'=1
+02:34:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:36:8:'admin' commands 'serv.resync'=1
+02:36:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:37:8:'admin' commands 'serv.resync'=1
+02:37:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:38:8:'admin' commands 'serv.resync'=1
+02:38:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:40:8:'admin' commands 'serv.resync'=1
+02:40:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:40:8:'admin' commands 'serv.resync'=1
+02:41:8:'admin' commands 'serv.resync'=1
+02:41:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:41:8:'admin' commands 'serv.resync'=1
+02:41:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:44:8:'admin' commands 'xprivset 6'=1
+02:44:'admin' commands uid=01fb4 (Elfo) to 'privset 6'=1
+02:44:12:'marcknight' commands 'serv.resync'=1
+02:44:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:45:12:'marcknight' commands 'gm'=1
+02:45:12:'marcknight' commands 'gm'=1
+02:45:12:'marcknight' commands 'serv.resync'=1
+02:45:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:47:12:'marcknight' commands 'serv.resync'=1
+02:48:12:'marcknight' commands 'gm'=1
+02:48:12:'marcknight' commands 'gm'=1
+02:48:12:'marcknight' commands 'gm'=1
+02:52:12:'marcknight' commands 'serv.resync'=1
+02:52:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 00 - 8m/0m
+02:52:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:52:12:'marcknight' commands 'serv.resync'=1
+02:52:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:53:12:'marcknight' commands 'serv.resync'=1
+02:53:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:53:12:'marcknight' commands 'serv.resync'=1
+02:53:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:53:ERROR:(sistema_de_reconhecimento.scp,106)Undefined symbol '' ['== 01f38) || 0']
+02:53:ERROR:(sistema_de_reconhecimento.scp,106)Undefined symbol '' ['== 01f38) || 0']
+02:53:ERROR:(sistema_de_reconhecimento.scp,106)Undefined symbol '' ['== 01f38) || 0']
+02:53:ERROR:(sistema_de_reconhecimento.scp,106)Undefined symbol '' ['== 01f38) || 0']
+02:53:ERROR:(sistema_de_reconhecimento.scp,106)Undefined symbol '' ['== 01f38) || 0']
+02:53:12:'marcknight' commands 'serv.resync'=1
+02:53:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:54:12:'marcknight' commands 'serv.resync'=1
+02:54:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:55:12:'marcknight' commands 'serv.resync'=1
+02:55:12:'marcknight' commands 'serv.resync'=1
+02:55:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:56:12:'marcknight' commands 'serv.resync'=1
+02:56:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:56:12:'marcknight' commands 'serv.resync'=1
+02:56:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:56:ERROR:(sistema_de_reconhecimento.scp,112)Can't resolve <src.tagc.uid_01fb4_name>
+02:56:ERROR:(sistema_de_reconhecimento.scp,112)Can't resolve <src.tagc.uid_01fb4_name>
+02:57:ERROR:(sistema_de_reconhecimento.scp,112)Can't resolve <src.tagc.uid_01fb4_name>
+02:57:ERROR:(sistema_de_reconhecimento.scp,112)Can't resolve <src.tagc.uid_01fb4_name>
+02:57:12:'marcknight' commands 'serv.resync'=1
+02:57:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:57:12:'marcknight' commands 'gm'=1
+02:57:12:'marcknight' commands 'gm'=1
+02:58:12:'marcknight' commands 'serv.resync'=1
+02:58:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+02:58:12:'marcknight' commands 'serv.resync'=1
+02:58:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+03:00:GC: 151 Objects accounted for
+03:00:(sistema_de_tempo.scp,202)[CLIMA] Colonia de Belaryar - SECO
+03:01:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 00 - 33m/0m
+03:01:ERROR:(sistema_de_anti_rp.scp,101)Undefined symbol ''
+03:01:12:'marcknight' commands 'serv.resync'=1
+03:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+03:01:12:'marcknight' commands 'serv.resync'=1
+03:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+03:02:12:'marcknight' commands 'serv.resync'=1
+03:02:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+03:02:12:'marcknight' commands 'serv.resync'=1
+03:02:12:'marcknight' commands 'serv.resync'=1
+03:03:12:Client disconnected [Total:2] ('187.67.34.213')
+03:03:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=8116,charAcct=2454,x=730,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+03:03:8:Client disconnected [Total:1] ('127.0.0.1')
+03:03:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=1,charAcct=2452,x=728,y=2124,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+03:03:14:Client disconnected [Total:0] ('127.0.0.1')
+03:03:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=7992,charAcct=2453,x=734,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+03:03:FATAL:Server terminated: Console window closed (code 5)
+
+09:51:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+09:51:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+09:51:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+09:51:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+09:51:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+09:51:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+09:51:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+09:51:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+09:51:GC: 151 Objects accounted for
+09:51:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+09:51:DEBUG:__ thread (3608) __ |  # | _____ function _____________ | ticks passed from previous function start ______
+09:51:DEBUG:>>         3608     |  0 |               CWorld::OnTick | +0 
+09:51:DEBUG:>>         3608     |  1 |              CSector::OnTick | +0 
+09:51:DEBUG:>>         3608     |  2 |    CSector::IsSectorSleeping | +0 <-- exception catch point (below is guessed and could be incorrect!)
+09:51:WARNING:Forcing thread 'Main' to terminate...
+
+10:03:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+10:03:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+10:03:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+10:03:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+10:03:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+10:03:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+10:03:FATAL:Unable to bind listen socket 127.0.0.1 port 2593 - Error code: -1
+10:03:FATAL:Server terminated: Failed to bind server IP/port (code -9)
+
+10:04:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+10:04:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+10:04:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+10:04:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+10:04:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+10:04:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+10:04:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+10:04:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+10:04:GC: 151 Objects accounted for
+10:04:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+10:04:FATAL:Server terminated: Console window closed (code 5)
+
+17:50:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+17:50:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+17:50:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+17:50:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+17:50:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+17:50:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+17:50:FATAL:Unable to bind listen socket 127.0.0.1 port 2593 - Error code: -1
+17:50:FATAL:Server terminated: Failed to bind server IP/port (code -9)
+
+17:51:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+17:51:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+17:51:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+17:51:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+17:51:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+17:51:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+17:51:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+17:51:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+17:51:GC: 151 Objects accounted for
+17:51:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+17:53:0:Client connected [Total:1] ('127.0.0.1' 1/1)
+17:53:0:Login 'okami'
+17:53:0:Client disconnected [Total:0] ('127.0.0.1')
+17:53:1:Client connected [Total:1] ('127.0.0.1' 1/2)
+17:53:1:Login 'okami'
+17:53:1:Setup_Start acct='okami', char='rt', IP='127.0.0.1'
+17:53:(sistema_de_eventos.scp,79)[EVENT]Login: okami (0995)
+17:53:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=7992,charAcct=2453,x=734,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+17:53:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+17:53:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+17:53:(skills.scp,423)okami/rt SC:632 SSC:3012/6500 MI:53
+17:53:(sistema_de_tempo.scp,202)[CLIMA] Colonia de Belaryar - SECO
+17:53:(sistema_de_tempo.scp,242)[CLIMA] Colonia de Belaryar - 00 - 29m/0m
+17:53:2:Client connected [Total:2] ('127.0.0.1' 1/2)
+17:53:2:Login 'gannergui'
+17:53:2:Client disconnected [Total:1] ('127.0.0.1')
+17:53:3:Client connected [Total:2] ('127.0.0.1' 1/3)
+17:53:3:Login 'gannergui'
+17:53:3:Setup_Start acct='gannergui', char='teste', IP='127.0.0.1'
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<I.re_canSee01fb1)']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,199)Undefined keyword '_sendTooltip'
+17:53:(sistema_de_eventos.scp,79)[EVENT]Login: gannergui (0999)
+17:53:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=8113,charAcct=2457,x=733,y=2123,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+17:53:ERROR:(events.scp,229)Undefined symbol '' ['&& (1 <= 1)']
+17:53:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+17:53:(skills.scp,423)gannergui/teste SC:632 SSC:3001/6500 MI:53
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<I.re_canSee01fb1)']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:53:ERROR:(sistema_de_reconhecimento.scp,199)Undefined keyword '_sendTooltip'
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<I.re_canSee01fb1)']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,199)Undefined keyword '_sendTooltip'
+17:54:3:'gannergui' commands 'capuz'=1
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<I.re_canSee01fb1)']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:54:ERROR:(sistema_de_reconhecimento.scp,199)Undefined keyword '_sendTooltip'
+17:56:4:Client connected [Total:3] ('127.0.0.1' 1/3)
+17:56:4:Login 'admin'
+17:56:5:Client connected [Total:4] ('127.0.0.1' 1/4)
+17:56:4:Client disconnected [Total:3] ('127.0.0.1')
+17:56:5:Login 'admin'
+17:56:5:Setup_Start acct='admin', char='Admin', IP='127.0.0.1'
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<I.re_canSee01)']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<I.re_canSee01)']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:56:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+17:56:(sistema_de_eventos.scp,79)[EVENT]Login: admin (0994)
+17:56:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Login',charUid=1,charAcct=2452,x=728,y=2124,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+17:56:ERROR:(events.scp,229)Undefined symbol '' ['&& (7 <= 1)']
+17:56:ERROR:MySQL query "SELECT title, news, DATE_FORMAT(NewsDate,'%d/%m/%Y %H:%i') AS date, unix_timestamp(NewsDate) AS ts FROM news WHERE NewsDate > FROM_UNIXTIME(-1) ORDER BY NewsDate LIMIT 2"" failed due to "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1"
+17:56:(skills.scp,423)admin/Admin SC:631 SSC:3810/6500 MI:41
+17:56:5:'admin' commands 'serv.resync'=1
+17:56:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<I.rec_canSee01)']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<I.rec_canSee01)']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<i>']
+17:57:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+17:58:5:'admin' commands 'serv.resync'=1
+17:58:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+17:58:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<rec_canSee01)']
+17:58:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol 'rec_canSee01' ['rec_canSee01)']
+17:58:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+17:58:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<rec_canSee01)']
+17:58:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol 'rec_canSee01' ['rec_canSee01)']
+17:58:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:00:5:'admin' commands 'serv.resync'=1
+18:00:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+18:00:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<rec_canSee 01)']
+18:00:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol 'rec_canSee' ['rec_canSee 01)']
+18:00:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:00:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<rec_canSee 01)']
+18:00:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol 'rec_canSee' ['rec_canSee 01)']
+18:00:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:01:5:'admin' commands 'serv.resync'=1
+18:01:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+18:02:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<rec_canSee 01)']
+18:02:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol 'rec_canSee' ['rec_canSee 01)']
+18:02:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:02:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol '' ['<rec_canSee 01)']
+18:02:ERROR:(sistema_de_reconhecimento.scp,196)Undefined symbol 'rec_canSee' ['rec_canSee 01)']
+18:02:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:05:5:'admin' commands 'serv.resync'=1
+18:05:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+18:05:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:05:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:11:5:'admin' commands 'serv.resync'=1
+18:11:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:11:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:11:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:12:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:12:ERROR:(sistema_de_reconhecimento.scp,44)Can't resolve <serv.chardef0.name>
+18:14:5:'admin' commands 'serv.resync'=1
+18:14:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+18:14:5:'admin' commands 'gm'=1
+18:16:5:'admin' commands 'serv.resync'=1
+18:16:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+18:18:5:'admin' commands 'r'=1
+18:18:5:'admin' commands 'xtag.name Red'=1
+18:18:'admin' commands uid=01fb1 (Humano) to 'tag.name Red'=1
+18:18:5:'admin' commands 'xtag.name Blue'=1
+18:18:'admin' commands uid=01f38 (Humano) to 'tag.name Blue'=1
+18:18:5:'admin' commands 'xtag.name White'=1
+18:18:'admin' commands uid=01 (Humano) to 'tag.name White'=1
+18:20:5:'admin' commands 'serv.resync'=1
+18:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+18:20:5:'admin' commands 'serv.resync'=1
+18:20:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+18:21:5:'admin' commands 'serv.resync'=1
+18:21:WARNING:Resource 'C:\Users\Bruno\Dropbox\sphere 56c\sphere\scripts\scripts2/myt/sistema_de_reconhecimento.scp' changed, resync.
+18:22:GC: 150 Objects accounted for
+18:23:1:Client disconnected [Total:2] ('127.0.0.1')
+18:23:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=7992,charAcct=2453,x=735,y=2122,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+18:23:5:Client disconnected [Total:1] ('127.0.0.1')
+18:23:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=1,charAcct=2452,x=736,y=2126,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+18:23:3:Client disconnected [Total:0] ('127.0.0.1')
+18:23:ERROR:MySQL query "INSERT INTO eventsLog SET timestamp=NOW(), eventType='Logout',charUid=8113,charAcct=2457,x=734,y=2124,z=0" failed due to "Field 'char2Uid' doesn't have a default value"
+18:23:ERROR:(administrative.scp,1378)Undefined keyword 'cTAG.disturb'
+18:23:ERROR:(sistema_de_combate.scp,570)Undefined keyword 'SENDPACKET'
+18:23:ERROR:(administrative.scp,1378)Undefined keyword 'cTAG.disturb'
+18:23:ERROR:(sistema_de_combate.scp,570)Undefined keyword 'SENDPACKET'
+18:24:FATAL:Server terminated: Console window closed (code 5)
+
+18:57:WARNING:
+This is a nightly build of SphereServer. This build is to be used
+for testing and/or bug reporting ONLY. DO NOT run this build on a
+live shard unless you know what you are doing!
+Nightly builds are automatically made every night from source and
+might contain errors, might be unstable or even destroy your
+shard as they are mostly untested!
+-----------------------------------------------------------------
+
+18:57:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+18:57:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta' ['i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo']
+18:57:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+18:57:ERROR:(spells_magery.scp,530)Undefined symbol 'spellflag_eval_boosts' ['spellflag_eval_boosts']
+18:57:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+18:57:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+18:57:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+18:57:GC: 150 Objects accounted for
+18:57:(sphere_serv_triggers.scp,123)MySQL debug: MySQL successfully connected!
+18:57:FATAL:Server terminated: Console window closed (code 5)

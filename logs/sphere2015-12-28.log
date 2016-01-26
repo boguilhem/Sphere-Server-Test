@@ -1,0 +1,632 @@
+22:47:ERROR:(sphere.ini,312)Undefined keyword 'CombatSpeedEra'
+22:47:ERROR:(sphere.ini,334)Undefined keyword 'MaxPolyStats'
+22:47:ERROR:(sphere.ini,372)Undefined keyword 'MediumCanHearGhosts'
+22:47:ERROR:(sphere.ini,381)Undefined keyword 'VendorTradeTitle'
+22:47:ERROR:(sphere.ini,387)Undefined keyword 'ItemsMaxAmount'
+22:47:ERROR:(sphere.ini,312)Undefined keyword 'CombatSpeedEra'
+22:47:ERROR:(sphere.ini,334)Undefined keyword 'MaxPolyStats'
+22:47:ERROR:(sphere.ini,372)Undefined keyword 'MediumCanHearGhosts'
+22:47:ERROR:(sphere.ini,381)Undefined keyword 'VendorTradeTitle'
+22:47:ERROR:(sphere.ini,387)Undefined keyword 'ItemsMaxAmount'
+
+22:47:Sphere Version 0.56c [WIN32] by www.spherecommunity.net, compiled at Aug  4 2014 (06:17:22), internal build #1991
+22:47:Expansion maps supported: T2A, LBR, AOS, SE, ML, SA
+22:47:Allocating map sectors: 0=7168 1=7168 2=900 3=1280 4=32761 5=1280
+22:47:Indexing 367 scripts...
+22:47:Loading scripts/sphere_defs.scp
+22:47:Loading scripts/sphere_defs_2.scp
+22:47:Loading scripts/sphere_types.scp
+22:47:Loading scripts/sphere_book.scp
+22:47:Loading scripts/sphere_backward_compatibility.scp
+22:47:Loading scripts/sphere_events_human.scp
+22:47:Loading scripts/sphere_events_npcs.scp
+22:47:Loading scripts/sphere_admin.scp
+22:47:Loading scripts/sphere_dialog.scp
+22:47:Loading scripts/items/sphere_item_resources.scp
+22:47:Loading scripts/items/multis/multis_wandering_camps.scp
+22:47:Loading scripts/items/multis/multis_stairs.scp
+22:47:Loading scripts/items/multis/multis_ships.scp
+22:47:Loading scripts/items/multis/multis_misc.scp
+22:47:Loading scripts/items/multis/multis_houses.scp
+22:47:Loading scripts/items/multis/multis_foundations.scp
+22:47:Loading scripts/items/sphere_minor_artifacts.scp
+22:47:Loading scripts/items/sphere_item_vegetation.scp
+22:47:Loading scripts/items/sphere_item_unsorted.scp
+22:47:Loading scripts/items/sphere_item_typedef_equipitem.scp
+22:47:Loading scripts/items/sphere_item_typedefs.scp
+22:47:Loading scripts/items/sphere_item_treasure_maps.scp
+22:47:Loading scripts/items/sphere_item_siege.scp
+22:47:Loading scripts/items/sphere_item_ship_parts_tokuno.scp
+22:47:Loading scripts/items/sphere_item_ship_parts_orcish.scp
+22:47:Loading scripts/items/sphere_item_ship_parts_gargish.scp
+22:47:Loading scripts/items/sphere_item_ship_parts_britannian.scp
+22:47:Loading scripts/items/sphere_item_ship_parts.scp
+22:47:Loading scripts/items/sphere_item_resources_scales.scp
+22:47:Loading scripts/items/sphere_item_resources_reagents.scp
+22:47:ERROR:(sphere_item_resources_reagents.scp,267)Re-Using name 'i_reag_serpent_scale' to define block
+22:47:ERROR:(sphere_item_resources_reagents.scp,267)Invalid ITEMDEF block index 'i_reag_serpent_scale'
+22:47:ERROR:(sphere_item_resources_reagents.scp,291)Re-Using name 'i_reag_volcanic_ash' to define block
+22:47:ERROR:(sphere_item_resources_reagents.scp,291)Invalid ITEMDEF block index 'i_reag_volcanic_ash'
+22:47:Loading scripts/items/sphere_item_resources_ingredients_peerless.scp
+22:47:Loading scripts/items/sphere_item_resources_ingredients_imbuing.scp
+22:47:Loading scripts/items/sphere_item_resources_gems.scp
+22:47:Loading scripts/items/sphere_item_provisions_weapons_se.scp
+22:47:Loading scripts/items/sphere_item_provisions_weapons_sa.scp
+22:47:Loading scripts/items/sphere_item_provisions_weapons_ml.scp
+22:47:Loading scripts/items/sphere_item_provisions_weapons_aos.scp
+22:47:Loading scripts/items/sphere_item_provisions_weapons.scp
+22:47:Loading scripts/items/sphere_item_provisions_sos.scp
+22:47:Loading scripts/items/sphere_item_provisions_shields.scp
+22:47:Loading scripts/items/sphere_item_provisions_potions.scp
+22:47:Loading scripts/items/sphere_item_provisions_ore.scp
+22:47:Loading scripts/items/sphere_item_provisions_misc.scp
+22:47:Loading scripts/items/sphere_item_provisions_jewelry.scp
+22:47:Loading scripts/items/sphere_item_provisions_deed_ships.scp
+22:47:ERROR:(sphere_item_provisions_deed_ships.scp,65)Redefined name 'i_deed_ship_dragon_long_N' from AAAUNUSED to ITEMDEF
+22:47:ERROR:(sphere_item_provisions_deed_ships.scp,65)Invalid ITEMDEF block index 'i_deed_ship_dragon_long_N'
+22:47:Loading scripts/items/sphere_item_provisions_deed_houses_addons.scp
+22:47:Loading scripts/items/sphere_item_provisions_deed_houses.scp
+22:47:Loading scripts/items/sphere_item_provisions_deeds.scp
+22:47:Loading scripts/items/sphere_item_provisions_deed.scp
+22:47:Loading scripts/items/sphere_item_provisions_clothing_sa.scp
+22:47:Loading scripts/items/sphere_item_provisions_clothing_ml.scp
+22:47:Loading scripts/items/sphere_item_provisions_clothing.scp
+22:47:Loading scripts/items/sphere_item_provisions_beers.scp
+22:47:Loading scripts/items/sphere_item_provisions_artifacts.scp
+22:47:Loading scripts/items/sphere_item_provisions_armor_se.scp
+22:47:Loading scripts/items/sphere_item_provisions_armor_ml.scp
+22:47:Loading scripts/items/sphere_item_provisions_armor_color.scp
+22:47:Loading scripts/items/sphere_item_provisions_armor_aos.scp
+22:47:Loading scripts/items/sphere_item_provisions_armor.scp
+22:47:Loading scripts/items/sphere_item_provisions_alchemy_magic_sa.scp
+22:47:Loading scripts/items/sphere_item_provisions_alchemy_magic.scp
+22:47:Loading scripts/items/sphere_item_profession_tailor_tanner.scp
+22:47:Loading scripts/items/sphere_item_profession_cook_barkeep_baker.scp
+22:47:Loading scripts/items/sphere_item_profession_cartographer.scp
+22:47:Loading scripts/items/sphere_item_profession_barber_sa.scp
+22:47:Loading scripts/items/sphere_item_profession_barber.scp
+22:47:Loading scripts/items/sphere_item_profession_alchemist_mage.scp
+22:47:Loading scripts/items/sphere_item_profession_alchemist.scp
+22:47:Loading scripts/items/sphere_item_profession.scp
+22:47:Loading scripts/items/sphere_item_offset.scp
+22:47:Loading scripts/items/sphere_item_multis_stairs.scp
+22:47:ERROR:(sphere_item_multis_stairs.scp,14)Replace existing VarStr 'i_multi_stairs_wood_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,24)Replace existing VarStr 'i_multi_stairs_wood_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,34)Replace existing VarStr 'i_multi_stairs_wood_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,44)Replace existing VarStr 'i_multi_stairs_wood_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,54)Replace existing VarStr 'i_multi_stairs_stone_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,64)Replace existing VarStr 'i_multi_stairs_stone_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,74)Replace existing VarStr 'i_multi_stairs_stone_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,84)Replace existing VarStr 'i_multi_stairs_stone_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,94)Replace existing VarStr 'i_multi_stairs_stone_2_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,104)Replace existing VarStr 'i_multi_stairs_stone_2_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,114)Replace existing VarStr 'i_multi_stairs_stone_2_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,124)Replace existing VarStr 'i_multi_stairs_stone_2_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,134)Replace existing VarStr 'i_multi_stairs_wood_2_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,144)Replace existing VarStr 'i_multi_stairs_wood_2_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,154)Replace existing VarStr 'i_multi_stairs_wood_2_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,164)Replace existing VarStr 'i_multi_stairs_wood_2_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,174)Replace existing VarStr 'i_multi_stairs_stone_3_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,184)Replace existing VarStr 'i_multi_stairs_stone_3_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,194)Replace existing VarStr 'i_multi_stairs_stone_3_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,204)Replace existing VarStr 'i_multi_stairs_stone_3_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,214)Replace existing VarStr 'i_multi_stairs_marble_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,224)Replace existing VarStr 'i_multi_stairs_marble_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,234)Replace existing VarStr 'i_multi_stairs_marble_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,244)Replace existing VarStr 'i_multi_stairs_marble_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,254)Replace existing VarStr 'i_multi_stairs_stone_4_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,264)Replace existing VarStr 'i_multi_stairs_stone_4_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,274)Replace existing VarStr 'i_multi_stairs_stone_4_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,284)Replace existing VarStr 'i_multi_stairs_stone_4_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,294)Replace existing VarStr 'i_multi_stairs_sandstone_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,304)Replace existing VarStr 'i_multi_stairs_sandstone_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,314)Replace existing VarStr 'i_multi_stairs_sandstone_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,324)Replace existing VarStr 'i_multi_stairs_sandstone_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,334)Replace existing VarStr 'i_multi_stairs_stone_5_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,344)Replace existing VarStr 'i_multi_stairs_stone_5_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,354)Replace existing VarStr 'i_multi_stairs_stone_5_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,364)Replace existing VarStr 'i_multi_stairs_stone_5_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,374)Replace existing VarStr 'i_multi_stairs_carpet_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,384)Replace existing VarStr 'i_multi_stairs_carpet_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,394)Replace existing VarStr 'i_multi_stairs_carpet_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,404)Replace existing VarStr 'i_multi_stairs_carpet_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,414)Replace existing VarStr 'i_multi_stairs_crystal_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,424)Replace existing VarStr 'i_multi_stairs_crystal_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,434)Replace existing VarStr 'i_multi_stairs_crystal_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,444)Replace existing VarStr 'i_multi_stairs_crystal_ew'
+22:47:ERROR:(sphere_item_multis_stairs.scp,454)Replace existing VarStr 'i_multi_stairs_shadow_sn'
+22:47:ERROR:(sphere_item_multis_stairs.scp,464)Replace existing VarStr 'i_multi_stairs_shadow_we'
+22:47:ERROR:(sphere_item_multis_stairs.scp,474)Replace existing VarStr 'i_multi_stairs_shadow_ns'
+22:47:ERROR:(sphere_item_multis_stairs.scp,484)Replace existing VarStr 'i_multi_stairs_shadow_ew'
+22:47:Loading scripts/items/sphere_item_multis_houses_ships.scp
+22:47:Loading scripts/items/sphere_item_multis_foundations.scp
+22:47:Loading scripts/items/sphere_item_ml_misc.scp
+22:47:Loading scripts/items/sphere_item_ml_floor_wall.scp
+22:47:Loading scripts/items/sphere_item_ml.scp
+22:47:Loading scripts/items/sphere_item_misc_se.scp
+22:47:Loading scripts/items/sphere_item_misc.scp
+22:47:Loading scripts/items/sphere_item_memories.scp
+22:47:Loading scripts/items/sphere_item_magic_weapon.scp
+22:47:Loading scripts/items/sphere_item_magic_wands.scp
+22:47:Loading scripts/items/sphere_item_magic_spellweaving.scp
+22:47:Loading scripts/items/sphere_item_magic_runebook.scp
+22:47:Loading scripts/items/sphere_item_magic_ninjitsu_bushido.scp
+22:47:Loading scripts/items/sphere_item_magic_necromancer_aos.scp
+22:47:Loading scripts/items/sphere_item_magic_mysticism.scp
+22:47:Loading scripts/items/sphere_item_magic_magery.scp
+22:47:Loading scripts/items/sphere_item_magic_leather.scp
+22:47:Loading scripts/items/sphere_item_magic_jewelry.scp
+22:47:Loading scripts/items/sphere_item_magic_chivalry.scp
+22:47:Loading scripts/items/sphere_item_magic_armor.scp
+22:47:Loading scripts/items/sphere_item_icons_new.scp
+22:47:Loading scripts/items/sphere_item_ground_tiles_sa.scp
+22:47:Loading scripts/items/sphere_item_ground_tiles.scp
+22:47:Loading scripts/items/sphere_item_figurines_ethereals.scp
+22:47:Loading scripts/items/sphere_item_figurines.scp
+22:47:ERROR:(sphere_item_figurines.scp,1022)Undefined symbol 'i_pet_ostard_frenzied_2'
+22:47:ERROR:(sphere_item_figurines.scp,1022)Undefined symbol 'i_pet_ostard_frenzied_2'
+22:47:ERROR:(sphere_item_figurines.scp,1022)Replace existing VarStr 'i_pet_ostard_zostrich'
+22:47:Loading scripts/items/sphere_item_eight_age.scp
+22:47:Loading scripts/items/sphere_item_deco_wall_hangings.scp
+22:47:Loading scripts/items/sphere_item_deco_virtues.scp
+22:47:Loading scripts/items/sphere_item_deco_signs.scp
+22:47:Loading scripts/items/sphere_item_deco_misc.scp
+22:47:Loading scripts/items/sphere_item_deco_mini_houses.scp
+22:47:Loading scripts/items/sphere_item_deco_miniatures.scp
+22:47:Loading scripts/items/sphere_item_deco_lightsources.scp
+22:47:Loading scripts/items/sphere_item_deco_furniture.scp
+22:47:Loading scripts/items/sphere_item_deco_fireplace_chimney_oven.scp
+22:47:Loading scripts/items/sphere_item_deco_evilitem.scp
+22:47:Loading scripts/items/sphere_item_deco_dungeons_traps_dead.scp
+22:47:Loading scripts/items/sphere_item_deco_curtains_banners_tapestries.scp
+22:47:Loading scripts/items/sphere_item_deco_carvings_statues.scp
+22:47:Loading scripts/items/sphere_item_deco_carpet_rugs.scp
+22:47:Loading scripts/items/sphere_item_deco_armor.scp
+22:47:Loading scripts/items/sphere_item_christmas.scp
+22:47:Loading scripts/items/sphere_item_christimas.scp
+22:47:Loading scripts/items/sphere_item_char_icons.scp
+22:47:Loading scripts/items/sphere_item_building_walls_se.scp
+22:47:ERROR:(sphere_item_building_walls_se.scp,19)Undefined symbol 'i_wall_largebrick_window'
+22:47:ERROR:(sphere_item_building_walls_se.scp,19)Undefined symbol 'i_wall_largebrick_window'
+22:47:ERROR:(sphere_item_building_walls_se.scp,19)Replace existing VarStr 'i_window_skull'
+22:47:ERROR:(sphere_item_building_walls_se.scp,271)Undefined symbol 'i_wall_lattice_2'
+22:47:ERROR:(sphere_item_building_walls_se.scp,271)Undefined symbol 'i_wall_lattice_2'
+22:47:ERROR:(sphere_item_building_walls_se.scp,271)Replace existing VarStr 'i_latticed_wall_brown'
+22:47:ERROR:(sphere_item_building_walls_se.scp,497)Undefined symbol 'i_wall_cloth_framed'
+22:47:ERROR:(sphere_item_building_walls_se.scp,497)Undefined symbol 'i_wall_cloth_framed'
+22:47:ERROR:(sphere_item_building_walls_se.scp,497)Replace existing VarStr 'i_wall_latticed_plaster'
+22:47:ERROR:(sphere_item_building_walls_se.scp,1248)Replace existing VarStr 'i_wall_marble_window_2'
+22:47:ERROR:(sphere_item_building_walls_se.scp,1302)Replace existing VarStr 'i_wall_marble_window_3'
+22:47:Loading scripts/items/sphere_item_building_walls.scp
+22:47:Loading scripts/items/sphere_item_building_stairs_ml.scp
+22:47:Loading scripts/items/sphere_item_building_stairs.scp
+22:47:Loading scripts/items/sphere_item_building_roofs_se.scp
+22:47:Loading scripts/items/sphere_item_building_roofs_ml.scp
+22:47:Loading scripts/items/sphere_item_building_roofs_aos.scp
+22:47:Loading scripts/items/sphere_item_building_roofs.scp
+22:47:Loading scripts/items/sphere_item_building_other.scp
+22:47:Loading scripts/items/sphere_item_building_floors_se.scp
+22:47:Loading scripts/items/sphere_item_building_floors.scp
+22:47:Loading scripts/items/sphere_item_building_fence.scp
+22:47:Loading scripts/items/sphere_item_building_doors.scp
+22:47:Loading scripts/items/sphere_item_buildings.scp
+22:47:Loading scripts/items/sphere_item_boulders_rocks.scp
+22:47:Loading scripts/items/sphere_item_artifacts_tokuno.scp
+22:47:Loading scripts/items/sphere_item_artifacts_minor.scp
+22:47:Loading scripts/items/sphere_item_artifacts.scp
+22:47:Loading scripts/items/sphere_item_aos_se.scp
+22:47:Loading scripts/items/sphere_item_animations.scp
+22:47:Loading scripts/sphere_region.scp
+22:47:Loading scripts/sphere_menu.scp
+22:47:Loading scripts/sphere_name.scp
+22:47:Loading scripts/sphere_skillmenu.scp
+22:47:Loading scripts/sphere_speech.scp
+22:47:Loading scripts/sphere_skills.scp
+22:47:Loading scripts/sphere_spells.scp
+22:47:Loading scripts/sphere_newb.scp
+22:47:Loading scripts/sphere_template.scp
+22:47:Loading scripts/sphere_template_loot.scp
+22:47:Loading scripts/sphere_template_vend.scp
+22:47:Loading scripts/sphere_serv_triggers.scp
+22:47:Loading scripts/speech/townyew.scp
+22:47:Loading scripts/speech/townwind.scp
+22:47:Loading scripts/speech/townvesper.scp
+22:47:Loading scripts/speech/towntrinsic.scp
+22:47:Loading scripts/speech/townskarabrae.scp
+22:47:Loading scripts/speech/townserphold.scp
+22:47:Loading scripts/speech/townnujelm.scp
+22:47:Loading scripts/speech/townmoonglow.scp
+22:47:Loading scripts/speech/townminoc.scp
+22:47:Loading scripts/speech/townmagincia.scp
+22:47:Loading scripts/speech/townjhelom.scp
+22:47:Loading scripts/speech/towncove.scp
+22:47:Loading scripts/speech/townbucsden.scp
+22:47:Loading scripts/speech/townbritain.scp
+22:47:Loading scripts/speech/spk_ship_cmds.scp
+22:47:Loading scripts/speech/spherespee.scp
+22:47:Loading scripts/speech/speakshopkeep.scp
+22:47:Loading scripts/speech/speakrehello.scp
+22:47:Loading scripts/speech/speakorc.scp
+22:47:Loading scripts/speech/speakneeds.scp
+22:47:Loading scripts/speech/speakmaster.scp
+22:47:Loading scripts/speech/speakhuman.scp
+22:47:Loading scripts/speech/speakhorse.scp
+22:47:Loading scripts/speech/jobweaver.scp
+22:47:Loading scripts/speech/jobweaponstrainer.scp
+22:47:Loading scripts/speech/jobweaponsmith.scp
+22:47:Loading scripts/speech/jobwaiter.scp
+22:47:Loading scripts/speech/jobvet.scp
+22:47:Loading scripts/speech/jobveggie.scp
+22:47:Loading scripts/speech/jobtinker.scp
+22:47:Loading scripts/speech/jobthief.scp
+22:47:Loading scripts/speech/jobtavernkeeper.scp
+22:47:Loading scripts/speech/jobtanner.scp
+22:47:Loading scripts/speech/jobshipwright.scp
+22:47:Loading scripts/speech/jobshepherd.scp
+22:47:Loading scripts/speech/jobservant.scp
+22:47:Loading scripts/speech/jobsculptor.scp
+22:47:Loading scripts/speech/jobscribe.scp
+22:47:Loading scripts/speech/jobscholar.scp
+22:47:Loading scripts/speech/jobsailor.scp
+22:47:Loading scripts/speech/jobrunner.scp
+22:47:Loading scripts/speech/jobrealtor.scp
+22:47:Loading scripts/speech/jobranger.scp
+22:47:Loading scripts/speech/jobrancher.scp
+22:47:Loading scripts/speech/jobprovisioner.scp
+22:47:Loading scripts/speech/jobprisoner.scp
+22:47:Loading scripts/speech/jobpriest.scp
+22:47:Loading scripts/speech/jobpirate.scp
+22:47:Loading scripts/speech/jobparliament.scp
+22:47:Loading scripts/speech/jobpaladin.scp
+22:47:Loading scripts/speech/joboverseer.scp
+22:47:Loading scripts/speech/jobnoble.scp
+22:47:Loading scripts/speech/jobmonk.scp
+22:47:Loading scripts/speech/jobminter.scp
+22:47:Loading scripts/speech/jobminer.scp
+22:47:Loading scripts/speech/jobmiller.scp
+22:47:Loading scripts/speech/jobmayor.scp
+22:47:Loading scripts/speech/jobmapmaker.scp
+22:47:Loading scripts/speech/jobMageShop.scp
+22:47:Loading scripts/speech/jobMageEvil.scp
+22:47:Loading scripts/speech/jobMage.scp
+22:47:Loading scripts/speech/joblumberjack.scp
+22:47:Loading scripts/speech/joblaborer.scp
+22:47:Loading scripts/speech/jobjudge.scp
+22:47:Loading scripts/speech/jobjeweller.scp
+22:47:Loading scripts/speech/jobjailor.scp
+22:47:Loading scripts/speech/jobinnkeeper.scp
+22:47:Loading scripts/speech/jobherbalist.scp
+22:47:Loading scripts/speech/jobhealwand.scp
+22:47:Loading scripts/speech/jobhealer.scp
+22:47:Loading scripts/speech/jobGuard.scp
+22:47:Loading scripts/speech/jobglassblower.scp
+22:47:Loading scripts/speech/jobgambler.scp
+22:47:Loading scripts/speech/jobfurtrader.scp
+22:47:Loading scripts/speech/jobfarmer.scp
+22:47:Loading scripts/speech/jobcobbler.scp
+22:47:Loading scripts/speech/jobcashual.scp
+22:47:Loading scripts/speech/jobcarpenter.scp
+22:47:Loading scripts/speech/jobbutcher.scp
+22:47:Loading scripts/speech/jobBrigand.scp
+22:47:Loading scripts/speech/jobbowyer.scp
+22:47:Loading scripts/speech/jobblacksmith.scp
+22:47:Loading scripts/speech/jobbeggar.scp
+22:47:Loading scripts/speech/jobbeekeeper.scp
+22:47:Loading scripts/speech/jobbard.scp
+22:47:Loading scripts/speech/jobbanker.scp
+22:47:Loading scripts/speech/jobbaker.scp
+22:47:Loading scripts/speech/jobartist.scp
+22:47:Loading scripts/speech/jobarmourer.scp
+22:47:Loading scripts/speech/jobarchitect.scp
+22:47:Loading scripts/speech/jobanimal.scp
+22:47:Loading scripts/speech/jobalchemist.scp
+22:47:Loading scripts/speech/jobactor.scp
+22:47:Loading scripts/myt/resources.scp
+22:47:Loading scripts/myt/itens.scp
+22:47:Loading scripts/myt/templates_myt.scp
+22:47:ERROR:(templates_myt.scp,268)Replace existing VarStr 'random_drink'
+22:47:Loading scripts/myt/teleporters_data.scp
+22:47:Loading scripts/myt/teleporters.scp
+22:47:Loading scripts/myt/spells_spellweaving.scp
+22:47:Loading scripts/myt/spells_speech.scp
+22:47:Loading scripts/myt/spells_necromancy.scp
+22:47:ERROR:(spells_necromancy.scp,1525)Undefined symbol 'i_carta'
+22:47:ERROR:(spells_necromancy.scp,1525)Bad resource list id 'i_carta,i_r_raiz_de_mandrake,i_r_nightshade,i_r_perola_negra,i_r_olho_morto_vivo'
+22:47:Loading scripts/myt/spells_myt.scp
+22:47:Loading scripts/myt/spells_magery.scp
+22:47:ERROR:(spells_magery.scp,527)Undefined symbol 'spellflag_eval_boosts'
+22:47:Loading scripts/myt/spells_focus.scp
+22:47:Loading scripts/myt/spells_cantrips.scp
+22:47:Loading scripts/myt/skill_tracking.scp
+22:47:Loading scripts/myt/skill_tinkering.scp
+22:47:Loading scripts/myt/skill_tasteid.scp
+22:47:Loading scripts/myt/skill_taming.scp
+22:47:Loading scripts/myt/skill_tailoring.scp
+22:47:Loading scripts/myt/skill_snooping.scp
+22:47:Loading scripts/myt/skill_removetrap.scp
+22:47:Loading scripts/myt/skill_poisoning.scp
+22:47:Loading scripts/myt/skill_musicianship.scp
+22:47:Loading scripts/myt/skill_mining.scp
+22:47:Loading scripts/myt/skill_meditation.scp
+22:47:Loading scripts/myt/skill_magicresist.scp
+22:47:Loading scripts/myt/skill_lockpicking.scp
+22:47:Loading scripts/myt/skill_itemid.scp
+22:47:Loading scripts/myt/skill_inscription.scp
+22:47:Loading scripts/myt/skill_hiding.scp
+22:47:Loading scripts/myt/skill_herding.scp
+22:47:Loading scripts/myt/skill_healing.scp
+22:47:Loading scripts/myt/skill_fishing.scp
+22:47:Loading scripts/myt/skill_evalint.scp
+22:47:Loading scripts/myt/skill_detectinghidden.scp
+22:47:Loading scripts/myt/skill_cooking.scp
+22:47:Loading scripts/myt/skill_carpentry.scp
+22:47:Loading scripts/myt/skill_camping.scp
+22:47:Loading scripts/myt/skill_blacksmith.scp
+22:47:Loading scripts/myt/skill_armslore.scp
+22:47:Loading scripts/myt/skill_animal_lore.scp
+22:47:Loading scripts/myt/skill_anatomy.scp
+22:47:Loading scripts/myt/skill_alchemy.scp
+22:47:Loading scripts/myt/skills.scp
+22:47:Loading scripts/myt/sistema_de_vendas.scp
+22:47:Loading scripts/myt/sistema_de_throw.scp
+22:47:Loading scripts/myt/sistema_de_tesouros.scp
+22:47:Loading scripts/myt/sistema_de_tempo.scp
+22:47:Loading scripts/myt/sistema_de_special_moves.scp
+22:47:Loading scripts/myt/sistema_de_selar_livros.scp
+22:47:Loading scripts/myt/sistema_de_reconhecimento.scp
+22:47:Loading scripts/myt/sistema_de_recipientes.scp
+22:47:Loading scripts/myt/sistema_de_receitas.scp
+22:47:Loading scripts/myt/sistema_de_quests.scp
+22:47:Loading scripts/myt/sistema_de_precos.scp
+22:47:Loading scripts/myt/sistema_de_playerlinger.scp
+22:47:Loading scripts/myt/sistema_de_plantacao.scp
+22:47:Loading scripts/myt/sistema_de_patch.scp
+22:47:Loading scripts/myt/sistema_de_news.scp
+22:47:Loading scripts/myt/sistema_de_morte.scp
+22:47:Loading scripts/myt/sistema_de_magias.scp
+22:47:Loading scripts/myt/sistema_de_listas.scp
+22:47:Loading scripts/myt/sistema_de_infos.scp
+22:47:Loading scripts/myt/sistema_de_guardas.scp
+22:47:Loading scripts/myt/sistema_de_furniture.scp
+22:47:Loading scripts/myt/sistema_de_fumo.scp
+22:47:Loading scripts/myt/sistema_de_formulario.scp
+22:47:Loading scripts/myt/sistema_de_ficha.scp
+22:47:Loading scripts/myt/sistema_de_fe.scp
+22:47:Loading scripts/myt/sistema_de_facas_especiais.scp
+22:47:Loading scripts/myt/sistema_de_eventos.scp
+22:47:Loading scripts/myt/sistema_de_encantamentos.scp
+22:47:Loading scripts/myt/sistema_de_email.scp
+22:47:Loading scripts/myt/sistema_de_dressing_staff.scp
+22:47:Loading scripts/myt/sistema_de_custom_house.scp
+22:47:Loading scripts/myt/sistema_de_criacao_pc.scp
+22:47:Loading scripts/myt/sistema_de_criacao_de_classes.scp
+22:47:Loading scripts/myt/sistema_de_craftmenu.scp
+22:47:Loading scripts/myt/sistema_de_crafting.scp
+22:47:Loading scripts/myt/sistema_de_couro.scp
+22:47:Loading scripts/myt/sistema_de_combate.scp
+22:47:Loading scripts/myt/sistema_de_cidades.scp
+22:47:Loading scripts/myt/sistema_de_churrasco.scp
+22:47:Loading scripts/myt/sistema_de_chaveiro.scp
+22:47:Loading scripts/myt/sistema_de_catalisadores.scp
+22:47:Loading scripts/myt/sistema_de_carvao.scp
+22:47:Loading scripts/myt/sistema_de_calimentar.scp
+22:47:Loading scripts/myt/sistema_de_caldeirao.scp
+22:47:Loading scripts/myt/sistema_de_cabelo_e_barba.scp
+22:47:Loading scripts/myt/sistema_de_broadcast_staff.scp
+22:47:Loading scripts/myt/sistema_de_banco.scp
+22:47:Loading scripts/myt/sistema_de_armaduras.scp
+22:47:Loading scripts/myt/sistema_de_armadilha.scp
+22:47:Loading scripts/myt/sistema_de_arco_e_flecha.scp
+22:47:Loading scripts/myt/sistema_de_anti_rp.scp
+22:47:Loading scripts/myt/sistema_de_aluguel.scp
+22:47:Loading scripts/myt/sistema_de_acoes.scp
+22:47:Loading scripts/myt/sistema_de_abordar.scp
+22:47:Loading scripts/myt/quests_custom.scp
+22:47:Loading scripts/myt/quests.scp
+22:47:Loading scripts/myt/points.scp
+22:47:Loading scripts/myt/npcs.scp
+22:47:Loading scripts/myt/itens_tailor.scp
+22:47:Loading scripts/myt/itens_potions.scp
+22:47:Loading scripts/myt/itens_furniture.scp
+22:47:Loading scripts/myt/itens_food.scp
+22:47:Loading scripts/myt/itens_clickloc.scp
+22:47:Loading scripts/myt/itens_carpentry.scp
+22:47:Loading scripts/myt/itens_armas.scp
+22:47:Loading scripts/myt/itens_armaduras.scp
+22:47:Loading scripts/myt/itemforge_data.scp
+22:47:Loading scripts/myt/itemforge.scp
+22:47:Loading scripts/myt/events_npc.scp
+22:47:Loading scripts/myt/events.scp
+22:47:Loading scripts/myt/craftmenu_backup.scp
+22:47:Loading scripts/myt/administrative.scp
+22:47:Loading scripts/myt/special/region.scp
+22:47:Loading scripts/myt/special/mapa.scp
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_web.scp
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_triggers.scp
+22:47:ERROR:(sphere_triggers.scp,208)Re-Using name 'I_BLOOD' to define block
+22:47:ERROR:(sphere_triggers.scp,208)Invalid ITEMDEF block index 'I_BLOOD'
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_template_weapons.scp
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_template_sets.scp
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_template_misc.scp
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_template_magic.scp
+22:47:ERROR:(sphere_template_magic.scp,29)Replace existing VarNum 'random_scroll_necro' with { i_scroll_animate_dead 1 i_scroll_blood_oath 1 i_scroll_corpse_skin 1 i_scroll_curse_weapon 1 i_scroll_evil_omen 1 i_scroll_horrific_beast 1 i_scroll_lich_form 1 i_scroll_mind_rot 1 i_scroll_pain_spike 1 i_scroll_poison_strike 1 i_scroll_strangle 1 i_scroll_summon_familiar 1 i_scroll_vampiric_embrace 1 i_scroll_vengeful_spirit 1 i_scroll_wither 1 i_scroll_wraith_form 1 }
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_template_armor.scp
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_spawns.scp
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_region_resources.scp
+22:47:ERROR:(sphere_region_resources.scp,79)Undefined symbol 'random_footwear'
+22:47:ERROR:(sphere_region_resources.scp,85)Undefined symbol 'i_highly_peculiar_fish'
+22:47:ERROR:(sphere_region_resources.scp,91)Undefined symbol 'i_prized_fish'
+22:47:ERROR:(sphere_region_resources.scp,97)Undefined symbol 'i_wondrous_fish'
+22:47:ERROR:(sphere_region_resources.scp,103)Undefined symbol 'i_truly_rare_fish'
+22:47:ERROR:(sphere_region_resources.scp,133)Undefined symbol 'i_log_oak'
+22:47:ERROR:(sphere_region_resources.scp,140)Undefined symbol 'i_log_ash'
+22:47:ERROR:(sphere_region_resources.scp,147)Undefined symbol 'i_log_yew'
+22:47:ERROR:(sphere_region_resources.scp,154)Undefined symbol 'i_log_heartwood'
+22:47:ERROR:(sphere_region_resources.scp,161)Undefined symbol 'i_log_bloodwood'
+22:47:ERROR:(sphere_region_resources.scp,168)Undefined symbol 'i_log_frostwood'
+22:47:ERROR:(sphere_region_resources.scp,472)Undefined symbol 'i_granite'
+22:47:ERROR:(sphere_region_resources.scp,479)Undefined symbol 'i_granite_dull_copper'
+22:47:ERROR:(sphere_region_resources.scp,486)Undefined symbol 'i_granite_shadow'
+22:47:ERROR:(sphere_region_resources.scp,493)Undefined symbol 'i_granite_copper'
+22:47:ERROR:(sphere_region_resources.scp,500)Undefined symbol 'i_granite_bronze'
+22:47:ERROR:(sphere_region_resources.scp,507)Undefined symbol 'i_granite_gold'
+22:47:ERROR:(sphere_region_resources.scp,514)Undefined symbol 'i_granite_agapite'
+22:47:ERROR:(sphere_region_resources.scp,521)Undefined symbol 'i_granite_verite'
+22:47:ERROR:(sphere_region_resources.scp,528)Undefined symbol 'i_granite_valorite'
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_msgs.scp
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\scripts\sphere_help.scp
+22:47:Loaded 127 client encryption keys.
+22:47:Server started on 'Bruno-PC' port 2593.
+22:47:Monitoring IP '192.168.25.101'.
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\save\spheredata...
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\save\spherestatics...
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\save\spheremultis...
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\save\sphereworld...
+22:47:Loading D:\Bruno\Jogos\SERVER UO\sphere\save\spherechars...
+22:47:GC: 3 Objects accounted for
+22:47:Auto-complete dictionary loaded (contains 143 words).
+22:47:Option flags: CommandSysmessages + NoHouseMuteSpeech
+22:47:Admin=me@myemail.com, URL=www.mysphereshard.com, Lang=English, TZ=0
+22:47:Startup complete. items=2, chars=1
+22:47:Press '?' for console commands
+22:48:0:Client connected [Total:1] ('127.0.0.1' 1/1)
+22:48:0:Login 'admin'
+22:48:0:Client disconnected [Total:0] ('127.0.0.1')
+22:48:1:Client connected [Total:1] ('127.0.0.1' 1/2)
+22:48:1:Login 'admin'
+22:48:1:Setup_Start acct='admin', char='Admin', IP='127.0.0.1'
+22:48:ERROR:(sistema_de_criacao_pc.scp,210)Undefined symbol ''
+22:48:1:'admin' commands 'flags 0'=1
+22:48:ERROR:(sphere_admin.scp,612)Can't resolve <STRSUB0>
+22:48:1:'admin' commands 'admin'=1
+22:48:ERROR:(sphere_admin.scp,612)Can't resolve <STRSUB0>
+22:48:ERROR:Undefined symbol 'i_manto'
+22:48:ERROR:Undefined keyword 'add'
+22:48:1:'admin' commands 'add i_manto'=1
+22:48:1:'admin' commands 'add i_robe'=1
+22:49:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+22:49:ERROR:(itemforge_data.scp,429)Setting new id for base type i_backpack not allowed
+22:49:1:'admin' commands 'add i_backpack'=1
+22:49:1:'admin' commands 'capuz'=1
+22:49:1:'admin' commands 'capuz'=1
+22:49:1:'Admin' Says UNICODE 'PTB' 'ixen jax' mode=0
+22:49:ERROR:Undefined symbol 'i_varinha'
+22:49:ERROR:Undefined keyword 'add'
+22:49:1:'admin' commands 'add i_varinha'=1
+22:49:ERROR:Undefined symbol 'c_acefalo'
+22:49:ERROR:Undefined keyword 'add'
+22:49:1:'admin' commands 'add c_acefalo'=1
+22:49:1:'admin' commands 'add c_headless'=1
+22:49:1:'admin' commands 'remove'=1
+22:49:'admin' commands uid=01ffb (Acefalo) to 'remove'=1
+22:50:1:'admin' commands 'go 740, 1976, 0,0'=1
+22:50:1:'admin' commands 'add i_wand_1'=1
+22:50:1:'Admin' Says UNICODE 'PTB' 'ixen jax' mode=0
+22:51:ERROR:Undefined keyword 'comandos'
+22:51:1:'admin' commands 'comandos'=1
+22:51:ERROR:Undefined keyword 'help'
+22:51:1:'admin' commands 'help'=1
+22:51:1:'admin' commands 'acoes'=1
+22:51:1:'admin' commands 'vomitar'=1
+22:51:1:'admin' commands 'arrotar'=1
+22:51:1:'admin' commands 'tossir'=1
+22:51:ERROR:Undefined keyword 'peridar'
+22:51:1:'admin' commands 'peridar'=1
+22:51:1:'admin' commands 'peidar'=1
+22:51:1:'admin' commands 'rir'=1
+22:51:1:'admin' commands 'observar'=1
+22:51:1:'admin' commands 'gritar'=1
+22:51:1:'admin' commands 'chamar'=1
+22:51:1:'admin' commands 'afastar'=1
+22:51:1:'admin' commands 'ola'=1
+22:51:1:'admin' commands 'saudar'=1
+22:51:1:'admin' commands 'comemorar'=1
+22:51:1:'admin' commands 'susto'=1
+22:51:1:'admin' commands 'confuso'=1
+22:51:1:'admin' commands 'confusa'=1
+22:51:1:'admin' commands 'surpreso'=1
+22:51:ERROR:Undefined keyword 'ops.'
+22:51:1:'admin' commands 'ops.'=1
+22:51:1:'admin' commands 'ops'=1
+22:51:1:'admin' commands 'surpresa'=1
+22:51:1:'admin' commands 'oops'=1
+22:52:1:'admin' commands 'cospir'=1
+22:52:1:'admin' commands 'erguer'=1
+22:52:1:'admin' commands 'cabelo'=1
+22:52:1:'admin' commands 'cabelo'=1
+22:52:1:'admin' commands 'rabo'=1
+22:52:1:'admin' commands 'solto'=1
+22:52:1:'admin' commands 'tranca1'=1
+22:52:1:'admin' commands 'solto'=1
+22:52:1:'admin' commands 'tranca2'=1
+22:52:1:'admin' commands 'solto'=1
+22:52:1:'admin' commands 'delado'=1
+22:52:1:'admin' commands 'solto'=1
+22:52:1:'admin' commands 'coque'=1
+22:52:1:'admin' commands 'solto'=1
+22:52:1:'admin' commands 'solto'=1
+22:52:1:'admin' commands 'samurai'=1
+22:52:1:'admin' commands 'coque'=1
+22:52:1:'admin' commands 'rabo'=1
+22:52:1:'admin' commands 'solto'=1
+22:52:ERROR:Undefined keyword 'rab'
+22:52:1:'admin' commands 'rab'=1
+22:52:1:'admin' commands 'rabo'=1
+22:52:1:'admin' commands 'solto'=1
+22:52:1:'admin' commands 'coque'=1
+22:53:1:'admin' commands 'add c_alligator'=1
+22:53:1:'admin' commands 'add i_espada_curta'=1
+22:53:1:'admin' commands 'str 50'=1
+22:53:1:'admin' commands 'str 80'=1
+22:53:1:'admin' commands 'dex 80'=1
+22:53:1:'admin' commands 'int 80'=1
+22:53:1:'admin' commands 'aid'=1
+22:53:1:'admin' commands 'maxhits 1200'=1
+22:53:1:'admin' commands 'aid'=1
+22:54:1:'admin' commands 'aid'=1
+22:54:1:'admin' commands 'maxhits 120'=1
+22:54:1:'admin' commands 'aid'=1
+22:54:1:'admin' commands 'kill'=1
+22:54:'Crocodilo' was KILLed by 'admin'
+22:54:'admin' commands uid=01ff0 (Crocodilo) to 'kill'=1
+22:56:1:Client disconnected [Total:0] ('127.0.0.1')
+22:56:2:Client connected [Total:1] ('127.0.0.1' 1/1)
+22:56:2:Login 'admin'
+22:56:3:Client connected [Total:2] ('127.0.0.1' 1/2)
+22:56:2:Client disconnected [Total:1] ('127.0.0.1')
+22:56:3:Login 'admin'
+22:56:3:Setup_Start acct='admin', char='Admin', IP='127.0.0.1'
+22:56:ERROR:(sistema_de_criacao_pc.scp,210)Undefined symbol ''
+22:56:3:Client disconnected [Total:0] ('127.0.0.1')
+22:56:4:Client connected [Total:1] ('127.0.0.1' 1/1)
+22:56:4: 'admin' bad password
+22:56:WARNING:4:Bad Login 3 (The password entered is not correct)
+22:56:4:Client disconnected [Total:0] ('127.0.0.1')
+22:56:5:Client connected [Total:1] ('127.0.0.1' 1/1)
+22:56:5:Login 'admin'
+22:56:5:Client disconnected [Total:0] ('127.0.0.1')
+22:56:6:Client connected [Total:1] ('127.0.0.1' 1/2)
+22:56:6:Login 'admin'
+22:57:6:Setup_CreateDialog acct='admin', char='Joao'
+22:57:6:Setup_Start acct='admin', char='Joao', IP='127.0.0.1'
+22:57:ERROR:(sistema_de_criacao_pc.scp,210)Undefined symbol ''
+22:57:6:'admin' commands 'flags 0'=1
+22:57:6:'admin' commands 'update'=1
+22:57:6:'admin' commands 'add i_robe'=1
+22:57:6:'admin' commands 'xtaglist'=1
+22:57:'admin' commands uid=01fe7 (Joao) to 'taglist'=1
+22:59:6:'admin' commands 'classforge'=1
+23:08:GC: 7 Objects accounted for
+23:08:World data saved   (D:\Bruno\Jogos\SERVER UO\sphere\save\sphereworld.scp).
+23:08:Player data saved  (D:\Bruno\Jogos\SERVER UO\sphere\save\spherechars.scp).
+23:08:Multi data saved   (D:\Bruno\Jogos\SERVER UO\sphere\save\spheremultis.scp).
+23:08:Context data saved (D:\Bruno\Jogos\SERVER UO\sphere\save\spheredata.scp).
+23:08:World save completed, took 0.2418 seconds
+23:11:6:Client disconnected [Total:0] ('127.0.0.1')
+23:28:GC: 7 Objects accounted for
+23:28:World data saved   (D:\Bruno\Jogos\SERVER UO\sphere\save\sphereworld.scp).
+23:28:Player data saved  (D:\Bruno\Jogos\SERVER UO\sphere\save\spherechars.scp).
+23:28:Multi data saved   (D:\Bruno\Jogos\SERVER UO\sphere\save\spheremultis.scp).
+23:28:Context data saved (D:\Bruno\Jogos\SERVER UO\sphere\save\spheredata.scp).
+23:28:World save completed, took 0.6889 seconds
+23:31:FATAL:Server terminated by error 5!
