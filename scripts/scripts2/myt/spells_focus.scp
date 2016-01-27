@@ -269,7 +269,7 @@ INTERRUPT=25.0,100.0
 
 on=@Effect
 //Só contra undead?
-if (<npc>==brain_undead)
+if (STRMATCH(*e_undead*,<tevents>))
 
 //Determinar chance de sucesso
 local.karma=-<karma>
@@ -517,7 +517,7 @@ INTERRUPT=45.0,100.0
 on=@Effect
 local.effect =<EFFECTSPELL 156,<argn2>,<src.uid>>
 local.effect += <eval<spiritspeak>/100>
-if (<NPC>==brain_undead)
+if (STRMATCH(*e_undead*,<tevents>))
 local.effect=<minimumN <local.effect>,<eval <hits>-6>>
 damage <eval <local.effect>/3>,<DEF.dam_energy>,<src>
 else
@@ -706,7 +706,7 @@ CAST_TIME=22
 RESOURCES=i_r_ginseng,i_r_raiz_de_mandrake,i_r_perola_negra
 RUNE_ITEM=2280
 SCROLL_ITEM=i_scroll_servo_etereo
-FLAGS=spellflag_scripted | spellflag_good | spellflag_summon
+FLAGS=spellflag_scripted | spellflag_good
 MANAUSE=25
 EFFECT=30,75
 DURATION=90,3*60
@@ -875,7 +875,7 @@ effect 3 i_fx_heal_effect 0 16 0
 if (<IsPlayer> && (<src.act.necromancy> > 100) && ((<src.act.necromancy> - 100) < <src.focus>))
 timerf 1 damage,<eval (<src.act.necromancy>/20)>,dam_energy,<src.uid>
 timerf 1 EFFECT 1 0
-elif (<npc>=brain_undead && <karma> < 0)
+elif ((STRMATCH(*e_undead*,<tevents>)) && <karma> < 0)
 timerf 1 damage,<R25,<eval (-<karma>/40)>>,dam_energy,<src.uid>
 timerf 1 EFFECT 1 0
 else
@@ -1140,7 +1140,7 @@ CAST_TIME=60
 RESOURCES=i_r_ginseng,i_r_raiz_de_mandrake,i_r_perola_negra,i_r_teia_de_aranha
 RUNE_ITEM=2254
 SCROLL_ITEM=i_scroll_conj_nefelibata
-FLAGS=spellflag_scripted | spellflag_good | spellflag_summon
+FLAGS=spellflag_scripted | spellflag_good
 MANAUSE=35
 EFFECT=10,40
 DURATION=2*60,3*60
@@ -1263,7 +1263,7 @@ CAST_TIME=80
 RESOURCES=i_r_ginseng,i_r_raiz_de_mandrake,i_r_perola_negra,i_r_teia_de_aranha,i_r_asa_morcego
 RUNE_ITEM=20742
 SCROLL_ITEM=i_scroll_conj_mensageiro
-FLAGS=spellflag_scripted | spellflag_good | spellflag_summon
+FLAGS=spellflag_scripted | spellflag_good
 MANAUSE=50
 EFFECT=10,40
 DURATION=60,3*60
@@ -1391,7 +1391,7 @@ if !<restest 1 i_mry_desmaio>
 morte_decrementaDesmaios <eval <src.spiritspeak>/500>
 endif
 f_returnToLife
-elif <brain>==12 //Undead
+elif (STRMATCH(*e_undead*,<tevents>) //Undead
 spelleffect s_julgamento,<eval <argn2>+10.0>,<src>
 elif <IsChar>
 stam=<maxstam>

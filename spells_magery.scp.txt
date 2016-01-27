@@ -1,0 +1,82 @@
+215   on=@START
+216   if <act.restest i_mry_queimadura>
+217   src.sysmessageyellow Esse alvo ja tem esse efeito. Espere <act.FINDID.i_mry_queimadura.TIMER> segundos.
+218   return 1
+219   endif
+
+
+Mudou para
+
+
+215   on=@START
+216   if <act.restest i_mry_queimadura>
+217   src.sysmessageyellow Esse alvo ja tem esse efeito. Espere <act.FINDID.i_mry_queimadura.TIMER> segundos.
+218     return 1
+219    elif (<src.act.distance <UID>> > 1)
+220    sysmessageyellow Muito longe...
+221    return 1
+222   endif
+
+(Impede que use essa magia a distancia)
+
+------------------------------------------------------
+
+489   LOCAL.CREATEOBJECT1 = <eval i_coluna_fogo_armadilha>
+490   LOCAL.CREATEOBJECT2 = <eval i_coluna_fogo_armadilha>
+491  else
+492   LOCAL.CREATEOBJECT1 = <eval i_fogo_armadilha_lo>
+493   LOCAL.CREATEOBJECT2 = <eval i_fogo_armadilha_ns>
+
+mudou para
+
+492    LOCAL.CREATEOBJECT1 = <eval i_fogo_armadilha_lo>
+493    LOCAL.CREATEOBJECT2 = <eval i_fogo_armadilha_ns>
+494  else
+495    LOCAL.CREATEOBJECT1 = <eval i_fx_field_fire>
+496    LOCAL.CREATEOBJECT2 = <eval i_fx_field_fire_ns>
+
+(nova funcionalidade das barreiras de fogo. "i_fogo_armadilha_lo" é intransponivel e "i_fx_field_fire" é transponivel. Magos muito fortes tem chance de fazer barreiras intransponivels, mas ainda assim possivelmente apagaveis com agua)
+
+-------------------------------------------------------------
+
+567 dmgfire += <SRC.EFFECTSPELL s_mysticflame, <src.magery>, <src.uid>>
+570 timerf <SRC.DURATIONSPELL s_mysticflame, <src.magery>, <src.uid>>,_f_mysticFlame,<dmgfire>
+578 dmgfire -= <argn>
+
+mudou para
+
+570 damfire += <SRC.EFFECTSPELL s_mysticflame, <src.magery>, <src.uid>>
+573 timerf <SRC.DURATIONSPELL s_mysticflame, <src.magery>, <src.uid>>,_f_mysticFlame,<damfire>
+581 damfire -= <argn>
+
+(mudança de dmg -> dam. O novo sphere não reconhece mais "dmgfire","dmgcold",dmgenergy", mudou tudo para "dam")
+
+--------------------------------------------------------------------
+
+677  on=@start
+678  sfx 05c1
+
+mudou para
+
+680  on=@start
+681  if <src.restest i_torch_lit>
+682      src.sysmessageyellow Essa magia ja esta ativa.
+683      return 1
+684  endif
+685  sfx 05c1
+
+(impede que crie varias tochas magicas e fiquem stackadas na bag)
+
+-------------------------------------------------------------------
+
+
+957 return 1
+
+mudou para
+
+964 return 0
+
+(parar o frizzle que dava por tentar impedir a magia)
+
+----------------------------------------------------------------
+

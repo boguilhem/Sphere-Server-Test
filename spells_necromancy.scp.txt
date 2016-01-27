@@ -1,0 +1,27 @@
+799 FLAGS=SPELLFLAG_GOOD | spellflag_scripted | spellflag_summon
+
+mudou para
+
+799 FLAGS=SPELLFLAG_GOOD | spellflag_scripted
+
+(spellflag_summon parece não funcionar com @effect, então decidi tirar essa flag. Mata uma funcionalidade do memory, mas Acho que não causa grandes danos)
+
+--------------------------------------------------------
+
+1073 FLAGS=SPELLFLAG_GOOD | spellflag_scripted | spellflag_summon
+
+mudou para
+
+1073 FLAGS=SPELLFLAG_GOOD | spellflag_scripted
+
+(spellflag_summon parece não funcionar com @effect, então decidi tirar essa flag. Mata uma funcionalidade do memory, mas Acho que não causa grandes danos)
+
+------------------------------------------------------------------
+
+1528 FLAGS=SPELLFLAG_GOOD | spellflag_scripted | spellflag_summon
+
+mudou para
+
+1528 FLAGS=SPELLFLAG_GOOD | spellflag_scripted
+
+(spellflag_summon parece não funcionar com @effect, então decidi tirar essa flag. Mata uma funcionalidade do memory, mas Acho que não causa grandes danos)
