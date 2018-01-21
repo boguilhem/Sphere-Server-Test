@@ -207,7 +207,7 @@ REGEN=60*5
 // t_tree
 skill=50.0,100.0
 amount=3,6
-REAP=i_log_mogno
+REAP=mr_nothing//i_log_mogno
 REGEN=60*5
 
 [REGIONRESOURCE mr_logmorta]
@@ -215,7 +215,7 @@ REGEN=60*5
 // t_tree
 skill=0.0,100.0
 amount=3,10
-REAP=i_log_morta
+REAP=mr_nothing//i_log_morta
 REGEN=60*5
 
 [REGIONRESOURCE mr_logelfica]
@@ -223,7 +223,7 @@ REGEN=60*5
 // t_tree
 skill=75.0,100.0
 amount=2,3
-REAP=i_log_elfica
+REAP=mr_nothing//i_log_elfica
 REGEN=60*5
 
 [REGIONRESOURCE mr_logrubra]
@@ -231,7 +231,7 @@ REGEN=60*5
 // t_tree
 skill=75.0,100.0
 amount=2,3
-REAP=i_log_rubra
+REAP=mr_nothing//i_log_rubra
 REGEN=60*5
 
 [REGIONTYPE r_default_tree t_tree]
@@ -244,40 +244,40 @@ RESOURCES=20.0 mr_kindling
 // 
 RESOURCES=10.0 mr_nothing
 RESOURCES=50.0 mr_tree
-RESOURCES=20.0 mr_logmorta
-RESOURCES=5.0 mr_logrubra
+RESOURCES=20.0 mr_nothing//mr_logmorta
+RESOURCES=5.0 mr_nothing//mr_logrubra
 RESOURCES=15.0 mr_vege_fiber
 
 [REGIONTYPE r_lognorte t_tree]
 // 
 RESOURCES=15.0 mr_nothing
 RESOURCES=50.0 mr_tree
-RESOURCES=12.5 mr_logelfica
-RESOURCES=5.0 mr_mogno
-RESOURCES=7.5 mr_logrubra
+RESOURCES=12.5 mr_nothing//mr_logelfica
+RESOURCES=5.0 mr_nothing//mr_mogno
+RESOURCES=7.5 mr_nothing//mr_logrubra
 RESOURCES=10.0 mr_vege_fiber
 
 [REGIONTYPE r_logoeste t_tree]
 //
 RESOURCES=15.0 mr_nothing
 RESOURCES=50.0 mr_tree
-RESOURCES=7.5 mr_logelfica
-RESOURCES=5.0 mr_mogno
-RESOURCES=12.5 mr_logrubra
+RESOURCES=7.5 mr_nothing//mr_logelfica
+RESOURCES=5.0 mr_nothing//mr_mogno
+RESOURCES=12.5 mr_nothing//mr_logrubra
 RESOURCES=10.0 mr_vege_fiber
 
 [REGIONTYPE r_logcentro t_tree]
 // 
 RESOURCES=10.0 mr_logmorta
 RESOURCES=55.0 mr_tree
-RESOURCES=20.0 mr_mogno
+RESOURCES=20.0 mr_nothing//mr_mogno
 RESOURCES=15.0 mr_vege_fiber
 
 [REGIONTYPE r_logleste t_tree]
 // 
 RESOURCES=55.0 mr_tree
 RESOURCES=10.0 mr_logmorta
-RESOURCES=15.0 mr_mogno
+RESOURCES=15.0 mr_nothing//mr_mogno
 RESOURCES=20.0 mr_vege_fiber
 
 [REGIONTYPE r_log_gul t_tree]
@@ -864,6 +864,26 @@ RESOURCES=0.5 mr_emerald
 RESOURCES=0.5 mr_ruby
 RESOURCES=0.5 mr_saphire
 
+[REGIONTYPE r_portovila_rock t_rock]
+// Porto Vila
+RESOURCES=40.0 mr_nothing
+RESOURCES=14.3 mr_copper
+RESOURCES=4.4 mr_silver
+RESOURCES=27.0 mr_ferro
+RESOURCES=3.2 mr_ouro
+RESOURCES=0.3 mr_obsidian
+RESOURCES=4.7 mr_carvao
+RESOURCES=2.5 mr_sulfurosa
+RESOURCES=1.0 mr_ferro_guza
+RESOURCES=1.0 mr_pomis
+RESOURCES=0.2 mr_tourmaline
+RESOURCES=0.2 mr_diamante
+RESOURCES=0.2 mr_citrine
+RESOURCES=0.2 mr_amber
+RESOURCES=0.2 mr_amethyst
+RESOURCES=0.2 mr_emerald
+RESOURCES=0.2 mr_ruby
+RESOURCES=0.2 mr_saphire
 
 [REGIONTYPE r_mina_ini t_rock]
 RESOURCES=58.0 mr_nothing
