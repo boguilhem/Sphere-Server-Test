@@ -231,7 +231,7 @@ ITEMNEWBIE=random_male_hair
 COLOR=187
 ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_hair
 
 ON=@NPCRESTOCK
@@ -990,7 +990,7 @@ ITEMNEWBIE=i_luva_osso
 COLOR=00a8f
 ITEMNEWBIE=i_perna_osso
 COLOR=00a8f
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=003c2
 ITEMNEWBIE=i_sandals
 COLOR=003c2
@@ -1130,7 +1130,7 @@ ITEMNEWBIE= i_boots_calf
  COLOR=colors_hair
 ITEMNEWBIE=i_mao_arcano
 COLOR=colors_hair
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=colors_hair
 ITEMNEWBIE=i_pants_short
 COLOR=colors_hair
@@ -1202,7 +1202,7 @@ ITEMNEWBIE= i_boots_calf
 COLOR=colors_hair
 ITEMNEWBIE=i_mao_arcano
 COLOR=colors_hair
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=colors_hair
 ITEMNEWBIE=i_pants_short
 COLOR=colors_hair
@@ -2474,7 +2474,7 @@ ITEMNEWBIE= i_boots_calf
 COLOR=colors_hair
 ITEMNEWBIE=i_mao_arcano
 COLOR=colors_hair
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=colors_hair
 ITEMNEWBIE=i_pants_short
 COLOR=colors_hair
@@ -2540,7 +2540,7 @@ ITEMNEWBIE= i_boots_calf
 COLOR=colors_hair
 ITEMNEWBIE=i_mao_arcano
 COLOR=colors_hair
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=colors_hair
 ITEMNEWBIE=i_pants_short
 COLOR=colors_hair
@@ -2604,7 +2604,7 @@ ITEMNEWBIE= i_boots_calf
 COLOR=colors_hair
 ITEMNEWBIE=i_mao_arcano
 COLOR=colors_hair
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=colors_hair
 ITEMNEWBIE=i_pants_short
 COLOR=colors_hair
@@ -2733,7 +2733,7 @@ ITEMNEWBIE=i_cape
 COLOR=00b7c
 ITEMNEWBIE=i_robe
 COLOR=00b7c
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=00b7c
 ITEMNEWBIE=i_pants_long
 COLOR=00b7c
@@ -3506,7 +3506,7 @@ ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
 ITEMNEWBIE=random_male_tops
 COLOR=colors_all
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_all
 ITEMNEWBIE=i_sandals
 COLOR=colors_all
@@ -3564,7 +3564,7 @@ ITEMNEWBIE=random_shoes
 COLOR=colors_all
 ITEMNEWBIE=i_hat_floppy
 COLOR=colors_all
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_all
 ITEMNEWBIE=i_shirt_plain
 COLOR=colors_all
@@ -3836,7 +3836,7 @@ ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
 ITEMNEWBIE=random_hats
 COLOR=colors_all
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_all
 ITEMNEWBIE=i_boots_calf
 COLOR=colors_all
@@ -3844,7 +3844,7 @@ ITEMNEWBIE=i_cajado
 ITEMNEWBIE=i_luva_couro
 ITEMNEWBIE=i_surcoat
 COLOR=colors_all
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=colors_all
 ITEMNEWBIE=
 
@@ -4317,7 +4317,7 @@ ITEMNEWBIE=i_cape
 COLOR=00a8f
 ITEMNEWBIE=i_boots_calf
 COLOR=003c2
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=003c2
 ITEMNEWBIE=i_peito_pat
 COLOR=00a8f
@@ -5298,7 +5298,7 @@ ITEMNEWBIE=random_male_hair
 COLOR=colors_hair
 ITEMNEWBIE=i_beard_LONG
 COLOR=match_hair
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_all
 ITEMNEWBIE=random_shoes
 COLOR=colors_all
@@ -5371,11 +5371,11 @@ ITEM=i_machado_execucao
 
             
 //*****************************************************************************
-// c_anao_rodarik
+// c_mestre_anao
 //*****************************************************************************
-[CHARDEF c_anao_rodarik]
+[CHARDEF c_mestre_anao]
 ID=c_man
-NAME=Rodarik
+NAME=Mestre Anão
 ICON=i_pet_man
 CAN=mt_equip|mt_walk|mt_usehands
 AVERSIONS=
@@ -5394,7 +5394,7 @@ MOVERATE={140 160}
 
 CATEGORY=Undeads
 SUBSECTION=Anões
-DESCRIPTION=Rodarik
+DESCRIPTION=Mestre Anão
 
 ON=@CREATE
 NPC=brain_monster//brain_human
@@ -5864,7 +5864,7 @@ tag.moddam -=20
 ITEMNEWBIE=random_facial_hair
 COLOR=colors_hair
 ITEMNEWBIE=random_shoes
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 ITEMNEWBIE=random_male_tops
 ITEMNEWBIE=i_sash
 ITEMNEWBIE=i_robe
@@ -6059,7 +6059,7 @@ ITEMNEWBIE=i_robe
 COLOR=colors_black
 ITEMNEWBIE=i_luva_couro
 ITEMNEWBIE=i_boots_calf
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=colors_black
 
 ON=@NPCRESTOCK
@@ -7069,11 +7069,11 @@ ITEMNEWBIE=random_male_hair
 COLOR=colors_hair
 ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=00455
 ITEMNEWBIE=random_shoes
 COLOR=00455
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=00455
 ITEMNEWBIE=i_peito_anel
 COLOR=00455
@@ -7211,7 +7211,7 @@ ITEMNEWBIE=i_pants_long
 COLOR=00455
 ITEMNEWBIE=i_luva_couro
 COLOR=00455
-ITEMNEWBIE=i_fancy_shirt
+ITEMNEWBIE=i_shirt_fancy
 COLOR=00455
 ITEMNEWBIE=i_doublet
 COLOR=00455
@@ -8194,10 +8194,9 @@ COLOR=colors_all
 ITEMNEWBIE=i_foice_mao
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_pocao_ajuda 1 0 2 }
 ITEM={i_random_espada 1 i_random_maca 1}
-ITEM=
 
             
 //*****************************************************************************
@@ -8253,15 +8252,15 @@ ITEMNEWBIE=random_shoes
 COLOR=colors_all
 ITEMNEWBIE=i_bandana
 COLOR=colors_all
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_all
 ITEMNEWBIE=i_tridente
 ITEMNEWBIE=i_shirt_plain
 COLOR=colors_all
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_pocao_ajuda 1 0 2 }
 ITEM={i_random_espada 1 i_random_maca 1}
 ITEM=
 
@@ -8317,14 +8316,14 @@ ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
 ITEMNEWBIE=random_shoes
 COLOR=colors_all
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_all
 ITEMNEWBIE=i_arco_npc
 ITEMNEWBIE=i_shirt_plain
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_pocao_ajuda 1 0 2 }
 ITEM=i_random_faca
 ITEM=i_arrow,{10 20}
 ITEM=i_arco
@@ -8386,8 +8385,8 @@ COLOR=colors_all
 ITEMNEWBIE=i_arco_npc
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_pocao_ajuda 1 0 2 }
 ITEM=i_random_faca
 ITEM=i_arrow,{10 20}
 ITEM=i_arco
@@ -8449,8 +8448,8 @@ COLOR=colors_all
 ITEMNEWBIE=i_shirt_plain
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_pocao_ajuda 1 0 2 }
 ITEM=i_arco
 
             
@@ -8574,8 +8573,8 @@ ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
 
 ON=@NPCRESTOCK
-ITEM=i_copper_rico
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_cimitarra
 
             
@@ -8606,10 +8605,10 @@ DESCRIPTION=Saqueador do Deserto
 
 ON=@CREATE
 NPC=brain_monster//brain_human
-MAXHITS={130 190}
+MAXHITS={120 150}
 COLOR=0413
 STR=70
-DEX=60
+DEX=35
 INT=70
 FAME={2500 4000}
 karma=0//-5000
@@ -8638,10 +8637,10 @@ ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
 
 ON=@NPCRESTOCK
-ITEM=i_copper_rico
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_random_faca
-ITEM=i_arco
+ITEM=i_arco_curto
 
             
 //*****************************************************************************
@@ -8695,7 +8694,7 @@ ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
 ITEMNEWBIE=i_shirt_fancy
 COLOR=colors_hair
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_hair
 ITEMNEWBIE=random_hats
 COLOR=colors_hair
@@ -8704,8 +8703,8 @@ ITEMNEWBIE=i_luva_couro
 ITEMNEWBIE=i_escudo_batalha
 
 ON=@NPCRESTOCK
-ITEM=i_silver_pobre
-ITEM=i_cura
+ITEM={ i_silver_pobre 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_espada_larga
 
             
@@ -8760,8 +8759,8 @@ COLOR=colors_all
 ITEMNEWBIE=i_boots_calf
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_random_lanca
 
             
@@ -8817,10 +8816,9 @@ COLOR=colors_all
 ITEMNEWBIE=i_boots_calf
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_machado_execucao
-ITEM=
 
             
 //*****************************************************************************
@@ -8875,8 +8873,8 @@ COLOR=colors_all
 ITEMNEWBIE=i_boots_calf
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_random_maca
 
             
@@ -8932,8 +8930,8 @@ COLOR=colors_all
 ITEMNEWBIE=i_boots_calf
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_random_espada
 
             
@@ -8995,8 +8993,8 @@ ITEMNEWBIE=capuz
 ITEMNEWBIE=i_boots_calf
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_alabarda
 ITEM=
 
@@ -9061,8 +9059,8 @@ COLOR=colors_black
 ITEMNEWBIE=capuz
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_random_faca
 ITEM=i_xbolt,{12 20}
 ITEM=i_besta
@@ -9293,33 +9291,40 @@ DESCRIPTION=Pirata
 
 ON=@CREATE
 NPC=brain_monster//brain_thief
-MAXHITS={110 140}
+MAXHITS={90 120}
 COLOR=colors_skin
-STR=70
-DEX=60
+STR=60
+DEX=80
 INT=70
 FAME={2500 4000}
 karma=0//-3000
-ARCHERY=65.0
-FENCING=65.0
-MACEFIGHTING=65.0
-MAGICRESISTANCE=50,5
-PARRYING=50,5
-SWORDSMANSHIP=65.0
-WRESTLING=65.0
+ARCHERY={400 650}
+ANATOMY={250 500}
+TACTICS={250 500}
+WRESTLING={400 650}
 f_npc_spawn
 tag.moddam -=20
 ITEMNEWBIE=random_male_hair
 COLOR=colors_hair
 ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
+ITEMNEWBIE=random_pants_human
+COLOR=colors_all
+ITEMNEWBIE=i_shirt_plain
+COLOR=colors_all
+ITEMNEWBIE=i_skull_cap
+COLOR=colors_all
+ITEMNEWBIE=i_sandals
+ITEMNEWBIE=i_colar_copper
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
-ITEM={i_cimitarra 1 i_sabre 1 i_espada_curta 1}
-ITEM=tmp_pirata_c
-
+ITEM=i_arco
+ITEM={i_cura 1 0 9}
+ITEM={i_shirt_plain 1 0 9}
+ITEM={i_skull_cap 1 0 9}
+ITEM={i_pants_short 1 0 9}
+ITEM=i_arrow,{5 15}
+ITEM=i_coin_copper,{3 12}
             
 //*****************************************************************************
 // c_pirate_b
@@ -9348,33 +9353,38 @@ DESCRIPTION=Pirata
 
 ON=@CREATE
 NPC=brain_monster//brain_thief
-MAXHITS={140 180}
+MAXHITS={150 200}
 COLOR=colors_skin
-STR=70
-DEX=60
-INT=70
+STR=80
+DEX=50
+INT=50
 FAME={2500 4000}
 karma=0//-3000
-ARCHERY=65.0
-FENCING=65.0
-MACEFIGHTING=65.0
-MAGICRESISTANCE=50,5
-PARRYING=50,5
-SWORDSMANSHIP=65.0
-WRESTLING=65.0
+PARRYING={500 700}
+SWORDSMANSHIP={400 650}
+WRESTLING={400 650}
 f_npc_spawn
 tag.moddam -=20
 ITEMNEWBIE=random_male_hair
 COLOR=colors_hair
 ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
+ITEMNEWBIE=random_pants_human
+COLOR=colors_all
+ITEMNEWBIE=i_shirt_plain
+COLOR=colors_all
+ITEMNEWBIE=i_bandana
+COLOR=colors_all
+ITEMNEWBIE=i_cimitarra
+ITEMNEWBIE=i_escudo_madeira
+ITEMNEWBIE=i_boots_calf
+ITEMNEWBIE=i_colar_copper
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM=i_coin_copper,{3 22}
+ITEM={i_cura 1 0 9}
 ITEM={i_cimitarra 1 i_sabre 1 i_espada_curta 1}
-ITEM=tmp_pirata_a
-
+ITEM={i_escudo_madeira 1 i_broquel 1}
             
 //*****************************************************************************
 // c_pirate_c
@@ -9403,34 +9413,35 @@ DESCRIPTION=Pirata
 
 ON=@CREATE
 NPC=brain_monster//brain_thief
-MAXHITS={90 120}
+MAXHITS={60 100}
 COLOR=colors_skin
-STR=70
-DEX=60
+STR=60
+DEX=80
 INT=70
 FAME={2500 4000}
 karma=0//-3000
-ARCHERY=65.0
-FENCING=65.0
-MACEFIGHTING=65.0
-MAGICRESISTANCE=50,5
-PARRYING=50,5
-SWORDSMANSHIP=65.0
-WRESTLING=65.0
+FENCING={500 650}
+TACTICS={300 500}
+ANATOMY={400 500}
+WRESTLING={500 650}
 f_npc_spawn
 tag.moddam -=20
 ITEMNEWBIE=random_male_hair
 COLOR=colors_hair
 ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
+ITEMNEWBIE=random_pants_human
+COLOR=colors_all
+ITEMNEWBIE=i_shirt_plain
+COLOR=colors_all
+ITEMNEWBIE=i_kryss
+ITEMNEWBIE=i_boots_calf
+ITEMNEWBIE=i_colar_copper
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
-ITEM=i_arco
-ITEM=tmp_pirata_c
-ITEM=i_random_faca
-
+ITEM=i_coin_copper,{5 15}
+ITEM={i_cura 1 0 9}
+ITEM=i_kryss
             
 //*****************************************************************************
 // c_pirate_d
@@ -9461,31 +9472,35 @@ ON=@CREATE
 NPC=brain_monster//brain_thief
 MAXHITS={130 190}
 COLOR=colors_skin
-STR=70
-DEX=60
+STR=60
+DEX=70
 INT=70
 FAME={2500 4000}
 karma=0//-3000
-ARCHERY=65.0
-FENCING=65.0
-MACEFIGHTING=65.0
-MAGICRESISTANCE=50,5
-PARRYING=50,5
-SWORDSMANSHIP=65.0
-WRESTLING=65.0
+FENCING={500 650}
+TACTICS={300 500}
+ANATOMY={400 500}
+WRESTLING={500 650}
+POISONING={300 500}
 f_npc_spawn
 tag.moddam -=20
 ITEMNEWBIE=random_male_hair
 COLOR=colors_hair
 ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
+ITEMNEWBIE=random_pants_human
+COLOR=colors_all
+ITEMNEWBIE=i_shirt_plain
+COLOR=colors_all
+ITEMNEWBIE=i_kryss
+ITEMNEWBIE=i_boots_calf
+ITEMNEWBIE=i_colar_copper
+ITEMNEWBIE={i_skull_cap 2 i_hat_tricorne 1 0 1}
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
-ITEM={i_cimitarra 1 i_sabre 1 i_espada_curta 1}
-ITEM=tmp_pirata_b
-
+ITEM=i_coin_copper,{5 15}
+ITEM={i_cura 1 0 9}
+ITEM=i_kryss
             
 //*****************************************************************************
 // c_marujo_louco
@@ -9530,7 +9545,7 @@ ITEMNEWBIE=random_male_hair
 COLOR=colors_hair
 ITEMNEWBIE=random_facial_hair
 COLOR=match_hair
-ITEMNEWBIE=random_pants
+ITEMNEWBIE=random_pants_human
 COLOR=colors_all
 ITEMNEWBIE=i_surcoat
 COLOR=colors_all
@@ -9569,7 +9584,7 @@ TEVENTS=e_alkadin
 
 ARMOR=10
 DAM=
-MOVERATE={130 150}
+MOVERATE={170 200}
 
 CATEGORY=Humanos Red
 SUBSECTION=Deserto
@@ -9581,7 +9596,7 @@ MAXHITS={140 180}
 COLOR=0413
 STR=70
 DEX=60
-INT=70
+INT=100
 FAME={2500 4000}
 karma=0//-3000
 ARCHERY=65.0
@@ -9607,8 +9622,8 @@ ITEMNEWBIE=i_skull_cap
 COLOR=0497
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 3 }
 ITEM=i_random_faca
 
             
@@ -9632,7 +9647,7 @@ TEVENTS=e_alkadin
 
 ARMOR=10
 DAM=
-MOVERATE={120 130}
+MOVERATE={190 240}
 
 CATEGORY=Humanos Red
 SUBSECTION=Deserto
@@ -9643,8 +9658,8 @@ NPC=brain_monster//brain_human
 MAXHITS={120 160}
 COLOR=0413
 STR=70
-DEX=65
-INT=70
+DEX=35
+INT=100
 FAME={2500 4000}
 karma=0//-3000
 ARCHERY=65.0
@@ -9655,7 +9670,7 @@ PARRYING=65.0
 SWORDSMANSHIP=65.0
 WRESTLING=65.0
 f_npc_spawn
-tag.moddam -=20
+tag.moddam -=80
 ITEMNEWBIE=i_hair_long
 COLOR=colors_hair
 ITEMNEWBIE=i_peito_furtiva
@@ -9673,11 +9688,11 @@ ITEMNEWBIE=i_elven_quiver
 ITEMNEWBIE=i_arrow,{33 44}
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 3 }
 ITEM=i_random_faca
 ITEM=i_arrow,{10 20}
-ITEM=i_arco
+ITEM=i_arco_curto
 
             
 //*****************************************************************************
@@ -9701,7 +9716,7 @@ TEVENTS=e_caster_magery
 
 ARMOR=20
 DAM=
-MOVERATE={140 160}
+MOVERATE={180 190}
 
 CATEGORY=Humanos Red
 SUBSECTION=Deserto
@@ -9736,11 +9751,11 @@ ITEMNEWBIE=i_peito_courom_f
 ITEMNEWBIE=i_boots_thigh
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_pocao_ajuda
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 3 }
 ITEM=i_reag_pobre
 ITEM=tmp_scroll_dest_lo
-ITEM=tmp_scroll_dest
+ITEM=tmp_scroll_resto_lo
 
             
 //*****************************************************************************
@@ -9763,7 +9778,7 @@ TEVENTS=e_alkadin
 
 ARMOR=15
 DAM=
-MOVERATE={110 120}
+MOVERATE={200 210}
 
 CATEGORY=Humanos Red
 SUBSECTION=Deserto
@@ -9775,7 +9790,7 @@ MAXHITS={90 110}
 COLOR=0413
 STR=70
 DEX=70
-INT=70
+INT=100
 FAME={2500 4000}
 karma=0//-3000
 ARCHERY=65.0
@@ -9803,8 +9818,8 @@ ITEMNEWBIE=i_boots_calf
 COLOR=0497
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=I_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 3 }
 ITEM=i_bomba_fumaca
 ITEM=i_garras
 
@@ -9829,7 +9844,7 @@ TEVENTS=e_alkadin
 
 ARMOR=10
 DAM=
-MOVERATE={140 160}
+MOVERATE={190 210}
 
 CATEGORY=Humanos Red
 SUBSECTION=Deserto
@@ -9841,7 +9856,7 @@ MAXHITS={140 180}
 COLOR=0413
 STR=70
 DEX=65
-INT=70
+INT=100
 FAME={2500 4000}
 karma=0//-4000
 ARCHERY=85.0
@@ -9852,7 +9867,6 @@ PARRYING=85.0
 SWORDSMANSHIP=85.0
 WRESTLING=85.0
 f_npc_spawn
-tag.moddam -=20
 ITEMNEWBIE=i_hair_long
 COLOR=colors_hair
 ITEMNEWBIE=i_peito_malha
@@ -9873,9 +9887,9 @@ ITEMNEWBIE=i_lanca_curta
 ITEMNEWBIE=
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_cura
-ITEM=i_piquete
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 3 }
+ITEM=i_pique
 
             
 //*****************************************************************************
@@ -9898,7 +9912,7 @@ TEVENTS=e_alkadin
 
 ARMOR=10
 DAM=
-MOVERATE={120 130}
+MOVERATE={190 210}
 
 CATEGORY=Humanos Red
 SUBSECTION=Deserto
@@ -9906,11 +9920,11 @@ DESCRIPTION=Soldado do Deserto
 
 ON=@CREATE
 NPC=brain_monster//brain_human
-MAXHITS={110 140}
+MAXHITS={150 180}
 COLOR=0413
 STR=70
 DEX=65
-INT=70
+INT=100
 FAME={2500 4000}
 karma=0//-4000
 ARCHERY=75.0
@@ -9921,7 +9935,6 @@ PARRYING=65.0
 SWORDSMANSHIP=75.0
 WRESTLING=75.0
 f_npc_spawn
-tag.moddam -=20
 ITEMNEWBIE={i_escudo_batalham 1 i_escudo_madeira 1 i_broquel 1}
 ITEMNEWBIE=i_peito_courom
 COLOR=0417
@@ -9936,9 +9949,8 @@ ITEMNEWBIE=i_hair_long
 COLOR=colors_hair
 
 ON=@NPCRESTOCK
-ITEM=i_copper_regular
-ITEM=i_pocao_ajuda
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 3 }
+ITEM={ i_cura 1 0 3 }
 ITEM=i_cimitarra
 
             
@@ -9961,7 +9973,7 @@ TEVENTS=e_combat
 
 ARMOR=50
 DAM=
-MOVERATE={120 130}
+MOVERATE={180 220}
 
 CATEGORY=Humanos Red
 SUBSECTION=Deserto
@@ -10002,8 +10014,8 @@ COLOR=0bb4
 
 ON=@NPCRESTOCK
 ITEM=i_loot_quest_rico
-ITEM=i_bandage,{5 12}
-ITEM=i_cura
+ITEM={ i_copper_regular 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 
             
 //*****************************************************************************
@@ -10026,7 +10038,7 @@ TEVENTS=e_saqueador_deserto
 
 ARMOR=15
 DAM=
-MOVERATE={140 160}
+MOVERATE={240 280}
 
 CATEGORY=Humanos Red
 SUBSECTION=Deserto
@@ -10074,10 +10086,9 @@ ITEMNEWBIE=i_mt_horse_tan
 ITEMNEWBIE=i_mascara
 
 ON=@NPCRESTOCK
-ITEM=i_silver_pobre
-ITEM=i_cura
+ITEM={ i_silver_pobre 1 0 2 }
+ITEM={ i_cura 1 0 2 }
 ITEM=i_cimitarra_vorpal
-ITEM=
 
 
 //*****************************************************************************

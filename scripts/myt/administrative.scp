@@ -34,8 +34,10 @@ i_osso                          i_r_osso
 
 spellflag_eval_boosts 0400000           //Spellflag. Eval int é 50% do EFFECT
 
-[PLEVEL 6]
+[PLEVEL 4]
 f_connectDB
+
+[PLEVEL 6]
 worldrespawn
 
 //*****************************************************************************
@@ -292,8 +294,8 @@ endif
         return 1
     elif ( <LOCAL.type>==t_sextant )
         return 1
-    elif ( <LOCAL.type>==t_table )
-        return 1
+  //  elif ( <LOCAL.type>==t_table )
+    //    return 1
     elif ( <LOCAL.type>==t_fish_pole )
         return 1
     elif ( <LOCAL.type>==t_shaft )
@@ -348,6 +350,8 @@ endif
         return 1
     elif ( <LOCAL.type>==t_cachimbo ) // permite vender cachimbo
         return 1
+	elif ( <LOCAL.type>==t_game_board ) // permite vender jogos
+		return 1
     else
         return 0
     endif
@@ -1423,7 +1427,7 @@ disturb
 
 [FUNCTION disturb]
 if <NPC>
-    TAG.disturb 1
+    TAG0.disturb 1
 else
     cTAG0.disturb 1
 endif
@@ -2194,7 +2198,7 @@ if (<serv.account.<src.account>.plevel>) //jogador regular
 else                                    //jogador novo. Sem formulario.
  dtext 104 128 166 Voce ja tentou responder o formulario de admissao <eval <serv.account.<src.account>.tag.form.try>> vezes.
  dtext 104 144 166 Voce pode modificar suas questoes quando quiser
- dtext 104 160 166 atravez desta janela. Use os guias para maiores detalhes.
+ dtext 104 160 166 atraves desta janela. Use os guias para maiores detalhes.
 endif
 //dtext 104 176 166 Existe um total de <serv.accounts> contas cadastradas no servidor.
 dtext 104 176 166 Versão: <VAR.repo_commit>

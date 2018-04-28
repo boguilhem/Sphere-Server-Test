@@ -81,8 +81,8 @@ return 1
 
 // on=@dclick
 // IF !(STRMATCH(Orc,<tag.raca>))
-	// src.sysmessagered Esta cru...
-	// return 1
+    // src.sysmessagered Esta cru...
+    // return 1
 // endif
 // f_consumeFood
 
@@ -344,15 +344,15 @@ return 1
 [FUNCTION f_consumeFood]
 IF ( <SRC.food> >= 100 )
  SRC.sysmessagered Voce esta cheio! Nao consegue comer mais nada!
- src.f_congestao 30
+ src.f_congestao 5
 ELSE
  SRC.anim 022
  SFX 03b
  SRC.emotegreen comendo <name>
  SRC.food += <R5,10>
-
+ 
  if ( <SRC.food> >= 90 )
-  SRC.sysmessagered Voce esta cheio!
+  SRC.sysmessagered Voce esta cheio! Deveria parar de comer antes de comecar a passar mal.
  else
   SRC.sysmessagegreen Voce se sente mais satisfeito.
  endif
@@ -387,7 +387,7 @@ return 1
 //DEFAULT   - item sendo consumido
 
 [FUNCTION f_consumeFruit]
-IF ( <SRC.food> >= 50 )
+IF ( <SRC.food> >= 30 )
  SRC.sysmessagered Voce nao mais se satisfara com frutas. Procure outros alimentos.
 ELSE
  SRC.anim 022
@@ -411,7 +411,7 @@ if (<argn>)
  sfx <SEX 042B/031B>
 ELIF (<ctag0.congestao>)
  ctag0.congestao -= 1
- DORAND 7
+ DORAND 10
   stam 00
   sfx <SEX 042C/031C>
   vomitar
@@ -421,7 +421,7 @@ ELIF (<ctag0.congestao>)
   vomitar
  ENDDO
  IF (<food> > 35)
-  food -= 15
+  food -= 30
  ENDIF
  timerf <R3,5>,f_congestao
 ELSE
@@ -444,33 +444,44 @@ sysmessageyellow <dLOCAL.i> jogadores alterados.
 //*****************************************************************************
 //Sentir fome. Perde stats.
 [FUNCTION f_feelHungy]
-if (<food> == 0)
- //Estomago vazio. Sentir fome
- DAMAGE <R1,4>
- sysmessagered Voce sente muita fome!
- emotered faminto
- IF (<str> < 30) || (<dex> < 30) || (<int> < 10)
-  //muito fraco, parar com a tortura
-  return 0
- endif
- tag0.modhungry += 5
- modstr -= 5
- moddex -= 5
- modint -= 5
-elif (<food> <= 15) && (<tag0.modhungry>)
-  food -= 1
-elif (<food> > 15) && (<tag0.modhungry>)
+
+if (<food> <= 0) 
+sysmessagered A fome toma conta do seu corpo
+timerf 5, suicide
+food = 10
+endif
+
+if (<food> <= 20)
+	//Estomago vazio. Sentir fome
+	DAMAGE <R3,7>
+	sysmessagered Voce sente muita fome!
+	emotered faminto
+	IF (<str> < 30) || (<dex> < 30) || (<int> < 10)
+		//muito fraco, parar com a tortura
+		return 0
+	endif
+tag0.modhungry += 5
+modstr -= 5
+moddex -= 5
+modint -= 5
+	elif (<food> <= 35) && (<tag0.modhungry>)
+food -= 1
+endif
+
+if (<food> > 35) && (<tag0.modhungry>)
  //Estoma cheio. Restituir os pontos
- modstr += 5
- moddex += 5
- modint += 5
- tag0.modhungry -= 5
- sysmessageyellow Voce se sente menos fraco por causa da fome.
- food -= 1
+modstr += 5
+moddex += 5
+modint += 5
+tag0.modhungry -= 5
+	sysmessageyellow Voce se sente menos fraco por causa da fome.
+food -= 1
 else
- //apaga o tag pra não pesar no save
  food -= 1
- tag.modhungry=
+endif
+
+if (<tag0.modhungry> == 0)
+tag0.modhungry =
 endif
 
 //*****************************************************************************
@@ -666,7 +677,7 @@ color=08d
 
 [ITEMDEF 09c9]
 DEFNAME=i_ham_cooked
-NAME=presunto assado
+NAME=presunto cozido
 RESOURCES=1 i_ham_raw
 SKILLMAKE=37.5 Cooking
 TYPE=t_food
@@ -676,7 +687,7 @@ TDATA1=5
 
 CATEGORY=MyT - Items by Professions
 SUBSECTION=Cook
-DESCRIPTION=Presunto assado
+DESCRIPTION=Presunto Cozido
 
 ON=@CREATE
 morex=2
@@ -762,7 +773,7 @@ TDATA2=i_bacia
 
 CATEGORY=MyT - Items by Professions
 SUBSECTION=Cook
-DESCRIPTION=@
+DESCRIPTION=leitao belsanita
 
 on=@create
 morey=157//Força divina
@@ -840,7 +851,7 @@ DESCRIPTION=Coxa frango crua
 
 [ITEMDEF 01608]
 DEFNAME=i_chicken_leg
-NAME=Coxa de frango
+NAME=Frango Frito
 SKILLMAKE=29.6 COOKING
 RESOURCES=I_CHICKEN_LEG_RAW
 WEIGHT=1
@@ -874,7 +885,7 @@ DESCRIPTION=Coxa ovelha crua
 
 [ITEMDEF 0160a]
 DEFNAME=i_lamb_leg
-NAME=Coxa de ovelha cozida
+NAME=Coxa de Ovelha Assada
 SKILLMAKE=62.5 Cooking 
 RESOURCES=i_lamb_leg_raw
 WEIGHT=2
@@ -903,6 +914,11 @@ SKILLMAKE=FISHING 0.0
 CATEGORY=MyT - Items by Professions
 SUBSECTION=Cook
 DESCRIPTION=Cabeca peixe
+
+on=@dropon_ground
+timer=120
+on=@timer
+remove
 
 [ITEMDEF 09cc]
 defNAME=i_fish_big_1
@@ -1019,7 +1035,7 @@ color=08d
 
 [ITEMDEF 01e1e]
 DEFNAME=i_fish_cooked_small
-NAME=Sardinha
+NAME=Sardinha Frita
 SKILLMAKE=12.3 Cooking
 RESOURCES=1 i_fish_raw_small
 TYPE=T_FOOD
@@ -1029,7 +1045,7 @@ DUPELIST=01e1d
 
 CATEGORY=MyT - Items by Professions
 SUBSECTION=Cook
-DESCRIPTION=Sardinha assada
+DESCRIPTION=Sardinha Frita
 
 ON=@CREATE
 morex=1
@@ -1058,7 +1074,7 @@ id=03b14
 DEFNAME=i_camarao_cooked
 NAME=Camarao Frito
 SKILLMAKE=30.0 Cooking
-RESOURCES=1 i_camarao
+RESOURCES=1 i_camarao_raw
 TYPE=T_FOOD
 WEIGHT=1
 TDATA1=2
@@ -1123,7 +1139,7 @@ DESCRIPTION=Peixe cru fatiado
 
 [ITEMDEF 097b]
 DEFNAME=i_fish_cut_cooked
-NAME=Peixe assado fatiado
+NAME=Isca%s% de Peixe Frito
 RESOURCES=1 i_fish_cut_raw
 SKILLMAKE=16.8 Cooking
 TYPE=t_food
@@ -1293,10 +1309,34 @@ CATEGORY=MyT - Items by Professions
 SUBSECTION=Cook
 DESCRIPTION=Entranhas
 
-ON=@DCLICK
-src.craftmenu i_sausages_raw
-//target Selecione a carne de porco crua para fazer linguica.
+ON=@DClick
+if ( <src.uid> != <topobj.uid> )
+    src.sysmessageyellow As entranhas precisam estar na sua mochila.
+else
+    target Selecione a carne crua para fazer linguica.
+endif
 return 1
+
+on=@TargOn_Item
+if (<argo.topobj>!=<src.uid>)
+    src.sysmessagered <src.targ.name> deve estar na sua mochila.
+elif (!<src.targ.type>==t_meat_raw)
+    src.sysmessagered Isso nao e carne
+elif (<argo.defname>==i_picanha_gorgon_raw)
+    src.craftmenu i_sausages_laveque_raw
+elif (<argo.defname>==i_ham_raw)
+    src.craftmenu i_sausages_raw
+elif (<argo.defname>==i_bird_raw)
+    src.craftmenu i_sausages_chiken_raw
+else
+    src.sysmessagered Essa carne nao serve pra fazer linguica
+endif
+return 1
+
+//ON=@DCLICK//SISTEMA_ANTIGO_i
+//src.craftmenu i_sausages_raw
+//target Selecione a carne de porco crua para fazer linguica.
+//return 1
 //
 //on=@TARGON_ITEM
 //if (<src.targ.distance> > 1)&&(<topobj.uid> != <src.uid>)
@@ -1316,7 +1356,7 @@ return 1
 //     remove
 //    endif
 //endif
-//return 1
+//return 1//SISTEMA_ANTIGO_fim
 
 
 [ITEMDEF i_sausages_raw]
@@ -1396,7 +1436,6 @@ morex=3
 [ITEMDEF i_sopa_mariscos]
 ID=015f9
 NAME=sopa de mariscos
-DEFNAME=i_sopa_ervilha
 SKILLMAKE=40.0 cooking
 RESOURCES=4 i_camarao_raw,4 i_mexilhao,5 i_dose_water,1 i_bacia
 WEIGHT=1
@@ -1413,16 +1452,17 @@ ON=@CREATE
 morex=5
 
 [ITEMDEF i_sopa_ervilha]
-ID=015fc
 NAME=sopa de ervilha
+ID=015fc
 DEFNAME=i_sopa_ervilha
 SKILLMAKE=40.0 cooking
 RESOURCES=8 i_ervilha,5 i_dose_water,1 i_bacia
-WEIGHT=1
+VALUE=35
 TYPE=T_FOOD
+WEIGHT=1
 TDATA1=5
 TDATA2=i_bacia
-VALUE=35
+
 
 CATEGORY=MyT - Items by Professions
 SUBSECTION=Cook
@@ -1543,15 +1583,36 @@ on=@dclick
 return 1
 
 //*****************************************************************************
-//Item: i_mexido_orc
+//Item: i_ensopado_orc
 //*****************************************************************************
 //Rev: 11 Ts: 2014-03-15 14:58:52
-[ITEMDEF i_mexido_orc]
+[ITEMDEF i_ensopado_orc]
 ID=3619
 NAME=Ensopado Orcquico
 CATEGORY=Myt - Items by Professions
 SUBSECTION=Cook
 DESCRIPTION=Ensopado Orcquico
+WEIGHT=1.0
+VALUE=12
+TYPE=t_food
+RESOURCES=5 i_dose_water,1 i_bacia,5 i_entranhas,2 i_ribs_raw,
+SKILLMAKE=Cooking 300
+TDATA1=4
+TDATA2=i_bacia
+
+ON=@CREATE
+morex=2
+
+//*****************************************************************************
+//Item: i_mexido_orc
+//*****************************************************************************
+//Rev: 11 Ts: 2014-03-15 14:58:52
+[ITEMDEF i_mexido_orc]
+ID=3619
+NAME=Mexido Orcquico
+CATEGORY=Myt - Items by Professions
+SUBSECTION=Cook
+DESCRIPTION=Mexido Orcquico
 WEIGHT=1.0
 VALUE=12
 TYPE=t_food
@@ -1908,7 +1969,9 @@ IF (<src.distance <UID>> > 1) && (!<SRC.IsGM>)
  src.sysmessageyellow Muito longe...
  return 1
 endif
-src.food 0
+if (<src.food> > 40)
+	src.food 40
+endif
 src.emotegreen come tira gosto
 src.say *ROOOONC!*
 src.emoteyellow estomago ronca
@@ -2264,5 +2327,180 @@ src.targ.update
 [FUNCTION rotulo_bebida]
 src.targ.name <targ.name>, <args>
 src.targ.update
+
+
+
+//*****************************************************************************
+// NOVAS COMIDAS CRIADAS INGAME
+//*****************************************************************************
+//comidas criadas no rp em 2018 - fase ponta dalma
+
+[ITEMDEF i_sopao_galinha]
+ID=01606
+DEFNAME=i_sopao_galinha
+NAME=Sopao de Galinha
+VALUE=8
+WEIGHT=4
+TYPE=T_FOOD
+SKILLMAKE=30.0 cooking
+RESOURCES=2 i_bird_raw, 1 i_batata, 1 i_fruit_carrot, 3 i_r_alho, 2 i_ervilha, 20 i_dose_water, 1 i_bacia
+TDATA1=14
+TDATA2=i_bacia
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Cook
+DESCRIPTION=Sopão de Galinha
+
+ON=@CREATE
+morex=7
+
+
+[ITEMDEF i_pao_ovo]
+ID=098c
+DEFNAME=i_pao_ovo
+NAME=pao com ovo
+SKILLMAKE=10.8 Cooking
+RESOURCES=1 i_bread_french, 2 i_eggs_fried
+TYPE=T_FOOD
+VALUE={8 12}
+WEIGHT=0.2
+TDATA1=6
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Baker
+DESCRIPTION=Pão com ovo
+
+ON=@CREATE
+morex=4
+
+
+[ITEMDEF i_bolo_fuba]
+ID=010e3
+DEFNAME=i_bolo_fuba
+NAME=bolo de fuba
+RESOURCES=1 i_massa, 5 i_milho
+SKILLMAKE=35.5 Cooking
+TYPE=t_food
+WEIGHT=2
+TDATA1=7
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Baker
+DESCRIPTION=Bolo de Fubá
+
+on=@create
+COLOR=030
+morex=3
+
+[ITEMDEF i_torta_coelho]
+ID=01041
+DEFNAME=i_torta_coelho
+NAME=torta de coelho
+SKILLMAKE=40.8 Cooking
+RESOURCES=1 i_massa, 2 i_rabbit_cooked, 1 i_bacia
+WEIGHT=1
+TYPE=T_FOOD
+TDATA1=7
+TDATA2=i_bacia
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Cook
+DESCRIPTION=Torta de Coelho
+
+ON=@CREATE
+morex=5
+
+[ITEMDEF i_omelete_especial]
+ID=09b6
+DEFNAME=i_omelete_especial
+NAME=omelete%s% especial
+RESOURCES=3 i_EGGS_FRESH, 1 i_fruit_carrot, 1 i_fruit_lettuce, 1 i_bacon_slab_raw
+SKILLMAKE=27.5 Cooking
+TYPE=T_FOOD
+VALUE={9 15}
+WEIGHT=0.1
+TDATA1=6
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Cook
+DESCRIPTION=Omelete Especial
+
+ON=@CREATE
+morex=2
+color=032
+
+[ITEMDEF i_sausages_chiken_raw]
+ID=09c0
+DEFNAME=i_sausages_chiken_raw
+NAME=Linguica de frango crua
+TYPE=t_meat_raw
+RESOURCES=1 i_entranhas, 1 i_flesh_liver, 1 i_bird_raw
+SKILLMAKE=53.7 Cooking
+TDATA1=i_sausages
+WEIGHT=1
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Cook
+DESCRIPTION=Linguica de Frango crua
+
+ON=@CREATE
+color=08d
+
+[ITEMDEF i_sausages_chiken]
+ID=09c0
+DEFNAME=i_sausages_chiken
+NAME=Linguica de Frango frita
+RESOURCES=1 i_sausages_raw
+SKILLMAKE=0.5 Cooking
+TYPE=t_food
+WEIGHT=0.3
+DUPELIST=09c1
+TDATA1=6
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Cook
+DESCRIPTION=Linguica de Frango frita
+
+ON=@CREATE
+color=01b9
+morex=3
+
+[ITEMDEF i_carne_panela]
+ID=01602
+DEFNAME=i_carne_panela
+NAME=carne de panela
+VALUE=20
+WEIGHT=1
+SKILLMAKE=60.0 cooking
+RESOURCES=3 i_ribs_raw, 5 i_ervilha, 5 i_dose_water, 1 i_bacia
+TYPE=T_FOOD
+TDATA1=10
+TDATA2=i_bacia
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Cook
+DESCRIPTION=Carne de Panela
+
+ON=@CREATE
+morex=5
+
+[ITEMDEF i_mexilhao_gratinado]
+id=0fc8
+DEFNAME=i_mexilhao_gratinado
+NAME=Mexilhao Gratinado
+VALUE={13 18}
+WEIGHT=1
+SKILLMAKE=55.0 cooking
+RESOURCES=1 i_mexilhao, 2 i_dose_milk
+TYPE=T_FOOD
+TDATA1=3
+
+CATEGORY=MyT - Items by Professions
+SUBSECTION=Cook
+DESCRIPTION=Mexilhao
+
+ON=@CREATE
+color=
+morex=2
 
 [EOF]

@@ -566,7 +566,7 @@ AVERSIONS=r_civilization
 DESIRES=c_bird_tropical,c_bird,r_jungle
 FOODTYPE=3 t_crops, 6 t_fruit
 BLOODCOLOR=
-RESOURCES=50 i_pena
+RESOURCES=30 i_pena
 SOUND=snd_animals_parrot1
 //TEVENTS=e_fuga
 TEVENTS=e_marker_init
@@ -594,6 +594,13 @@ TAMING={10.0 20.0}
 WRESTLING={20.0 25.0}
 TAG.animal=8
 f_npc_spawn
+
+on=@DEATH
+  serv.newitem i_pena
+  new.amount {25 35}
+  new.ATTR attr_decay
+  new.timer 50
+  new.p <p>
 
 
 ON=@NPCRESTOCK
@@ -669,7 +676,7 @@ TEVENTS=e_combat
 
 ARMOR=5
 DAM=1,6
-MOVERATE={130 150}
+MOVERATE={150 190}
 
 CATEGORY=Animais
 SUBSECTION=Selvagens
@@ -1018,17 +1025,59 @@ ON=@NPCRESTOCK
 //*****************************************************************************
 // c_bufalo
 //*****************************************************************************
-[CHARDEF 02cb]
-DEFNAME=c_bufalo
+
+[CHARDEF c_bufalo]
+ID=c_boura
+NAME=Bufalo
+ICON=i_pet_boura
+CAN=mt_walk|mt_run|MT_NONHUM
+AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
+DESIRES=c_bufalo
+FOODTYPE=25 t_crops, 64 t_grass
+BLOODCOLOR=
+RESOURCES=20 i_ribs_raw,3 i_entranhas, 6 i_couro_cru
+SOUND=snd_monster_boura
+TEVENTS=e_marker_init
+TEVENTS=e_pvm
+TEVENTS=e_combat
+
+ARMOR=30
+DAM=9,13
+MOVERATE={180 210}
+
+CATEGORY=Animais
+SUBSECTION=Selvagens
+DESCRIPTION=Bufalo
+
+ON=@CREATE
+NPC=brain_animal
+MAXHITS={220 300}
+STR={80 100}
+DEX={20 40}
+INT={10 40}
+FAME=0
+KARMA=0
+TAMING={23.0 40.0}
+WRESTLING={40.0 55.0}
+TAG.animal=5
+f_npc_spawn
+
+ON=@NPCRESTOCK            
+
+//*****************************************************************************
+// c_bisao
+//*****************************************************************************
+[CHARDEF c_bisao]
+ID=c_boura
 NAME=Bufalo
 ICON=i_pet_deer
 SOUND=snd_monster_boura
 CAN=MT_WALK|MT_RUN|MT_NONHUM
 AVERSIONS=r_civilization,e_carnivores3
-DESIRES=c_bufalo,r_foliage
+DESIRES=c_bisao,r_foliage
 FOODTYPE=25 t_crops, 64 t_grass
 BLOODCOLOR=
-RESOURCES=30 i_ribs_raw,5 i_entranhas
+RESOURCES=30 i_ribs_raw,5 i_entranhas, 8 i_couro_cru
 ANIM=01fff
 TEVENTS=e_marker_init
 TEVENTS=e_pvm
@@ -1040,24 +1089,67 @@ MOVERATE={120 140}
 
 CATEGORY=Animais
 SUBSECTION=Selvagens
-DESCRIPTION=Bufalo
+DESCRIPTION=Bisao
 
 ON=@CREATE
 NPC=brain_animal
 MAXHITS={350 450}
-STR={120 140}
-DEX=50
-INT={70 80}
-FAME=40
+STR={100 120}
+DEX={20 30}
+INT={10 30}
+FAME=0
 KARMA=0//0
-TAMING={22.0 30.0}
-WRESTLING={40.0 60.0}
+TAMING={72.0 80.0}
+WRESTLING={70.0 80.0}
 TAG.animal=5
 f_npc_spawn
 
+ON=@NPCRESTOCK
+
+//*****************************************************************************
+// c_lobo_lua_rubra
+//*****************************************************************************
+[CHARDEF c_lobo_lua_rubra]
+ID=c_wolf
+NAME=Lobo da Lua Rubra
+ICON=i_pet_wolf
+CAN=mt_walk|mt_run
+AVERSIONS=r_civilization
+DESIRES=r_snow
+FOODTYPE=15 t_meat_raw
+BLOODCOLOR=
+RESOURCES=5 i_ribs_raw, i_entranhas, i_entranhas
+SOUND=snd_animals_wolf1
+//TEVENTS=e_herding
+TEVENTS=e_morde
+TEVENTS=e_marker_init
+TEVENTS=e_pvm
+TEVENTS=e_combat
+
+ARMOR=5
+DAM=12,16
+MOVERATE={110 120}
+
+CATEGORY=Animais
+SUBSECTION=Selvagens
+DESCRIPTION=Lobo da Lua Rubra
+
+ON=@CREATE
+NPC=brain_animal
+MAXHITS={170 190}
+COLOR=0b71
+STR={70 80}
+DEX=70
+INT=70
+FAME=175
+KARMA=0//-4000
+TAMING={70.0 90.0}
+WRESTLING={90.0 100.0}
+TAG.animal=2
+f_npc_spawn
 
 ON=@NPCRESTOCK
-            
+
 //*****************************************************************************
 // c_stag
 //*****************************************************************************
@@ -1295,7 +1387,7 @@ TEVENTS=e_combat
 
 ARMOR=15
 DAM=10,14
-MOVERATE={180 210}
+MOVERATE={210 250}
 
 CATEGORY=Animais
 SUBSECTION=Selvagens
@@ -1310,92 +1402,6 @@ DEX=70
 INT=70
 FAME=175
 KARMA=0//0
-TAMING={70.0 90.0}
-WRESTLING={90.0 100.0}
-TAG.animal=2
-f_npc_spawn
-
-ON=@NPCRESTOCK
-
-//*****************************************************************************
-// c_Bisao
-//*****************************************************************************
-[CHARDEF 02cb]
-DEFNAME=c_Bisao
-NAME=Bisao
-ICON=i_pet_boura
-CAN=mt_walk|mt_run|MT_NONHUM
-AVERSIONS=r_civilization,e_carnivores2,e_carnivores3
-DESIRES=c_Bisao
-FOODTYPE=30 t_meat_raw
-BLOODCOLOR=
-RESOURCES=5 i_ribs_raw, i_entranhas, i_entranhas
-SOUND=snd_monster_boura
-TEVENTS=e_marker_init
-TEVENTS=e_pvm
-TEVENTS=e_combat
-
-ARMOR=30
-DAM=10,14
-MOVERATE={180 210}
-
-CATEGORY=Animais
-SUBSECTION=Selvagens
-DESCRIPTION=Bisao
-
-ON=@CREATE
-NPC=brain_monster
-MAXHITS=300
-
-STR=130
-DEX=60
-INT=40
-FAME=0
-KARMA=0
-TAMING=80.0
-WRESTLING={90.0 100.0}
-TAG.animal=5
-f_npc_spawn
-
-ON=@NPCRESTOCK
-            
-//*****************************************************************************
-// c_lobo_lua_rubra
-//*****************************************************************************
-[CHARDEF c_lobo_lua_rubra]
-ID=c_wolf
-NAME=Lobo da Lua Rubra
-ICON=i_pet_wolf
-CAN=mt_walk|mt_run
-AVERSIONS=r_civilization
-DESIRES=r_snow
-FOODTYPE=15 t_meat_raw
-BLOODCOLOR=
-RESOURCES=5 i_ribs_raw, i_entranhas, i_entranhas
-SOUND=snd_animals_wolf1
-//TEVENTS=e_herding
-TEVENTS=e_morde
-TEVENTS=e_marker_init
-TEVENTS=e_pvm
-TEVENTS=e_combat
-
-ARMOR=5
-DAM=12,16
-MOVERATE={110 120}
-
-CATEGORY=Animais
-SUBSECTION=Selvagens
-DESCRIPTION=Lobo da Lua Rubra
-
-ON=@CREATE
-NPC=brain_animal
-MAXHITS={170 190}
-COLOR=0b71
-STR={70 80}
-DEX=70
-INT=70
-FAME=175
-KARMA=0//-4000
 TAMING={70.0 90.0}
 WRESTLING={90.0 100.0}
 TAG.animal=2
@@ -1422,15 +1428,15 @@ DESIRES=e_human_greet,t_window
 FOODTYPE=5 t_meat_raw, 5 t_fish
 BLOODCOLOR=
 RESOURCES=1 i_entranhas,1 i_pelo_cru
-SOUND=snd_animals_cat1
-ANIM=017ff
+SOUND=0
 TEVENTS=e_marker_init
 TEVENTS=e_pvm
 TEVENTS=e_combat
 TEVENTS=e_carnivores
+TEVENTS=e_gato
 
 ARMOR=5
-DAM=1,2
+DAM=3,5
 MOVERATE={230 245}
 
 CATEGORY=Animais
@@ -1439,14 +1445,15 @@ DESCRIPTION=Gato
 
 ON=@CREATE
 NPC=brain_animal
+MAXHITS={40 50}
 COLOR=colors_animal
-STR=9
+STR=20
 DEX=65
 INT=5
 FAME=10
 KARMA=0//{1 99}
 TAMING={0.0 10.0}
-WRESTLING=5.0
+WRESTLING=10.0
 TAG.animal=4
 f_npc_spawn
 
@@ -1484,6 +1491,7 @@ DESCRIPTION=Cachorro
 
 ON=@CREATE
 NPC=brain_animal
+MAXHITS={50 60}
 COLOR=colors_animal
 STR=30
 DEX=35
@@ -1953,7 +1961,7 @@ ON=@NPCRESTOCK
 //*****************************************************************************
 [CHARDEF 02d9]
 DEFNAME=c_mimic
-NAME=Mimic
+NAME=Caranguejo
 ICON=i_pet_mimic
 CAN=MT_WALK|MT_RUN|MT_NONHUM
 AVERSIONS=r_civilization
@@ -1994,7 +2002,7 @@ ON=@NPCRESTOCK
 //*****************************************************************************
 [CHARDEF 02ca]
 DEFNAME=c_caranguejo
-NAME=Caranguejo
+NAME=Lagosta
 ICON=i_pet_snake
 CAN=mt_swim|MT_WALK|MT_RUN|MT_NONHUM
 AVERSIONS=r_civilization
@@ -5634,7 +5642,7 @@ WRESTLING={75.0 80.0}
 f_npc_spawn
 
 ON=@NPCRESTOCK
-ITEM=2 i_entranhas
+ITEM=tmp_default  
 
             
 //*****************************************************************************
@@ -5726,7 +5734,9 @@ f_npc_spawn
 npc_aggravate dam_physical
 
 ON=@NPCRESTOCK
-
+ITEM={i_ore_mythril 1 0 9},{2 5}
+ITEM={i_ore_ebano 1 0 4},{1 4}
+ITEM={i_ore_ouro 1 0 2},{3 8}
             
 //*****************************************************************************
 // c_m_flesh_renderer
@@ -6733,7 +6743,7 @@ ON=@NPCRESTOCK
 ITEM=tmp_scroll_necro_lo,2
 ITEM=tmp_scroll_necro
 ITEM=i_pocao_ajuda
-ITEM=i_copper_milho
+ITEM=i_copper_regular
             
             
 //*****************************************************************************
@@ -6939,7 +6949,7 @@ ON=@NPCRESTOCK
 DEFNAME=c_coisa_pantano
 NAME=Coisa do Pantano
 ICON=i_pet_bogthing
-CAN=mt_walk
+CAN=mt_walk|mt_nonhum
 AVERSIONS=t_trap
 DESIRES=i_gold,e_notoriety
 FOODTYPE=
@@ -7314,7 +7324,47 @@ ON=@NPCRESTOCK
 // Nível 10
 //*****************************************************************************
 //*****************************************************************************
-        
+
+[CHARDEF 033d]
+DEFNAME= c_golem_colossal
+NAME=Golem Colossal 
+// Sub-boss DG das Maquinas dos Anoes, no vulcao.
+ICON=i_pet_rising_colossus
+CAN=MT_WALK
+DESIRES=i_gold,e_notoriety
+RESOURCES=25 i_gears, 10 i_placa_ferro, 1  i_stone_rubi
+SOUND=snd_monster_rising_colossus
+TEVENTS=e_pvm
+TEVENTS=e_combat
+
+ARMOR=65
+DAM=20,35
+
+CATEGORY=Artificiais
+SUBSECTION=Nível 10
+DESCRIPTION=Golem Colossal
+ON=@Create
+   NPC=brain_monster
+   FAME=0
+   KARMA=0
+   STR={190 200}
+   MAXHITS={1000 1350}
+   DEX={30 70}
+   MAXSTAM={20 40}
+   INT={5 10}
+   MAGICRESISTANCE={70.0 125.0}
+   WRESTLING={85.0 105.0}
+   RESPHYSICAL={0 10}
+   RESCOLD={45 55}
+   RESENERGY={-20 -10}
+   RESFIRE={45 55}
+   RESPOISON={55 65}
+   f_npc_spawn
+   npc_aggravate dam_energy|dam_slash
+   npc_dodger dam_pierce|dam_poison
+
+ON=@NPCRESTOCK
+
 //*****************************************************************************
 // c_dragon_green
 //*****************************************************************************
@@ -9721,7 +9771,7 @@ TEVENTS=e_combat
 
 ARMOR=10
 DAM=6,16
-MOVERATE={160 180}
+MOVERATE={260 280}
 
 CATEGORY=Undeads
 SUBSECTION=Nível 2
@@ -9731,7 +9781,7 @@ ON=@CREATE
 NPC=brain_monster
 MAXHITS={180 220}
 STR=30
-DEX=50
+DEX=60
 INT=50
 FAME={600 2000}
 KARMA=0//-2200
@@ -9922,7 +9972,8 @@ INT=50
 FAME={300 1000}
 KARMA=0//-2200
 TAMING=70.0
-WRESTLING={55.0 60.0}
+WRESTLING={65.0 75.0}
+ANATOMY=50.0
 f_npc_spawn
 TAG.anim=1
 npc_aggravate dam_cold|dam_fire|dam_energy
@@ -10228,7 +10279,7 @@ TEVENTS=e_combat
 
 ARMOR=10
 DAM=9,12
-MOVERATE={110 120}
+MOVERATE={150 190}
 
 CATEGORY=Licantropos
 SUBSECTION=Nível 2
@@ -10279,7 +10330,7 @@ TEVENTS=e_combat
 
 ARMOR=10
 DAM=9,12
-MOVERATE={110 120}
+MOVERATE={150 190}
 
 CATEGORY=Licantropos
 SUBSECTION=Nível 2
@@ -10360,6 +10411,8 @@ SPEECHCOLOR colors_green
 ON=@NPCRESTOCK
 ITEM=i_kryss
 ITEM=tmp_default
+ITEM={ tmp_scroll_alter_lo 1 0 5 }
+ITEM={ tmp_scroll_alter 1 0 9 }
 
             
 //*****************************************************************************
@@ -10413,6 +10466,8 @@ SPEECHCOLOR colors_green
 ON=@NPCRESTOCK
 ITEM=i_arco
 ITEM=i_arrow,{12 36}
+ITEM={ tmp_scroll_alter_lo 1 0 5 }
+ITEM={ tmp_scroll_alter 1 0 9 }
 
             
 //*****************************************************************************
@@ -10480,7 +10535,7 @@ TEVENTS=e_combat
 
 ARMOR=20
 DAM=5,20
-MOVERATE={260 300}
+MOVERATE={230 250}
 
 CATEGORY=Florestais
 SUBSECTION=Nível 3
@@ -10916,7 +10971,7 @@ SPEECHCOLOR colors_pink
 
 
 ON=@NPCRESTOCK
-ITEM=i_copper_milho
+ITEM=i_copper_regular
 ITEM=i_pocao_ajuda
 ITEM=tmp_scroll_necro_lo,2
 ITEM=tmp_scroll_dest_lo,2
@@ -12849,6 +12904,8 @@ SPEECHCOLOR colors_green
 
 
 ON=@NPCRESTOCK
+ITEM={ tmp_scroll_alter_lo 1 0 2 }
+ITEM={ tmp_scroll_alter 1 0 5 }
 
             
 //*****************************************************************************
@@ -15171,7 +15228,7 @@ ON=@NPCRESTOCK
 DEFNAME=c_slime
 NAME=Limoso
 ICON=i_pet_slime
-CAN=mt_walk|mt_run
+CAN=mt_walk|mt_run|mt_nonhum
 AVERSIONS=
 DESIRES=c_slime
 FOODTYPE=35 t_meat_raw,t_leather,t_food,t_fruit,t_cloth,t_crops
@@ -15228,7 +15285,7 @@ TEVENTS=e_combat
 
 ARMOR=10
 DAM=7,10
-MOVERATE={110 120}
+MOVERATE={150 190}
 
 CATEGORY=Licantropos
 SUBSECTION=Nível 1
@@ -15978,9 +16035,9 @@ ARMOR=20
 DAM=5,10
 MOVERATE={260 300}
 
-CATEGORY=Florestais
+CATEGORY=Deserto
 SUBSECTION=Nível 3
-DESCRIPTION=Lagarto
+DESCRIPTION=Lagarto do Deserto
 
 ON=@CREATE
 NPC=brain_monster
@@ -16036,7 +16093,8 @@ MAGICRESISTANCE={20.0 30.0}
 WRESTLING={35.0 40.0}
 RESENERGY=40
 RESFIRE=45
-f_npc_spawn/COLOR=0A9D
+COLOR=0A9D
+f_npc_spawn
 SPEECHCOLOR colors_red
 
 
@@ -16802,7 +16860,7 @@ SPEECHCOLOR colors_brown
 
 
 ON=@NPCRESTOCK
-ITEM=i_bardiche
+ITEM=i_bardich
 ITEM=i_pocao_ajuda,2
 
             
@@ -17867,7 +17925,7 @@ TEVENTS=e_combat
 
 ARMOR=5
 DAM=2,8
-MOVERATE={160 180}
+MOVERATE={220 250}
 
 CATEGORY=Insetóides
 SUBSECTION=Nível 2
@@ -17911,7 +17969,7 @@ TEVENTS=e_combat
 
 ARMOR=10
 DAM=4,18
-MOVERATE={60 190}
+MOVERATE={220 250}
 
 CATEGORY=Bestas
 SUBSECTION=Nível 4
@@ -17919,7 +17977,7 @@ DESCRIPTION=Serpente Deserto
 
 ON=@CREATE
 NPC=brain_monster
-MAXHITS={130 280}
+MAXHITS={130 180}
 COLOR=015F
 STR=30
 DEX=70
@@ -17958,7 +18016,7 @@ TEVENTS=e_lobo
 
 ARMOR=2
 DAM=5,10
-MOVERATE={150 180}
+MOVERATE={250 280}
 
 CATEGORY=Animais
 SUBSECTION=Selvagens
@@ -17966,7 +18024,7 @@ DESCRIPTION=Coiote
 
 ON=@CREATE
 COLOR=0389
-NPC= brain_monster
+NPC=brain_animal
 MAXHITS={60 90}
 STR={30 40}
 DEX={60 95}
@@ -18001,17 +18059,17 @@ TEVENTS=e_morde
 
 ARMOR=15
 DAM=16,20
-MOVERATE={200 260}
+MOVERATE={250 300}
 
 CATEGORY=Animais
 SUBSECTION=Selvagens
 DESCRIPTION=Leao
 
 ON=@CREATE
-NPC=brain_monster
+NPC=brain_animal
 MAXHITS={220 295}
 STR=90
-DEX=35
+DEX=45
 INT=20
 FAME=0
 KARMA=0//0

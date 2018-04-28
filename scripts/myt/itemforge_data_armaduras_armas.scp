@@ -785,7 +785,8 @@ DAM=17,23
 SPEED=43
 SKILL=Fencing
 REQSTR=45
-TWOHANDS=
+TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -896,6 +897,7 @@ SPEED=33
 SKILL=Fencing
 REQSTR=90
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -960,6 +962,7 @@ SPEED=63
 SKILL=Fencing
 REQSTR=50
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2224
@@ -994,6 +997,7 @@ SPEED=28
 SKILL=Fencing
 REQSTR=75
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -1063,7 +1067,8 @@ DAM=23,28
 SPEED=32
 SKILL=Macefighting
 REQSTR=45
-TWOHANDS=0
+TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2410
@@ -1516,6 +1521,7 @@ SPEED=33
 SKILL=Swordsmanship
 REQSTR=80
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -1548,6 +1554,7 @@ SPEED=25
 SKILL=Swordsmanship
 REQSTR=80
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -1773,6 +1780,7 @@ SPEED=35
 SKILL=Swordsmanship
 REQSTR=70
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -2029,6 +2037,7 @@ SPEED=30
 SKILL=Swordsmanship
 REQSTR=60
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -5862,7 +5871,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=12,15
 SPEED=60
-SKILL=Fencing
+SKILL= Wrestling
 REQSTR=33
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -6031,6 +6040,7 @@ SKILL=Fencing
 REQSTR=75
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -6097,6 +6107,7 @@ SKILL=Fencing
 REQSTR=37
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -6130,6 +6141,7 @@ SKILL=Fencing
 REQSTR=62
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -6396,7 +6408,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=10,14
 SPEED=60
-SKILL=Fencing
+SKILL= Wrestling
 REQSTR=30
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -6565,6 +6577,7 @@ SKILL=Fencing
 REQSTR=33
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -6598,6 +6611,7 @@ SKILL=Fencing
 REQSTR=67
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -6664,6 +6678,7 @@ SKILL=Fencing
 REQSTR=55
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -6930,7 +6945,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=9,12
 SPEED=63
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=26
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -7099,6 +7114,7 @@ SKILL=Fencing
 REQSTR=60
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -7132,6 +7148,7 @@ SKILL=Fencing
 REQSTR=30
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -7198,6 +7215,7 @@ SKILL=Fencing
 REQSTR=50
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -7464,7 +7482,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=10,14
 SPEED=69
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=28
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -7633,6 +7651,7 @@ SKILL=Fencing
 REQSTR=63
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -7666,6 +7685,7 @@ SKILL=Fencing
 REQSTR=31
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -7732,6 +7752,7 @@ SKILL=Fencing
 REQSTR=52
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -7998,7 +8019,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=13,16
 SPEED=69
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=23
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -8167,6 +8188,7 @@ SKILL=Fencing
 REQSTR=52
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -8200,6 +8222,7 @@ SKILL=Fencing
 REQSTR=25
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -8266,6 +8289,7 @@ SKILL=Fencing
 REQSTR=43
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -8532,7 +8556,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=12,15
 SPEED=69
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=21
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -8701,6 +8725,7 @@ SKILL=Fencing
 REQSTR=48
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -8767,6 +8792,7 @@ SKILL=Fencing
 REQSTR=24
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -8800,6 +8826,7 @@ SKILL=Fencing
 REQSTR=40
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -9066,7 +9093,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=12,15
 SPEED=60
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=28
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -9235,6 +9262,7 @@ SKILL=Fencing
 REQSTR=63
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -9301,6 +9329,7 @@ SKILL=Fencing
 REQSTR=31
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -9334,6 +9363,7 @@ SKILL=Fencing
 REQSTR=52
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -9600,7 +9630,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=14,18
 SPEED=54
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=38
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -9769,6 +9799,7 @@ SKILL=Fencing
 REQSTR=85
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -9835,6 +9866,7 @@ SKILL=Fencing
 REQSTR=42
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -9868,6 +9900,7 @@ SKILL=Fencing
 REQSTR=71
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -10140,7 +10173,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=12,15
 SPEED=63
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=30
 TWOHANDS=0
 TEVENTS=e_weapon_silver
@@ -10315,6 +10348,7 @@ REQSTR=67
 TWOHANDS=0
 TEVENTS=e_weapon_silver
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -10383,6 +10417,7 @@ REQSTR=33
 TWOHANDS=0
 TEVENTS=e_weapon_silver
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -10417,6 +10452,7 @@ REQSTR=55
 TWOHANDS=0
 TEVENTS=e_weapon_silver
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -10684,7 +10720,7 @@ TDATA3=028
 TDATA4=04b0
 DAM=14,18
 SPEED=54
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=38
 TWOHANDS=0
 TEVENTS=e_exceptional_item
@@ -10853,6 +10889,7 @@ SKILL=Fencing
 REQSTR=85
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -10919,6 +10956,7 @@ SKILL=Fencing
 REQSTR=42
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -10952,6 +10990,7 @@ SKILL=Fencing
 REQSTR=71
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -13401,6 +13440,7 @@ SKILL=Swordsmanship
 REQSTR=66
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -13434,6 +13474,7 @@ SKILL=Swordsmanship
 REQSTR=66
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -13731,6 +13772,7 @@ SKILL=Swordsmanship
 REQSTR=58
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -13896,6 +13938,7 @@ SKILL=Swordsmanship
 REQSTR=50
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=0
@@ -13968,6 +14011,7 @@ SKILL=Swordsmanship
 REQSTR=60
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -14001,6 +14045,7 @@ SKILL=Swordsmanship
 REQSTR=60
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -14232,6 +14277,7 @@ SKILL=Swordsmanship
 REQSTR=52
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -14463,6 +14509,7 @@ SKILL=Swordsmanship
 REQSTR=45
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -14535,6 +14582,7 @@ SKILL=Swordsmanship
 REQSTR=53
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -14568,6 +14616,7 @@ SKILL=Swordsmanship
 REQSTR=53
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -14799,6 +14848,7 @@ SKILL=Swordsmanship
 REQSTR=46
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -15030,6 +15080,7 @@ SKILL=Swordsmanship
 REQSTR=40
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -15102,6 +15153,7 @@ SKILL=Swordsmanship
 REQSTR=56
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -15135,6 +15187,7 @@ SKILL=Swordsmanship
 REQSTR=56
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -15366,6 +15419,7 @@ SKILL=Swordsmanship
 REQSTR=49
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -15597,6 +15651,7 @@ SKILL=Swordsmanship
 REQSTR=42
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -15669,6 +15724,7 @@ SKILL=Swordsmanship
 REQSTR=46
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -15702,6 +15758,7 @@ SKILL=Swordsmanship
 REQSTR=46
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -15933,6 +15990,7 @@ SKILL=Swordsmanship
 REQSTR=40
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -16164,6 +16222,7 @@ SKILL=Swordsmanship
 REQSTR=35
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -16236,6 +16295,7 @@ SKILL=Swordsmanship
 REQSTR=43
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -16269,6 +16329,7 @@ SKILL=Swordsmanship
 REQSTR=43
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -16533,6 +16594,7 @@ SKILL=Swordsmanship
 REQSTR=37
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -16731,6 +16793,7 @@ SKILL=Swordsmanship
 REQSTR=32
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -16803,6 +16866,7 @@ SKILL=Swordsmanship
 REQSTR=56
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -16836,6 +16900,7 @@ SKILL=Swordsmanship
 REQSTR=56
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -17100,6 +17165,7 @@ SKILL=Swordsmanship
 REQSTR=49
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -17298,6 +17364,7 @@ SKILL=Swordsmanship
 REQSTR=42
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -17370,6 +17437,7 @@ SKILL=Swordsmanship
 REQSTR=76
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -17403,6 +17471,7 @@ SKILL=Swordsmanship
 REQSTR=76
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -17667,6 +17736,7 @@ SKILL=Swordsmanship
 REQSTR=66
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -17865,6 +17935,7 @@ SKILL=Swordsmanship
 REQSTR=57
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -17938,6 +18009,7 @@ REQSTR=60
 TWOHANDS=0
 TEVENTS=e_weapon_silver
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -17972,6 +18044,7 @@ REQSTR=60
 TWOHANDS=0
 TEVENTS=e_weapon_silver
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -18244,6 +18317,7 @@ REQSTR=52
 TWOHANDS=0
 TEVENTS=e_weapon_silver
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -18448,6 +18522,7 @@ REQSTR=45
 TWOHANDS=0
 TEVENTS=e_weapon_silver
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -18521,6 +18596,7 @@ SKILL=Swordsmanship
 REQSTR=76
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -18554,6 +18630,7 @@ SKILL=Swordsmanship
 REQSTR=76
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -18818,6 +18895,7 @@ SKILL=Swordsmanship
 REQSTR=66
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -19016,6 +19094,7 @@ SKILL=Swordsmanship
 REQSTR=57
 TWOHANDS=0
 TEVENTS=e_exceptional_item
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -19186,6 +19265,7 @@ SPEED=38
 SKILL=Swordsmanship
 REQSTR=40
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=256
@@ -19219,6 +19299,7 @@ SPEED=29
 SKILL=Swordsmanship
 REQSTR=40
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=256
@@ -19615,6 +19696,7 @@ SPEED=40
 SKILL=Swordsmanship
 REQSTR=35
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=256
@@ -19810,7 +19892,7 @@ TDATA3=028
 TDATA4=028a
 DAM=10,13
 SPEED=70
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=20
 TWOHANDS=1
 
@@ -20110,6 +20192,7 @@ SPEED=65
 SKILL=Fencing
 REQSTR=22
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=256
@@ -20143,6 +20226,7 @@ SPEED=42
 SKILL=Fencing
 REQSTR=45
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=256
@@ -20836,6 +20920,7 @@ SPEED=35
 SKILL=Swordsmanship
 REQSTR=30
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=256
@@ -20902,6 +20987,7 @@ SPEED=29
 SKILL=Fencing
 REQSTR=37
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=256
@@ -24272,6 +24358,7 @@ SPEED=39
 SKILL=Fencing
 REQSTR=40
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -24304,6 +24391,7 @@ SPEED=30
 SKILL=Fencing
 REQSTR=81
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -24368,6 +24456,7 @@ SPEED=25
 SKILL=Fencing
 REQSTR=67
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -24758,6 +24847,7 @@ SPEED=37
 SKILL=Fencing
 REQSTR=72
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -24790,6 +24880,7 @@ SPEED=58
 SKILL=Fencing
 REQSTR=36
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -24854,6 +24945,7 @@ SPEED=26
 SKILL=Fencing
 REQSTR=60
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -25244,6 +25336,7 @@ SPEED=41
 SKILL=Fencing
 REQSTR=76
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -25276,6 +25369,7 @@ SPEED=64
 SKILL=Fencing
 REQSTR=38
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -25340,6 +25434,7 @@ SPEED=28
 SKILL=Fencing
 REQSTR=63
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -25730,6 +25825,7 @@ SPEED=41
 SKILL=Fencing
 REQSTR=63
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -25762,6 +25858,7 @@ SPEED=64
 SKILL=Fencing
 REQSTR=31
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -25826,6 +25923,7 @@ SPEED=28
 SKILL=Fencing
 REQSTR=52
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -25901,7 +25999,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_adaga_combate_kith
@@ -25934,7 +26032,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_adaga_kith
@@ -25967,7 +26065,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_forquilha_kith
@@ -26000,7 +26098,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_garfo_guerra_kith
@@ -26033,7 +26131,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_garfos_combate_kith
@@ -26066,7 +26164,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_kryss_kith
@@ -26099,7 +26197,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_lamina_elfica_kith
@@ -26132,7 +26230,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_lanca_crescente_kith
@@ -26165,7 +26263,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_lanca_curta_kith
@@ -26198,7 +26296,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_lanca_cavalaria_kith
@@ -26226,12 +26324,13 @@ SPEED=37
 SKILL=Fencing
 REQSTR=92
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_lanca_kith
@@ -26259,12 +26358,13 @@ SPEED=58
 SKILL=Fencing
 REQSTR=46
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_lanca_dupla_kith
@@ -26297,7 +26397,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_pique_kith
@@ -26325,12 +26425,13 @@ SPEED=26
 SKILL=Fencing
 REQSTR=76
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //Item: i_punhal_kith
@@ -26363,7 +26464,7 @@ ON=@CREATE
 COLOR=41
 MAXHITS=<R3,60>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R3,10>
+dampoison=<R3,10>
 
 //*****************************************************************************
 //*****************************************************************************
@@ -26717,6 +26818,7 @@ SPEED=41
 SKILL=Fencing
 REQSTR=58
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -26781,6 +26883,7 @@ SPEED=64
 SKILL=Fencing
 REQSTR=29
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -26813,6 +26916,7 @@ SPEED=28
 SKILL=Fencing
 REQSTR=48
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -27203,6 +27307,7 @@ SPEED=36
 SKILL=Fencing
 REQSTR=76
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -27267,6 +27372,7 @@ SPEED=56
 SKILL=Fencing
 REQSTR=38
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -27299,6 +27405,7 @@ SPEED=25
 SKILL=Fencing
 REQSTR=63
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -27689,6 +27796,7 @@ SPEED=32
 SKILL=Fencing
 REQSTR=103
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -27753,6 +27861,7 @@ SPEED=50
 SKILL=Fencing
 REQSTR=51
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -27785,6 +27894,7 @@ SPEED=22
 SKILL=Fencing
 REQSTR=86
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -28186,6 +28296,7 @@ SKILL=Fencing
 REQSTR=81
 TWOHANDS=0
 TEVENTS=e_weapon_silver
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -28252,6 +28363,7 @@ SKILL=Fencing
 REQSTR=40
 TWOHANDS=0
 TEVENTS=e_weapon_silver
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -28285,6 +28397,7 @@ SKILL=Fencing
 REQSTR=67
 TWOHANDS=0
 TEVENTS=e_weapon_silver
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -28676,6 +28789,7 @@ SPEED=32
 SKILL=Fencing
 REQSTR=103
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -28740,6 +28854,7 @@ SPEED=50
 SKILL=Fencing
 REQSTR=51
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -28772,6 +28887,7 @@ SPEED=22
 SKILL=Fencing
 REQSTR=86
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -28848,7 +28964,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_adaga_combate_glacial
@@ -28882,7 +28998,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_adaga_glacial
@@ -28916,7 +29032,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_faca_pelar_glacial
@@ -28950,7 +29066,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_forquilha_glacial
@@ -28984,7 +29100,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_garfo_guerra_glacial
@@ -29018,7 +29134,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_garfos_combate_glacial
@@ -29052,7 +29168,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_garras_glacial
@@ -29077,7 +29193,7 @@ TDATA3=028
 TDATA4=0320
 DAM=10,13
 SPEED=67
-SKILL=Fencing
+SKILL=Wrestling
 REQSTR=46
 TWOHANDS=1
 TEVENTS=T_WEAPON_COLD
@@ -29086,7 +29202,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_kryss_glacial
@@ -29120,7 +29236,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_lamina_elfica_glacial
@@ -29154,7 +29270,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_lanca_crescente_glacial
@@ -29188,7 +29304,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_lanca_curta_glacial
@@ -29222,7 +29338,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_lanca_cavalaria_glacial
@@ -29251,12 +29367,13 @@ SKILL=Fencing
 REQSTR=103
 TWOHANDS=1
 TEVENTS=T_WEAPON_COLD
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_lanca_dupla_glacial
@@ -29290,7 +29407,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_lanca_glacial
@@ -29319,12 +29436,13 @@ SKILL=Fencing
 REQSTR=51
 TWOHANDS=1
 TEVENTS=T_WEAPON_COLD
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_pique_glacial
@@ -29353,12 +29471,13 @@ SKILL=Fencing
 REQSTR=86
 TWOHANDS=1
 TEVENTS=T_WEAPON_COLD
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_punhal_glacial
@@ -29392,7 +29511,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //Item: i_tridente_glacial
@@ -29426,7 +29545,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgcold=<R2,7>
+damcold=<R2,7>
 
 //*****************************************************************************
 //*****************************************************************************
@@ -29466,7 +29585,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //Item: i_maca_plage
@@ -29500,7 +29619,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //Item: i_maca_guerra_plage
@@ -29534,7 +29653,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //Item: i_maca_infantaria_plage
@@ -29568,7 +29687,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //Item: i_maca_ornada_plage
@@ -29602,7 +29721,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //Item: i_martelo_guerra_plage
@@ -29636,7 +29755,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //Item: i_martelo_gigante_plage
@@ -29670,7 +29789,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //Item: i_martelo_longo_plage
@@ -29704,7 +29823,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //Item: i_pickaxe_mining_lo_plage
@@ -29738,7 +29857,7 @@ ON=@CREATE
 COLOR=2975
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgpoison=<R2,7>
+dampoison=<R2,7>
 
 //*****************************************************************************
 //*****************************************************************************
@@ -29778,7 +29897,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //Item: i_maca_tempest
@@ -29812,7 +29931,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //Item: i_maca_guerra_tempest
@@ -29846,7 +29965,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //Item: i_maca_infantaria_tempest
@@ -29880,7 +29999,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //Item: i_maca_ornada_tempest
@@ -29914,7 +30033,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //Item: i_martelo_guerra_tempest
@@ -29948,7 +30067,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //Item: i_martelo_gigante_tempest
@@ -29982,7 +30101,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //Item: i_martelo_longo_tempest
@@ -30016,7 +30135,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //Item: i_pickaxe_mining_lo_tempest
@@ -30050,7 +30169,7 @@ ON=@CREATE
 COLOR=2980
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgenergy=<R2,7>
+damenergy=<R2,7>
 
 //*****************************************************************************
 //*****************************************************************************
@@ -32162,6 +32281,7 @@ SKILL=Swordsmanship
 REQSTR=88
 TWOHANDS=0
 TEVENTS=T_WEAPON_FIRE
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1359
@@ -32196,12 +32316,13 @@ SKILL=Swordsmanship
 REQSTR=88
 TWOHANDS=1
 TEVENTS=T_WEAPON_FIRE
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_cimitarra_flame
@@ -32235,7 +32356,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_cimitarra_vorpal_flame
@@ -32269,7 +32390,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_cutelo_flame
@@ -32303,7 +32424,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_espada_curta_flame
@@ -32337,7 +32458,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_espada_dartaesh_flame
@@ -32371,7 +32492,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_espadas_flame
@@ -32405,7 +32526,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_espada_larga_flame
@@ -32439,7 +32560,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_espada_longa_flame
@@ -32473,7 +32594,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_knife_butcher_flame
@@ -32507,7 +32628,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_foice_flame
@@ -32536,12 +32657,13 @@ SKILL=Swordsmanship
 REQSTR=77
 TWOHANDS=1
 TEVENTS=T_WEAPON_FIRE
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_foice_mao_flame
@@ -32575,7 +32697,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_foice_dupla_flame
@@ -32609,7 +32731,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_katan_flame
@@ -32643,7 +32765,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_lamina_crescente_flame
@@ -32677,7 +32799,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_lamina_dupla_flame
@@ -32711,7 +32833,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_espada_montante_flame
@@ -32745,7 +32867,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_partisan_flame
@@ -32774,12 +32896,13 @@ SKILL=Swordsmanship
 REQSTR=66
 TWOHANDS=1
 TEVENTS=T_WEAPON_FIRE
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //Item: i_sabre_flame
@@ -32813,7 +32936,7 @@ ON=@CREATE
 COLOR=1359
 MAXHITS=<R3,90>
 HITS=<R3,<MAXHITS>>
-dmgfire=<R2,7>
+damfire=<R2,7>
 
 //*****************************************************************************
 //*****************************************************************************
@@ -32847,6 +32970,7 @@ SPEED=33
 SKILL=Swordsmanship
 REQSTR=72
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -32879,6 +33003,7 @@ SPEED=25
 SKILL=Swordsmanship
 REQSTR=72
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -33103,6 +33228,7 @@ SPEED=35
 SKILL=Swordsmanship
 REQSTR=63
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -33327,6 +33453,7 @@ SPEED=30
 SKILL=Swordsmanship
 REQSTR=54
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1750
@@ -33397,6 +33524,7 @@ SPEED=34
 SKILL=Swordsmanship
 REQSTR=64
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -33429,6 +33557,7 @@ SPEED=26
 SKILL=Swordsmanship
 REQSTR=64
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -33653,6 +33782,7 @@ SPEED=36
 SKILL=Swordsmanship
 REQSTR=56
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -33877,6 +34007,7 @@ SPEED=31
 SKILL=Swordsmanship
 REQSTR=48
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1601
@@ -33947,6 +34078,7 @@ SPEED=33
 SKILL=Swordsmanship
 REQSTR=102
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=65535
@@ -33979,6 +34111,7 @@ SPEED=25
 SKILL=Swordsmanship
 REQSTR=102
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=65535
@@ -34299,6 +34432,7 @@ SPEED=35
 SKILL=Swordsmanship
 REQSTR=89
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=65535
@@ -34907,6 +35041,7 @@ SPEED=30
 SKILL=Swordsmanship
 REQSTR=76
 TWOHANDS=1
+RANGE=1,2
 
 ON=@CREATE
 COLOR=65535
@@ -34977,6 +35112,7 @@ SPEED=37
 SKILL=Swordsmanship
 REQSTR=68
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -35009,6 +35145,7 @@ SPEED=28
 SKILL=Swordsmanship
 REQSTR=68
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -35233,6 +35370,7 @@ SPEED=40
 SKILL=Swordsmanship
 REQSTR=59
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -35457,6 +35595,7 @@ SPEED=34
 SKILL=Swordsmanship
 REQSTR=51
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1109
@@ -35527,6 +35666,7 @@ SPEED=37
 SKILL=Swordsmanship
 REQSTR=56
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -35559,6 +35699,7 @@ SPEED=28
 SKILL=Swordsmanship
 REQSTR=56
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -35783,6 +35924,7 @@ SPEED=40
 SKILL=Swordsmanship
 REQSTR=49
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -36007,6 +36149,7 @@ SPEED=34
 SKILL=Swordsmanship
 REQSTR=42
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2001
@@ -36077,6 +36220,7 @@ SPEED=37
 SKILL=Swordsmanship
 REQSTR=52
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -36109,6 +36253,7 @@ SPEED=28
 SKILL=Swordsmanship
 REQSTR=52
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -36365,6 +36510,7 @@ SPEED=40
 SKILL=Swordsmanship
 REQSTR=45
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -36557,6 +36703,7 @@ SPEED=34
 SKILL=Swordsmanship
 REQSTR=39
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1325
@@ -36627,6 +36774,7 @@ SPEED=33
 SKILL=Swordsmanship
 REQSTR=68
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -36659,6 +36807,7 @@ SPEED=25
 SKILL=Swordsmanship
 REQSTR=68
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -36915,6 +37064,7 @@ SPEED=35
 SKILL=Swordsmanship
 REQSTR=59
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -37107,6 +37257,7 @@ SPEED=30
 SKILL=Swordsmanship
 REQSTR=51
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=2771
@@ -37177,6 +37328,7 @@ SPEED=29
 SKILL=Swordsmanship
 REQSTR=92
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -37209,6 +37361,7 @@ SPEED=22
 SKILL=Swordsmanship
 REQSTR=92
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -37465,6 +37618,7 @@ SPEED=31
 SKILL=Swordsmanship
 REQSTR=80
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -37657,6 +37811,7 @@ SPEED=27
 SKILL=Swordsmanship
 REQSTR=69
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1118
@@ -37728,6 +37883,7 @@ SKILL=Swordsmanship
 REQSTR=72
 TWOHANDS=0
 TEVENTS=e_weapon_silver
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -37761,6 +37917,7 @@ SKILL=Swordsmanship
 REQSTR=72
 TWOHANDS=0
 TEVENTS=e_weapon_silver
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -38025,6 +38182,7 @@ SKILL=Swordsmanship
 REQSTR=63
 TWOHANDS=0
 TEVENTS=e_weapon_silver
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -38223,6 +38381,7 @@ SKILL=Swordsmanship
 REQSTR=54
 TWOHANDS=0
 TEVENTS=e_weapon_silver
+RANGE=1,2
 
 ON=@CREATE
 COLOR=691
@@ -38294,6 +38453,7 @@ SPEED=29
 SKILL=Swordsmanship
 REQSTR=92
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -38326,6 +38486,7 @@ SPEED=22
 SKILL=Swordsmanship
 REQSTR=92
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -38582,6 +38743,7 @@ SPEED=31
 SKILL=Swordsmanship
 REQSTR=80
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -38774,6 +38936,7 @@ SPEED=27
 SKILL=Swordsmanship
 REQSTR=69
 TWOHANDS=0
+RANGE=1,2
 
 ON=@CREATE
 COLOR=1218
@@ -39001,7 +39164,7 @@ ON=@CREATE
 COLOR=41
 Maxhits=<r3,60>
 hits=<r3,<maxhits>>
-dmgpoison=<r3,10>
+dampoison=<r3,10>
 
 //*****************************************************************************
 //*****************************************************************************
@@ -39226,6 +39389,9 @@ ON=@CREATE
 COLOR=072b
 Maxhits=<r3,60>
 hits=<r3,<maxhits>>
-dmgpoison=<r3,18>
+dampoison=<r3,18>
 
 [EOF]
+
+
+

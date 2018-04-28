@@ -520,7 +520,7 @@ ON=@LOGIN
 	
 	//var.manutencao = 1 // coloque 1 aqui para ativar a manutencao
 	
-    if <var.manutencao> && (<src.account.plevel> <= 1) && (!<tag.vip>)
+    if <var.manutencao> && (<src.account.plevel> <= 1) && (!<src.tag0.vip>)
         prompt_new Servidor em manutencao. Voce sera desconectado em 30 segundos.
         ynprompt_show
         src.warnAndDisconnect
@@ -1009,6 +1009,20 @@ return 0
 //serv.log [SKILLUSEQUICK] <src.account>/<argn1>
 
 //*************************************
+ON=@PartyInvite
+//*************************************
+if (!<src.isGm>)
+src.sysmessage Resolva seus problemas pelo RP ou use Page.
+return 1
+
+//*************************************
+ON=@UserChatButton
+//*************************************
+if (!<src.isGm>)
+src.sysmessage Resolva seus problemas pelo RP ou use Page.
+return 1
+
+//*************************************
 ON=@USERVIRTUE
 //*************************************
 //estatisticas do char
@@ -1094,9 +1108,11 @@ IF (!<IsGM>)
  IF (<tag0.mage_spellid>) && (<argn3>==3)//Foi cancelada e começada outra magia posteriormente?
 //  serv.log SPELLSELECT 3. Aborta. <account>
   mage_cleartags
+  sysmessage Voce perdeu a concentracao.
   argn3=2        //Começar a castar de novo
   return 6
  elif (<argn1> < 99 ) && (<account.plevel> < 2)
+  sysmessage Voce se desconcentrou.
 //  serv.log SPELLSELECT Aborta cast por macro. <account>
   return 1
  endif
@@ -1113,12 +1129,12 @@ IF (!<IsGM>)
   if (<argo>==<uid>)      //Mago castando sozinho
    tag.mage_source=<DEF.MAGE_SELF>
    if !(<tag0.mage_know>)
-    argn2=(<argn2>*125)/100       //consimir 25% mais de mana
+    argn2=(<argn2>*250)/100       //consimir 150% mais de mana
    endif
   else
    tag.mage_uid=<argo>            //Salva item
    argn2=0                        //Castando por item. Não usar mana.
-   if (<argo.type>==t_wand)//Mago castando por varinha ou gema
+   if (<argo.type>==t_wand) //Mago castando por varinha ou gema
     tag.mage_source=<DEF.MAGE_WAND>
    else
     if (<argo.type>==t_SCROLL)//Mago castando por pergaminho
